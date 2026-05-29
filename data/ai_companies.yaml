@@ -1,0 +1,247 @@
+# AI earnings universe. Tickers verified against SEC company_tickers.json.
+# Edit freely: add {ticker, name, subsector}. Used by the earnings-calendar pipeline.
+
+companies:
+- ticker: NVDA
+  name: NVIDIA
+  subsector: AI semiconductors
+- ticker: AMD
+  name: AMD
+  subsector: AI semiconductors
+- ticker: AVGO
+  name: Broadcom
+  subsector: AI semiconductors
+- ticker: MRVL
+  name: Marvell Technology
+  subsector: AI semiconductors
+- ticker: ARM
+  name: Arm Holdings
+  subsector: AI semiconductors
+- ticker: ALAB
+  name: Astera Labs
+  subsector: AI semiconductors
+- ticker: INTC
+  name: Intel
+  subsector: AI semiconductors
+- ticker: QCOM
+  name: Qualcomm
+  subsector: AI semiconductors
+- ticker: TSM
+  name: TSMC
+  subsector: AI semiconductors
+- ticker: MU
+  name: Micron Technology
+  subsector: AI semiconductors
+- ticker: GFS
+  name: GlobalFoundries
+  subsector: AI semiconductors
+- ticker: MPWR
+  name: Monolithic Power Systems
+  subsector: AI semiconductors
+- ticker: LSCC
+  name: Lattice Semiconductor
+  subsector: AI semiconductors
+- ticker: RMBS
+  name: Rambus
+  subsector: AI semiconductors
+- ticker: CRDO
+  name: Credo Technology
+  subsector: AI semiconductors
+- ticker: SITM
+  name: SiTime
+  subsector: AI semiconductors
+- ticker: ASML
+  name: ASML
+  subsector: Semiconductor equipment
+- ticker: AMAT
+  name: Applied Materials
+  subsector: Semiconductor equipment
+- ticker: LRCX
+  name: Lam Research
+  subsector: Semiconductor equipment
+- ticker: KLAC
+  name: KLA
+  subsector: Semiconductor equipment
+- ticker: TER
+  name: Teradyne
+  subsector: Semiconductor equipment
+- ticker: ENTG
+  name: Entegris
+  subsector: Semiconductor equipment
+- ticker: ONTO
+  name: Onto Innovation
+  subsector: Semiconductor equipment
+- ticker: FORM
+  name: FormFactor
+  subsector: Semiconductor equipment
+- ticker: ACLS
+  name: Axcelis Technologies
+  subsector: Semiconductor equipment
+- ticker: NVMI
+  name: Nova
+  subsector: Semiconductor equipment
+- ticker: CAMT
+  name: Camtek
+  subsector: Semiconductor equipment
+- ticker: AEHR
+  name: Aehr Test Systems
+  subsector: Semiconductor equipment
+- ticker: KLIC
+  name: Kulicke & Soffa
+  subsector: Semiconductor equipment
+- ticker: SNPS
+  name: Synopsys
+  subsector: EDA / chip design
+- ticker: CDNS
+  name: Cadence Design Systems
+  subsector: EDA / chip design
+- ticker: ANET
+  name: Arista Networks
+  subsector: Networking / optical
+- ticker: CSCO
+  name: Cisco Systems
+  subsector: Networking / optical
+- ticker: CIEN
+  name: Ciena
+  subsector: Networking / optical
+- ticker: COHR
+  name: Coherent
+  subsector: Networking / optical
+- ticker: LITE
+  name: Lumentum
+  subsector: Networking / optical
+- ticker: AAOI
+  name: Applied Optoelectronics
+  subsector: Networking / optical
+- ticker: SMCI
+  name: Super Micro Computer
+  subsector: Servers / power / cooling
+- ticker: DELL
+  name: Dell Technologies
+  subsector: Servers / power / cooling
+- ticker: HPE
+  name: Hewlett Packard Enterprise
+  subsector: Servers / power / cooling
+- ticker: VRT
+  name: Vertiv
+  subsector: Servers / power / cooling
+- ticker: ETN
+  name: Eaton
+  subsector: Servers / power / cooling
+- ticker: NVT
+  name: nVent Electric
+  subsector: Servers / power / cooling
+- ticker: GEV
+  name: GE Vernova
+  subsector: Servers / power / cooling
+- ticker: GNRC
+  name: Generac
+  subsector: Servers / power / cooling
+- ticker: MSFT
+  name: Microsoft
+  subsector: Hyperscale / cloud
+- ticker: GOOGL
+  name: Alphabet (Google)
+  subsector: Hyperscale / cloud
+- ticker: AMZN
+  name: Amazon
+  subsector: Hyperscale / cloud
+- ticker: META
+  name: Meta Platforms
+  subsector: Hyperscale / cloud
+- ticker: ORCL
+  name: Oracle
+  subsector: Hyperscale / cloud
+- ticker: IBM
+  name: IBM
+  subsector: Hyperscale / cloud
+- ticker: PLTR
+  name: Palantir
+  subsector: AI software / security / data
+- ticker: CRM
+  name: Salesforce
+  subsector: AI software / security / data
+- ticker: NOW
+  name: ServiceNow
+  subsector: AI software / security / data
+- ticker: SNOW
+  name: Snowflake
+  subsector: AI software / security / data
+- ticker: AI
+  name: C3.ai
+  subsector: AI software / security / data
+- ticker: ADBE
+  name: Adobe
+  subsector: AI software / security / data
+- ticker: CRWD
+  name: CrowdStrike
+  subsector: AI software / security / data
+- ticker: PANW
+  name: Palo Alto Networks
+  subsector: AI software / security / data
+- ticker: S
+  name: SentinelOne
+  subsector: AI software / security / data
+- ticker: NET
+  name: Cloudflare
+  subsector: AI software / security / data
+- ticker: DDOG
+  name: Datadog
+  subsector: AI software / security / data
+- ticker: MDB
+  name: MongoDB
+  subsector: AI software / security / data
+- ticker: PATH
+  name: UiPath
+  subsector: AI software / security / data
+- ticker: GTLB
+  name: GitLab
+  subsector: AI software / security / data
+- ticker: ESTC
+  name: Elastic
+  subsector: AI software / security / data
+- ticker: BBAI
+  name: BigBear.ai
+  subsector: AI software / security / data
+- ticker: SOUN
+  name: SoundHound AI
+  subsector: AI software / security / data
+- ticker: TWLO
+  name: Twilio
+  subsector: AI software / security / data
+- ticker: ZS
+  name: Zscaler
+  subsector: AI software / security / data
+- ticker: OKTA
+  name: Okta
+  subsector: AI software / security / data
+- ticker: CRWV
+  name: CoreWeave
+  subsector: AI cloud / GPU
+- ticker: NBIS
+  name: Nebius Group
+  subsector: AI cloud / GPU
+- ticker: CEG
+  name: Constellation Energy
+  subsector: Power / nuclear (AI data centers)
+- ticker: VST
+  name: Vistra
+  subsector: Power / nuclear (AI data centers)
+- ticker: TLN
+  name: Talen Energy
+  subsector: Power / nuclear (AI data centers)
+- ticker: NRG
+  name: NRG Energy
+  subsector: Power / nuclear (AI data centers)
+- ticker: OKLO
+  name: Oklo
+  subsector: Power / nuclear (AI data centers)
+- ticker: SMR
+  name: NuScale Power
+  subsector: Power / nuclear (AI data centers)
+- ticker: AAPL
+  name: Apple
+  subsector: Consumer / platform AI
+- ticker: TSLA
+  name: Tesla
+  subsector: Consumer / platform AI

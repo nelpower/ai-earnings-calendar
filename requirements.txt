@@ -1,0 +1,6 @@
+# Core
+PyYAML>=6.0
+yfinance>=0.2        # earnings dates + consensus estimates (no API key)
+
+# Dev / tests
+pytest>=7.0
