@@ -62,3 +62,27 @@ def test_fetch_all_skips_failures(monkeypatch):
     ]
     out = fe.fetch_all(companies)
     assert sorted(e.ticker for e in out) == ["NVDA", "RANGE"]
+
+
+def test_enrich_last_quarter(monkeypatch):
+    import pandas as pd
+    df = pd.DataFrame(
+        {"epsActual": [1.60, 1.87], "epsEstimate": [1.53, 1.77]},
+        index=pd.to_datetime(["2026-01-31", "2026-04-30"]),
+    )
+
+    class _FT:
+        def __init__(self, tk):
+            pass
+
+        @property
+        def earnings_history(self):
+            return df
+
+    monkeypatch.setattr(yfinance, "Ticker", _FT)
+    e = fe.Earnings(ticker="NVDA", name="NVIDIA", subsector="s",
+                    earnings_date="2026-06-03")
+    fe.enrich_last_quarter(e)
+    assert e.last_eps_actual == 1.87        # most recent quarter
+    assert e.last_eps_estimate == 1.77
+    assert e.last_quarter == "2026-04-30"

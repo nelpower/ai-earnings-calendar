@@ -13,7 +13,7 @@ from pathlib import Path
 
 from src import config
 from src.build_site import build_site
-from src.fetch_earnings import Earnings, fetch_all
+from src.fetch_earnings import Earnings, enrich_last_quarter_all, fetch_all
 
 
 def _days_out(e: Earnings, today: dt.date) -> int:
@@ -61,6 +61,11 @@ def run(
                 if window_days < _days_out(e, today) <= preview_days]
     this_week.sort(key=lambda e: (e.earnings_date, e.name))
     upcoming.sort(key=lambda e: (e.earnings_date, e.name))
+
+    # Add last-quarter actual-vs-estimate, but ONLY for the few in-window
+    # companies (keeps the run fast — no extra calls for the other ~100).
+    if fetched_ok:
+        enrich_last_quarter_all(this_week + upcoming, throttle=throttle)
 
     # full raw output (committed for the record) — only overwrite on a real fetch
     if fetched_ok:

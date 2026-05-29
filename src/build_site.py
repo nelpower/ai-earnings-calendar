@@ -46,6 +46,10 @@ color:var(--accent);padding:3px 6px;border-radius:6px;}
 .conf{color:#5fd97a;} .est{color:#e9bd64;}
 .ests{display:flex;gap:18px;margin-top:9px;flex-wrap:wrap;}
 .est-item .k{font-size:11px;color:var(--muted);} .est-item .v{font-size:15px;font-weight:600;}
+.lastq{font-size:12.5px;color:var(--muted);margin-top:9px;border-top:1px dashed var(--line);padding-top:8px;}
+.lastq b{color:var(--ink);}
+.bm{font-size:11px;padding:1px 7px;border-radius:999px;margin-left:4px;}
+.beat{background:rgba(46,160,67,.15);color:#5fd97a;} .miss{background:rgba(229,83,75,.15);color:#ff8079;}
 table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px;display:block;overflow-x:auto;}
 th,td{text-align:left;padding:6px 10px;border-bottom:1px solid var(--line);white-space:nowrap;}
 th{color:var(--muted);font-weight:600;}
@@ -76,6 +80,35 @@ def _fmt_rev(v) -> str:
     if abs(v) >= 1e6:
         return f"${v/1e6:.0f}M"
     return f"${v:,.0f}"
+
+
+def _surprise(actual: float, est: float) -> tuple[str, str]:
+    """Return (css_class, label) for an EPS beat/miss."""
+    if est == 0:
+        return ("beat" if actual >= 0 else "miss", "")
+    pct = (actual - est) / abs(est) * 100
+    cls = "beat" if actual >= est else "miss"
+    word = "超预期" if actual >= est else "不及预期"
+    sign = "+" if pct >= 0 else ""
+    return cls, f"{word} {sign}{pct:.1f}%"
+
+
+def _last_q_html(e: Earnings) -> str:
+    if e.last_eps_actual is None or e.last_eps_estimate is None:
+        return ""
+    cls, label = _surprise(e.last_eps_actual, e.last_eps_estimate)
+    badge = f'<span class="bm {cls}">{label}</span>' if label else ""
+    q = f"（{e.last_quarter}）" if e.last_quarter else ""
+    return (f'<div class="lastq">上季 EPS{q}：实际 <b>{_fmt_eps(e.last_eps_actual)}</b>'
+            f' · 预期 {_fmt_eps(e.last_eps_estimate)}{badge}</div>')
+
+
+def _last_q_cell(e: Earnings) -> str:
+    if e.last_eps_actual is None or e.last_eps_estimate is None:
+        return "—"
+    cls, label = _surprise(e.last_eps_actual, e.last_eps_estimate)
+    return (f'{_fmt_eps(e.last_eps_actual)}/{_fmt_eps(e.last_eps_estimate)} '
+            f'<span class="bm {cls}">{label}</span>' if label else "—")
 
 
 def _rel(d: dt.date, today: dt.date) -> str:
@@ -109,6 +142,7 @@ def _card(e: Earnings, today: dt.date) -> str:
     <div class="est-item"><div class="k">EPS 共识预期</div><div class="v">{_fmt_eps(e.eps_estimate)}</div></div>
     <div class="est-item"><div class="k">营收 共识预期</div><div class="v">{_fmt_rev(e.revenue_estimate)}</div></div>
   </div>
+  {_last_q_html(e)}
 </div>"""
 
 
@@ -148,13 +182,13 @@ def build_html(this_week: list[Earnings], upcoming: list[Earnings],
     A("<h2>未来 8–30 天</h2>")
     if upcoming:
         A("<table><tr><th>日期</th><th>公司</th><th>代码</th><th>板块</th>"
-          "<th>EPS 预期</th><th>营收 预期</th></tr>")
+          "<th>EPS 预期</th><th>营收 预期</th><th>上季 EPS 实际/预期</th></tr>")
         for e in sorted(upcoming, key=lambda x: (x.earnings_date, x.name)):
             d = dt.date.fromisoformat(e.earnings_date)
             A(f"<tr><td>{d:%m-%d} {_WD[d.weekday()]}</td><td>{_esc(e.name)}</td>"
               f'<td><a class="tk" href="{_yf_link(e.ticker)}" target="_blank" rel="noopener">{_esc(e.ticker)}</a></td>'
               f"<td>{_esc(e.subsector)}</td><td>{_fmt_eps(e.eps_estimate)}</td>"
-              f"<td>{_fmt_rev(e.revenue_estimate)}</td></tr>")
+              f"<td>{_fmt_rev(e.revenue_estimate)}</td><td>{_last_q_cell(e)}</td></tr>")
         A("</table>")
     else:
         A('<div class="empty">未来 8–30 天暂无数据。</div>')

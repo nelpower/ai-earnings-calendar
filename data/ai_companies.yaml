@@ -50,6 +50,27 @@ companies:
 - ticker: SITM
   name: SiTime
   subsector: AI semiconductors
+- ticker: AMBA
+  name: Ambarella
+  subsector: AI semiconductors
+- ticker: SLAB
+  name: Silicon Labs
+  subsector: AI semiconductors
+- ticker: SMTC
+  name: Semtech
+  subsector: AI semiconductors
+- ticker: POWI
+  name: Power Integrations
+  subsector: AI semiconductors
+- ticker: MTSI
+  name: MACOM
+  subsector: AI semiconductors
+- ticker: UMC
+  name: United Microelectronics
+  subsector: AI semiconductors
+- ticker: ASX
+  name: ASE Technology
+  subsector: AI semiconductors
 - ticker: ASML
   name: ASML
   subsector: Semiconductor equipment
@@ -89,6 +110,15 @@ companies:
 - ticker: KLIC
   name: Kulicke & Soffa
   subsector: Semiconductor equipment
+- ticker: AMKR
+  name: Amkor Technology
+  subsector: Semiconductor equipment
+- ticker: ICHR
+  name: Ichor
+  subsector: Semiconductor equipment
+- ticker: UCTT
+  name: Ultra Clean Holdings
+  subsector: Semiconductor equipment
 - ticker: SNPS
   name: Synopsys
   subsector: EDA / chip design
@@ -112,6 +142,9 @@ companies:
   subsector: Networking / optical
 - ticker: AAOI
   name: Applied Optoelectronics
+  subsector: Networking / optical
+- ticker: FN
+  name: Fabrinet
   subsector: Networking / optical
 - ticker: SMCI
   name: Super Micro Computer
@@ -137,6 +170,18 @@ companies:
 - ticker: GNRC
   name: Generac
   subsector: Servers / power / cooling
+- ticker: POWL
+  name: Powell Industries
+  subsector: Servers / power / cooling
+- ticker: WDC
+  name: Western Digital
+  subsector: Memory / storage (AI)
+- ticker: STX
+  name: Seagate
+  subsector: Memory / storage (AI)
+- ticker: NTAP
+  name: NetApp
+  subsector: Memory / storage (AI)
 - ticker: MSFT
   name: Microsoft
   subsector: Hyperscale / cloud
@@ -215,11 +260,65 @@ companies:
 - ticker: OKTA
   name: Okta
   subsector: AI software / security / data
+- ticker: RBRK
+  name: Rubrik
+  subsector: AI software / security / data
+- ticker: IOT
+  name: Samsara
+  subsector: AI software / security / data
+- ticker: GWRE
+  name: Guidewire
+  subsector: AI software / security / data
+- ticker: WDAY
+  name: Workday
+  subsector: AI software / security / data
+- ticker: INTU
+  name: Intuit
+  subsector: AI software / security / data
+- ticker: TEAM
+  name: Atlassian
+  subsector: AI software / security / data
+- ticker: HUBS
+  name: HubSpot
+  subsector: AI software / security / data
+- ticker: DT
+  name: Dynatrace
+  subsector: AI software / security / data
+- ticker: FTNT
+  name: Fortinet
+  subsector: AI software / security / data
+- ticker: TENB
+  name: Tenable
+  subsector: AI software / security / data
+- ticker: QLYS
+  name: Qualys
+  subsector: AI software / security / data
+- ticker: APP
+  name: AppLovin
+  subsector: AI software / security / data
+- ticker: PEGA
+  name: Pegasystems
+  subsector: AI software / security / data
+- ticker: DOCN
+  name: DigitalOcean
+  subsector: AI software / security / data
+- ticker: FROG
+  name: JFrog
+  subsector: AI software / security / data
 - ticker: CRWV
   name: CoreWeave
   subsector: AI cloud / GPU
 - ticker: NBIS
   name: Nebius Group
+  subsector: AI cloud / GPU
+- ticker: APLD
+  name: Applied Digital
+  subsector: AI cloud / GPU
+- ticker: IREN
+  name: IREN
+  subsector: AI cloud / GPU
+- ticker: WULF
+  name: TeraWulf
   subsector: AI cloud / GPU
 - ticker: CEG
   name: Constellation Energy

@@ -22,6 +22,8 @@ def test_window_filter(monkeypatch, tmp_path):
         _e("DAY31", today + dt.timedelta(days=31)),      # excluded (too far)
     ]
     monkeypatch.setattr(pipeline, "fetch_all", lambda companies, throttle=0.0: items)
+    monkeypatch.setattr(pipeline, "enrich_last_quarter_all",
+                        lambda items, throttle=0.0: items)  # no network in tests
     monkeypatch.setattr(pipeline.config, "load_companies", lambda *a, **k: [{"ticker": "X"}])
 
     this_week, upcoming = pipeline.run(

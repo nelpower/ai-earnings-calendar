@@ -28,6 +28,10 @@ class Earnings:
     eps_high: float | None = None
     revenue_low: float | None = None
     revenue_high: float | None = None
+    # Most recent REPORTED quarter (actual vs estimate) — filled on demand.
+    last_quarter: str = ""
+    last_eps_actual: float | None = None
+    last_eps_estimate: float | None = None
 
     def to_dict(self) -> dict:
         return asdict(self)
@@ -73,6 +77,37 @@ def fetch_one(company: dict) -> Earnings | None:
         revenue_low=_as_float(cal.get("Revenue Low")),
         revenue_high=_as_float(cal.get("Revenue High")),
     )
+
+
+def enrich_last_quarter(item: Earnings) -> Earnings:
+    """Add the most recent reported quarter's actual vs estimate EPS.
+
+    Uses yfinance ``earnings_history`` (API-based, no HTML scrape). Best-effort:
+    failures leave the last_* fields empty.
+    """
+    import yfinance as yf
+
+    try:
+        eh = yf.Ticker(item.ticker).earnings_history
+        if eh is None or len(eh) == 0:
+            return item
+        eh = eh.sort_index()
+        row = eh.iloc[-1]
+        item.last_quarter = str(eh.index[-1])[:10]
+        item.last_eps_actual = _as_float(row.get("epsActual"))
+        item.last_eps_estimate = _as_float(row.get("epsEstimate"))
+    except Exception as exc:  # noqa: BLE001
+        print(f"[earnings] {item.ticker}: last-quarter lookup failed ({exc})")
+    return item
+
+
+def enrich_last_quarter_all(items: list[Earnings], throttle: float = 0.0) -> list[Earnings]:
+    """Enrich a (small) list of in-window items with last-quarter actuals."""
+    for i, item in enumerate(items):
+        enrich_last_quarter(item)
+        if throttle and i < len(items) - 1:
+            time.sleep(throttle)
+    return items
 
 
 def fetch_all(companies: list[dict], throttle: float = 0.0) -> list[Earnings]:
