@@ -1,0 +1,487 @@
+{
+  "generated": "2026-05-31T09:50:52.064628+00:00",
+  "today": "2026-05-31",
+  "events": [
+    {
+      "date": "2026-06-01",
+      "category": "conference",
+      "title": "NVIDIA GTC Taipei — 黄仁勋 Keynote",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NVDA",
+        "TSM",
+        "AVGO",
+        "AMD"
+      ],
+      "watch": "老黄给 AI 板块定调;AI 算力、机器人、下一代 GPU/网络路线图",
+      "source_url": "https://www.nvidia.com/en-tw/gtc/taipei/computex/",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-02",
+      "category": "earnings",
+      "title": "Credo Technology 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRDO"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/CRDO",
+      "meta": {
+        "ticker": "CRDO",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 1.03414,
+        "revenue_estimate": 433297910.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 1.07,
+        "last_eps_estimate": 0.94073
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "category": "conference",
+      "title": "Computex 2026 (台北)",
+      "importance": 2,
+      "end_date": "2026-06-05",
+      "time_et": "",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "TSM",
+        "SMCI",
+        "DELL",
+        "ASX"
+      ],
+      "watch": "AI 服务器、散热、CPO/光互连、供应链订单信号",
+      "source_url": "https://www.computextaipei.com.tw/en/index.html",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-02",
+      "category": "earnings",
+      "title": "Hewlett Packard Enterprise 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "HPE"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/HPE",
+      "meta": {
+        "ticker": "HPE",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 0.53459,
+        "revenue_estimate": 9768298880.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 0.65,
+        "last_eps_estimate": 0.58689
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "category": "earnings",
+      "title": "Palo Alto Networks 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PANW"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PANW",
+      "meta": {
+        "ticker": "PANW",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.79698,
+        "revenue_estimate": 2944363270.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 1.03,
+        "last_eps_estimate": 0.93684
+      }
+    },
+    {
+      "date": "2026-06-03",
+      "category": "earnings",
+      "title": "GitLab 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GTLB"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/GTLB",
+      "meta": {
+        "ticker": "GTLB",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.20478,
+        "revenue_estimate": 254521720.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 0.3,
+        "last_eps_estimate": 0.2308
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "category": "earnings",
+      "title": "Broadcom 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AVGO"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/AVGO",
+      "meta": {
+        "ticker": "AVGO",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 2.3965,
+        "revenue_estimate": 22115839310.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 2.05,
+        "last_eps_estimate": 2.02326
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "category": "earnings",
+      "title": "Ciena 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CIEN"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/CIEN",
+      "meta": {
+        "ticker": "CIEN",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 1.45341,
+        "revenue_estimate": 1501044940.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 1.35,
+        "last_eps_estimate": 1.16833
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "category": "earnings",
+      "title": "C3.ai 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AI"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/AI",
+      "meta": {
+        "ticker": "AI",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": -0.37274,
+        "revenue_estimate": 50226940.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": -0.4,
+        "last_eps_estimate": -0.28928
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "category": "earnings",
+      "title": "CrowdStrike 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRWD"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/CRWD",
+      "meta": {
+        "ticker": "CRWD",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.06745,
+        "revenue_estimate": 1363151400.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 1.12,
+        "last_eps_estimate": 1.10278
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "category": "ipo",
+      "title": "Quantinuum Inc. IPO (QNT)",
+      "importance": 1,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "QNT"
+      ],
+      "watch": "新股定价/上市;留意是否 AI 相关及炒作风险",
+      "source_url": "https://www.nasdaq.com/market-activity/ipos",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-05",
+      "category": "macro",
+      "title": "非农就业报告 (5月)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "就业强弱直接影响美联储降息路径;成长股对利率敏感",
+      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-05",
+      "category": "earnings",
+      "title": "Rubrik 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "RBRK"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/RBRK",
+      "meta": {
+        "ticker": "RBRK",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": -0.02817,
+        "revenue_estimate": 366299440.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 0.04,
+        "last_eps_estimate": -0.10854
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "category": "earnings",
+      "title": "Samsara 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "IOT"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/IOT",
+      "meta": {
+        "ticker": "IOT",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.13032,
+        "revenue_estimate": 455171720.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 0.18,
+        "last_eps_estimate": 0.12775
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "category": "earnings",
+      "title": "Guidewire 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GWRE"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/GWRE",
+      "meta": {
+        "ticker": "GWRE",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.74279,
+        "revenue_estimate": 356087790.0,
+        "last_quarter": "2026-01-31",
+        "last_eps_actual": 1.17,
+        "last_eps_estimate": 0.76742
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "category": "conference",
+      "title": "Apple WWDC 2026 (Keynote 6/8)",
+      "importance": 2,
+      "end_date": "2026-06-12",
+      "time_et": "13:00",
+      "tickers": [
+        "AAPL"
+      ],
+      "watch": "Apple Intelligence / 端侧 AI / Siri 进展;输了继续被嘲讽",
+      "source_url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-10",
+      "category": "macro",
+      "title": "CPI 通胀数据 (5月)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升。本月第一个大雷点",
+      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-11",
+      "category": "earnings",
+      "title": "Oracle 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ORCL"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/ORCL",
+      "meta": {
+        "ticker": "ORCL",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 1.95927,
+        "revenue_estimate": 19096000930.0,
+        "last_quarter": "2026-02-28",
+        "last_eps_actual": 1.79,
+        "last_eps_estimate": 1.69362
+      }
+    },
+    {
+      "date": "2026-06-12",
+      "category": "earnings",
+      "title": "Adobe 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ADBE"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/ADBE",
+      "meta": {
+        "ticker": "ADBE",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 5.82516,
+        "revenue_estimate": 6454288800.0,
+        "last_quarter": "2026-02-28",
+        "last_eps_actual": 6.06,
+        "last_eps_estimate": 5.87314
+      }
+    },
+    {
+      "date": "2026-06-16",
+      "category": "fed",
+      "title": "FOMC 议息会议 — Warsh 新主席首秀 (含点阵图)",
+      "importance": 3,
+      "end_date": "2026-06-17",
+      "time_et": "14:00",
+      "tickers": [],
+      "watch": "新主席 Kevin Warsh 首次决议 + 点阵图 + 发布会;市场会拿放大镜解读每句话",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-19",
+      "category": "options",
+      "title": "期权四巫日 (季度衍生品到期)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异(同日 S&P 季度再平衡)",
+      "source_url": "",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-25",
+      "category": "earnings",
+      "title": "Micron Technology 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "MU"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/MU",
+      "meta": {
+        "ticker": "MU",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 19.29473,
+        "revenue_estimate": 33818351730.0,
+        "last_quarter": "2026-02-28",
+        "last_eps_actual": 12.2,
+        "last_eps_estimate": 9.15866
+      }
+    },
+    {
+      "date": "2026-06-25",
+      "category": "macro",
+      "title": "PCE 物价指数 (5月) — 美联储偏好的通胀口径",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "美联储最看重的通胀指标,影响降息时点",
+      "source_url": "https://www.bea.gov/news/schedule",
+      "meta": {}
+    },
+    {
+      "date": "2026-06-26",
+      "category": "index",
+      "title": "Russell 指数年度重构生效",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "大批被动资金当日尾盘强制调仓,小盘股异动多为对账而非基本面",
+      "source_url": "https://www.lseg.com/en/ftse-russell/russell-reconstitution",
+      "meta": {}
+    },
+    {
+      "date": "2026-07-15",
+      "category": "earnings",
+      "title": "ASML 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ASML"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ASML",
+      "meta": {
+        "ticker": "ASML",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 6.86174,
+        "revenue_estimate": 8890818700.0,
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 7.15,
+        "last_eps_estimate": 6.621
+      }
+    }
+  ]
+}

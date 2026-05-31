@@ -1,81 +1,79 @@
-# AI Earnings Calendar
+# AI Market-Event Calendar
 
-A daily, auto-updating web page listing **AI-related companies that report
-earnings in the next 7 days** — with the consensus **EPS / revenue** estimates
-for each. Data comes from Yahoo Finance via `yfinance` (no API key).
+A daily, auto-updating web timeline of **market-moving events for the AI complex**
+— not just earnings, but macro data, Fed/FOMC, conferences/keynotes, options
+expiry, index rebalances, and AI-relevant IPOs — each with an importance level
+and a "看点 (what to watch)" note.
 
-> Research/heads-up tool only. Estimates are analyst consensus, dates can be
-> unconfirmed and change, and this is **not investment advice**.
+Live: published to GitHub Pages. Research/heads-up tool only — **not investment advice**.
 
-## What it shows
+## Event categories & where the data comes from
 
-- **本周财报（未来 7 天）** — cards grouped by date: company, ticker (→ Yahoo),
-  subsector, confirmed/estimated date, consensus EPS, consensus revenue.
-- **未来 8–30 天** — a compact preview table.
-- Auto-refreshed daily and published to GitHub Pages.
+| Category | Auto? | Source |
+|---|---|---|
+| 财报 Earnings | ✅ | yfinance `.calendar` (date + consensus EPS/revenue) + `earnings_history` (last-qtr actual vs est) |
+| 宏观 Macro (CPI/非农/PCE) | ✅ curated | Official BLS/BEA release schedules (`data/macro_events.yaml`) |
+| 美联储 Fed / FOMC | ✅ curated | federalreserve.gov FOMC calendar |
+| 期权到期 / 四巫日 | ✅ computed | 3rd Friday each month; quad-witching in Mar/Jun/Sep/Dec |
+| 指数重构 Index | ✅ computed | Russell reconstitution = last Friday of June |
+| 发布会 / 大会 Conferences | 🟡 curated | `data/events.yaml` (GTC/WWDC/Computex…, announced months ahead) |
+| IPO | 🟡 scraped | Nasdaq IPO calendar, **keyword-filtered to AI-relevant names** |
+
+5 categories are fully automatic; conferences are hand-curated (no clean API);
+IPOs are scraped from Nasdaq and filtered (silver-miners/insurers dropped).
 
 ## Universe
 
-81 AI-business companies (in `data/ai_companies.yaml`), across: AI
-semiconductors, semi equipment, EDA, networking/optical, AI servers/power,
-hyperscalers, AI software/security/data, AI cloud/GPU, power & nuclear for AI
-data centers, and consumer/platform AI. **Every ticker was verified against
-SEC `company_tickers.json`.** Add/remove freely — each entry is
-`{ticker, name, subsector}`.
+`data/ai_companies.yaml` — 114 AI-business tickers (SEC-verified) used by the
+earnings provider. `data/macro_events.yaml` + `data/events.yaml` carry the
+curated macro/Fed/conference events. Edit any of them freely.
 
 ## Install & run
 
 ```bash
 cd ai-earnings-calendar
 python -m pip install -r requirements.txt
-python -m src.pipeline                 # fetch + build site/
+python -m src.pipeline                 # fetch everything + build site/
+python -m src.pipeline --no-ipo        # skip the Nasdaq IPO scrape
 python -m src.pipeline --throttle 0.3  # gentler on Yahoo
 python -m pytest                       # tests (network mocked)
 ```
 
-Open `site/index.html`. Outputs: `outputs/earnings.json` (full dataset, committed)
-and `site/` (the published page + `earnings.json` download).
+Open `site/index.html`. Outputs: `outputs/events.json` (committed) + `site/`.
 
-## Deploy (GitHub Pages, daily)
+## How it works (daily run logic)
 
-```bash
-git init && git add -A && git commit -m "init"
-gh repo create ai-earnings-calendar --public --source=. --push
-# repo → Settings → Pages → Source = GitHub Actions → Actions tab → Run workflow
-```
+1. `static_events()` loads curated macro/Fed + conferences from YAML.
+2. `deterministic_events()` computes options-expiry / quad-witching / Russell dates.
+3. `ipo_events()` scrapes Nasdaq's IPO calendar and keeps only AI-relevant names.
+4. `earnings_events()` pulls next earnings for all 114 tickers (yfinance), keeps
+   the in-window ones, and adds last-quarter actual-vs-estimate.
+5. All events merge into one timeline → `today … +45d`, split into **本周 (≤7d)**
+   and **未来 8–45 天**, color-coded by category with importance + 看点.
+6. Write `outputs/events.json`, build the site, deploy to Pages.
+7. If the earnings fetch returns nothing (Yahoo blocked the runner), the last
+   committed earnings are reused so that section never disappears. Macro/Fed/
+   conference/options/index events are network-free and always present.
 
-`.github/workflows/daily.yml` runs daily at **11:00 UTC (07:00 ET / 19:00 北京)**,
-fetches, rebuilds the site, commits the refreshed data, and deploys to Pages.
-
-## How it works (run logic)
-
-1. Load the 81-company universe.
-2. For each ticker, read `yf.Ticker(tk).calendar` → next earnings date +
-   consensus EPS/revenue (per-ticker errors are skipped, never fatal).
-3. Keep only **future** dates: `+1 … +7 days` = "this week", `+8 … +30` =
-   "upcoming". Same-day/past dates are excluded (a just-reported company keeps a
-   stale same-day date in yfinance briefly — this avoids showing it as upcoming).
-4. Write `outputs/earnings.json`, build the static site, deploy.
-5. If a fetch returns **0 companies** (e.g. Yahoo rate-limited the runner), it
-   falls back to the last committed `earnings.json` so the page never goes blank.
+`.github/workflows/daily.yml` runs daily (11:00 UTC = 19:00 北京) and deploys.
 
 ## Limitations
 
-- **yfinance is unofficial.** Yahoo can rate-limit or block cloud IPs; dates and
-  estimates occasionally lag or differ from other providers. The Yahoo link on
-  each card lets you verify. If reliability becomes a problem, switch the
-  `fetch_earnings` backend to a keyed API (Finnhub/FMP) — the rest is unchanged.
-- **No intraday BMO/AMC time** — yfinance gives a date, not the session timing.
-- **Same-day reporters** are intentionally excluded (see run logic #3).
+- **yfinance / Yahoo** is unofficial; earnings dates can lag official IR by ±1
+  day and have no BMO/AMC time. The card's Yahoo link lets you verify.
+- **Macro/conference dates are curated** — re-check the official schedules yearly
+  (the files note the source URLs). FOMC seeded through Dec 2026.
+- **IPO keyword filter** favours precision; it can miss an oddly-named AI IPO
+  (curate it in `events.yaml`) or, rarely, admit a borderline one.
 - Consensus figures are point-in-time and revise.
 
 ## Layout
 
 ```
 ai-earnings-calendar/
-  README.md  requirements.txt  pyproject.toml
+  data/  ai_companies.yaml  macro_events.yaml  events.yaml
+  src/   config.py  events_model.py  fetch_earnings.py  providers.py
+         pipeline.py  build_site.py
+  tests/  outputs/(events.json)  site/(generated)
   .github/workflows/daily.yml
-  data/ai_companies.yaml          (the AI universe, SEC-verified tickers)
-  src/  config.py  fetch_earnings.py  build_site.py  pipeline.py
-  tests/  outputs/(earnings.json)  site/(generated)
 ```

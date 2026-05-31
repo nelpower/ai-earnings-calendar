@@ -1,0 +1,76 @@
+# Macro + Fed events — curated from OFFICIAL release schedules (BLS / BEA / Fed),
+# which are published once a year and stable. Verified June 2026 + full-year FOMC.
+# Re-check yearly: BLS bls.gov/schedule, BEA bea.gov/news/schedule,
+# Fed federalreserve.gov/monetarypolicy/fomccalendars.htm
+# Fields: date [end_date] time_et category title importance tickers watch source_url
+
+events:
+  - date: 2026-06-05
+    time_et: "08:30"
+    category: macro
+    title: "非农就业报告 (5月)"
+    importance: 3
+    watch: "就业强弱直接影响美联储降息路径;成长股对利率敏感"
+    source_url: "https://www.bls.gov/schedule/news_release/empsit.htm"
+
+  - date: 2026-06-10
+    time_et: "08:30"
+    category: macro
+    title: "CPI 通胀数据 (5月)"
+    importance: 3
+    watch: "通胀超预期 → 成长股承压;降温 → 风险偏好回升。本月第一个大雷点"
+    source_url: "https://www.bls.gov/schedule/news_release/cpi.htm"
+
+  - date: 2026-06-16
+    end_date: 2026-06-17
+    time_et: "14:00"
+    category: fed
+    title: "FOMC 议息会议 — Warsh 新主席首秀 (含点阵图)"
+    importance: 3
+    watch: "新主席 Kevin Warsh 首次决议 + 点阵图 + 发布会;市场会拿放大镜解读每句话"
+    source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+
+  - date: 2026-06-25
+    time_et: "08:30"
+    category: macro
+    title: "PCE 物价指数 (5月) — 美联储偏好的通胀口径"
+    importance: 2
+    watch: "美联储最看重的通胀指标,影响降息时点"
+    source_url: "https://www.bea.gov/news/schedule"
+
+  # --- full-year FOMC (verified) ---
+  - date: 2026-07-28
+    end_date: 2026-07-29
+    time_et: "14:00"
+    category: fed
+    title: "FOMC 议息会议"
+    importance: 3
+    watch: "利率决议 + 发布会"
+    source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+
+  - date: 2026-09-15
+    end_date: 2026-09-16
+    time_et: "14:00"
+    category: fed
+    title: "FOMC 议息会议 (含点阵图)"
+    importance: 3
+    watch: "利率决议 + 季度经济预测 (SEP) + 点阵图"
+    source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+
+  - date: 2026-10-28
+    end_date: 2026-10-29
+    time_et: "14:00"
+    category: fed
+    title: "FOMC 议息会议"
+    importance: 3
+    watch: "利率决议 + 发布会"
+    source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+
+  - date: 2026-12-09
+    end_date: 2026-12-10
+    time_et: "14:00"
+    category: fed
+    title: "FOMC 议息会议 (含点阵图,年内最后一次)"
+    importance: 3
+    watch: "利率决议 + 季度经济预测 (SEP) + 点阵图"
+    source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"

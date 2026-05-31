@@ -1,8 +1,11 @@
-"""AI earnings calendar pipeline: universe -> yfinance -> filter -> JSON + site.
+"""Unified AI market-event calendar pipeline.
 
-Run from the project root:
-    python -m src.pipeline                 # fetch + build site/
-    python -m src.pipeline --throttle 0.3  # be gentle on Yahoo (delay/req)
+Merges every provider (earnings, macro/Fed, deterministic options/index,
+conferences/IPOs) into one timeline, then writes JSON + the static site.
+
+    python -m src.pipeline                  # full run
+    python -m src.pipeline --throttle 0.2   # gentler on Yahoo
+    python -m src.pipeline --no-ipo         # skip the Nasdaq IPO scrape
 """
 from __future__ import annotations
 
@@ -13,95 +16,97 @@ from pathlib import Path
 
 from src import config
 from src.build_site import build_site
-from src.fetch_earnings import Earnings, enrich_last_quarter_all, fetch_all
+from src.events_model import Event
+from src.providers import (
+    deterministic_events,
+    earnings_events,
+    ipo_events,
+    static_events,
+)
 
 
-def _days_out(e: Earnings, today: dt.date) -> int:
-    return (dt.date.fromisoformat(e.earnings_date) - today).days
+def _d(s: str) -> dt.date:
+    return dt.date.fromisoformat(s)
 
 
-def _load_last_good(outputs_dir: Path) -> list[Earnings]:
-    """Reload the previously committed dataset (used if a fetch returns nothing,
-    e.g. Yahoo rate-limited the CI runner) so we never publish an empty page."""
-    path = outputs_dir / "earnings.json"
+def _last_good_earnings(outputs_dir: Path) -> list[Event]:
+    """Reuse previously committed earnings if a live fetch returns nothing
+    (e.g. Yahoo blocked the runner) so the calendar never loses that section."""
+    path = outputs_dir / config.EVENTS_JSON.name
     if not path.exists():
         return []
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
-        return [Earnings(**d) for d in data.get("all", [])]
+        return [Event.from_dict(e) for e in data.get("events", [])
+                if e.get("category") == "earnings"]
     except Exception:  # noqa: BLE001
         return []
 
 
 def run(
-    companies_path: Path = config.AI_COMPANIES_PATH,
     outputs_dir: Path = config.OUTPUTS_DIR,
     site_dir: Path | None = None,
     window_days: int = config.WINDOW_DAYS,
-    preview_days: int = config.PREVIEW_DAYS,
+    horizon_days: int = config.PREVIEW_DAYS,
     throttle: float = 0.0,
+    use_ipo: bool = True,
     today: dt.date | None = None,
-) -> tuple[list[Earnings], list[Earnings]]:
+) -> tuple[list[Event], list[Event]]:
     today = today or dt.date.today()
-    companies = config.load_companies(companies_path)
-    print(f"[pipeline] AI universe: {len(companies)} companies")
+    end = today + dt.timedelta(days=horizon_days)
 
-    items = fetch_all(companies, throttle=throttle)
-    fetched_ok = len(items) > 0
-    if not fetched_ok:
-        print("[pipeline] WARNING: fetched 0 companies (Yahoo blocked?); "
-              "falling back to last committed data.")
-        items = _load_last_good(outputs_dir)
+    events: list[Event] = []
+    events += static_events()
+    events += deterministic_events(today, end)
+    if use_ipo:
+        events += ipo_events(today, horizon_days)
 
-    # Only FUTURE dates (>= 1 day out). A company that just reported briefly
-    # keeps a stale same-day/past date in yfinance's calendar, so excluding
-    # day 0 and past avoids showing already-reported names as "upcoming".
-    this_week = [e for e in items if 1 <= _days_out(e, today) <= window_days]
-    upcoming = [e for e in items
-                if window_days < _days_out(e, today) <= preview_days]
-    this_week.sort(key=lambda e: (e.earnings_date, e.name))
-    upcoming.sort(key=lambda e: (e.earnings_date, e.name))
+    earn = earnings_events(today, horizon_days, throttle=throttle)
+    if not earn:
+        print("[pipeline] no earnings fetched; reusing last committed earnings.")
+        earn = _last_good_earnings(outputs_dir)
+    events += earn
 
-    # Add last-quarter actual-vs-estimate, but ONLY for the few in-window
-    # companies (keeps the run fast — no extra calls for the other ~100).
-    if fetched_ok:
-        enrich_last_quarter_all(this_week + upcoming, throttle=throttle)
+    # keep only events inside the display window [today, today+horizon]
+    events = [e for e in events if today <= _d(e.date) <= end]
+    events.sort(key=lambda e: (e.date, -e.importance, e.category))
 
-    # full raw output (committed for the record) — only overwrite on a real fetch
-    if fetched_ok:
-        outputs_dir.mkdir(parents=True, exist_ok=True)
-        (outputs_dir / "earnings.json").write_text(
-            json.dumps(
-                {"generated": dt.datetime.now(dt.timezone.utc).isoformat(),
-                 "today": today.isoformat(),
-                 "all": [e.to_dict() for e in sorted(items, key=lambda x: x.earnings_date)]},
-                ensure_ascii=False, indent=2),
-            encoding="utf-8")
+    def days(e: Event) -> int:
+        return (_d(e.date) - today).days
+
+    this_week = [e for e in events if days(e) <= window_days]
+    upcoming = [e for e in events if window_days < days(e) <= horizon_days]
+
+    outputs_dir.mkdir(parents=True, exist_ok=True)
+    (outputs_dir / config.EVENTS_JSON.name).write_text(
+        json.dumps({"generated": dt.datetime.now(dt.timezone.utc).isoformat(),
+                    "today": today.isoformat(),
+                    "events": [e.to_dict() for e in events]},
+                   ensure_ascii=False, indent=2),
+        encoding="utf-8")
 
     index = build_site(this_week, upcoming, site_dir or config.SITE_DIR, today)
 
-    print(f"[pipeline] this week (<= {window_days}d): {len(this_week)} | "
-          f"upcoming ({window_days+1}-{preview_days}d): {len(upcoming)}")
-    if this_week:
-        print("[pipeline] this week: " +
-              ", ".join(f"{e.ticker}({e.earnings_date})" for e in this_week))
-    print(f"[pipeline] wrote {outputs_dir / 'earnings.json'} and {index}")
+    from collections import Counter
+    by_cat = Counter(e.category for e in events)
+    print(f"[pipeline] {len(events)} event(s) in next {horizon_days}d "
+          f"| this week: {len(this_week)} | by category: {dict(by_cat)}")
+    print(f"[pipeline] wrote {outputs_dir / config.EVENTS_JSON.name} and {index}")
     return this_week, upcoming
 
 
 def main(argv: list[str] | None = None) -> None:
-    p = argparse.ArgumentParser(description="AI earnings calendar pipeline")
-    p.add_argument("--companies", type=Path, default=config.AI_COMPANIES_PATH)
+    p = argparse.ArgumentParser(description="AI market-event calendar pipeline")
     p.add_argument("--outputs-dir", type=Path, default=config.OUTPUTS_DIR)
     p.add_argument("--site-dir", type=Path, default=config.SITE_DIR)
     p.add_argument("--window-days", type=int, default=config.WINDOW_DAYS)
-    p.add_argument("--preview-days", type=int, default=config.PREVIEW_DAYS)
-    p.add_argument("--throttle", type=float, default=0.0,
-                   help="seconds to sleep between ticker requests")
+    p.add_argument("--horizon-days", type=int, default=config.PREVIEW_DAYS)
+    p.add_argument("--throttle", type=float, default=0.0)
+    p.add_argument("--no-ipo", action="store_true", help="skip the Nasdaq IPO scrape")
     args = p.parse_args(argv)
-    run(companies_path=args.companies, outputs_dir=args.outputs_dir,
-        site_dir=args.site_dir, window_days=args.window_days,
-        preview_days=args.preview_days, throttle=args.throttle)
+    run(outputs_dir=args.outputs_dir, site_dir=args.site_dir,
+        window_days=args.window_days, horizon_days=args.horizon_days,
+        throttle=args.throttle, use_ipo=not args.no_ipo)
 
 
 if __name__ == "__main__":

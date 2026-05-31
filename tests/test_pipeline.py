@@ -1,52 +1,45 @@
-"""Tests for the window filtering (this week vs upcoming vs excluded)."""
+"""Tests for the unified event pipeline (earnings + IPO providers mocked)."""
 import datetime as dt
 
 from src import pipeline
-from src.fetch_earnings import Earnings
 
 
-def _e(ticker: str, day: dt.date) -> Earnings:
-    return Earnings(ticker=ticker, name=ticker, subsector="s",
-                    earnings_date=day.isoformat(), date_confirmed=True)
-
-
-def test_window_filter(monkeypatch, tmp_path):
+def test_run_merges_and_windows(monkeypatch, tmp_path):
     today = dt.date(2026, 5, 29)
-    items = [
-        _e("TOMORROW", today + dt.timedelta(days=1)),   # this week
-        _e("DAY7", today + dt.timedelta(days=7)),        # this week (edge)
-        _e("DAY8", today + dt.timedelta(days=8)),        # upcoming
-        _e("DAY30", today + dt.timedelta(days=30)),      # upcoming (edge)
-        _e("TODAY", today),                              # excluded (day 0)
-        _e("PAST", today - dt.timedelta(days=1)),        # excluded (reported)
-        _e("DAY31", today + dt.timedelta(days=31)),      # excluded (too far)
-    ]
-    monkeypatch.setattr(pipeline, "fetch_all", lambda companies, throttle=0.0: items)
-    monkeypatch.setattr(pipeline, "enrich_last_quarter_all",
-                        lambda items, throttle=0.0: items)  # no network in tests
-    monkeypatch.setattr(pipeline.config, "load_companies", lambda *a, **k: [{"ticker": "X"}])
+    # mock the network providers so the test is offline & deterministic
+    monkeypatch.setattr(pipeline, "earnings_events", lambda today, h, throttle=0.0: [])
+    monkeypatch.setattr(pipeline, "ipo_events", lambda today, h: [])
 
     this_week, upcoming = pipeline.run(
-        outputs_dir=tmp_path / "out", site_dir=tmp_path / "site", today=today)
+        outputs_dir=tmp_path / "o", site_dir=tmp_path / "s", today=today)
 
-    assert {e.ticker for e in this_week} == {"TOMORROW", "DAY7"}
-    assert {e.ticker for e in upcoming} == {"DAY8", "DAY30"}
-    # site + json were produced
-    assert (tmp_path / "site" / "index.html").exists()
-    assert (tmp_path / "out" / "earnings.json").exists()
+    tw_titles = " ".join(e.title for e in this_week)
+    assert "GTC" in tw_titles          # 黄仁勋 GTC Taipei 6/1 (+3d)
+    assert "非农" in tw_titles          # jobs report 6/5 (+7d, edge of this week)
+
+    up_cats = {e.category for e in upcoming}
+    assert "fed" in up_cats            # FOMC 6/16-17
+    assert "options" in up_cats        # quad witching 6/19
+    assert "index" in up_cats          # Russell reconstitution 6/26
+
+    # nothing beyond the horizon (July FOMC 7/28 is +60d -> excluded)
+    assert all((dt.date.fromisoformat(e.date) - today).days <= pipeline.config.PREVIEW_DAYS
+               for e in this_week + upcoming)
+    assert (tmp_path / "s" / "index.html").exists()
+    assert (tmp_path / "o" / "events.json").exists()
 
 
-def test_empty_fetch_falls_back(monkeypatch, tmp_path):
-    # Pre-seed a "last good" earnings.json
-    out = tmp_path / "out"
+def test_earnings_fallback_when_empty(monkeypatch, tmp_path):
+    out = tmp_path / "o"
     out.mkdir()
-    (out / "earnings.json").write_text(
-        '{"all":[{"ticker":"AAA","name":"AAA","subsector":"s",'
-        '"earnings_date":"2026-05-31","date_confirmed":true}]}', encoding="utf-8")
-    monkeypatch.setattr(pipeline, "fetch_all", lambda companies, throttle=0.0: [])
-    monkeypatch.setattr(pipeline.config, "load_companies", lambda *a, **k: [{"ticker": "X"}])
+    (out / "events.json").write_text(
+        '{"events":[{"date":"2026-06-04","category":"earnings",'
+        '"title":"Broadcom 财报","importance":3,"tickers":["AVGO"]}]}',
+        encoding="utf-8")
+    monkeypatch.setattr(pipeline, "earnings_events", lambda today, h, throttle=0.0: [])
+    monkeypatch.setattr(pipeline, "ipo_events", lambda today, h: [])
 
-    this_week, _ = pipeline.run(
-        outputs_dir=out, site_dir=tmp_path / "site", today=dt.date(2026, 5, 29))
-    # fell back to committed data instead of publishing nothing
-    assert {e.ticker for e in this_week} == {"AAA"}
+    this_week, upcoming = pipeline.run(
+        outputs_dir=out, site_dir=tmp_path / "s", today=dt.date(2026, 5, 29))
+    all_titles = " ".join(e.title for e in this_week + upcoming)
+    assert "Broadcom" in all_titles    # reused last-good earnings

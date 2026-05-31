@@ -1,0 +1,36 @@
+# Conferences / keynotes / product events / notable IPOs — hand-curated, because
+# there is no clean free API for these. They are announced months ahead and are
+# low-volume, so manual curation is reliable. Add a line when you hear of one.
+#
+# DO NOT add rumored dates without a source (e.g. an unconfirmed SpaceX IPO):
+# the Nasdaq IPO scraper handles real, filed IPOs automatically.
+#
+# Fields: date [end_date] time_et category title importance tickers watch source_url
+
+events:
+  - date: 2026-06-01
+    category: conference
+    title: "NVIDIA GTC Taipei — 黄仁勋 Keynote"
+    importance: 3
+    tickers: [NVDA, TSM, AVGO, AMD]
+    watch: "老黄给 AI 板块定调;AI 算力、机器人、下一代 GPU/网络路线图"
+    source_url: "https://www.nvidia.com/en-tw/gtc/taipei/computex/"
+
+  - date: 2026-06-02
+    end_date: 2026-06-05
+    category: conference
+    title: "Computex 2026 (台北)"
+    importance: 2
+    tickers: [NVDA, AMD, TSM, SMCI, DELL, ASX]
+    watch: "AI 服务器、散热、CPO/光互连、供应链订单信号"
+    source_url: "https://www.computextaipei.com.tw/en/index.html"
+
+  - date: 2026-06-08
+    end_date: 2026-06-12
+    time_et: "13:00"
+    category: conference
+    title: "Apple WWDC 2026 (Keynote 6/8)"
+    importance: 2
+    tickers: [AAPL]
+    watch: "Apple Intelligence / 端侧 AI / Siri 进展;输了继续被嘲讽"
+    source_url: "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"

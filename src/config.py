@@ -12,11 +12,11 @@ AI_COMPANIES_PATH = DATA_DIR / "ai_companies.yaml"
 OUTPUTS_DIR = BASE_DIR / "outputs"
 SITE_DIR = BASE_DIR / "site"
 
-EARNINGS_JSON = OUTPUTS_DIR / "earnings.json"
+EVENTS_JSON = OUTPUTS_DIR / "events.json"
 
 # Time windows (calendar days from "today").
 WINDOW_DAYS = 7      # the headline "this week" list
-PREVIEW_DAYS = 30    # a secondary "coming up" preview
+PREVIEW_DAYS = 45    # how far ahead the timeline looks
 
 
 def load_yaml(path: str | Path) -> Any:
