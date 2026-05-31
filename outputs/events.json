@@ -1,5 +1,5 @@
 {
-  "generated": "2026-05-31T10:04:38.800346+00:00",
+  "generated": "2026-05-31T10:19:12.892948+00:00",
   "today": "2026-05-31",
   "events": [
     {
@@ -314,7 +314,7 @@
       "time_et": "08:30",
       "tickers": [],
       "watch": "就业强弱直接影响美联储降息路径;成长股对利率敏感",
-      "source_url": "https://www.bls.gov/schedule/news_release/empsit.htm",
+      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
       "meta": {}
     },
     {
@@ -363,7 +363,7 @@
       "time_et": "08:30",
       "tickers": [],
       "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升。本月第一个大雷点",
-      "source_url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "meta": {}
     },
     {
@@ -445,7 +445,7 @@
       "time_et": "08:30",
       "tickers": [],
       "watch": "美联储最看重的通胀指标,影响降息时点",
-      "source_url": "https://www.bea.gov/news/schedule",
+      "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
       "meta": {}
     },
     {
