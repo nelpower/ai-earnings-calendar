@@ -1,6 +1,7 @@
 # Core
 PyYAML>=6.0
 yfinance>=0.2        # earnings dates + consensus estimates (no API key)
+tzdata               # zoneinfo data for US/Eastern "today" (Windows/CI)
 
 # Dev / tests
 pytest>=7.0

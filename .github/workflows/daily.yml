@@ -1,10 +1,12 @@
 name: daily-update
 
-# 11:17 UTC daily (~07:17 US-Eastern / 19:17 Asia-Shanghai). Off the top of the
-# hour on purpose: GitHub delays/skips scheduled runs most at :00 (high load).
+# 05:20 UTC daily = just after US-Eastern midnight (the start of the US trading
+# day; ~13:20 Asia-Shanghai). "today" is computed in US/Eastern, so the view is
+# correct even if GitHub delays the run by hours. Off the top of the hour on
+# purpose (GitHub delays/skips :00 runs most).
 on:
   schedule:
-    - cron: "17 11 * * *"
+    - cron: "20 5 * * *"
   workflow_dispatch: {}
 
 permissions:

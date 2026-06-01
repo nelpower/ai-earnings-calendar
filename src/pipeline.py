@@ -52,7 +52,7 @@ def run(
     use_ipo: bool = True,
     today: dt.date | None = None,
 ) -> tuple[list[Event], list[Event]]:
-    today = today or dt.date.today()
+    today = today or config.today_et()   # US-Eastern calendar day
     end = today + dt.timedelta(days=horizon_days)
 
     events: list[Event] = []
