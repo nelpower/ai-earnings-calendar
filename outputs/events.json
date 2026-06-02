@@ -1,38 +1,7 @@
 {
-  "generated": "2026-06-01T15:26:00.421946+00:00",
-  "today": "2026-06-01",
+  "generated": "2026-06-02T09:19:40.723231+00:00",
+  "today": "2026-06-02",
   "events": [
-    {
-      "date": "2026-06-01",
-      "category": "conference",
-      "title": "NVIDIA GTC Taipei — 黄仁勋 Keynote",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NVDA",
-        "TSM",
-        "AVGO",
-        "AMD"
-      ],
-      "watch": "老黄给 AI 板块定调;AI 算力、机器人、下一代 GPU/网络路线图",
-      "source_url": "https://www.nvidia.com/en-tw/gtc/taipei/computex/",
-      "meta": {}
-    },
-    {
-      "date": "2026-06-01",
-      "category": "conference",
-      "title": "Snowflake Summit 2026 (旧金山)",
-      "importance": 2,
-      "end_date": "2026-06-04",
-      "time_et": "",
-      "tickers": [
-        "SNOW"
-      ],
-      "watch": "Snowflake Cortex AI / 数据云 AI 战略;影响数据股情绪",
-      "source_url": "https://www.snowflake.com/en/summit/",
-      "meta": {}
-    },
     {
       "date": "2026-06-02",
       "category": "conference",
@@ -53,52 +22,6 @@
       "meta": {}
     },
     {
-      "date": "2026-06-02",
-      "category": "earnings",
-      "title": "Palo Alto Networks 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "PANW"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/PANW",
-      "meta": {
-        "ticker": "PANW",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.79698,
-        "revenue_estimate": 2944363270.0,
-        "last_quarter": "2026-01-31",
-        "last_eps_actual": 1.03,
-        "last_eps_estimate": 0.93684
-      }
-    },
-    {
-      "date": "2026-06-02",
-      "category": "earnings",
-      "title": "GitLab 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GTLB"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/GTLB",
-      "meta": {
-        "ticker": "GTLB",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.20478,
-        "revenue_estimate": 254521720.0,
-        "last_quarter": "2026-01-31",
-        "last_eps_actual": 0.3,
-        "last_eps_estimate": 0.2308
-      }
-    },
-    {
       "date": "2026-06-03",
       "category": "earnings",
       "title": "Broadcom 财报",
@@ -114,7 +37,7 @@
         "ticker": "AVGO",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 2.3965,
+        "eps_estimate": 2.39724,
         "revenue_estimate": 22115839310.0,
         "last_quarter": "2026-01-31",
         "last_eps_actual": 2.05,
@@ -183,8 +106,8 @@
         "ticker": "CIEN",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 1.45341,
-        "revenue_estimate": 1501044940.0,
+        "eps_estimate": 1.45401,
+        "revenue_estimate": 1501116370.0,
         "last_quarter": "2026-01-31",
         "last_eps_actual": 1.35,
         "last_eps_estimate": 1.16833
@@ -207,7 +130,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": -0.02817,
-        "revenue_estimate": 366299440.0,
+        "revenue_estimate": 366323440.0,
         "last_quarter": "2026-01-31",
         "last_eps_actual": 0.04,
         "last_eps_estimate": -0.10854
@@ -425,8 +348,8 @@
         "ticker": "MU",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 19.29473,
-        "revenue_estimate": 33818351730.0,
+        "eps_estimate": 19.28403,
+        "revenue_estimate": 33828463450.0,
         "last_quarter": "2026-02-28",
         "last_eps_actual": 12.2,
         "last_eps_estimate": 9.15866
@@ -501,6 +424,18 @@
         "last_eps_actual": 3.49,
         "last_eps_estimate": 3.33393
       }
+    },
+    {
+      "date": "2026-07-17",
+      "category": "options",
+      "title": "月度期权到期日 (OpEx)",
+      "importance": 1,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "月度期权到期,尾盘波动可能放大",
+      "source_url": "",
+      "meta": {}
     }
   ]
 }
