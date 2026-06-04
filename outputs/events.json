@@ -1,99 +1,7 @@
 {
-  "generated": "2026-06-03T10:08:22.920519+00:00",
-  "today": "2026-06-03",
+  "generated": "2026-06-04T09:03:07.655836+00:00",
+  "today": "2026-06-04",
   "events": [
-    {
-      "date": "2026-06-04",
-      "category": "earnings",
-      "title": "Ciena 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CIEN"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/CIEN",
-      "meta": {
-        "ticker": "CIEN",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 1.45401,
-        "revenue_estimate": 1501116370.0,
-        "last_quarter": "2026-01-31",
-        "last_eps_actual": 1.35,
-        "last_eps_estimate": 1.16833
-      }
-    },
-    {
-      "date": "2026-06-04",
-      "category": "earnings",
-      "title": "Rubrik 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "RBRK"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/RBRK",
-      "meta": {
-        "ticker": "RBRK",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": -0.02817,
-        "revenue_estimate": 366323440.0,
-        "last_quarter": "2026-01-31",
-        "last_eps_actual": 0.04,
-        "last_eps_estimate": -0.10854
-      }
-    },
-    {
-      "date": "2026-06-04",
-      "category": "earnings",
-      "title": "Samsara 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "IOT"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/IOT",
-      "meta": {
-        "ticker": "IOT",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.13032,
-        "revenue_estimate": 455171720.0,
-        "last_quarter": "2026-01-31",
-        "last_eps_actual": 0.18,
-        "last_eps_estimate": 0.12775
-      }
-    },
-    {
-      "date": "2026-06-04",
-      "category": "earnings",
-      "title": "Guidewire 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GWRE"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/GWRE",
-      "meta": {
-        "ticker": "GWRE",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.74279,
-        "revenue_estimate": 356087790.0,
-        "last_quarter": "2026-01-31",
-        "last_eps_actual": 1.17,
-        "last_eps_estimate": 0.76742
-      }
-    },
     {
       "date": "2026-06-04",
       "category": "ipo",
@@ -150,8 +58,8 @@
         "ticker": "ORCL",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.95927,
-        "revenue_estimate": 19096000930.0,
+        "eps_estimate": 1.96163,
+        "revenue_estimate": 19099854300.0,
         "last_quarter": "2026-02-28",
         "last_eps_actual": 1.79,
         "last_eps_estimate": 1.69362
@@ -260,8 +168,8 @@
         "ticker": "MU",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 19.28403,
-        "revenue_estimate": 33828463450.0,
+        "eps_estimate": 19.30822,
+        "revenue_estimate": 33818351730.0,
         "last_quarter": "2026-02-28",
         "last_eps_actual": 12.2,
         "last_eps_estimate": 9.15866
