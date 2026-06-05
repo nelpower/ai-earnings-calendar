@@ -1,19 +1,7 @@
 {
-  "generated": "2026-06-05T05:25:52.042168+00:00",
-  "today": "2026-06-05",
+  "generated": "2026-06-05T18:16:18.287574+00:00",
+  "today": "2026-06-06",
   "events": [
-    {
-      "date": "2026-06-05",
-      "category": "macro",
-      "title": "非农就业报告 (5月)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "就业强弱直接影响美联储降息路径;成长股对利率敏感",
-      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "meta": {}
-    },
     {
       "date": "2026-06-08",
       "category": "conference",
@@ -242,6 +230,29 @@
       "watch": "月度期权到期,尾盘波动可能放大",
       "source_url": "",
       "meta": {}
+    },
+    {
+      "date": "2026-07-21",
+      "category": "earnings",
+      "title": "Pegasystems 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PEGA"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PEGA",
+      "meta": {
+        "ticker": "PEGA",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.43455,
+        "revenue_estimate": 428761200.0,
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.46,
+        "last_eps_estimate": 0.69272
+      }
     }
   ]
 }
