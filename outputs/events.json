@@ -1,21 +1,7 @@
 {
-  "generated": "2026-06-04T09:03:07.655836+00:00",
-  "today": "2026-06-04",
+  "generated": "2026-06-05T05:25:52.042168+00:00",
+  "today": "2026-06-05",
   "events": [
-    {
-      "date": "2026-06-04",
-      "category": "ipo",
-      "title": "Quantinuum Inc. IPO (QNT)",
-      "importance": 1,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "QNT"
-      ],
-      "watch": "新股定价/上市;留意是否 AI 相关及炒作风险",
-      "source_url": "https://www.nasdaq.com/market-activity/ipos",
-      "meta": {}
-    },
     {
       "date": "2026-06-05",
       "category": "macro",
