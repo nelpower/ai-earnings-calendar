@@ -32,14 +32,16 @@ def load_companies(path: str | Path = AI_COMPANIES_PATH) -> list[dict]:
     return data.get("companies", []) if isinstance(data, dict) else []
 
 
-def today_et():
-    """'Today' in US/Eastern — the correct calendar day for US-market events
-    (yfinance earnings dates, FOMC, etc. are all ET). This makes the window/
-    labels correct no matter what (delayed) hour GitHub actually runs the job.
-    Falls back to UTC if tz data is unavailable."""
+VIEWER_TZ = "Asia/Shanghai"   # the calendar is read in Beijing time
+
+
+def today_local():
+    """'Today' in the viewer's timezone (Beijing). The Beijing day starts ~13h
+    before the user's afternoon, so even with GitHub's multi-hour scheduling
+    delay the new day's view is ready throughout their day. Falls back to UTC."""
     import datetime as dt
     try:
         from zoneinfo import ZoneInfo
-        return dt.datetime.now(ZoneInfo("America/New_York")).date()
+        return dt.datetime.now(ZoneInfo(VIEWER_TZ)).date()
     except Exception:  # noqa: BLE001
         return dt.datetime.now(dt.timezone.utc).date()

@@ -1,12 +1,14 @@
 name: daily-update
 
-# 05:20 UTC daily = just after US-Eastern midnight (the start of the US trading
-# day; ~13:20 Asia-Shanghai). "today" is computed in US/Eastern, so the view is
-# correct even if GitHub delays the run by hours. Off the top of the hour on
-# purpose (GitHub delays/skips :00 runs most).
+# "today" is computed in Beijing time (Asia/Shanghai). We run several times a
+# day so GitHub's frequent multi-hour delay / occasional skip of a scheduled
+# run can't leave the site stale. Times below are just after Beijing 00:20 /
+# 04:20 / 08:20 (UTC 16:20 / 20:20 / 00:20), off the top of the hour.
 on:
   schedule:
-    - cron: "20 5 * * *"
+    - cron: "20 16 * * *"
+    - cron: "20 20 * * *"
+    - cron: "20 0 * * *"
   workflow_dispatch: {}
 
 permissions:

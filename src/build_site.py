@@ -7,7 +7,7 @@ import json
 from collections import Counter, defaultdict
 from pathlib import Path
 
-from src.config import SITE_DIR, today_et
+from src.config import SITE_DIR, today_local
 from src.events_model import CATEGORIES, IMPORTANCE_ZH, Event
 
 DISCLAIMER = (
@@ -163,7 +163,7 @@ def _timeline(events: list[Event], today: dt.date) -> str:
 
 def build_html(this_week: list[Event], upcoming: list[Event],
                today: dt.date | None = None) -> str:
-    today = today or today_et()
+    today = today or today_local()
     total = len(this_week) + len(upcoming)
     cats = Counter(e.category for e in this_week + upcoming)
 
@@ -202,7 +202,7 @@ def build_site(this_week: list[Event], upcoming: list[Event],
     site_dir.mkdir(parents=True, exist_ok=True)
     (site_dir / "index.html").write_text(build_html(this_week, upcoming, today),
                                          encoding="utf-8")
-    payload = {"updated": (today or today_et()).isoformat(),
+    payload = {"updated": (today or today_local()).isoformat(),
                "this_week": [e.to_dict() for e in this_week],
                "upcoming": [e.to_dict() for e in upcoming]}
     (site_dir / "events.json").write_text(
