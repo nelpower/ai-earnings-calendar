@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-07T21:40:29.441378+00:00",
+  "generated": "2026-06-08T05:02:53.585981+00:00",
   "today": "2026-06-08",
   "events": [
     {
@@ -32,7 +32,7 @@
         "ticker": "ORCL",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.96181,
+        "eps_estimate": 1.96156,
         "revenue_estimate": 19093705860.0,
         "last_quarter": "2026-02-28",
         "last_eps_actual": 1.79,
