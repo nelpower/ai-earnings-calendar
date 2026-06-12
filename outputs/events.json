@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-11T22:20:32.217310+00:00",
+  "generated": "2026-06-12T05:04:59.458021+00:00",
   "today": "2026-06-12",
   "events": [
     {
@@ -70,8 +70,8 @@
         "ticker": "MU",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 19.47056,
-        "revenue_estimate": 34024205759.0,
+        "eps_estimate": 19.65635,
+        "revenue_estimate": 34286563820.0,
         "last_quarter": "2026-02-28",
         "last_eps_actual": 12.2,
         "last_eps_estimate": 9.15866
@@ -268,7 +268,7 @@
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
         "eps_estimate": 0.45414,
-        "revenue_estimate": 24625317630.0,
+        "revenue_estimate": 24634836150.0,
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.41,
         "last_eps_estimate": 0.34999
@@ -291,7 +291,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 0.21129,
-        "revenue_estimate": 14404009660.0,
+        "revenue_estimate": 14403979090.0,
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.29,
         "last_eps_estimate": 0.01313
@@ -314,7 +314,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 2.8779,
-        "revenue_estimate": 116647754250.0,
+        "revenue_estimate": 116678355480.0,
         "last_quarter": "2026-03-31",
         "last_eps_actual": 5.11,
         "last_eps_estimate": 2.66714
