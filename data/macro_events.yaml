@@ -1,7 +1,13 @@
-# Macro + Fed events — curated from OFFICIAL release schedules (BLS / BEA / Fed),
-# which are published once a year and stable. Verified June 2026 + full-year FOMC.
-# Re-check yearly: BLS bls.gov/schedule, BEA bea.gov/news/schedule,
-# Fed federalreserve.gov/monetarypolicy/fomccalendars.htm
+# Macro + Fed events — curated from OFFICIAL release schedules (BLS / BEA / Fed).
+# Verified 2026-06-12 against:
+#   FOMC:  federalreserve.gov/monetarypolicy/fomccalendars.htm
+#          (2026: 1/27-28, 3/17-18*, 4/28-29, 6/16-17*, 7/28-29, 9/15-16*,
+#           10/27-28, 12/8-9*;  * = with SEP/dot plot)
+#   CPI:   bls.gov/schedule/news_release/cpi.htm
+#   非农:  bls.gov/schedule/news_release/empsit.htm (6月数据 7/2,因 7/3 休市;
+#          其余为 BLS“参考周后第三个周五”规则,逐月以 bls.gov/schedule 为准)
+#   PCE:   bea.gov/news/schedule
+# FOMC 条目的 date = 决议公布日(两天会议的第二天,声明 14:00 ET、发布会 14:30 ET)。
 # Fields: date [end_date] time_et category title importance tickers watch source_url
 
 events:
@@ -18,16 +24,15 @@ events:
     category: macro
     title: "CPI 通胀数据 (5月)"
     importance: 3
-    watch: "通胀超预期 → 成长股承压;降温 → 风险偏好回升。本月第一个大雷点"
+    watch: "通胀超预期 → 成长股承压;降温 → 风险偏好回升"
     source_url: "https://www.bls.gov/news.release/cpi.nr0.htm"
 
-  - date: 2026-06-16
-    end_date: 2026-06-17
+  - date: 2026-06-17
     time_et: "14:00"
     category: fed
-    title: "FOMC 议息会议 — Warsh 新主席首秀 (含点阵图)"
+    title: "FOMC 利率决议 — Warsh 新主席首秀 (含点阵图)"
     importance: 3
-    watch: "新主席 Kevin Warsh 首次决议 + 点阵图 + 发布会;市场会拿放大镜解读每句话"
+    watch: "会议 6/16-17,决议声明+点阵图 14:00 ET、发布会 14:30 ET;新主席 Kevin Warsh 首秀,市场会拿放大镜解读每句话"
     source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 
   - date: 2026-06-25
@@ -38,39 +43,191 @@ events:
     watch: "美联储最看重的通胀指标,影响降息时点"
     source_url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
 
-  # --- full-year FOMC (verified) ---
-  - date: 2026-07-28
-    end_date: 2026-07-29
+  # --- 2026 下半年 非农 (Employment Situation, 08:30 ET) ---
+  - date: 2026-07-02
+    time_et: "08:30"
+    category: macro
+    title: "非农就业报告 (6月) — 因 7/3 休市提前至周四"
+    importance: 3
+    watch: "就业强弱直接影响美联储降息路径;次日美股休市,流动性偏薄"
+    source_url: "https://www.bls.gov/news.release/empsit.nr0.htm"
+
+  - date: 2026-08-07
+    time_et: "08:30"
+    category: macro
+    title: "非农就业报告 (7月)"
+    importance: 3
+    watch: "就业强弱直接影响美联储降息路径"
+    source_url: "https://www.bls.gov/news.release/empsit.nr0.htm"
+
+  - date: 2026-09-04
+    time_et: "08:30"
+    category: macro
+    title: "非农就业报告 (8月)"
+    importance: 3
+    watch: "9/15-16 FOMC 前最后一份非农"
+    source_url: "https://www.bls.gov/news.release/empsit.nr0.htm"
+
+  - date: 2026-10-02
+    time_et: "08:30"
+    category: macro
+    title: "非农就业报告 (9月)"
+    importance: 3
+    watch: "就业强弱直接影响美联储降息路径"
+    source_url: "https://www.bls.gov/news.release/empsit.nr0.htm"
+
+  - date: 2026-11-06
+    time_et: "08:30"
+    category: macro
+    title: "非农就业报告 (10月)"
+    importance: 3
+    watch: "就业强弱直接影响美联储降息路径"
+    source_url: "https://www.bls.gov/news.release/empsit.nr0.htm"
+
+  - date: 2026-12-04
+    time_et: "08:30"
+    category: macro
+    title: "非农就业报告 (11月)"
+    importance: 3
+    watch: "12/8-9 FOMC 前最后一份非农"
+    source_url: "https://www.bls.gov/news.release/empsit.nr0.htm"
+
+  # --- 2026 下半年 CPI (08:30 ET) ---
+  - date: 2026-07-14
+    time_et: "08:30"
+    category: macro
+    title: "CPI 通胀数据 (6月)"
+    importance: 3
+    watch: "通胀超预期 → 成长股承压;降温 → 风险偏好回升"
+    source_url: "https://www.bls.gov/news.release/cpi.nr0.htm"
+
+  - date: 2026-08-12
+    time_et: "08:30"
+    category: macro
+    title: "CPI 通胀数据 (7月)"
+    importance: 3
+    watch: "通胀超预期 → 成长股承压;降温 → 风险偏好回升"
+    source_url: "https://www.bls.gov/news.release/cpi.nr0.htm"
+
+  - date: 2026-09-11
+    time_et: "08:30"
+    category: macro
+    title: "CPI 通胀数据 (8月)"
+    importance: 3
+    watch: "9/15-16 FOMC 前最后一份 CPI"
+    source_url: "https://www.bls.gov/news.release/cpi.nr0.htm"
+
+  - date: 2026-10-14
+    time_et: "08:30"
+    category: macro
+    title: "CPI 通胀数据 (9月)"
+    importance: 3
+    watch: "通胀超预期 → 成长股承压;降温 → 风险偏好回升"
+    source_url: "https://www.bls.gov/news.release/cpi.nr0.htm"
+
+  - date: 2026-11-10
+    time_et: "08:30"
+    category: macro
+    title: "CPI 通胀数据 (10月)"
+    importance: 3
+    watch: "通胀超预期 → 成长股承压;降温 → 风险偏好回升"
+    source_url: "https://www.bls.gov/news.release/cpi.nr0.htm"
+
+  - date: 2026-12-10
+    time_et: "08:30"
+    category: macro
+    title: "CPI 通胀数据 (11月)"
+    importance: 3
+    watch: "次日起进入 FOMC 静默期后的决议周;年内最后一份重磅通胀数据"
+    source_url: "https://www.bls.gov/news.release/cpi.nr0.htm"
+
+  # --- 2026 下半年 PCE (Personal Income & Outlays, 08:30 ET, BEA) ---
+  - date: 2026-07-30
+    time_et: "08:30"
+    category: macro
+    title: "PCE 物价指数 (6月)"
+    importance: 2
+    watch: "美联储最看重的通胀指标,影响降息时点"
+    source_url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+
+  - date: 2026-08-26
+    time_et: "08:30"
+    category: macro
+    title: "PCE 物价指数 (7月)"
+    importance: 2
+    watch: "美联储最看重的通胀指标,影响降息时点"
+    source_url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+
+  - date: 2026-09-30
+    time_et: "08:30"
+    category: macro
+    title: "PCE 物价指数 (8月)"
+    importance: 2
+    watch: "美联储最看重的通胀指标,影响降息时点"
+    source_url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+
+  - date: 2026-10-29
+    time_et: "08:30"
+    category: macro
+    title: "PCE 物价指数 (9月)"
+    importance: 2
+    watch: "美联储最看重的通胀指标,影响降息时点"
+    source_url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+
+  - date: 2026-11-25
+    time_et: "08:30"
+    category: macro
+    title: "PCE 物价指数 (10月)"
+    importance: 2
+    watch: "美联储最看重的通胀指标,影响降息时点"
+    source_url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+
+  - date: 2026-12-23
+    time_et: "08:30"
+    category: macro
+    title: "PCE 物价指数 (11月)"
+    importance: 2
+    watch: "美联储最看重的通胀指标,影响降息时点"
+    source_url: "https://www.bea.gov/data/personal-consumption-expenditures-price-index"
+
+  # --- full-year FOMC (date = 决议公布日; verified 2026-06-12) ---
+  - date: 2026-07-29
     time_et: "14:00"
     category: fed
-    title: "FOMC 议息会议"
+    title: "FOMC 利率决议"
     importance: 3
-    watch: "利率决议 + 发布会"
+    watch: "会议 7/28-29;决议声明 14:00 ET、发布会 14:30 ET"
     source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 
-  - date: 2026-09-15
-    end_date: 2026-09-16
+  - date: 2026-09-16
     time_et: "14:00"
     category: fed
-    title: "FOMC 议息会议 (含点阵图)"
+    title: "FOMC 利率决议 (含点阵图)"
     importance: 3
-    watch: "利率决议 + 季度经济预测 (SEP) + 点阵图"
+    watch: "会议 9/15-16;决议 + 季度经济预测 (SEP) + 点阵图 + 发布会"
     source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 
   - date: 2026-10-28
-    end_date: 2026-10-29
     time_et: "14:00"
     category: fed
-    title: "FOMC 议息会议"
+    title: "FOMC 利率决议"
     importance: 3
-    watch: "利率决议 + 发布会"
+    watch: "会议 10/27-28;决议声明 14:00 ET、发布会 14:30 ET"
     source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
 
   - date: 2026-12-09
-    end_date: 2026-12-10
     time_et: "14:00"
     category: fed
-    title: "FOMC 议息会议 (含点阵图,年内最后一次)"
+    title: "FOMC 利率决议 (含点阵图,年内最后一次)"
     importance: 3
-    watch: "利率决议 + 季度经济预测 (SEP) + 点阵图"
+    watch: "会议 12/8-9;决议 + 季度经济预测 (SEP) + 点阵图 + 发布会"
     source_url: "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+
+  # --- Jackson Hole (Kansas City Fed, 2026-06-12 verified) ---
+  - date: 2026-08-27
+    end_date: 2026-08-29
+    category: fed
+    title: "Jackson Hole 全球央行年会"
+    importance: 3
+    watch: "美联储主席主旨演讲历来是政策转向的沟通窗口;2026 主题:金融创新(支付与政策)"
+    source_url: "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/"

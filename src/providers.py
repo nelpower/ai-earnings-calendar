@@ -43,16 +43,68 @@ def static_events() -> list[Event]:
 # --------------------------------------------------------------------------- #
 # 2) Deterministic events (computable from the calendar)
 # --------------------------------------------------------------------------- #
-def _nth_friday(year: int, month: int, n: int) -> dt.date:
+def _nth_weekday(year: int, month: int, weekday: int, n: int) -> dt.date:
     first = dt.date(year, month, 1)
-    offset = (4 - first.weekday()) % 7          # 4 = Friday
+    offset = (weekday - first.weekday()) % 7
     return first + dt.timedelta(days=offset + 7 * (n - 1))
 
 
-def _last_friday(year: int, month: int) -> dt.date:
+def _nth_friday(year: int, month: int, n: int) -> dt.date:
+    return _nth_weekday(year, month, 4, n)      # 4 = Friday
+
+
+def _last_weekday(year: int, month: int, weekday: int) -> dt.date:
     last_day = calendar.monthrange(year, month)[1]
     d = dt.date(year, month, last_day)
-    return d - dt.timedelta(days=(d.weekday() - 4) % 7)
+    return d - dt.timedelta(days=(d.weekday() - weekday) % 7)
+
+
+def _easter(year: int) -> dt.date:
+    """Gregorian Easter Sunday (anonymous computus)."""
+    a = year % 19
+    b, c = divmod(year, 100)
+    d, e = divmod(b, 4)
+    g = (8 * b + 13) // 25
+    h = (19 * a + b - d - g + 15) % 30
+    i, k = divmod(c, 4)
+    l = (32 + 2 * e + 2 * i - h - k) % 7
+    m = (a + 11 * h + 22 * l) // 451
+    month, day = divmod(h + l - 7 * m + 114, 31)
+    return dt.date(year, month, day + 1)
+
+
+def _nyse_holidays(year: int) -> set[dt.date]:
+    """Full NYSE holiday set for one year (observed dates)."""
+    def observed(d: dt.date) -> dt.date:
+        if d.weekday() == 5:                    # Sat -> Friday before
+            return d - dt.timedelta(days=1)
+        if d.weekday() == 6:                    # Sun -> Monday after
+            return d + dt.timedelta(days=1)
+        return d
+
+    hol = {
+        _nth_weekday(year, 1, 0, 3),            # MLK Day, 3rd Monday Jan
+        _nth_weekday(year, 2, 0, 3),            # Washington's Birthday
+        _easter(year) - dt.timedelta(days=2),   # Good Friday
+        _last_weekday(year, 5, 0),              # Memorial Day, last Monday May
+        observed(dt.date(year, 6, 19)),         # Juneteenth
+        observed(dt.date(year, 7, 4)),          # Independence Day
+        _nth_weekday(year, 9, 0, 1),            # Labor Day
+        _nth_weekday(year, 11, 3, 4),           # Thanksgiving, 4th Thursday
+        observed(dt.date(year, 12, 25)),        # Christmas
+    }
+    ny = dt.date(year, 1, 1)                    # New Year's: no observance if Sat
+    if ny.weekday() == 6:
+        hol.add(ny + dt.timedelta(days=1))
+    elif ny.weekday() < 5:
+        hol.add(ny)
+    return hol
+
+
+def _prev_trading_day(d: dt.date) -> dt.date:
+    while d.weekday() >= 5 or d in _nyse_holidays(d.year):
+        d -= dt.timedelta(days=1)
+    return d
 
 
 def _months_between(start: dt.date, end: dt.date):
@@ -66,15 +118,18 @@ def _months_between(start: dt.date, end: dt.date):
 def deterministic_events(start: dt.date, end: dt.date) -> list[Event]:
     out: list[Event] = []
     for y, m in _months_between(start, end):
-        opex = _nth_friday(y, m, 3)             # 3rd Friday
+        fri3 = _nth_friday(y, m, 3)             # 3rd Friday
+        opex = _prev_trading_day(fri3)          # holiday -> prior trading day
+        shifted = f";注意:第三个周五 {fri3:%m/%d} 美股休市,到期结算提前至 {opex:%m/%d}" \
+            if opex != fri3 else ""
         if start <= opex <= end:
             quad = m in (3, 6, 9, 12)
             out.append(Event(
                 date=opex.isoformat(), category="options",
                 title="期权四巫日 (季度衍生品到期)" if quad else "月度期权到期日 (OpEx)",
                 importance=3 if quad else 1,
-                watch="股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异"
-                      if quad else "月度期权到期,尾盘波动可能放大",
+                watch=("股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异"
+                       if quad else "月度期权到期,尾盘波动可能放大") + shifted,
                 source_url="",
             ))
             if quad:
@@ -82,18 +137,24 @@ def deterministic_events(start: dt.date, end: dt.date) -> list[Event]:
                     date=opex.isoformat(), category="index",
                     title="标普 500 / 中小盘 季度再平衡生效",
                     importance=2,
-                    watch="标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大",
+                    watch="标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大" + shifted,
                     source_url="https://www.spglobal.com/spdji/en/governance/methodology/",
                 ))
-        # Russell annual reconstitution — effective after close, last Friday of June
+        # Russell US reconstitution — semi-annual since 2026 (FTSE Russell notice
+        # 2025-11-05): June = 4th Friday of June; December = 2nd Friday of December.
+        rus_days = []
         if m == 6:
-            rus = _last_friday(y, 6)
+            rus_days.append((_prev_trading_day(_nth_friday(y, 6, 4)), "6月"))
+        if m == 12 and y >= 2026:
+            rus_days.append((_prev_trading_day(_nth_friday(y, 12, 2)), "12月"))
+        for rus, label in rus_days:
             if start <= rus <= end:
                 out.append(Event(
                     date=rus.isoformat(), category="index",
-                    title="Russell 指数年度重构生效",
+                    title=f"Russell 指数重构生效 ({label},半年度)",
                     importance=2,
-                    watch="大批被动资金当日尾盘强制调仓,小盘股异动多为对账而非基本面",
+                    watch="收盘后生效,大批被动资金当日尾盘强制调仓,小盘股异动多为对账而非基本面;"
+                          "2026 起改为每年 6 月+12 月两次",
                     source_url="https://www.lseg.com/en/ftse-russell/russell-reconstitution",
                 ))
     return out
@@ -124,9 +185,10 @@ _HIGH_SUBSECTORS = {
 def earnings_events(today: dt.date, horizon_days: int, throttle: float = 0.0) -> list[Event]:
     companies = config.load_companies()
     items = fetch_all(companies, throttle=throttle)
+    # day 0 included: a US after-hours report is still upcoming on its own date
     in_window = [
         e for e in items
-        if 1 <= (dt.date.fromisoformat(e.earnings_date) - today).days <= horizon_days
+        if 0 <= (dt.date.fromisoformat(e.earnings_date) - today).days <= horizon_days
     ]
     enrich_last_quarter_all(in_window, throttle=throttle)
     events: list[Event] = []
@@ -143,6 +205,7 @@ def earnings_events(today: dt.date, horizon_days: int, throttle: float = 0.0) ->
                 "ticker": e.ticker, "subsector": e.subsector,
                 "date_confirmed": e.date_confirmed,
                 "eps_estimate": e.eps_estimate, "revenue_estimate": e.revenue_estimate,
+                "revenue_currency": e.revenue_currency,
                 "last_quarter": e.last_quarter,
                 "last_eps_actual": e.last_eps_actual,
                 "last_eps_estimate": e.last_eps_estimate,

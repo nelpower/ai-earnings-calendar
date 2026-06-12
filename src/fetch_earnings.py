@@ -28,6 +28,9 @@ class Earnings:
     eps_high: float | None = None
     revenue_low: float | None = None
     revenue_high: float | None = None
+    # Yahoo revenue estimates come in the company's REPORTING currency (e.g.
+    # TWD for TSM, EUR for ASML), not USD — filled during enrichment.
+    revenue_currency: str = ""
     # Most recent REPORTED quarter (actual vs estimate) — filled on demand.
     last_quarter: str = ""
     last_eps_actual: float | None = None
@@ -80,24 +83,31 @@ def fetch_one(company: dict) -> Earnings | None:
 
 
 def enrich_last_quarter(item: Earnings) -> Earnings:
-    """Add the most recent reported quarter's actual vs estimate EPS.
+    """Add the most recent reported quarter's actual vs estimate EPS, plus the
+    reporting currency of the revenue estimate.
 
-    Uses yfinance ``earnings_history`` (API-based, no HTML scrape). Best-effort:
-    failures leave the last_* fields empty.
+    Uses yfinance ``earnings_history`` / ``info`` (API-based, no HTML scrape).
+    Best-effort: failures leave the fields empty.
     """
     import yfinance as yf
 
+    t = yf.Ticker(item.ticker)
     try:
-        eh = yf.Ticker(item.ticker).earnings_history
-        if eh is None or len(eh) == 0:
-            return item
-        eh = eh.sort_index()
-        row = eh.iloc[-1]
-        item.last_quarter = str(eh.index[-1])[:10]
-        item.last_eps_actual = _as_float(row.get("epsActual"))
-        item.last_eps_estimate = _as_float(row.get("epsEstimate"))
+        eh = t.earnings_history
+        if eh is not None and len(eh) > 0:
+            eh = eh.sort_index()
+            row = eh.iloc[-1]
+            item.last_quarter = str(eh.index[-1])[:10]
+            item.last_eps_actual = _as_float(row.get("epsActual"))
+            item.last_eps_estimate = _as_float(row.get("epsEstimate"))
     except Exception as exc:  # noqa: BLE001
         print(f"[earnings] {item.ticker}: last-quarter lookup failed ({exc})")
+    try:
+        cur = (t.info or {}).get("financialCurrency")
+        if cur:
+            item.revenue_currency = str(cur).upper()
+    except Exception:  # noqa: BLE001
+        pass  # currency stays unknown; site falls back to no symbol
     return item
 
 

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-12T05:04:59.458021+00:00",
+  "generated": "2026-06-12",
   "today": "2026-06-12",
   "events": [
     {
@@ -19,43 +19,43 @@
       "meta": {}
     },
     {
-      "date": "2026-06-16",
+      "date": "2026-06-17",
       "category": "fed",
-      "title": "FOMC 议息会议 — Warsh 新主席首秀 (含点阵图)",
+      "title": "FOMC 利率决议 — Warsh 新主席首秀 (含点阵图)",
       "importance": 3,
-      "end_date": "2026-06-17",
+      "end_date": "",
       "time_et": "14:00",
       "tickers": [],
-      "watch": "新主席 Kevin Warsh 首次决议 + 点阵图 + 发布会;市场会拿放大镜解读每句话",
+      "watch": "会议 6/16-17,决议声明+点阵图 14:00 ET、发布会 14:30 ET;新主席 Kevin Warsh 首秀,市场会拿放大镜解读每句话",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "meta": {}
     },
     {
-      "date": "2026-06-19",
+      "date": "2026-06-18",
       "category": "options",
       "title": "期权四巫日 (季度衍生品到期)",
       "importance": 3,
       "end_date": "",
       "time_et": "",
       "tickers": [],
-      "watch": "股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异",
+      "watch": "股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异;注意:第三个周五 06/19 美股休市,到期结算提前至 06/18",
       "source_url": "",
       "meta": {}
     },
     {
-      "date": "2026-06-19",
+      "date": "2026-06-18",
       "category": "index",
       "title": "标普 500 / 中小盘 季度再平衡生效",
       "importance": 2,
       "end_date": "",
       "time_et": "",
       "tickers": [],
-      "watch": "标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大",
+      "watch": "标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大;注意:第三个周五 06/19 美股休市,到期结算提前至 06/18",
       "source_url": "https://www.spglobal.com/spdji/en/governance/methodology/",
       "meta": {}
     },
     {
-      "date": "2026-06-24",
+      "date": "2026-06-25",
       "category": "earnings",
       "title": "Micron Technology 财报",
       "importance": 3,
@@ -72,6 +72,7 @@
         "date_confirmed": true,
         "eps_estimate": 19.65635,
         "revenue_estimate": 34286563820.0,
+        "revenue_currency": "USD",
         "last_quarter": "2026-02-28",
         "last_eps_actual": 12.2,
         "last_eps_estimate": 9.15866
@@ -92,13 +93,37 @@
     {
       "date": "2026-06-26",
       "category": "index",
-      "title": "Russell 指数年度重构生效",
+      "title": "Russell 指数重构生效 (6月,半年度)",
       "importance": 2,
       "end_date": "",
       "time_et": "",
       "tickers": [],
-      "watch": "大批被动资金当日尾盘强制调仓,小盘股异动多为对账而非基本面",
+      "watch": "收盘后生效,大批被动资金当日尾盘强制调仓,小盘股异动多为对账而非基本面;2026 起改为每年 6 月+12 月两次",
       "source_url": "https://www.lseg.com/en/ftse-russell/russell-reconstitution",
+      "meta": {}
+    },
+    {
+      "date": "2026-07-02",
+      "category": "macro",
+      "title": "非农就业报告 (6月) — 因 7/3 休市提前至周四",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "就业强弱直接影响美联储降息路径;次日美股休市,流动性偏薄",
+      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-07-14",
+      "category": "macro",
+      "title": "CPI 通胀数据 (6月)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "meta": {}
     },
     {
@@ -119,6 +144,7 @@
         "date_confirmed": true,
         "eps_estimate": 6.84519,
         "revenue_estimate": 8891151530.0,
+        "revenue_currency": "EUR",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 7.15,
         "last_eps_estimate": 6.621
@@ -142,6 +168,7 @@
         "date_confirmed": true,
         "eps_estimate": 3.74091,
         "revenue_estimate": 1261639796270.0,
+        "revenue_currency": "TWD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 3.49,
         "last_eps_estimate": 3.33393
@@ -160,52 +187,6 @@
       "meta": {}
     },
     {
-      "date": "2026-07-21",
-      "category": "earnings",
-      "title": "Pegasystems 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "PEGA"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/PEGA",
-      "meta": {
-        "ticker": "PEGA",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.43455,
-        "revenue_estimate": 428761200.0,
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.46,
-        "last_eps_estimate": 0.69272
-      }
-    },
-    {
-      "date": "2026-07-22",
-      "category": "earnings",
-      "title": "IBM 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "IBM"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/IBM",
-      "meta": {
-        "ticker": "IBM",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 3.01807,
-        "revenue_estimate": 17852597370.0,
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.91,
-        "last_eps_estimate": 1.81123
-      }
-    },
-    {
       "date": "2026-07-22",
       "category": "earnings",
       "title": "GE Vernova 财报",
@@ -222,7 +203,8 @@
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
         "eps_estimate": 2.96251,
-        "revenue_estimate": 10716821550.0,
+        "revenue_estimate": 10742321550.0,
+        "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 17.44,
         "last_eps_estimate": 2.00102
@@ -230,6 +212,54 @@
     },
     {
       "date": "2026-07-22",
+      "category": "earnings",
+      "title": "Pegasystems 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PEGA"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PEGA",
+      "meta": {
+        "ticker": "PEGA",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.43455,
+        "revenue_estimate": 428761200.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.46,
+        "last_eps_estimate": 0.69272
+      }
+    },
+    {
+      "date": "2026-07-23",
+      "category": "earnings",
+      "title": "IBM 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "IBM"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/IBM",
+      "meta": {
+        "ticker": "IBM",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 3.01807,
+        "revenue_estimate": 17852597370.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 1.91,
+        "last_eps_estimate": 1.81123
+      }
+    },
+    {
+      "date": "2026-07-23",
       "category": "earnings",
       "title": "ServiceNow 财报",
       "importance": 2,
@@ -246,13 +276,14 @@
         "date_confirmed": true,
         "eps_estimate": 0.85516,
         "revenue_estimate": 3928370090.0,
+        "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.97,
         "last_eps_estimate": 0.96619
       }
     },
     {
-      "date": "2026-07-22",
+      "date": "2026-07-23",
       "category": "earnings",
       "title": "Tesla 财报",
       "importance": 2,
@@ -269,13 +300,14 @@
         "date_confirmed": true,
         "eps_estimate": 0.45414,
         "revenue_estimate": 24634836150.0,
+        "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.41,
         "last_eps_estimate": 0.34999
       }
     },
     {
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "category": "earnings",
       "title": "Intel 财报",
       "importance": 3,
@@ -292,13 +324,14 @@
         "date_confirmed": true,
         "eps_estimate": 0.21129,
         "revenue_estimate": 14403979090.0,
+        "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.29,
         "last_eps_estimate": 0.01313
       }
     },
     {
-      "date": "2026-07-23",
+      "date": "2026-07-24",
       "category": "earnings",
       "title": "Alphabet (Google) 财报",
       "importance": 3,
@@ -315,101 +348,10 @@
         "date_confirmed": true,
         "eps_estimate": 2.8779,
         "revenue_estimate": 116678355480.0,
+        "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 5.11,
         "last_eps_estimate": 2.66714
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
-      "title": "Rambus 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "RMBS"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/RMBS",
-      "meta": {
-        "ticker": "RMBS",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.72,
-        "revenue_estimate": 198800000.0,
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.63,
-        "last_eps_estimate": 0.63625
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
-      "title": "Amkor Technology 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMKR"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/AMKR",
-      "meta": {
-        "ticker": "AMKR",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.47463,
-        "revenue_estimate": 1803192010.0,
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.33,
-        "last_eps_estimate": 0.24337
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
-      "title": "Ultra Clean Holdings 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "UCTT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/UCTT",
-      "meta": {
-        "ticker": "UCTT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.53041,
-        "revenue_estimate": 586530000.0,
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.31,
-        "last_eps_estimate": 0.2625
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
-      "title": "Cadence Design Systems 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CDNS"
-      ],
-      "watch": "设计活动、AI 芯片设计需求",
-      "source_url": "https://finance.yahoo.com/quote/CDNS",
-      "meta": {
-        "ticker": "CDNS",
-        "subsector": "EDA / chip design",
-        "date_confirmed": true,
-        "eps_estimate": 2.05477,
-        "revenue_estimate": 1575705030.0,
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.96,
-        "last_eps_estimate": 1.88506
       }
     }
   ]

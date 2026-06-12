@@ -64,36 +64,63 @@ h2{font-size:16px;margin:26px 0 6px;}
 .lastq{font-size:12px;color:var(--muted);margin-top:7px;}
 .bm{font-size:11px;padding:1px 7px;border-radius:999px;margin-left:4px;}
 .beat{background:rgba(46,160,67,.15);color:#5fd97a;} .miss{background:rgba(229,83,75,.15);color:#ff8079;}
-.src{font-size:12px;} a{color:#4c8bf5;text-decoration:none;} a:hover{text-decoration:underline;}
+.tbd{font-size:10.5px;padding:1px 7px;border-radius:999px;border:1px dashed var(--line);color:#e9bd64;}
+a{color:#4c8bf5;text-decoration:none;} a:hover{text-decoration:underline;}
 .action{display:inline-block;font-size:12.5px;font-weight:700;color:#0f1115;padding:5px 12px;border-radius:7px;}
 .action:hover{text-decoration:none;filter:brightness(1.1);}
 .disc{background:#1a1410;border:1px solid #3a2a18;color:#e9c98f;border-radius:10px;padding:11px 14px;font-size:12.5px;margin:14px 0;}
 footer{margin-top:30px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px;}
 .empty{color:var(--muted);padding:8px 0;}
-.stats{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0;}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:9px 13px;}
-.stat .n{font-size:20px;font-weight:700;} .stat .l{color:var(--muted);font-size:12px;}
+.lg[data-cat]{cursor:pointer;background:transparent;user-select:none;}
+.lg.dim{opacity:.3;} .hide{display:none;}
 """
+
+_FILTER_JS = """
+var _flt=null;
+function flt(cat){
+  _flt=(_flt===cat)?null:cat;
+  document.querySelectorAll('.lg[data-cat]').forEach(function(b){
+    b.classList.toggle('dim', _flt!==null && b.dataset.cat!==_flt);});
+  document.querySelectorAll('.card[data-cat]').forEach(function(c){
+    c.classList.toggle('hide', _flt!==null && c.dataset.cat!==_flt);});
+  document.querySelectorAll('.daygrp').forEach(function(g){
+    g.classList.toggle('hide', !g.querySelector('.card:not(.hide)'));});
+}
+"""
+
+# Yahoo revenue estimates arrive in the company's reporting currency.
+_CUR_SYMBOL = {"USD": "$", "EUR": "€", "GBP": "£", "JPY": "¥", "CNY": "¥",
+               "TWD": "NT$", "KRW": "₩", "HKD": "HK$"}
 
 
 def _esc(s) -> str:
     return html.escape(str(s if s is not None else ""))
 
 
-def _fmt_eps(v) -> str:
+def _fmt_eps(v, cur: str = "") -> str:
+    """EPS estimate. Yahoo's per-share figures for foreign reporters are not
+    reliably USD, so when the reporting currency isn't USD we show a bare
+    number rather than assert a wrong currency."""
     if v is None:
         return "—"
+    if cur and cur != "USD":
+        return f"{v:.2f}"
     return f"-${abs(v):.2f}" if v < 0 else f"${v:.2f}"
 
 
-def _fmt_rev(v) -> str:
+def _fmt_rev(v, cur: str = "") -> str:
     if v is None:
         return "—"
+    cur = (cur or "USD").upper()
+    sym = _CUR_SYMBOL.get(cur)
+    pre = sym if sym else f"{cur} "
+    if abs(v) >= 1e12:
+        return f"{pre}{v/1e12:.2f}T"
     if abs(v) >= 1e9:
-        return f"${v/1e9:.2f}B"
+        return f"{pre}{v/1e9:.2f}B"
     if abs(v) >= 1e6:
-        return f"${v/1e6:.0f}M"
-    return f"${v:,.0f}"
+        return f"{pre}{v/1e6:.0f}M"
+    return f"{pre}{v:,.0f}"
 
 
 def _rel(d: dt.date, today: dt.date) -> str:
@@ -103,45 +130,64 @@ def _rel(d: dt.date, today: dt.date) -> str:
 
 def _earnings_extra(meta: dict) -> str:
     eps, rev = meta.get("eps_estimate"), meta.get("revenue_estimate")
+    cur = (meta.get("revenue_currency") or "").upper()
     block = (f'<div class="ests"><div><div class="k">EPS 预期</div>'
-             f'<div class="v">{_fmt_eps(eps)}</div></div>'
-             f'<div><div class="k">营收 预期</div><div class="v">{_fmt_rev(rev)}</div></div></div>')
+             f'<div class="v">{_fmt_eps(eps, cur)}</div></div>'
+             f'<div><div class="k">营收 预期</div><div class="v">{_fmt_rev(rev, cur)}</div></div></div>')
     la, le = meta.get("last_eps_actual"), meta.get("last_eps_estimate")
     if la is not None and le is not None:
-        if le != 0:
+        cls = "beat" if la >= le else "miss"
+        word = "超预期" if la >= le else "不及预期"
+        # a percentage against a near-zero estimate is meaningless noise
+        if abs(le) >= 0.10:
             pct = (la - le) / abs(le) * 100
-            cls = "beat" if la >= le else "miss"
-            word = "超预期" if la >= le else "不及预期"
             badge = f'<span class="bm {cls}">{word} {"+" if pct>=0 else ""}{pct:.1f}%</span>'
         else:
-            badge = ""
+            badge = f'<span class="bm {cls}">{word}</span>'
         q = f"（{meta['last_quarter']}）" if meta.get("last_quarter") else ""
-        block += (f'<div class="lastq">上季 EPS{q}：实际 <b style="color:#e8eaed">{_fmt_eps(la)}</b>'
-                  f' · 预期 {_fmt_eps(le)}{badge}</div>')
+        block += (f'<div class="lastq">上季 EPS{q}：实际 <b style="color:#e8eaed">{_fmt_eps(la, cur)}</b>'
+                  f' · 预期 {_fmt_eps(le, cur)}{badge}</div>')
     return block
+
+
+def _when_label(e: Event) -> str:
+    """'06/15–06/18 · 13:00 ET', '14:00 ET', '06/15–06/18', or '' — never a
+    dangling 'ET'."""
+    parts = []
+    if e.end_date and e.end_date != e.date:
+        parts.append(f"{e.date[5:].replace('-', '/')}–{e.end_date[5:].replace('-', '/')}")
+    if e.time_et:
+        parts.append(f"{e.time_et} ET")
+    return " · ".join(parts)
 
 
 def _card(e: Event, today: dt.date) -> str:
     color = _CAT_COLOR.get(e.category, "#8b949e")
     cat_zh = CATEGORIES.get(e.category, e.category)
     tickers = "".join(f'<span class="tk">{_esc(t)}</span>' for t in (e.tickers or []))
-    when = e.time_et or ""
+    ticker_row = f'<div class="row" style="margin-top:6px">{tickers}</div>' if tickers else ""
+    when = _when_label(e)
+    when_html = f'<span class="when">{_esc(when)}</span>' if when else ""
+    tbd = ('<span class="tbd">日期待确认</span>'
+           if e.category == "earnings" and e.meta.get("date_confirmed") is False else "")
     extra = _earnings_extra(e.meta) if e.category == "earnings" else ""
     label = _ACTION_LABEL.get(e.category, "查看")
-    action = (f'<a class="action" style="background:{color}" href="{_esc(e.source_url)}"'
-              f' target="_blank" rel="noopener">▶ {label} ↗</a>'
+    action = (f'<div class="row" style="margin-top:8px">'
+              f'<a class="action" style="background:{color}" href="{_esc(e.source_url)}"'
+              f' target="_blank" rel="noopener">▶ {label} ↗</a></div>'
               if e.source_url else "")
-    return f"""<div class="card" style="border-left-color:{color}">
+    return f"""<div class="card" data-cat="{_esc(e.category)}" style="border-left-color:{color}">
   <div class="row">
     <span class="catb" style="background:{color}">{_esc(cat_zh)}</span>
     <span class="imp imp{e.importance}">重要度 {IMPORTANCE_ZH.get(e.importance,'中')}</span>
+    {tbd}
     <span class="title">{_esc(e.title)}</span>
-    <span class="when">{_esc(when)} ET</span>
+    {when_html}
   </div>
-  <div class="row" style="margin-top:6px">{tickers}</div>
+  {ticker_row}
   {extra}
   <div class="watch"><b>看点:</b> {_esc(e.watch)}</div>
-  <div class="row" style="margin-top:8px">{action}</div>
+  {action}
 </div>"""
 
 
@@ -154,10 +200,12 @@ def _timeline(events: list[Event], today: dt.date) -> str:
     out = []
     for day in sorted(by_day):
         d = dt.date.fromisoformat(day)
+        out.append('<div class="daygrp">')
         out.append(f'<div class="dayhdr">{d:%Y-%m-%d} {_WD[d.weekday()]} · '
                    f'<span class="rel">{_rel(d, today)}</span></div>')
         for e in sorted(by_day[day], key=lambda x: -x.importance):
             out.append(_card(e, today))
+        out.append("</div>")
     return "\n".join(out)
 
 
@@ -171,16 +219,18 @@ def build_html(this_week: list[Event], upcoming: list[Event],
     A = parts.append
     A('<!doctype html><html lang="zh"><head><meta charset="utf-8">')
     A('<meta name="viewport" content="width=device-width,initial-scale=1">')
+    A('<meta name="theme-color" content="#0f1115">')
     A("<title>AI 市场事件日历</title>")
     A(f"<style>{_CSS}</style></head><body>")
     A('<header><div class="wrap"><h1>🗓️ AI 市场事件日历</h1>'
-      f'<span class="upd">更新于 {today} (UTC) · 本周 {len(this_week)} 件 · 未来 {total} 件</span>'
+      f'<span class="upd">更新于 {today} (北京时间) · 7 天内 {len(this_week)} 件 · 45 天内共 {total} 件</span>'
       "</div></header>")
     A('<div class="wrap">')
 
-    # legend
+    # legend doubles as a category filter (click to isolate, click again to reset)
     A('<div class="legend">' + "".join(
-        f'<span class="lg" style="border-color:{_CAT_COLOR[c]};color:{_CAT_COLOR[c]}">'
+        f'<span class="lg" data-cat="{c}" onclick="flt(\'{c}\')" role="button" '
+        f'style="border-color:{_CAT_COLOR[c]};color:{_CAT_COLOR[c]}">'
         f'{CATEGORIES[c]} {cats.get(c,0)}</span>' for c in CATEGORIES if cats.get(c)
     ) + "</div>")
 
@@ -191,7 +241,9 @@ def build_html(this_week: list[Event], upcoming: list[Event],
     A(_timeline(upcoming, today))
 
     A(f'<footer><div class="disc">⚠️ {_esc(DISCLAIMER)}</div>'
+      ' <a href="events.ics">📅 订阅日历 (ICS,手机日历可直接订阅)</a>'
       ' · <a href="events.json" download>下载数据 (JSON)</a></footer>')
+    A(f"<script>{_FILTER_JS}</script>")
     A("</div></body></html>")
     return "\n".join(parts)
 

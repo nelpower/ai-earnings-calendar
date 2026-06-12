@@ -15,6 +15,7 @@ import json
 from pathlib import Path
 
 from src import config
+from src.build_ics import build_ics
 from src.build_site import build_site
 from src.events_model import Event
 from src.providers import (
@@ -78,14 +79,18 @@ def run(
     upcoming = [e for e in events if window_days < days(e) <= horizon_days]
 
     outputs_dir.mkdir(parents=True, exist_ok=True)
+    # "generated" is the data day, not a wall-clock timestamp — re-runs on the
+    # same day with unchanged data produce identical JSON, so the CI commit
+    # step has nothing to push (was: 3 no-op commits/day).
     (outputs_dir / config.EVENTS_JSON.name).write_text(
-        json.dumps({"generated": dt.datetime.now(dt.timezone.utc).isoformat(),
+        json.dumps({"generated": today.isoformat(),
                     "today": today.isoformat(),
                     "events": [e.to_dict() for e in events]},
                    ensure_ascii=False, indent=2),
         encoding="utf-8")
 
     index = build_site(this_week, upcoming, site_dir or config.SITE_DIR, today)
+    build_ics(this_week + upcoming, site_dir or config.SITE_DIR, today)
 
     from collections import Counter
     by_cat = Counter(e.category for e in events)
