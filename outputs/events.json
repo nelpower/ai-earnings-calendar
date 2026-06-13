@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-13",
-  "today": "2026-06-13",
+  "generated": "2026-06-14",
+  "today": "2026-06-14",
   "events": [
     {
       "date": "2026-06-15",
@@ -472,6 +472,330 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 4.1,
         "last_eps_estimate": 3.51146
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Arm Holdings 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ARM"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/ARM",
+      "meta": {
+        "ticker": "ARM",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.4004,
+        "revenue_estimate": 1264006670.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.6,
+        "last_eps_estimate": 0.5793
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Qualcomm 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "QCOM"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/QCOM",
+      "meta": {
+        "ticker": "QCOM",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 2.22835,
+        "revenue_estimate": 9660486720.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 2.65,
+        "last_eps_estimate": 2.55842
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "United Microelectronics 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "UMC"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/UMC",
+      "meta": {
+        "ticker": "UMC",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.15888,
+        "revenue_estimate": 66748266720.0,
+        "revenue_currency": "TWD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.2038,
+        "last_eps_estimate": 0.13028
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Lam Research 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "LRCX"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/LRCX",
+      "meta": {
+        "ticker": "LRCX",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 1.67434,
+        "revenue_estimate": 6653525220.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 1.47,
+        "last_eps_estimate": 1.3628
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Teradyne 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TER"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/TER",
+      "meta": {
+        "ticker": "TER",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 2.05422,
+        "revenue_estimate": 1217954730.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 2.56,
+        "last_eps_estimate": 2.11685
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "FormFactor 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "FORM"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/FORM",
+      "meta": {
+        "ticker": "FORM",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.61,
+        "revenue_estimate": 239999780.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.56,
+        "last_eps_estimate": 0.43889
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Microsoft 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "MSFT"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/MSFT",
+      "meta": {
+        "ticker": "MSFT",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 4.23745,
+        "revenue_estimate": 87655534780.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 4.27,
+        "last_eps_estimate": 4.05827
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Meta Platforms 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "META"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/META",
+      "meta": {
+        "ticker": "META",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 7.50889,
+        "revenue_estimate": 60209152310.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 10.44,
+        "last_eps_estimate": 6.65872
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Applied Digital 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "APLD"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/APLD",
+      "meta": {
+        "ticker": "APLD",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.4,
+        "revenue_estimate": 95968110.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-02-28",
+        "last_eps_actual": 0.09,
+        "last_eps_estimate": -0.21
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "fed",
+      "title": "FOMC 利率决议",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "14:00",
+      "tickers": [],
+      "watch": "会议 7/28-29;决议声明 14:00 ET、发布会 14:30 ET",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Vertiv 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "VRT"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/VRT",
+      "meta": {
+        "ticker": "VRT",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.42436,
+        "revenue_estimate": 3376137200.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 1.17,
+        "last_eps_estimate": 1.0115
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Generac 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GNRC"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/GNRC",
+      "meta": {
+        "ticker": "GNRC",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 2.00016,
+        "revenue_estimate": 1179103090.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 1.8,
+        "last_eps_estimate": 1.32852
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Western Digital 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WDC"
+      ],
+      "watch": "HBM/存储价格与供给、AI 拉动",
+      "source_url": "https://finance.yahoo.com/quote/WDC",
+      "meta": {
+        "ticker": "WDC",
+        "subsector": "Memory / storage (AI)",
+        "date_confirmed": true,
+        "eps_estimate": 3.28772,
+        "revenue_estimate": 3683384290.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 2.72,
+        "last_eps_estimate": 2.3949
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
+      "title": "Tenable 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TENB"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/TENB",
+      "meta": {
+        "ticker": "TENB",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.46953,
+        "revenue_estimate": 264825860.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.47,
+        "last_eps_estimate": 0.40858
       }
     }
   ]
