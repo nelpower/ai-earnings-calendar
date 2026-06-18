@@ -1,31 +1,7 @@
 {
-  "generated": "2026-06-18",
-  "today": "2026-06-18",
+  "generated": "2026-06-19",
+  "today": "2026-06-19",
   "events": [
-    {
-      "date": "2026-06-18",
-      "category": "options",
-      "title": "期权四巫日 (季度衍生品到期)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [],
-      "watch": "股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异;注意:第三个周五 06/19 美股休市,到期结算提前至 06/18",
-      "source_url": "",
-      "meta": {}
-    },
-    {
-      "date": "2026-06-18",
-      "category": "index",
-      "title": "标普 500 / 中小盘 季度再平衡生效",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [],
-      "watch": "标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大;注意:第三个周五 06/19 美股休市,到期结算提前至 06/18",
-      "source_url": "https://www.spglobal.com/spdji/en/governance/methodology/",
-      "meta": {}
-    },
     {
       "date": "2026-06-24",
       "category": "earnings",
@@ -972,6 +948,54 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.09,
         "last_eps_estimate": 0.94199
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "category": "earnings",
+      "title": "Lattice Semiconductor 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "LSCC"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/LSCC",
+      "meta": {
+        "ticker": "LSCC",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.44389,
+        "revenue_estimate": 185494620.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.41,
+        "last_eps_estimate": 0.36977
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "category": "earnings",
+      "title": "Palantir 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PLTR"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PLTR",
+      "meta": {
+        "ticker": "PLTR",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.34534,
+        "revenue_estimate": 1810114730.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.33,
+        "last_eps_estimate": 0.27946
       }
     }
   ]
