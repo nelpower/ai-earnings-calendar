@@ -1,19 +1,7 @@
 {
-  "generated": "2026-06-26",
-  "today": "2026-06-26",
+  "generated": "2026-06-27",
+  "today": "2026-06-27",
   "events": [
-    {
-      "date": "2026-06-26",
-      "category": "index",
-      "title": "Russell 指数重构生效 (6月,半年度)",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [],
-      "watch": "收盘后生效,大批被动资金当日尾盘强制调仓,小盘股异动多为对账而非基本面;2026 起改为每年 6 月+12 月两次",
-      "source_url": "https://www.lseg.com/en/ftse-russell/russell-reconstitution",
-      "meta": {}
-    },
     {
       "date": "2026-07-02",
       "category": "macro",
