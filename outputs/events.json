@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-28",
-  "today": "2026-06-28",
+  "generated": "2026-06-29",
+  "today": "2026-06-29",
   "events": [
     {
       "date": "2026-07-02",
@@ -1789,6 +1789,54 @@
       "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升",
       "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "meta": {}
+    },
+    {
+      "date": "2026-08-13",
+      "category": "earnings",
+      "title": "Applied Materials 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMAT"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/AMAT",
+      "meta": {
+        "ticker": "AMAT",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 3.38411,
+        "revenue_estimate": 8999562680.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 2.86,
+        "last_eps_estimate": 2.68545
+      }
+    },
+    {
+      "date": "2026-08-13",
+      "category": "earnings",
+      "title": "Nova 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NVMI"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/NVMI",
+      "meta": {
+        "ticker": "NVMI",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 2.41183,
+        "revenue_estimate": 250328350.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 2.33,
+        "last_eps_estimate": 2.19857
+      }
     }
   ]
 }
