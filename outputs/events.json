@@ -305,30 +305,6 @@
     {
       "date": "2026-07-27",
       "category": "earnings",
-      "title": "Ultra Clean Holdings 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "UCTT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/UCTT",
-      "meta": {
-        "ticker": "UCTT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.53041,
-        "revenue_estimate": 586530000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.31,
-        "last_eps_estimate": 0.2625
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
       "title": "Cadence Design Systems 财报",
       "importance": 2,
       "end_date": "",
@@ -924,6 +900,30 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.41,
         "last_eps_estimate": 0.36977
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "category": "earnings",
+      "title": "Ultra Clean Holdings 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "UCTT"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/UCTT",
+      "meta": {
+        "ticker": "UCTT",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.53041,
+        "revenue_estimate": 586530000.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.31,
+        "last_eps_estimate": 0.2625
       }
     },
     {
