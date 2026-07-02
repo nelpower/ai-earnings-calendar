@@ -1,19 +1,7 @@
 {
-  "generated": "2026-07-02",
-  "today": "2026-07-02",
+  "generated": "2026-07-03",
+  "today": "2026-07-03",
   "events": [
-    {
-      "date": "2026-07-02",
-      "category": "macro",
-      "title": "非农就业报告 (6月) — 因 7/3 休市提前至周四",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "就业强弱直接影响美联储降息路径;次日美股休市,流动性偏薄",
-      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "meta": {}
-    },
     {
       "date": "2026-07-14",
       "category": "macro",
@@ -677,6 +665,30 @@
     {
       "date": "2026-07-29",
       "category": "earnings",
+      "title": "Fortinet 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "FTNT"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/FTNT",
+      "meta": {
+        "ticker": "FTNT",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.74485,
+        "revenue_estimate": 1886135790.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.82,
+        "last_eps_estimate": 0.61828
+      }
+    },
+    {
+      "date": "2026-07-29",
+      "category": "earnings",
       "title": "Tenable 财报",
       "importance": 2,
       "end_date": "",
@@ -1308,30 +1320,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.41,
         "last_eps_estimate": 0.38916
-      }
-    },
-    {
-      "date": "2026-08-05",
-      "category": "earnings",
-      "title": "Fortinet 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "FTNT"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/FTNT",
-      "meta": {
-        "ticker": "FTNT",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.74485,
-        "revenue_estimate": 1886135790.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.82,
-        "last_eps_estimate": 0.61828
       }
     },
     {
