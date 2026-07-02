@@ -67,7 +67,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 3.80471,
-        "revenue_estimate": 1261302283610.0,
+        "revenue_estimate": 1261417674910.0,
         "revenue_currency": "TWD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 3.49,
@@ -966,8 +966,8 @@
         "ticker": "AMD",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 1.60522,
-        "revenue_estimate": 11279046050.0,
+        "eps_estimate": 1.60535,
+        "revenue_estimate": 11277415680.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.37,
@@ -1337,6 +1337,30 @@
     {
       "date": "2026-08-05",
       "category": "earnings",
+      "title": "AppLovin 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "APP"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/APP",
+      "meta": {
+        "ticker": "APP",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 4.21,
+        "revenue_estimate": 1940353440.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 3.56,
+        "last_eps_estimate": 3.44326
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "category": "earnings",
       "title": "NuScale Power 财报",
       "importance": 2,
       "end_date": "",
@@ -1548,30 +1572,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": -0.06,
         "last_eps_estimate": -0.03333
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "AppLovin 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "APP"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/APP",
-      "meta": {
-        "ticker": "APP",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 4.09241,
-        "revenue_estimate": 1941133440.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 3.56,
-        "last_eps_estimate": 3.44326
       }
     },
     {
