@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-03",
-  "today": "2026-07-03",
+  "generated": "2026-07-04",
+  "today": "2026-07-04",
   "events": [
     {
       "date": "2026-07-14",
@@ -1824,6 +1824,30 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.33,
         "last_eps_estimate": 2.19857
+      }
+    },
+    {
+      "date": "2026-08-18",
+      "category": "earnings",
+      "title": "Palo Alto Networks 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PANW"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PANW",
+      "meta": {
+        "ticker": "PANW",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.97736,
+        "revenue_estimate": 3351742590.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.85,
+        "last_eps_estimate": 0.7972
       }
     }
   ]
