@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-09",
-  "today": "2026-07-09",
+  "generated": "2026-07-10",
+  "today": "2026-07-10",
   "events": [
     {
       "date": "2026-07-14",
@@ -1933,6 +1933,30 @@
       "watch": "月度期权到期,尾盘波动可能放大",
       "source_url": "",
       "meta": {}
+    },
+    {
+      "date": "2026-08-24",
+      "category": "earnings",
+      "title": "Semtech 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SMTC"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/SMTC",
+      "meta": {
+        "ticker": "SMTC",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.61479,
+        "revenue_estimate": 328548310.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.51,
+        "last_eps_estimate": 0.45335
+      }
     }
   ]
 }
