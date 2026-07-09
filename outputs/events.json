@@ -125,6 +125,30 @@
     {
       "date": "2026-07-22",
       "category": "earnings",
+      "title": "Alphabet (Google) 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GOOGL"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/GOOGL",
+      "meta": {
+        "ticker": "GOOGL",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 2.88108,
+        "revenue_estimate": 116737532030.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 5.11,
+        "last_eps_estimate": 2.66714
+      }
+    },
+    {
+      "date": "2026-07-22",
+      "category": "earnings",
       "title": "IBM 财报",
       "importance": 3,
       "end_date": "",
@@ -240,30 +264,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.29,
         "last_eps_estimate": 0.01313
-      }
-    },
-    {
-      "date": "2026-07-23",
-      "category": "earnings",
-      "title": "Alphabet (Google) 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GOOGL"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/GOOGL",
-      "meta": {
-        "ticker": "GOOGL",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 2.88108,
-        "revenue_estimate": 116737532030.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 5.11,
-        "last_eps_estimate": 2.66714
       }
     },
     {
