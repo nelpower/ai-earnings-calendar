@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-11",
-  "today": "2026-07-11",
+  "generated": "2026-07-12",
+  "today": "2026-07-12",
   "events": [
     {
       "date": "2026-07-14",
@@ -728,7 +728,7 @@
         "date_confirmed": true,
         "eps_estimate": 0.46953,
         "revenue_estimate": 264825860.0,
-        "revenue_currency": "USD",
+        "revenue_currency": "",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.47,
         "last_eps_estimate": 0.40858
@@ -1659,30 +1659,6 @@
       }
     },
     {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Constellation Energy 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CEG"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/CEG",
-      "meta": {
-        "ticker": "CEG",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": 2.40633,
-        "revenue_estimate": 8058516070.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.74,
-        "last_eps_estimate": 2.6021
-      }
-    },
-    {
       "date": "2026-08-07",
       "category": "macro",
       "title": "非农就业报告 (7月)",
@@ -1981,6 +1957,90 @@
         "last_eps_actual": 0.91,
         "last_eps_estimate": 0.85292
       }
+    },
+    {
+      "date": "2026-08-26",
+      "category": "earnings",
+      "title": "NVIDIA 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NVDA"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/NVDA",
+      "meta": {
+        "ticker": "NVDA",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 2.07925,
+        "revenue_estimate": 91728642100.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 1.87,
+        "last_eps_estimate": 1.77191
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "category": "earnings",
+      "title": "Snowflake 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SNOW"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/SNOW",
+      "meta": {
+        "ticker": "SNOW",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.44658,
+        "revenue_estimate": 1482171070.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.39,
+        "last_eps_estimate": 0.31981
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "category": "earnings",
+      "title": "MongoDB 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "MDB"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/MDB",
+      "meta": {
+        "ticker": "MDB",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.61073,
+        "revenue_estimate": 734433930.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 1.32,
+        "last_eps_estimate": 1.18348
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "category": "macro",
+      "title": "PCE 物价指数 (7月)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "美联储最看重的通胀指标,影响降息时点",
+      "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+      "meta": {}
     }
   ]
 }
