@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-12",
-  "today": "2026-07-12",
+  "generated": "2026-07-13",
+  "today": "2026-07-13",
   "events": [
     {
       "date": "2026-07-14",
@@ -125,30 +125,6 @@
     {
       "date": "2026-07-22",
       "category": "earnings",
-      "title": "Alphabet (Google) 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GOOGL"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/GOOGL",
-      "meta": {
-        "ticker": "GOOGL",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 2.90079,
-        "revenue_estimate": 116841971700.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 5.11,
-        "last_eps_estimate": 2.66714
-      }
-    },
-    {
-      "date": "2026-07-22",
-      "category": "earnings",
       "title": "IBM 财报",
       "importance": 3,
       "end_date": "",
@@ -162,8 +138,8 @@
         "ticker": "IBM",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 3.02352,
-        "revenue_estimate": 17853536440.0,
+        "eps_estimate": 3.02228,
+        "revenue_estimate": 17853504880.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.91,
@@ -186,8 +162,8 @@
         "ticker": "GEV",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 3.03673,
-        "revenue_estimate": 10726032030.0,
+        "eps_estimate": 3.05297,
+        "revenue_estimate": 10729732030.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 17.44,
@@ -234,8 +210,8 @@
         "ticker": "TSLA",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 0.49866,
-        "revenue_estimate": 25742880520.0,
+        "eps_estimate": 0.49763,
+        "revenue_estimate": 25829856380.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.41,
@@ -259,7 +235,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 0.21129,
-        "revenue_estimate": 14401833710.0,
+        "revenue_estimate": 14388245470.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.29,
@@ -429,9 +405,9 @@
         "eps_estimate": 2.22396,
         "revenue_estimate": 9667469820.0,
         "revenue_currency": "USD",
-        "last_quarter": "",
-        "last_eps_actual": null,
-        "last_eps_estimate": null
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 2.65,
+        "last_eps_estimate": 2.55842
       }
     },
     {
@@ -546,8 +522,8 @@
         "ticker": "MSFT",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 4.23745,
-        "revenue_estimate": 87655525250.0,
+        "eps_estimate": 4.23777,
+        "revenue_estimate": 87658501440.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 4.27,
@@ -753,9 +729,9 @@
         "eps_estimate": 5.85953,
         "revenue_estimate": 902124130.0,
         "revenue_currency": "USD",
-        "last_quarter": "",
-        "last_eps_actual": null,
-        "last_eps_estimate": null
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 5.1,
+        "last_eps_estimate": 4.90131
       }
     },
     {
@@ -1004,7 +980,7 @@
         "date_confirmed": true,
         "eps_estimate": 1.60509,
         "revenue_estimate": 11284950390.0,
-        "revenue_currency": "USD",
+        "revenue_currency": "",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.37,
         "last_eps_estimate": 1.29468
@@ -1124,7 +1100,7 @@
         "date_confirmed": true,
         "eps_estimate": 0.88335,
         "revenue_estimate": 2826330660.0,
-        "revenue_currency": "USD",
+        "revenue_currency": "",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.87,
         "last_eps_estimate": 0.80761
@@ -1242,7 +1218,7 @@
         "ticker": "DOCN",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.26205,
+        "eps_estimate": 0.26343,
         "revenue_estimate": 277513240.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
@@ -1953,9 +1929,9 @@
         "eps_estimate": 0.61479,
         "revenue_estimate": 328548310.0,
         "revenue_currency": "USD",
-        "last_quarter": "",
-        "last_eps_actual": null,
-        "last_eps_estimate": null
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.51,
+        "last_eps_estimate": 0.45335
       }
     },
     {
@@ -1998,8 +1974,8 @@
         "ticker": "NVDA",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 2.07925,
-        "revenue_estimate": 91728642100.0,
+        "eps_estimate": 2.08,
+        "revenue_estimate": 91749373800.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.87,
@@ -2048,7 +2024,7 @@
         "date_confirmed": true,
         "eps_estimate": 1.61073,
         "revenue_estimate": 734495570.0,
-        "revenue_currency": "USD",
+        "revenue_currency": "",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.32,
         "last_eps_estimate": 1.18348
@@ -2065,6 +2041,138 @@
       "watch": "美联储最看重的通胀指标,影响降息时点",
       "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
       "meta": {}
+    },
+    {
+      "date": "2026-08-27",
+      "category": "earnings",
+      "title": "Marvell Technology 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "MRVL"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/MRVL",
+      "meta": {
+        "ticker": "MRVL",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.92735,
+        "revenue_estimate": 2702484850.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.8,
+        "last_eps_estimate": 0.79495
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "category": "earnings",
+      "title": "Ambarella 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMBA"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/AMBA",
+      "meta": {
+        "ticker": "AMBA",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.17088,
+        "revenue_estimate": 107763010.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.11,
+        "last_eps_estimate": 0.10434
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "category": "earnings",
+      "title": "IREN 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "IREN"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/IREN",
+      "meta": {
+        "ticker": "IREN",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.455,
+        "revenue_estimate": 157134960.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": -0.1601,
+        "last_eps_estimate": -0.34
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "category": "fed",
+      "title": "Jackson Hole 全球央行年会",
+      "importance": 3,
+      "end_date": "2026-08-29",
+      "time_et": "",
+      "tickers": [],
+      "watch": "美联储主席主旨演讲历来是政策转向的沟通窗口;2026 主题:金融创新(支付与政策)",
+      "source_url": "https://www.kansascityfed.org/research/jackson-hole-economic-symposium/",
+      "meta": {}
+    },
+    {
+      "date": "2026-08-27",
+      "category": "earnings",
+      "title": "SentinelOne 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "S"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/S",
+      "meta": {
+        "ticker": "S",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.07183,
+        "revenue_estimate": 290184020.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": -0.23,
+        "last_eps_estimate": -0.23673
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "category": "earnings",
+      "title": "Elastic 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ESTC"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/ESTC",
+      "meta": {
+        "ticker": "ESTC",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.58441,
+        "revenue_estimate": 469643640.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.61,
+        "last_eps_estimate": 0.56252
+      }
     }
   ]
 }
