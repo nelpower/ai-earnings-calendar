@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-13",
-  "today": "2026-07-13",
+  "generated": "2026-07-14",
+  "today": "2026-07-14",
   "events": [
     {
       "date": "2026-07-14",
@@ -893,6 +893,30 @@
     {
       "date": "2026-07-31",
       "category": "earnings",
+      "title": "Eaton 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ETN"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/ETN",
+      "meta": {
+        "ticker": "ETN",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 3.07774,
+        "revenue_estimate": 8155060710.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 2.81,
+        "last_eps_estimate": 2.73079
+      }
+    },
+    {
+      "date": "2026-07-31",
+      "category": "earnings",
       "title": "nVent Electric 财报",
       "importance": 2,
       "end_date": "",
@@ -936,6 +960,30 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.41,
         "last_eps_estimate": 0.36977
+      }
+    },
+    {
+      "date": "2026-08-03",
+      "category": "earnings",
+      "title": "Ichor 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ICHR"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ICHR",
+      "meta": {
+        "ticker": "ICHR",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.30714,
+        "revenue_estimate": 300165710.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.15,
+        "last_eps_estimate": 0.13143
       }
     },
     {
@@ -1085,30 +1133,6 @@
     {
       "date": "2026-08-04",
       "category": "earnings",
-      "title": "Ichor 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ICHR"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ICHR",
-      "meta": {
-        "ticker": "ICHR",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.30714,
-        "revenue_estimate": 300165710.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.15,
-        "last_eps_estimate": 0.13143
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
       "title": "Arista Networks 财报",
       "importance": 3,
       "end_date": "",
@@ -1152,30 +1176,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.84,
         "last_eps_estimate": 0.62451
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "Eaton 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ETN"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/ETN",
-      "meta": {
-        "ticker": "ETN",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 3.07774,
-        "revenue_estimate": 8155060710.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.81,
-        "last_eps_estimate": 2.73079
       }
     },
     {
@@ -1743,6 +1743,30 @@
       }
     },
     {
+      "date": "2026-08-11",
+      "category": "earnings",
+      "title": "Lumentum 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "LITE"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/LITE",
+      "meta": {
+        "ticker": "LITE",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 2.96184,
+        "revenue_estimate": 987375490.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 2.37,
+        "last_eps_estimate": 2.26526
+      }
+    },
+    {
       "date": "2026-08-12",
       "category": "earnings",
       "title": "Camtek 财报",
@@ -1788,30 +1812,6 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.06,
         "last_eps_estimate": 1.03625
-      }
-    },
-    {
-      "date": "2026-08-12",
-      "category": "earnings",
-      "title": "Lumentum 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "LITE"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/LITE",
-      "meta": {
-        "ticker": "LITE",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 2.96184,
-        "revenue_estimate": 987375490.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.37,
-        "last_eps_estimate": 2.26526
       }
     },
     {
