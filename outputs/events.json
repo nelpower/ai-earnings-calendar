@@ -140,7 +140,7 @@
         "date_confirmed": true,
         "eps_estimate": 2.90079,
         "revenue_estimate": 116841971700.0,
-        "revenue_currency": "",
+        "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 5.11,
         "last_eps_estimate": 2.66714
@@ -162,8 +162,8 @@
         "ticker": "IBM",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 3.02228,
-        "revenue_estimate": 17853504880.0,
+        "eps_estimate": 3.02352,
+        "revenue_estimate": 17853536440.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.91,
@@ -356,7 +356,7 @@
         "date_confirmed": true,
         "eps_estimate": 0.99805,
         "revenue_estimate": 3601641580.0,
-        "revenue_currency": "",
+        "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.94,
         "last_eps_estimate": 0.91703
@@ -1005,9 +1005,9 @@
         "eps_estimate": 1.60509,
         "revenue_estimate": 11284950390.0,
         "revenue_currency": "USD",
-        "last_quarter": "",
-        "last_eps_actual": null,
-        "last_eps_estimate": null
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 1.37,
+        "last_eps_estimate": 1.29468
       }
     },
     {
