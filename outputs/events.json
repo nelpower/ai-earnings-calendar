@@ -1601,6 +1601,30 @@
     {
       "date": "2026-08-06",
       "category": "earnings",
+      "title": "Twilio 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TWLO"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/TWLO",
+      "meta": {
+        "ticker": "TWLO",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.32361,
+        "revenue_estimate": 1430109710.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 1.5,
+        "last_eps_estimate": 1.27097
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "category": "earnings",
       "title": "Atlassian 财报",
       "importance": 2,
       "end_date": "",
