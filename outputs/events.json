@@ -1,19 +1,7 @@
 {
-  "generated": "2026-07-17",
-  "today": "2026-07-17",
+  "generated": "2026-07-18",
+  "today": "2026-07-18",
   "events": [
-    {
-      "date": "2026-07-17",
-      "category": "options",
-      "title": "月度期权到期日 (OpEx)",
-      "importance": 1,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [],
-      "watch": "月度期权到期,尾盘波动可能放大",
-      "source_url": "",
-      "meta": {}
-    },
     {
       "date": "2026-07-21",
       "category": "earnings",
@@ -2208,6 +2196,30 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.61,
         "last_eps_estimate": 0.56252
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "category": "earnings",
+      "title": "CrowdStrike 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRWD"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/CRWD",
+      "meta": {
+        "ticker": "CRWD",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.29206,
+        "revenue_estimate": 1440295020.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.275,
+        "last_eps_estimate": 0.26686
       }
     }
   ]
