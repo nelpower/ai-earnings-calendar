@@ -1,31 +1,7 @@
 {
-  "generated": "2026-07-21",
-  "today": "2026-07-21",
+  "generated": "2026-07-22",
+  "today": "2026-07-22",
   "events": [
-    {
-      "date": "2026-07-21",
-      "category": "earnings",
-      "title": "Pegasystems 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "PEGA"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/PEGA",
-      "meta": {
-        "ticker": "PEGA",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.43397,
-        "revenue_estimate": 428397560.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.46,
-        "last_eps_estimate": 0.69272
-      }
-    },
     {
       "date": "2026-07-22",
       "category": "earnings",
@@ -264,78 +240,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.96,
         "last_eps_estimate": 1.88506
-      }
-    },
-    {
-      "date": "2026-07-28",
-      "category": "earnings",
-      "title": "KLA 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "KLAC"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/KLAC",
-      "meta": {
-        "ticker": "KLAC",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.99888,
-        "revenue_estimate": 3602913010.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.94,
-        "last_eps_estimate": 0.91703
-      }
-    },
-    {
-      "date": "2026-07-28",
-      "category": "earnings",
-      "title": "Teradyne 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TER"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/TER",
-      "meta": {
-        "ticker": "TER",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 2.05394,
-        "revenue_estimate": 1217954730.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.56,
-        "last_eps_estimate": 2.11685
-      }
-    },
-    {
-      "date": "2026-07-28",
-      "category": "earnings",
-      "title": "Seagate 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "STX"
-      ],
-      "watch": "HBM/存储价格与供给、AI 拉动",
-      "source_url": "https://finance.yahoo.com/quote/STX",
-      "meta": {
-        "ticker": "STX",
-        "subsector": "Memory / storage (AI)",
-        "date_confirmed": true,
-        "eps_estimate": 5.09318,
-        "revenue_estimate": 3490160070.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 4.1,
-        "last_eps_estimate": 3.51146
       }
     },
     {
@@ -725,30 +629,6 @@
     {
       "date": "2026-07-31",
       "category": "earnings",
-      "title": "Eaton 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ETN"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/ETN",
-      "meta": {
-        "ticker": "ETN",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 3.07642,
-        "revenue_estimate": 8155060710.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.81,
-        "last_eps_estimate": 2.73079
-      }
-    },
-    {
-      "date": "2026-07-31",
-      "category": "earnings",
       "title": "nVent Electric 财报",
       "importance": 2,
       "end_date": "",
@@ -888,30 +768,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.33,
         "last_eps_estimate": 0.27946
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "AMD 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMD"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/AMD",
-      "meta": {
-        "ticker": "AMD",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 1.60898,
-        "revenue_estimate": 11300934900.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.37,
-        "last_eps_estimate": 1.29468
       }
     },
     {
@@ -1107,30 +963,6 @@
       }
     },
     {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "NRG Energy 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NRG"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/NRG",
-      "meta": {
-        "ticker": "NRG",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": 1.65857,
-        "revenue_estimate": 7461716900.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.49,
-        "last_eps_estimate": 1.73331
-      }
-    },
-    {
       "date": "2026-08-05",
       "category": "earnings",
       "title": "GlobalFoundries 财报",
@@ -1200,30 +1032,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.25,
         "last_eps_estimate": 0.23617
-      }
-    },
-    {
-      "date": "2026-08-05",
-      "category": "earnings",
-      "title": "Western Digital 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "WDC"
-      ],
-      "watch": "HBM/存储价格与供给、AI 拉动",
-      "source_url": "https://finance.yahoo.com/quote/WDC",
-      "meta": {
-        "ticker": "WDC",
-        "subsector": "Memory / storage (AI)",
-        "date_confirmed": true,
-        "eps_estimate": 3.29968,
-        "revenue_estimate": 3698744260.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.72,
-        "last_eps_estimate": 2.3949
       }
     },
     {
@@ -2225,30 +2033,6 @@
     {
       "date": "2026-09-02",
       "category": "earnings",
-      "title": "Salesforce 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CRM"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/CRM",
-      "meta": {
-        "ticker": "CRM",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 3.27034,
-        "revenue_estimate": 11315611360.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 3.88,
-        "last_eps_estimate": 3.12729
-      }
-    },
-    {
-      "date": "2026-09-02",
-      "category": "earnings",
       "title": "GitLab 财报",
       "importance": 2,
       "end_date": "",
@@ -2263,7 +2047,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.17964,
-        "revenue_estimate": 273361390.0,
+        "revenue_estimate": 273401450.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.23,
@@ -2316,30 +2100,6 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 4.86,
         "last_eps_estimate": 2.96358
-      }
-    },
-    {
-      "date": "2026-09-03",
-      "category": "earnings",
-      "title": "Samsara 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "IOT"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/IOT",
-      "meta": {
-        "ticker": "IOT",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.1561,
-        "revenue_estimate": 483257930.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.17,
-        "last_eps_estimate": 0.13032
       }
     },
     {
