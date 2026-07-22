@@ -1,127 +1,7 @@
 {
-  "generated": "2026-07-22",
-  "today": "2026-07-22",
+  "generated": "2026-07-23",
+  "today": "2026-07-23",
   "events": [
-    {
-      "date": "2026-07-22",
-      "category": "earnings",
-      "title": "Alphabet (Google) 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GOOGL"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/GOOGL",
-      "meta": {
-        "ticker": "GOOGL",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 2.90227,
-        "revenue_estimate": 116907225680.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 5.11,
-        "last_eps_estimate": 2.66714
-      }
-    },
-    {
-      "date": "2026-07-22",
-      "category": "earnings",
-      "title": "IBM 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "IBM"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/IBM",
-      "meta": {
-        "ticker": "IBM",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 2.9331,
-        "revenue_estimate": 17178737000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.91,
-        "last_eps_estimate": 1.81123
-      }
-    },
-    {
-      "date": "2026-07-22",
-      "category": "earnings",
-      "title": "GE Vernova 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GEV"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/GEV",
-      "meta": {
-        "ticker": "GEV",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 3.03609,
-        "revenue_estimate": 10769501930.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 17.44,
-        "last_eps_estimate": 2.00102
-      }
-    },
-    {
-      "date": "2026-07-22",
-      "category": "earnings",
-      "title": "ServiceNow 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NOW"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/NOW",
-      "meta": {
-        "ticker": "NOW",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.85638,
-        "revenue_estimate": 3927399450.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.97,
-        "last_eps_estimate": 0.96619
-      }
-    },
-    {
-      "date": "2026-07-22",
-      "category": "earnings",
-      "title": "Tesla 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TSLA"
-      ],
-      "watch": "AI 功能落地、用户与变现",
-      "source_url": "https://finance.yahoo.com/quote/TSLA",
-      "meta": {
-        "ticker": "TSLA",
-        "subsector": "Consumer / platform AI",
-        "date_confirmed": true,
-        "eps_estimate": 0.53673,
-        "revenue_estimate": 26364265520.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.41,
-        "last_eps_estimate": 0.34999
-      }
-    },
     {
       "date": "2026-07-23",
       "category": "earnings",
@@ -138,7 +18,7 @@
         "ticker": "INTC",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.21657,
+        "eps_estimate": 0.2175,
         "revenue_estimate": 14446089180.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
@@ -186,7 +66,7 @@
         "ticker": "AMKR",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 0.47463,
+        "eps_estimate": 0.47405,
         "revenue_estimate": 1803192010.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
@@ -258,7 +138,7 @@
         "ticker": "KLAC",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 0.99888,
+        "eps_estimate": 0.99866,
         "revenue_estimate": 3602913010.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
@@ -282,8 +162,8 @@
         "ticker": "ARM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.40036,
-        "revenue_estimate": 1264054490.0,
+        "eps_estimate": 0.40192,
+        "revenue_estimate": 1264775180.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.6,
@@ -426,8 +306,8 @@
         "ticker": "META",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 7.39,
-        "revenue_estimate": 60257954600.0,
+        "eps_estimate": 7.388,
+        "revenue_estimate": 60258129600.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 10.44,
@@ -486,8 +366,8 @@
         "ticker": "GNRC",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 2.00336,
-        "revenue_estimate": 1178849810.0,
+        "eps_estimate": 2.01428,
+        "revenue_estimate": 1178503930.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.8,
@@ -510,8 +390,8 @@
         "ticker": "FTNT",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.74564,
-        "revenue_estimate": 1886784430.0,
+        "eps_estimate": 0.74643,
+        "revenue_estimate": 1887837570.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.82,
@@ -535,7 +415,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.46953,
-        "revenue_estimate": 264825860.0,
+        "revenue_estimate": 264825050.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.47,
@@ -558,8 +438,8 @@
         "ticker": "MPWR",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 5.87164,
-        "revenue_estimate": 903240140.0,
+        "eps_estimate": 5.88072,
+        "revenue_estimate": 903343230.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 5.1,
@@ -606,8 +486,8 @@
         "ticker": "AMZN",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.81802,
-        "revenue_estimate": 195968021830.0,
+        "eps_estimate": 1.81497,
+        "revenue_estimate": 195978593380.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.78,
@@ -631,7 +511,7 @@
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
         "eps_estimate": 1.89396,
-        "revenue_estimate": 108881511420.0,
+        "revenue_estimate": 108890141050.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.01,
@@ -690,8 +570,8 @@
         "ticker": "LSCC",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.44425,
-        "revenue_estimate": 185539590.0,
+        "eps_estimate": 0.44516,
+        "revenue_estimate": 185585040.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.41,
@@ -834,8 +714,8 @@
         "ticker": "SLAB",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.68617,
-        "revenue_estimate": 227835000.0,
+        "eps_estimate": 0.68867,
+        "revenue_estimate": 227728330.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.53,
@@ -864,30 +744,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.86,
         "last_eps_estimate": 0.74506
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "Axcelis Technologies 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ACLS"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ACLS",
-      "meta": {
-        "ticker": "ACLS",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.894,
-        "revenue_estimate": 205037920.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.72,
-        "last_eps_estimate": 0.71
       }
     },
     {
@@ -954,7 +810,7 @@
         "ticker": "DOCN",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.25764,
+        "eps_estimate": 0.25898,
         "revenue_estimate": 277513240.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
@@ -1037,6 +893,78 @@
     {
       "date": "2026-08-05",
       "category": "earnings",
+      "title": "Kulicke & Soffa 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "KLIC"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/KLIC",
+      "meta": {
+        "ticker": "KLIC",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 1.00667,
+        "revenue_estimate": 311666670.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.79,
+        "last_eps_estimate": 0.67
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "category": "earnings",
+      "title": "TeraWulf 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WULF"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/WULF",
+      "meta": {
+        "ticker": "WULF",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.27,
+        "revenue_estimate": 51845620.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": -0.1976,
+        "last_eps_estimate": -0.19
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "category": "earnings",
+      "title": "SoundHound AI 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SOUN"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/SOUN",
+      "meta": {
+        "ticker": "SOUN",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": -0.04,
+        "revenue_estimate": 52388250.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": -0.06,
+        "last_eps_estimate": -0.03333
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "category": "earnings",
       "title": "HubSpot 财报",
       "importance": 2,
       "end_date": "",
@@ -1051,7 +979,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 3.01564,
-        "revenue_estimate": 898122960.0,
+        "revenue_estimate": 898133300.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.72,
@@ -1170,8 +1098,8 @@
         "ticker": "MTSI",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 1.34601,
-        "revenue_estimate": 335324040.0,
+        "eps_estimate": 1.34816,
+        "revenue_estimate": 335551430.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.09,
@@ -1205,6 +1133,30 @@
     {
       "date": "2026-08-06",
       "category": "earnings",
+      "title": "Axcelis Technologies 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ACLS"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ACLS",
+      "meta": {
+        "ticker": "ACLS",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.894,
+        "revenue_estimate": 205037920.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.72,
+        "last_eps_estimate": 0.71
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "category": "earnings",
       "title": "Nova 财报",
       "importance": 3,
       "end_date": "",
@@ -1224,30 +1176,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.33,
         "last_eps_estimate": 2.19857
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Kulicke & Soffa 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "KLIC"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/KLIC",
-      "meta": {
-        "ticker": "KLIC",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 1.00667,
-        "revenue_estimate": 311666670.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.79,
-        "last_eps_estimate": 0.67
       }
     },
     {
@@ -1301,30 +1229,6 @@
     {
       "date": "2026-08-06",
       "category": "earnings",
-      "title": "TeraWulf 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "WULF"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/WULF",
-      "meta": {
-        "ticker": "WULF",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -0.27,
-        "revenue_estimate": 51845620.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": -0.1976,
-        "last_eps_estimate": -0.19
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
       "title": "Cloudflare 财报",
       "importance": 2,
       "end_date": "",
@@ -1363,35 +1267,11 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.58306,
-        "revenue_estimate": 1078231220.0,
+        "revenue_estimate": 1079450980.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.6,
         "last_eps_estimate": 0.50738
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "SoundHound AI 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SOUN"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/SOUN",
-      "meta": {
-        "ticker": "SOUN",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": -0.04,
-        "revenue_estimate": 52388250.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": -0.06,
-        "last_eps_estimate": -0.03333
       }
     },
     {
@@ -1591,7 +1471,7 @@
         "subsector": "Networking / optical",
         "date_confirmed": true,
         "eps_estimate": 2.96892,
-        "revenue_estimate": 987669610.0,
+        "revenue_estimate": 987699020.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.37,
@@ -1644,6 +1524,30 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.06,
         "last_eps_estimate": 1.03625
+      }
+    },
+    {
+      "date": "2026-08-12",
+      "category": "earnings",
+      "title": "Coherent 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "COHR"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/COHR",
+      "meta": {
+        "ticker": "COHR",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 1.61709,
+        "revenue_estimate": 1981007580.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 1.41,
+        "last_eps_estimate": 1.39433
       }
     },
     {
@@ -1722,7 +1626,7 @@
         "ticker": "WDAY",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 2.60814,
+        "eps_estimate": 2.61139,
         "revenue_estimate": 2635178690.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
@@ -1830,8 +1734,8 @@
         "ticker": "NVDA",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 2.08175,
-        "revenue_estimate": 91804003000.0,
+        "eps_estimate": 2.08225,
+        "revenue_estimate": 91821907760.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.87,
@@ -1963,7 +1867,7 @@
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
         "eps_estimate": -0.455,
-        "revenue_estimate": 152542660.0,
+        "revenue_estimate": 145034970.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": -0.1601,
