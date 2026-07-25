@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-25",
-  "today": "2026-07-25",
+  "generated": "2026-07-26",
+  "today": "2026-07-26",
   "events": [
     {
       "date": "2026-07-27",
@@ -2472,6 +2472,78 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.16,
         "last_eps_estimate": -0.02817
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "category": "earnings",
+      "title": "Ciena 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CIEN"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/CIEN",
+      "meta": {
+        "ticker": "CIEN",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 1.72068,
+        "revenue_estimate": 1633122820.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 1.64,
+        "last_eps_estimate": 1.45989
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "category": "earnings",
+      "title": "Oracle 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ORCL"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/ORCL",
+      "meta": {
+        "ticker": "ORCL",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 1.73873,
+        "revenue_estimate": 19122675660.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-05-31",
+        "last_eps_actual": 2.11,
+        "last_eps_estimate": 1.96241
+      }
+    },
+    {
+      "date": "2026-09-09",
+      "category": "earnings",
+      "title": "C3.ai 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AI"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/AI",
+      "meta": {
+        "ticker": "AI",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": -0.24888,
+        "revenue_estimate": 52089340.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": -0.33,
+        "last_eps_estimate": -0.37274
       }
     }
   ]
