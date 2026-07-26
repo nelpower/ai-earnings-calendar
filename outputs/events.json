@@ -1,6 +1,6 @@
 {
-  "generated": "2026-07-26",
-  "today": "2026-07-26",
+  "generated": "2026-07-27",
+  "today": "2026-07-27",
   "events": [
     {
       "date": "2026-07-27",
@@ -511,7 +511,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 1.81497,
-        "revenue_estimate": 195971105250.0,
+        "revenue_estimate": 196178157250.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.78,
@@ -2334,8 +2334,8 @@
         "ticker": "DELL",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 4.89516,
-        "revenue_estimate": 44394929400.0,
+        "eps_estimate": 4.90022,
+        "revenue_estimate": 44418978920.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 4.86,
@@ -2358,8 +2358,8 @@
         "ticker": "HPE",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 0.92098,
-        "revenue_estimate": 11899048180.0,
+        "eps_estimate": 0.92258,
+        "revenue_estimate": 11916091930.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.79,
@@ -2544,6 +2544,30 @@
         "last_quarter": "",
         "last_eps_actual": null,
         "last_eps_estimate": null
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "category": "earnings",
+      "title": "Adobe 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ADBE"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/ADBE",
+      "meta": {
+        "ticker": "ADBE",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 6.07854,
+        "revenue_estimate": 6695163470.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-05-31",
+        "last_eps_actual": 5.96,
+        "last_eps_estimate": 5.81474
       }
     }
   ]
