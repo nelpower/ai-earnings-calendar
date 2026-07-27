@@ -1,103 +1,7 @@
 {
-  "generated": "2026-07-27",
-  "today": "2026-07-27",
+  "generated": "2026-07-28",
+  "today": "2026-07-28",
   "events": [
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
-      "title": "Rambus 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "RMBS"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/RMBS",
-      "meta": {
-        "ticker": "RMBS",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.715,
-        "revenue_estimate": 198300000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.63,
-        "last_eps_estimate": 0.63625
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
-      "title": "Amkor Technology 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMKR"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/AMKR",
-      "meta": {
-        "ticker": "AMKR",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.48144,
-        "revenue_estimate": 1815153760.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.33,
-        "last_eps_estimate": 0.24337
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
-      "title": "Applied Digital 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "APLD"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/APLD",
-      "meta": {
-        "ticker": "APLD",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -0.19,
-        "revenue_estimate": 95316140.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-02-28",
-        "last_eps_actual": 0.09,
-        "last_eps_estimate": -0.21
-      }
-    },
-    {
-      "date": "2026-07-27",
-      "category": "earnings",
-      "title": "Cadence Design Systems 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CDNS"
-      ],
-      "watch": "设计活动、AI 芯片设计需求",
-      "source_url": "https://finance.yahoo.com/quote/CDNS",
-      "meta": {
-        "ticker": "CDNS",
-        "subsector": "EDA / chip design",
-        "date_confirmed": true,
-        "eps_estimate": 2.05529,
-        "revenue_estimate": 1576116340.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.96,
-        "last_eps_estimate": 1.88506
-      }
-    },
     {
       "date": "2026-07-28",
       "category": "earnings",
@@ -1551,6 +1455,30 @@
       }
     },
     {
+      "date": "2026-08-07",
+      "category": "earnings",
+      "title": "Oklo 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "OKLO"
+      ],
+      "watch": "数据中心电力需求、PPA 长约",
+      "source_url": "https://finance.yahoo.com/quote/OKLO",
+      "meta": {
+        "ticker": "OKLO",
+        "subsector": "Power / nuclear (AI data centers)",
+        "date_confirmed": true,
+        "eps_estimate": -0.1803,
+        "revenue_estimate": 71830.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": NaN,
+        "last_eps_estimate": -0.18373
+      }
+    },
+    {
       "date": "2026-08-10",
       "category": "earnings",
       "title": "Camtek 财报",
@@ -1572,30 +1500,6 @@
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.7,
         "last_eps_estimate": 0.68467
-      }
-    },
-    {
-      "date": "2026-08-10",
-      "category": "earnings",
-      "title": "Oklo 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "OKLO"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/OKLO",
-      "meta": {
-        "ticker": "OKLO",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": -0.1803,
-        "revenue_estimate": 71830.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": NaN,
-        "last_eps_estimate": -0.18373
       }
     },
     {
@@ -2538,12 +2442,12 @@
         "ticker": "AI",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": -0.24888,
-        "revenue_estimate": 52089340.0,
+        "eps_estimate": null,
+        "revenue_estimate": null,
         "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": -0.33,
-        "last_eps_estimate": -0.37274
+        "last_quarter": "",
+        "last_eps_actual": null,
+        "last_eps_estimate": null
       }
     },
     {
@@ -2569,6 +2473,18 @@
         "last_eps_actual": 5.96,
         "last_eps_estimate": 5.81474
       }
+    },
+    {
+      "date": "2026-09-11",
+      "category": "macro",
+      "title": "CPI 通胀数据 (8月)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "9/15-16 FOMC 前最后一份 CPI",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "meta": {}
     }
   ]
 }
