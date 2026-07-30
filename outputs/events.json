@@ -1,139 +1,7 @@
 {
-  "generated": "2026-07-30",
-  "today": "2026-07-30",
+  "generated": "2026-07-31",
+  "today": "2026-07-31",
   "events": [
-    {
-      "date": "2026-07-30",
-      "category": "earnings",
-      "title": "Monolithic Power Systems 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "MPWR"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/MPWR",
-      "meta": {
-        "ticker": "MPWR",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 5.88072,
-        "revenue_estimate": 903343230.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 5.1,
-        "last_eps_estimate": 4.90131
-      }
-    },
-    {
-      "date": "2026-07-30",
-      "category": "earnings",
-      "title": "ASE Technology 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ASX"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/ASX",
-      "meta": {
-        "ticker": "ASX",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.20362,
-        "revenue_estimate": 189079776050.0,
-        "revenue_currency": "TWD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.195,
-        "last_eps_estimate": 0.16761
-      }
-    },
-    {
-      "date": "2026-07-30",
-      "category": "earnings",
-      "title": "Amazon 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMZN"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/AMZN",
-      "meta": {
-        "ticker": "AMZN",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 1.81695,
-        "revenue_estimate": 196433361480.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.78,
-        "last_eps_estimate": 1.65303
-      }
-    },
-    {
-      "date": "2026-07-30",
-      "category": "earnings",
-      "title": "BigBear.ai 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "BBAI"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/BBAI",
-      "meta": {
-        "ticker": "BBAI",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": null,
-        "revenue_estimate": 36369000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": -0.12,
-        "last_eps_estimate": -0.08
-      }
-    },
-    {
-      "date": "2026-07-30",
-      "category": "earnings",
-      "title": "Apple 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AAPL"
-      ],
-      "watch": "AI 功能落地、用户与变现",
-      "source_url": "https://finance.yahoo.com/quote/AAPL",
-      "meta": {
-        "ticker": "AAPL",
-        "subsector": "Consumer / platform AI",
-        "date_confirmed": true,
-        "eps_estimate": 1.89138,
-        "revenue_estimate": 108959817930.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.01,
-        "last_eps_estimate": 1.94275
-      }
-    },
-    {
-      "date": "2026-07-30",
-      "category": "macro",
-      "title": "PCE 物价指数 (6月)",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "美联储最看重的通胀指标,影响降息时点",
-      "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
-      "meta": {}
-    },
     {
       "date": "2026-07-31",
       "category": "earnings",
@@ -2094,12 +1962,12 @@
         "ticker": "AI",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": null,
-        "revenue_estimate": null,
+        "eps_estimate": -0.24888,
+        "revenue_estimate": 52089340.0,
         "revenue_currency": "USD",
-        "last_quarter": "",
-        "last_eps_actual": null,
-        "last_eps_estimate": null
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": -0.33,
+        "last_eps_estimate": -0.37274
       }
     },
     {
