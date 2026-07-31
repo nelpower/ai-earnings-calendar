@@ -162,8 +162,8 @@
         "ticker": "AMD",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 1.6087,
-        "revenue_estimate": 11299953750.0,
+        "eps_estimate": 1.61045,
+        "revenue_estimate": 11305415290.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.37,
@@ -618,7 +618,7 @@
         "ticker": "TLN",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.575,
+        "eps_estimate": 3.39119,
         "revenue_estimate": 814836300.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
@@ -858,8 +858,8 @@
         "ticker": "TEAM",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 1.50318,
-        "revenue_estimate": 1661874450.0,
+        "eps_estimate": 1.50174,
+        "revenue_estimate": 1662593220.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 1.75,
@@ -906,8 +906,8 @@
         "ticker": "CEG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 2.31447,
-        "revenue_estimate": 7789049790.0,
+        "eps_estimate": 2.40035,
+        "revenue_estimate": 7809794660.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.74,
@@ -1038,8 +1038,8 @@
         "ticker": "CRWV",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -1.16371,
-        "revenue_estimate": 2557435580.0,
+        "eps_estimate": -1.19621,
+        "revenue_estimate": 2556080740.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": -1.4,
@@ -1251,30 +1251,6 @@
       }
     },
     {
-      "date": "2026-08-20",
-      "category": "earnings",
-      "title": "Intuit 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "INTU"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/INTU",
-      "meta": {
-        "ticker": "INTU",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 3.58858,
-        "revenue_estimate": 4269043710.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 12.8,
-        "last_eps_estimate": 12.56873
-      }
-    },
-    {
       "date": "2026-08-21",
       "category": "options",
       "title": "月度期权到期日 (OpEx)",
@@ -1332,6 +1308,30 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.91,
         "last_eps_estimate": 0.85292
+      }
+    },
+    {
+      "date": "2026-08-25",
+      "category": "earnings",
+      "title": "Intuit 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "INTU"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/INTU",
+      "meta": {
+        "ticker": "INTU",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 3.58858,
+        "revenue_estimate": 4269043710.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 12.8,
+        "last_eps_estimate": 12.56873
       }
     },
     {
