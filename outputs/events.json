@@ -1914,12 +1914,12 @@
         "ticker": "AI",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": null,
-        "revenue_estimate": null,
+        "eps_estimate": -0.24888,
+        "revenue_estimate": 52089340.0,
         "revenue_currency": "USD",
-        "last_quarter": "",
-        "last_eps_actual": null,
-        "last_eps_estimate": null
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": -0.33,
+        "last_eps_estimate": -0.37274
       }
     },
     {
