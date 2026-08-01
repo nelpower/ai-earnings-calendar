@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-01",
-  "today": "2026-08-01",
+  "generated": "2026-08-02",
+  "today": "2026-08-02",
   "events": [
     {
       "date": "2026-08-03",
@@ -1914,12 +1914,12 @@
         "ticker": "AI",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": -0.24888,
-        "revenue_estimate": 52089340.0,
+        "eps_estimate": null,
+        "revenue_estimate": null,
         "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": -0.33,
-        "last_eps_estimate": -0.37274
+        "last_quarter": "",
+        "last_eps_actual": null,
+        "last_eps_estimate": null
       }
     },
     {
@@ -1970,6 +1970,18 @@
       ],
       "watch": "Agentforce / 企业 AI agent 进展与变现",
       "source_url": "https://www.salesforce.com/dreamforce/",
+      "meta": {}
+    },
+    {
+      "date": "2026-09-16",
+      "category": "fed",
+      "title": "FOMC 利率决议 (含点阵图)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "14:00",
+      "tickers": [],
+      "watch": "会议 9/15-16;决议 + 季度经济预测 (SEP) + 点阵图 + 发布会",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "meta": {}
     }
   ]
