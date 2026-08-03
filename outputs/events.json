@@ -1,103 +1,7 @@
 {
-  "generated": "2026-08-03",
-  "today": "2026-08-03",
+  "generated": "2026-08-04",
+  "today": "2026-08-04",
   "events": [
-    {
-      "date": "2026-08-03",
-      "category": "earnings",
-      "title": "Ichor 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ICHR"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ICHR",
-      "meta": {
-        "ticker": "ICHR",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.30714,
-        "revenue_estimate": 300165710.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.15,
-        "last_eps_estimate": 0.13143
-      }
-    },
-    {
-      "date": "2026-08-03",
-      "category": "earnings",
-      "title": "Ultra Clean Holdings 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "UCTT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/UCTT",
-      "meta": {
-        "ticker": "UCTT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.53076,
-        "revenue_estimate": 587647680.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.31,
-        "last_eps_estimate": 0.2625
-      }
-    },
-    {
-      "date": "2026-08-03",
-      "category": "earnings",
-      "title": "Powell Industries 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "POWL"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/POWL",
-      "meta": {
-        "ticker": "POWL",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 1.4871,
-        "revenue_estimate": 316882200.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.25,
-        "last_eps_estimate": 1.34267
-      }
-    },
-    {
-      "date": "2026-08-03",
-      "category": "earnings",
-      "title": "Palantir 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "PLTR"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/PLTR",
-      "meta": {
-        "ticker": "PLTR",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.34596,
-        "revenue_estimate": 1811314390.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.33,
-        "last_eps_estimate": 0.27946
-      }
-    },
     {
       "date": "2026-08-04",
       "category": "earnings",
@@ -1155,54 +1059,6 @@
       }
     },
     {
-      "date": "2026-08-18",
-      "category": "earnings",
-      "title": "Palo Alto Networks 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "PANW"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/PANW",
-      "meta": {
-        "ticker": "PANW",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.97763,
-        "revenue_estimate": 3351771170.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.85,
-        "last_eps_estimate": 0.7972
-      }
-    },
-    {
-      "date": "2026-08-20",
-      "category": "earnings",
-      "title": "Workday 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "WDAY"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/WDAY",
-      "meta": {
-        "ticker": "WDAY",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 2.61226,
-        "revenue_estimate": 2635331000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 2.66,
-        "last_eps_estimate": 2.51697
-      }
-    },
-    {
       "date": "2026-08-21",
       "category": "options",
       "title": "月度期权到期日 (OpEx)",
@@ -1308,30 +1164,6 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 3.35,
         "last_eps_estimate": 3.16172
-      }
-    },
-    {
-      "date": "2026-08-26",
-      "category": "earnings",
-      "title": "Snowflake 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SNOW"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/SNOW",
-      "meta": {
-        "ticker": "SNOW",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.44704,
-        "revenue_estimate": 1480671070.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.39,
-        "last_eps_estimate": 0.31981
       }
     },
     {
@@ -1527,6 +1359,30 @@
       }
     },
     {
+      "date": "2026-08-27",
+      "category": "earnings",
+      "title": "Workday 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WDAY"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/WDAY",
+      "meta": {
+        "ticker": "WDAY",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 2.61226,
+        "revenue_estimate": 2635331000.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 2.66,
+        "last_eps_estimate": 2.51697
+      }
+    },
+    {
       "date": "2026-09-01",
       "category": "earnings",
       "title": "CrowdStrike 财报",
@@ -1548,6 +1404,54 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.275,
         "last_eps_estimate": 0.26686
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "category": "earnings",
+      "title": "Palo Alto Networks 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PANW"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PANW",
+      "meta": {
+        "ticker": "PANW",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.97763,
+        "revenue_estimate": 3351771170.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.85,
+        "last_eps_estimate": 0.7972
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "category": "earnings",
+      "title": "Broadcom 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AVGO"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/AVGO",
+      "meta": {
+        "ticker": "AVGO",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 3.23823,
+        "revenue_estimate": 29435187950.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 2.44,
+        "last_eps_estimate": 2.39835
       }
     },
     {
@@ -1625,6 +1529,30 @@
     {
       "date": "2026-09-02",
       "category": "earnings",
+      "title": "Snowflake 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SNOW"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/SNOW",
+      "meta": {
+        "ticker": "SNOW",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.44704,
+        "revenue_estimate": 1480671070.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.39,
+        "last_eps_estimate": 0.31981
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "category": "earnings",
       "title": "GitLab 财报",
       "importance": 2,
       "end_date": "",
@@ -1668,30 +1596,6 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.08,
         "last_eps_estimate": 1.0083
-      }
-    },
-    {
-      "date": "2026-09-03",
-      "category": "earnings",
-      "title": "Broadcom 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AVGO"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/AVGO",
-      "meta": {
-        "ticker": "AVGO",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 3.23823,
-        "revenue_estimate": 29435187950.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 2.44,
-        "last_eps_estimate": 2.39835
       }
     },
     {
@@ -1982,6 +1886,30 @@
       "tickers": [],
       "watch": "会议 9/15-16;决议 + 季度经济预测 (SEP) + 点阵图 + 发布会",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-09-18",
+      "category": "options",
+      "title": "期权四巫日 (季度衍生品到期)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异",
+      "source_url": "",
+      "meta": {}
+    },
+    {
+      "date": "2026-09-18",
+      "category": "index",
+      "title": "标普 500 / 中小盘 季度再平衡生效",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大",
+      "source_url": "https://www.spglobal.com/spdji/en/governance/methodology/",
       "meta": {}
     }
   ]
