@@ -1,223 +1,7 @@
 {
-  "generated": "2026-08-04",
-  "today": "2026-08-04",
+  "generated": "2026-08-05",
+  "today": "2026-08-05",
   "events": [
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "AMD 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMD"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/AMD",
-      "meta": {
-        "ticker": "AMD",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 1.61045,
-        "revenue_estimate": 11305415290.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.37,
-        "last_eps_estimate": 1.29468
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "Astera Labs 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ALAB"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/ALAB",
-      "meta": {
-        "ticker": "ALAB",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.69195,
-        "revenue_estimate": 360807000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.61,
-        "last_eps_estimate": 0.53761
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "Lattice Semiconductor 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "LSCC"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/LSCC",
-      "meta": {
-        "ticker": "LSCC",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.44516,
-        "revenue_estimate": 185585040.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.41,
-        "last_eps_estimate": 0.36977
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "Silicon Labs 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SLAB"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/SLAB",
-      "meta": {
-        "ticker": "SLAB",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.68867,
-        "revenue_estimate": 227728330.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.53,
-        "last_eps_estimate": 0.50354
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "Entegris 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ENTG"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ENTG",
-      "meta": {
-        "ticker": "ENTG",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.82278,
-        "revenue_estimate": 835489430.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.86,
-        "last_eps_estimate": 0.74506
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "Arista Networks 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ANET"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/ANET",
-      "meta": {
-        "ticker": "ANET",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 0.88559,
-        "revenue_estimate": 2831187800.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.87,
-        "last_eps_estimate": 0.80761
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "Qualys 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "QLYS"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/QLYS",
-      "meta": {
-        "ticker": "QLYS",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 1.78483,
-        "revenue_estimate": 178719340.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.95,
-        "last_eps_estimate": 1.79916
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "DigitalOcean 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "DOCN"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/DOCN",
-      "meta": {
-        "ticker": "DOCN",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.26023,
-        "revenue_estimate": 278815230.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.44,
-        "last_eps_estimate": 0.26241
-      }
-    },
-    {
-      "date": "2026-08-04",
-      "category": "earnings",
-      "title": "NRG Energy 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NRG"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/NRG",
-      "meta": {
-        "ticker": "NRG",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": 1.74005,
-        "revenue_estimate": 7785310650.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.49,
-        "last_eps_estimate": 1.73331
-      }
-    },
     {
       "date": "2026-08-05",
       "category": "earnings",
@@ -234,8 +18,8 @@
         "ticker": "GFS",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.43194,
-        "revenue_estimate": 1764986960.0,
+        "eps_estimate": 0.43181,
+        "revenue_estimate": 1764641170.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.4,
@@ -354,8 +138,8 @@
         "ticker": "WDC",
         "subsector": "Memory / storage (AI)",
         "date_confirmed": true,
-        "eps_estimate": 3.29968,
-        "revenue_estimate": 3698775840.0,
+        "eps_estimate": 3.29284,
+        "revenue_estimate": 3698749520.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.72,
@@ -451,7 +235,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 4.21,
-        "revenue_estimate": 1942023770.0,
+        "revenue_estimate": 1942004720.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 3.56,
@@ -475,7 +259,7 @@
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
         "eps_estimate": 3.39119,
-        "revenue_estimate": 814836300.0,
+        "revenue_estimate": 808672560.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 4.3783,
@@ -643,7 +427,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.26976,
-        "revenue_estimate": 666362430.0,
+        "revenue_estimate": 666345190.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.25,
@@ -666,8 +450,8 @@
         "ticker": "DDOG",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.58235,
-        "revenue_estimate": 1078494040.0,
+        "eps_estimate": 0.58324,
+        "revenue_estimate": 1078293090.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 0.6,
@@ -762,8 +546,8 @@
         "ticker": "CEG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 2.40035,
-        "revenue_estimate": 7809794660.0,
+        "eps_estimate": 2.33835,
+        "revenue_estimate": 7702236650.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.74,
@@ -799,7 +583,7 @@
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
         "eps_estimate": 1.95,
-        "revenue_estimate": 5478968330.0,
+        "revenue_estimate": 5475538330.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.87,
@@ -894,8 +678,8 @@
         "ticker": "CRWV",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -1.19621,
-        "revenue_estimate": 2556080740.0,
+        "eps_estimate": -1.1997,
+        "revenue_estimate": 2557140710.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": -1.4,
@@ -942,7 +726,7 @@
         "ticker": "CSCO",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 1.17034,
+        "eps_estimate": 1.16892,
         "revenue_estimate": 16827267250.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
@@ -990,8 +774,8 @@
         "ticker": "NBIS",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -0.60667,
-        "revenue_estimate": 582783260.0,
+        "eps_estimate": -0.6025,
+        "revenue_estimate": 582977310.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.11,
@@ -1026,8 +810,8 @@
         "ticker": "AMAT",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 3.38874,
-        "revenue_estimate": 9006637960.0,
+        "eps_estimate": 3.3869,
+        "revenue_estimate": 9003412110.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 2.86,
@@ -1110,8 +894,8 @@
         "ticker": "INTU",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 3.58858,
-        "revenue_estimate": 4269043710.0,
+        "eps_estimate": 3.58821,
+        "revenue_estimate": 4268348060.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 12.8,
@@ -1164,6 +948,30 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 3.35,
         "last_eps_estimate": 3.16172
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "category": "earnings",
+      "title": "CrowdStrike 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRWD"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/CRWD",
+      "meta": {
+        "ticker": "CRWD",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.29195,
+        "revenue_estimate": 1440206650.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.275,
+        "last_eps_estimate": 0.26686
       }
     },
     {
@@ -1385,30 +1193,6 @@
     {
       "date": "2026-09-01",
       "category": "earnings",
-      "title": "CrowdStrike 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CRWD"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/CRWD",
-      "meta": {
-        "ticker": "CRWD",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.29195,
-        "revenue_estimate": 1440206650.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.275,
-        "last_eps_estimate": 0.26686
-      }
-    },
-    {
-      "date": "2026-09-01",
-      "category": "earnings",
       "title": "Palo Alto Networks 财报",
       "importance": 2,
       "end_date": "",
@@ -1543,7 +1327,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.44704,
-        "revenue_estimate": 1480671070.0,
+        "revenue_estimate": 1480671570.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.39,
@@ -1795,7 +1579,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 1.73873,
-        "revenue_estimate": 19122675660.0,
+        "revenue_estimate": 19124084550.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-05-31",
         "last_eps_actual": 2.11,
