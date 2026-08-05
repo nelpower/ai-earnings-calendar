@@ -53,6 +53,30 @@
     {
       "date": "2026-08-05",
       "category": "earnings",
+      "title": "Silicon Labs 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SLAB"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/SLAB",
+      "meta": {
+        "ticker": "SLAB",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.68867,
+        "revenue_estimate": 227728330.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.53,
+        "last_eps_estimate": 0.50354
+      }
+    },
+    {
+      "date": "2026-08-05",
+      "category": "earnings",
       "title": "Power Integrations 财报",
       "importance": 3,
       "end_date": "",
@@ -811,7 +835,7 @@
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
         "eps_estimate": 3.3869,
-        "revenue_estimate": 9003412110.0,
+        "revenue_estimate": 9009040240.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 2.86,
@@ -972,30 +996,6 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.275,
         "last_eps_estimate": 0.26686
-      }
-    },
-    {
-      "date": "2026-08-26",
-      "category": "earnings",
-      "title": "MongoDB 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "MDB"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/MDB",
-      "meta": {
-        "ticker": "MDB",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 1.61073,
-        "revenue_estimate": 734495570.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 1.32,
-        "last_eps_estimate": 1.18348
       }
     },
     {
@@ -1212,6 +1212,30 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.85,
         "last_eps_estimate": 0.7972
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "category": "earnings",
+      "title": "MongoDB 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "MDB"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/MDB",
+      "meta": {
+        "ticker": "MDB",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.61073,
+        "revenue_estimate": 734495570.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 1.32,
+        "last_eps_estimate": 1.18348
       }
     },
     {
