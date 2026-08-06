@@ -5,6 +5,30 @@
     {
       "date": "2026-08-06",
       "category": "earnings",
+      "title": "Silicon Labs 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SLAB"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/SLAB",
+      "meta": {
+        "ticker": "SLAB",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.68867,
+        "revenue_estimate": 227728330.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.53,
+        "last_eps_estimate": 0.50354
+      }
+    },
+    {
+      "date": "2026-08-06",
+      "category": "earnings",
       "title": "MACOM 财报",
       "importance": 3,
       "end_date": "",
@@ -665,6 +689,30 @@
     {
       "date": "2026-08-26",
       "category": "earnings",
+      "title": "Salesforce 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRM"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/CRM",
+      "meta": {
+        "ticker": "CRM",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 3.27034,
+        "revenue_estimate": 11315611360.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 3.88,
+        "last_eps_estimate": 3.12729
+      }
+    },
+    {
+      "date": "2026-08-26",
+      "category": "earnings",
       "title": "CrowdStrike 财报",
       "importance": 2,
       "end_date": "",
@@ -996,30 +1044,6 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 2.43,
         "last_eps_estimate": 2.26646
-      }
-    },
-    {
-      "date": "2026-09-02",
-      "category": "earnings",
-      "title": "Salesforce 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CRM"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/CRM",
-      "meta": {
-        "ticker": "CRM",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 3.27034,
-        "revenue_estimate": 11315611360.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 3.88,
-        "last_eps_estimate": 3.12729
       }
     },
     {
