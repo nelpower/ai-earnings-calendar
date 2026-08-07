@@ -1,67 +1,7 @@
 {
-  "generated": "2026-08-07",
-  "today": "2026-08-07",
+  "generated": "2026-08-08",
+  "today": "2026-08-08",
   "events": [
-    {
-      "date": "2026-08-07",
-      "category": "macro",
-      "title": "非农就业报告 (7月)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "就业强弱直接影响美联储降息路径",
-      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "meta": {}
-    },
-    {
-      "date": "2026-08-07",
-      "category": "earnings",
-      "title": "Vistra 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "VST"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/VST",
-      "meta": {
-        "ticker": "VST",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": 1.95,
-        "revenue_estimate": 5521205000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.87,
-        "last_eps_estimate": 1.8715
-      }
-    },
-    {
-      "date": "2026-08-07",
-      "category": "earnings",
-      "title": "Oklo 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "OKLO"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/OKLO",
-      "meta": {
-        "ticker": "OKLO",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": -0.1803,
-        "revenue_estimate": 71830.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": NaN,
-        "last_eps_estimate": -0.18373
-      }
-    },
     {
       "date": "2026-08-10",
       "category": "earnings",
@@ -150,8 +90,8 @@
         "ticker": "CRWV",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -1.21533,
-        "revenue_estimate": 2555254490.0,
+        "eps_estimate": -1.2145,
+        "revenue_estimate": 2555302330.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": -1.4,
@@ -247,7 +187,7 @@
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
         "eps_estimate": -0.6025,
-        "revenue_estimate": 578218760.0,
+        "revenue_estimate": 574647330.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.11,
