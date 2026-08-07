@@ -65,6 +65,30 @@
     {
       "date": "2026-08-10",
       "category": "earnings",
+      "title": "Silicon Labs 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SLAB"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/SLAB",
+      "meta": {
+        "ticker": "SLAB",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.68867,
+        "revenue_estimate": 227728330.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-03-31",
+        "last_eps_actual": 0.53,
+        "last_eps_estimate": 0.50354
+      }
+    },
+    {
+      "date": "2026-08-10",
+      "category": "earnings",
       "title": "Camtek 财报",
       "importance": 3,
       "end_date": "",
