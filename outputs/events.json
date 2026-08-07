@@ -1,295 +1,7 @@
 {
-  "generated": "2026-08-06",
-  "today": "2026-08-06",
+  "generated": "2026-08-07",
+  "today": "2026-08-07",
   "events": [
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Silicon Labs 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SLAB"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/SLAB",
-      "meta": {
-        "ticker": "SLAB",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.68867,
-        "revenue_estimate": 227728330.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.53,
-        "last_eps_estimate": 0.50354
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "MACOM 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "MTSI"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/MTSI",
-      "meta": {
-        "ticker": "MTSI",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 1.34816,
-        "revenue_estimate": 335551430.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.09,
-        "last_eps_estimate": 1.07282
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Onto Innovation 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ONTO"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ONTO",
-      "meta": {
-        "ticker": "ONTO",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 1.69079,
-        "revenue_estimate": 325254200.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.42,
-        "last_eps_estimate": 1.41571
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Axcelis Technologies 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ACLS"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ACLS",
-      "meta": {
-        "ticker": "ACLS",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.894,
-        "revenue_estimate": 205037920.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.72,
-        "last_eps_estimate": 0.71
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Nova 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NVMI"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/NVMI",
-      "meta": {
-        "ticker": "NVMI",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 2.41183,
-        "revenue_estimate": 250328350.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.33,
-        "last_eps_estimate": 2.19857
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Applied Optoelectronics 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AAOI"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/AAOI",
-      "meta": {
-        "ticker": "AAOI",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 0.015,
-        "revenue_estimate": 190478400.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": -0.07,
-        "last_eps_estimate": -0.04833
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Cloudflare 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NET"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/NET",
-      "meta": {
-        "ticker": "NET",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.26976,
-        "revenue_estimate": 666345190.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.25,
-        "last_eps_estimate": 0.23357
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Datadog 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "DDOG"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/DDOG",
-      "meta": {
-        "ticker": "DDOG",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.58324,
-        "revenue_estimate": 1078293090.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.6,
-        "last_eps_estimate": 0.50738
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Twilio 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TWLO"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/TWLO",
-      "meta": {
-        "ticker": "TWLO",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 1.32361,
-        "revenue_estimate": 1430109710.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.5,
-        "last_eps_estimate": 1.27097
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Atlassian 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TEAM"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/TEAM",
-      "meta": {
-        "ticker": "TEAM",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 1.50174,
-        "revenue_estimate": 1662593220.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.75,
-        "last_eps_estimate": 1.33598
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "JFrog 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "FROG"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/FROG",
-      "meta": {
-        "ticker": "FROG",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.24029,
-        "revenue_estimate": 155635020.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.27,
-        "last_eps_estimate": 0.21334
-      }
-    },
-    {
-      "date": "2026-08-06",
-      "category": "earnings",
-      "title": "Constellation Energy 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CEG"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/CEG",
-      "meta": {
-        "ticker": "CEG",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": 2.33835,
-        "revenue_estimate": 7702236650.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.74,
-        "last_eps_estimate": 2.6021
-      }
-    },
     {
       "date": "2026-08-07",
       "category": "macro",
@@ -319,7 +31,7 @@
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
         "eps_estimate": 1.95,
-        "revenue_estimate": 5475538330.0,
+        "revenue_estimate": 5521205000.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": 2.87,
@@ -414,8 +126,8 @@
         "ticker": "CRWV",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -1.1997,
-        "revenue_estimate": 2557140710.0,
+        "eps_estimate": -1.21533,
+        "revenue_estimate": 2555254490.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
         "last_eps_actual": -1.4,
@@ -905,6 +617,30 @@
     {
       "date": "2026-08-27",
       "category": "earnings",
+      "title": "Rubrik 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "RBRK"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/RBRK",
+      "meta": {
+        "ticker": "RBRK",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.03925,
+        "revenue_estimate": 396230660.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.16,
+        "last_eps_estimate": -0.02817
+      }
+    },
+    {
+      "date": "2026-08-27",
+      "category": "earnings",
       "title": "Workday 财报",
       "importance": 2,
       "end_date": "",
@@ -1095,27 +831,27 @@
       }
     },
     {
-      "date": "2026-09-02",
+      "date": "2026-09-03",
       "category": "earnings",
-      "title": "Zscaler 财报",
-      "importance": 2,
+      "title": "Ciena 财报",
+      "importance": 3,
       "end_date": "",
       "time_et": "",
       "tickers": [
-        "ZS"
+        "CIEN"
       ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/ZS",
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/CIEN",
       "meta": {
-        "ticker": "ZS",
-        "subsector": "AI software / security / data",
+        "ticker": "CIEN",
+        "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 1.09001,
-        "revenue_estimate": 877605040.0,
+        "eps_estimate": 1.72068,
+        "revenue_estimate": 1633122820.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
-        "last_eps_actual": 1.08,
-        "last_eps_estimate": 1.0083
+        "last_eps_actual": 1.64,
+        "last_eps_estimate": 1.45989
       }
     },
     {
@@ -1193,6 +929,30 @@
     {
       "date": "2026-09-03",
       "category": "earnings",
+      "title": "Zscaler 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ZS"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/ZS",
+      "meta": {
+        "ticker": "ZS",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.09001,
+        "revenue_estimate": 877605040.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 1.08,
+        "last_eps_estimate": 1.0083
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "category": "earnings",
       "title": "Samsara 财报",
       "importance": 2,
       "end_date": "",
@@ -1249,54 +1009,6 @@
       "watch": "9/15-16 FOMC 前最后一份非农",
       "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
       "meta": {}
-    },
-    {
-      "date": "2026-09-08",
-      "category": "earnings",
-      "title": "Rubrik 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "RBRK"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/RBRK",
-      "meta": {
-        "ticker": "RBRK",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.03925,
-        "revenue_estimate": 396230660.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.16,
-        "last_eps_estimate": -0.02817
-      }
-    },
-    {
-      "date": "2026-09-09",
-      "category": "earnings",
-      "title": "Ciena 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CIEN"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/CIEN",
-      "meta": {
-        "ticker": "CIEN",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 1.72068,
-        "revenue_estimate": 1633122820.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 1.64,
-        "last_eps_estimate": 1.45989
-      }
     },
     {
       "date": "2026-09-09",
