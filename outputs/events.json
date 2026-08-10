@@ -1,55 +1,7 @@
 {
-  "generated": "2026-08-10",
-  "today": "2026-08-10",
+  "generated": "2026-08-11",
+  "today": "2026-08-11",
   "events": [
-    {
-      "date": "2026-08-10",
-      "category": "earnings",
-      "title": "Silicon Labs 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SLAB"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/SLAB",
-      "meta": {
-        "ticker": "SLAB",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.68867,
-        "revenue_estimate": 227728330.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.53,
-        "last_eps_estimate": 0.50354
-      }
-    },
-    {
-      "date": "2026-08-10",
-      "category": "earnings",
-      "title": "Camtek 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CAMT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/CAMT",
-      "meta": {
-        "ticker": "CAMT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.75967,
-        "revenue_estimate": 130187330.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.7,
-        "last_eps_estimate": 0.68467
-      }
-    },
     {
       "date": "2026-08-11",
       "category": "earnings",
@@ -977,30 +929,6 @@
     {
       "date": "2026-09-09",
       "category": "earnings",
-      "title": "Oracle 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ORCL"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/ORCL",
-      "meta": {
-        "ticker": "ORCL",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 1.73873,
-        "revenue_estimate": 19124084550.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-05-31",
-        "last_eps_actual": 2.11,
-        "last_eps_estimate": 1.96241
-      }
-    },
-    {
-      "date": "2026-09-09",
-      "category": "earnings",
       "title": "C3.ai 财报",
       "importance": 2,
       "end_date": "",
@@ -1020,6 +948,30 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": -0.33,
         "last_eps_estimate": -0.37274
+      }
+    },
+    {
+      "date": "2026-09-10",
+      "category": "earnings",
+      "title": "Oracle 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ORCL"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/ORCL",
+      "meta": {
+        "ticker": "ORCL",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 1.73873,
+        "revenue_estimate": 19124084550.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-05-31",
+        "last_eps_actual": 2.11,
+        "last_eps_estimate": 1.96241
       }
     },
     {
