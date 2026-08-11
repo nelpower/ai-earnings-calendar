@@ -1,79 +1,7 @@
 {
-  "generated": "2026-08-11",
-  "today": "2026-08-11",
+  "generated": "2026-08-12",
+  "today": "2026-08-12",
   "events": [
-    {
-      "date": "2026-08-11",
-      "category": "earnings",
-      "title": "Lumentum 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "LITE"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/LITE",
-      "meta": {
-        "ticker": "LITE",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 2.96892,
-        "revenue_estimate": 987699020.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.37,
-        "last_eps_estimate": 2.26526
-      }
-    },
-    {
-      "date": "2026-08-11",
-      "category": "earnings",
-      "title": "CoreWeave 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CRWV"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/CRWV",
-      "meta": {
-        "ticker": "CRWV",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -1.2145,
-        "revenue_estimate": 2555302330.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": -1.4,
-        "last_eps_estimate": -1.2042
-      }
-    },
-    {
-      "date": "2026-08-11",
-      "category": "earnings",
-      "title": "Super Micro Computer 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SMCI"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/SMCI",
-      "meta": {
-        "ticker": "SMCI",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 0.95748,
-        "revenue_estimate": 11562988100.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 0.84,
-        "last_eps_estimate": 0.62451
-      }
-    },
     {
       "date": "2026-08-12",
       "category": "earnings",
@@ -90,7 +18,7 @@
         "ticker": "CSCO",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 1.16892,
+        "eps_estimate": 1.16883,
         "revenue_estimate": 16827267250.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
@@ -138,7 +66,7 @@
         "ticker": "NBIS",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -0.6025,
+        "eps_estimate": -0.698,
         "revenue_estimate": 574647330.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-03-31",
@@ -174,8 +102,8 @@
         "ticker": "AMAT",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 3.3869,
-        "revenue_estimate": 9009040240.0,
+        "eps_estimate": 3.3944,
+        "revenue_estimate": 9004268820.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 2.86,
@@ -219,7 +147,7 @@
       "meta": {}
     },
     {
-      "date": "2026-08-24",
+      "date": "2026-08-25",
       "category": "earnings",
       "title": "Semtech 财报",
       "importance": 3,
@@ -259,7 +187,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 3.58821,
-        "revenue_estimate": 4268348060.0,
+        "revenue_estimate": 4268352400.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 12.8,
@@ -330,8 +258,8 @@
         "ticker": "CRM",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 3.27034,
-        "revenue_estimate": 11315611360.0,
+        "eps_estimate": 3.27035,
+        "revenue_estimate": 11314729600.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 3.88,
@@ -414,8 +342,8 @@
         "ticker": "MRVL",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.92727,
-        "revenue_estimate": 2702565000.0,
+        "eps_estimate": 0.9279,
+        "revenue_estimate": 2704955330.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.8,
@@ -547,7 +475,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.03925,
-        "revenue_estimate": 396230660.0,
+        "revenue_estimate": 396230600.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.16,
@@ -576,6 +504,30 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 2.66,
         "last_eps_estimate": 2.51697
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "category": "earnings",
+      "title": "Credo Technology 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRDO"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/CRDO",
+      "meta": {
+        "ticker": "CRDO",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 1.1632,
+        "revenue_estimate": 470378120.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 1.16,
+        "last_eps_estimate": 1.03414
       }
     },
     {
@@ -653,30 +605,6 @@
     {
       "date": "2026-09-02",
       "category": "earnings",
-      "title": "Credo Technology 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CRDO"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/CRDO",
-      "meta": {
-        "ticker": "CRDO",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 1.1632,
-        "revenue_estimate": 470378120.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 1.16,
-        "last_eps_estimate": 1.03414
-      }
-    },
-    {
-      "date": "2026-09-02",
-      "category": "earnings",
       "title": "NetApp 财报",
       "importance": 2,
       "end_date": "",
@@ -715,7 +643,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.44704,
-        "revenue_estimate": 1480671570.0,
+        "revenue_estimate": 1480681570.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.39,
@@ -786,7 +714,7 @@
         "ticker": "DELL",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 4.90022,
+        "eps_estimate": 4.89675,
         "revenue_estimate": 44418978920.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
@@ -810,7 +738,7 @@
         "ticker": "HPE",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 0.92258,
+        "eps_estimate": 0.9267,
         "revenue_estimate": 11916091930.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
@@ -883,7 +811,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.15688,
-        "revenue_estimate": 483265410.0,
+        "revenue_estimate": 483296990.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.17,
@@ -906,8 +834,8 @@
         "ticker": "GWRE",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.9347,
-        "revenue_estimate": 403070240.0,
+        "eps_estimate": 0.93372,
+        "revenue_estimate": 402933220.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.82,
@@ -1076,8 +1004,8 @@
         "ticker": "MU",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 31.31417,
-        "revenue_estimate": 50838974970.0,
+        "eps_estimate": 31.30102,
+        "revenue_estimate": 50818298960.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-05-31",
         "last_eps_actual": 25.11,
