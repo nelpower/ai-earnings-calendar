@@ -1,91 +1,7 @@
 {
-  "generated": "2026-08-12",
-  "today": "2026-08-12",
+  "generated": "2026-08-13",
+  "today": "2026-08-13",
   "events": [
-    {
-      "date": "2026-08-12",
-      "category": "earnings",
-      "title": "Cisco Systems 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CSCO"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/CSCO",
-      "meta": {
-        "ticker": "CSCO",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 1.16883,
-        "revenue_estimate": 16827267250.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 1.06,
-        "last_eps_estimate": 1.03625
-      }
-    },
-    {
-      "date": "2026-08-12",
-      "category": "earnings",
-      "title": "Coherent 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "COHR"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/COHR",
-      "meta": {
-        "ticker": "COHR",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 1.61709,
-        "revenue_estimate": 1981007580.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 1.41,
-        "last_eps_estimate": 1.39433
-      }
-    },
-    {
-      "date": "2026-08-12",
-      "category": "earnings",
-      "title": "Nebius Group 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NBIS"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/NBIS",
-      "meta": {
-        "ticker": "NBIS",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -0.698,
-        "revenue_estimate": 574647330.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 2.11,
-        "last_eps_estimate": -0.7125
-      }
-    },
-    {
-      "date": "2026-08-12",
-      "category": "macro",
-      "title": "CPI 通胀数据 (7月)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升",
-      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
-      "meta": {}
-    },
     {
       "date": "2026-08-13",
       "category": "earnings",
@@ -353,30 +269,6 @@
     {
       "date": "2026-08-27",
       "category": "earnings",
-      "title": "Ambarella 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMBA"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/AMBA",
-      "meta": {
-        "ticker": "AMBA",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.17088,
-        "revenue_estimate": 107763010.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.11,
-        "last_eps_estimate": 0.10434
-      }
-    },
-    {
-      "date": "2026-08-27",
-      "category": "earnings",
       "title": "IREN 财报",
       "importance": 3,
       "end_date": "",
@@ -605,6 +497,30 @@
     {
       "date": "2026-09-02",
       "category": "earnings",
+      "title": "Hewlett Packard Enterprise 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "HPE"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/HPE",
+      "meta": {
+        "ticker": "HPE",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 0.9267,
+        "revenue_estimate": 11916091930.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.79,
+        "last_eps_estimate": 0.53369
+      }
+    },
+    {
+      "date": "2026-09-02",
+      "category": "earnings",
       "title": "NetApp 财报",
       "importance": 2,
       "end_date": "",
@@ -677,6 +593,30 @@
     {
       "date": "2026-09-03",
       "category": "earnings",
+      "title": "Ambarella 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMBA"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/AMBA",
+      "meta": {
+        "ticker": "AMBA",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.17088,
+        "revenue_estimate": 107763010.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.11,
+        "last_eps_estimate": 0.10434
+      }
+    },
+    {
+      "date": "2026-09-03",
+      "category": "earnings",
       "title": "Ciena 财报",
       "importance": 3,
       "end_date": "",
@@ -720,30 +660,6 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 4.86,
         "last_eps_estimate": 2.96358
-      }
-    },
-    {
-      "date": "2026-09-03",
-      "category": "earnings",
-      "title": "Hewlett Packard Enterprise 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "HPE"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/HPE",
-      "meta": {
-        "ticker": "HPE",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 0.9267,
-        "revenue_estimate": 11916091930.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.79,
-        "last_eps_estimate": 0.53369
       }
     },
     {
