@@ -1,31 +1,7 @@
 {
-  "generated": "2026-08-13",
-  "today": "2026-08-13",
+  "generated": "2026-08-14",
+  "today": "2026-08-14",
   "events": [
-    {
-      "date": "2026-08-13",
-      "category": "earnings",
-      "title": "Applied Materials 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMAT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/AMAT",
-      "meta": {
-        "ticker": "AMAT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 3.3944,
-        "revenue_estimate": 9004268820.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 2.86,
-        "last_eps_estimate": 2.68545
-      }
-    },
     {
       "date": "2026-08-17",
       "category": "earnings",
