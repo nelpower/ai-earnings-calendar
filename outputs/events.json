@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-16",
-  "today": "2026-08-16",
+  "generated": "2026-08-17",
+  "today": "2026-08-17",
   "events": [
     {
       "date": "2026-08-17",
@@ -655,7 +655,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.14738,
-        "revenue_estimate": 397848470.0,
+        "revenue_estimate": 397845650.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.15,
