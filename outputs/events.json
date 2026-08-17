@@ -1,31 +1,7 @@
 {
-  "generated": "2026-08-17",
-  "today": "2026-08-17",
+  "generated": "2026-08-18",
+  "today": "2026-08-18",
   "events": [
-    {
-      "date": "2026-08-17",
-      "category": "earnings",
-      "title": "Fabrinet 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "FN"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/FN",
-      "meta": {
-        "ticker": "FN",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 3.81462,
-        "revenue_estimate": 1275092500.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-03-31",
-        "last_eps_actual": 3.72,
-        "last_eps_estimate": 3.56263
-      }
-    },
     {
       "date": "2026-08-21",
       "category": "options",
@@ -943,6 +919,18 @@
       "tickers": [],
       "watch": "美联储最看重的通胀指标,影响降息时点",
       "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+      "meta": {}
+    },
+    {
+      "date": "2026-10-02",
+      "category": "macro",
+      "title": "非农就业报告 (9月)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "就业强弱直接影响美联储降息路径",
+      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
       "meta": {}
     }
   ]
