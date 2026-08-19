@@ -3,6 +3,23 @@
   "today": "2026-08-19",
   "events": [
     {
+      "date": "2026-08-19",
+      "category": "ipo",
+      "title": "Rank One Computing Corp 解禁 (ROC, IPO+180天)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ROC"
+      ],
+      "watch": "IPO(2026-02-20) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
+      "source_url": "https://www.nasdaq.com/market-activity/ipos",
+      "meta": {
+        "ipo_date": "2026-02-20",
+        "assumed_lockup_days": 180
+      }
+    },
+    {
       "date": "2026-08-21",
       "category": "options",
       "title": "月度期权到期日 (OpEx)",
@@ -471,6 +488,18 @@
       }
     },
     {
+      "date": "2026-09-01",
+      "category": "industry",
+      "title": "韩国 8月全月出口数据 (含半导体,1日发布)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "半导体出口 YoY 是存储/HBM 景气度最快的前瞻之一;看半导体出口金额增速、存储价格传导与对华出口占比",
+      "source_url": "https://english.motie.go.kr/en/pc/pressreleases/bbs/bbsList.do",
+      "meta": {}
+    },
+    {
       "date": "2026-09-02",
       "category": "earnings",
       "title": "Broadcom 财报",
@@ -772,6 +801,20 @@
     },
     {
       "date": "2026-09-10",
+      "category": "industry",
+      "title": "台积电 8月营收 (约10日发布)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TSM"
+      ],
+      "watch": "AI 链最高频需求温度计:看 YoY 动能是否延续、环比方向;月营收只有总量,先进制程/CoWoS 结构要等季度法说会。发布日通常在 10 日前后,精确以台积电 IR 为准",
+      "source_url": "https://pr.tsmc.com/english/monthly-revenue",
+      "meta": {}
+    },
+    {
+      "date": "2026-09-10",
       "category": "earnings",
       "title": "Adobe 财报",
       "importance": 2,
@@ -919,6 +962,18 @@
       "tickers": [],
       "watch": "美联储最看重的通胀指标,影响降息时点",
       "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
+      "meta": {}
+    },
+    {
+      "date": "2026-10-01",
+      "category": "industry",
+      "title": "韩国 9月全月出口数据 (含半导体,1日发布)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "半导体出口 YoY 是存储/HBM 景气度最快的前瞻之一;看半导体出口金额增速、存储价格传导与对华出口占比",
+      "source_url": "https://english.motie.go.kr/en/pc/pressreleases/bbs/bbsList.do",
       "meta": {}
     },
     {
