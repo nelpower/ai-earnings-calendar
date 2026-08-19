@@ -377,6 +377,30 @@
     {
       "date": "2026-09-01",
       "category": "earnings",
+      "title": "Dell Technologies 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "DELL"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/DELL",
+      "meta": {
+        "ticker": "DELL",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 4.8924,
+        "revenue_estimate": 44435675110.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 4.86,
+        "last_eps_estimate": 2.96358
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "category": "earnings",
       "title": "Palo Alto Networks 财报",
       "importance": 2,
       "end_date": "",
@@ -420,6 +444,30 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.32,
         "last_eps_estimate": 1.18348
+      }
+    },
+    {
+      "date": "2026-09-01",
+      "category": "earnings",
+      "title": "GitLab 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GTLB"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/GTLB",
+      "meta": {
+        "ticker": "GTLB",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.17964,
+        "revenue_estimate": 273401450.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-04-30",
+        "last_eps_actual": 0.23,
+        "last_eps_estimate": 0.20478
       }
     },
     {
@@ -519,30 +567,6 @@
       }
     },
     {
-      "date": "2026-09-02",
-      "category": "earnings",
-      "title": "GitLab 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GTLB"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/GTLB",
-      "meta": {
-        "ticker": "GTLB",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.17964,
-        "revenue_estimate": 273401450.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.23,
-        "last_eps_estimate": 0.20478
-      }
-    },
-    {
       "date": "2026-09-03",
       "category": "earnings",
       "title": "Ambarella 财报",
@@ -588,30 +612,6 @@
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.64,
         "last_eps_estimate": 1.45989
-      }
-    },
-    {
-      "date": "2026-09-03",
-      "category": "earnings",
-      "title": "Dell Technologies 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "DELL"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/DELL",
-      "meta": {
-        "ticker": "DELL",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 4.8924,
-        "revenue_estimate": 44435675110.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 4.86,
-        "last_eps_estimate": 2.96358
       }
     },
     {
