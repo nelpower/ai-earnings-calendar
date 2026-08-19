@@ -15,13 +15,16 @@ import json
 from pathlib import Path
 
 from src import config
+from src.archive import archive_expired
 from src.build_ics import build_ics
 from src.build_site import build_site
 from src.events_model import Event
 from src.providers import (
     deterministic_events,
     earnings_events,
+    industry_events,
     ipo_events,
+    lockup_events,
     static_events,
 )
 
@@ -56,11 +59,20 @@ def run(
     today = today or config.today_local()   # Beijing calendar day
     end = today + dt.timedelta(days=horizon_days)
 
+    # Archive yesterday's expired events BEFORE events.json gets overwritten —
+    # the outcome library compounds daily; a failure here never blocks the run.
+    try:
+        archive_expired(today, outputs_dir, throttle=throttle)
+    except Exception as exc:  # noqa: BLE001
+        print(f"[archive] skipped ({exc})")
+
     events: list[Event] = []
     events += static_events()
     events += deterministic_events(today, end)
+    events += industry_events(today, end)
     if use_ipo:
         events += ipo_events(today, horizon_days)
+        events += lockup_events(today, horizon_days)
 
     earn = earnings_events(today, horizon_days, throttle=throttle)
     if not earn:

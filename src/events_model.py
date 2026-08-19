@@ -13,6 +13,7 @@ from dataclasses import asdict, dataclass, field
 CATEGORIES = {
     "earnings": "财报",
     "macro": "宏观数据",
+    "industry": "行业数据",
     "fed": "美联储/货币政策",
     "conference": "发布会 / 大会",
     "policy": "政策 / 监管",

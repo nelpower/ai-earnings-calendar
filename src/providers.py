@@ -235,17 +235,20 @@ def _is_ai_ipo(text: str) -> bool:
     return any(k in text for k in _AI_IPO_KW)
 
 
+_NASDAQ_HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
+    "Accept": "application/json, text/plain, */*",
+    "Accept-Language": "en-US,en;q=0.9",
+}
+
+
 def ipo_events(today: dt.date, horizon_days: int) -> list[Event]:
     try:
         import requests
     except ImportError:
         return []
     end = today + dt.timedelta(days=horizon_days)
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
-        "Accept": "application/json, text/plain, */*",
-        "Accept-Language": "en-US,en;q=0.9",
-    }
+    headers = _NASDAQ_HEADERS
     out: list[Event] = []
     seen: set[str] = set()
     for y, m in _months_between(today, end):
@@ -290,3 +293,99 @@ def _parse_us_date(s: str) -> dt.date | None:
         except (ValueError, TypeError):
             continue
     return None
+
+
+# --------------------------------------------------------------------------- #
+# 5) Industry monthly data — recurring releases; dates are publication
+#    conventions, so titles say "约" and watch notes point at the official IR.
+# --------------------------------------------------------------------------- #
+def _prev_month_label(y: int, m: int) -> str:
+    return f"{12 if m == 1 else m - 1}月"
+
+
+def industry_events(start: dt.date, end: dt.date) -> list[Event]:
+    """行业月度数据(AI 链高频温度计)。台积电月营收=每月约10日;
+    韩国全月出口(含半导体)=次月1日。发布的都是上个月的数据。"""
+    out: list[Event] = []
+    for y, m in _months_between(start, end):
+        prev = _prev_month_label(y, m)
+        tsmc = dt.date(y, m, 10)
+        if start <= tsmc <= end:
+            out.append(Event(
+                date=tsmc.isoformat(), category="industry",
+                title=f"台积电 {prev}营收 (约10日发布)",
+                importance=3, tickers=["TSM"],
+                watch="AI 链最高频需求温度计:看 YoY 动能是否延续、环比方向;"
+                      "月营收只有总量,先进制程/CoWoS 结构要等季度法说会。"
+                      "发布日通常在 10 日前后,精确以台积电 IR 为准",
+                source_url="https://pr.tsmc.com/english/monthly-revenue",
+            ))
+        kor = dt.date(y, m, 1)
+        if start <= kor <= end:
+            out.append(Event(
+                date=kor.isoformat(), category="industry",
+                title=f"韩国 {prev}全月出口数据 (含半导体,1日发布)",
+                importance=2,
+                watch="半导体出口 YoY 是存储/HBM 景气度最快的前瞻之一;"
+                      "看半导体出口金额增速、存储价格传导与对华出口占比",
+                source_url="https://english.motie.go.kr/en/pc/pressreleases/bbs/bbsList.do",
+            ))
+    return out
+
+
+# --------------------------------------------------------------------------- #
+# 6) IPO lockup expiries — computed from Nasdaq "priced" history (IPO+180d).
+#    Stateless: the priced archive comes from the same Nasdaq endpoint, so we
+#    just look ~6 months back each run; no seed file to maintain.
+# --------------------------------------------------------------------------- #
+LOCKUP_DAYS = 180   # 常规锁定期;个别公司 90/120 天,精确以招股书为准
+
+
+def lockup_events(today: dt.date, horizon_days: int) -> list[Event]:
+    try:
+        import requests
+    except ImportError:
+        return []
+    end = today + dt.timedelta(days=horizon_days)
+    # lockup ∈ [today, end]  ⇔  priced ∈ [today-180, end-180]
+    p_start = today - dt.timedelta(days=LOCKUP_DAYS)
+    p_end = end - dt.timedelta(days=LOCKUP_DAYS)
+    out: list[Event] = []
+    seen: set[str] = set()
+    for y, m in _months_between(p_start, p_end):
+        url = f"https://api.nasdaq.com/api/ipo/calendar?date={y}-{m:02d}"
+        try:
+            resp = requests.get(url, headers=_NASDAQ_HEADERS, timeout=20)
+            resp.raise_for_status()
+            data = resp.json().get("data", {}) or {}
+        except Exception as exc:  # noqa: BLE001
+            print(f"[lockup] {y}-{m:02d}: fetch failed ({exc})")
+            continue
+        rows = (data.get("priced", {}) or {}).get("rows") or []
+        for r in rows:
+            sym = (r.get("proposedTickerSymbol") or r.get("symbol") or "").strip()
+            name = (r.get("companyName") or "").strip()
+            d = _parse_us_date((r.get("pricedDate") or "").strip())
+            if not d or not (p_start <= d <= p_end):
+                continue
+            if not _is_ai_ipo(f"{name} {sym}"):
+                continue
+            lock = d + dt.timedelta(days=LOCKUP_DAYS)
+            if not (today <= lock <= end):
+                continue
+            key = f"{sym or name}-{lock}"
+            if key in seen:
+                continue
+            seen.add(key)
+            label = f"{name} 解禁" + (f" ({sym}, IPO+{LOCKUP_DAYS}天)" if sym
+                                       else f" (IPO+{LOCKUP_DAYS}天)")
+            out.append(Event(
+                date=lock.isoformat(), category="ipo", title=label,
+                importance=2, tickers=[sym] if sym else [],
+                watch=f"IPO({d.isoformat()}) 常规锁定期届满,内部人/早期投资者可开始减持;"
+                      "留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
+                source_url="https://www.nasdaq.com/market-activity/ipos",
+                meta={"ipo_date": d.isoformat(), "assumed_lockup_days": LOCKUP_DAYS},
+            ))
+    print(f"[lockup] {len(out)} lockup expiry(ies) in window")
+    return out

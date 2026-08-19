@@ -95,3 +95,62 @@ def test_earnings_events_includes_day_zero(monkeypatch):
     dates = {e.date for e in evs}
     assert "2026-06-12" in dates       # day 0 kept
     assert "2026-06-11" not in dates   # yesterday dropped
+
+
+# --------------------------------------------------------------------------- #
+# Industry monthly data (deterministic)
+# --------------------------------------------------------------------------- #
+def test_industry_tsmc_and_korea_in_window():
+    from src.providers import industry_events
+    evs = industry_events(dt.date(2026, 8, 19), dt.date(2026, 10, 3))
+    tsmc = [e for e in evs if "台积电" in e.title]
+    kor = [e for e in evs if "韩国" in e.title]
+    # TSMC: Sep 10 (reports 8月) in window; Aug 10 already past window start
+    assert [e.date for e in tsmc] == ["2026-09-10"]
+    assert "8月" in tsmc[0].title and tsmc[0].importance == 3
+    assert tsmc[0].category == "industry" and tsmc[0].tickers == ["TSM"]
+    # Korea: Sep 1 (reports 8月) and Oct 1 (reports 9月)
+    assert [e.date for e in kor] == ["2026-09-01", "2026-10-01"]
+    assert "8月" in kor[0].title and "9月" in kor[1].title
+
+
+def test_industry_january_reports_december():
+    from src.providers import industry_events
+    evs = industry_events(dt.date(2027, 1, 1), dt.date(2027, 1, 15))
+    tsmc = [e for e in evs if "台积电" in e.title]
+    assert tsmc and tsmc[0].date == "2027-01-10" and "12月" in tsmc[0].title
+
+
+# --------------------------------------------------------------------------- #
+# Lockup expiries (Nasdaq priced history, mocked)
+# --------------------------------------------------------------------------- #
+def test_lockup_events_from_priced_history(monkeypatch):
+    import requests
+    from src.providers import lockup_events
+
+    today = dt.date(2026, 8, 19)
+    ai_priced = (today - dt.timedelta(days=170)).strftime("%m/%d/%Y")   # lockup in 10d
+    old_priced = (today - dt.timedelta(days=300)).strftime("%m/%d/%Y")  # out of range
+
+    class FakeResp:
+        status_code = 200
+        def raise_for_status(self):
+            pass
+        def json(self):
+            return {"data": {"priced": {"rows": [
+                {"proposedTickerSymbol": "AICH", "companyName": "NeuralChip AI Inc.",
+                 "pricedDate": ai_priced},
+                {"proposedTickerSymbol": "SLVR", "companyName": "Silver Mines Ltd.",
+                 "pricedDate": ai_priced},                     # non-AI -> filtered
+                {"proposedTickerSymbol": "OLDA", "companyName": "Old AI Corp.",
+                 "pricedDate": old_priced},                    # priced too早 -> out
+            ]}}}
+
+    monkeypatch.setattr(requests, "get", lambda *a, **k: FakeResp())
+    evs = lockup_events(today, 45)
+    assert len(evs) == 1
+    e = evs[0]
+    assert e.category == "ipo" and "解禁" in e.title and "AICH" in e.title
+    assert e.date == (today + dt.timedelta(days=10)).isoformat()
+    assert e.meta["assumed_lockup_days"] == 180
+    assert e.importance == 2

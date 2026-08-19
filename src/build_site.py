@@ -19,7 +19,7 @@ DISCLAIMER = (
 _CAT_COLOR = {
     "earnings": "#4c8bf5", "macro": "#a371f7", "fed": "#e5534b",
     "conference": "#2bb0c2", "policy": "#e0708a", "ipo": "#2ea043",
-    "options": "#d2992b", "index": "#8b949e",
+    "options": "#d2992b", "index": "#8b949e", "industry": "#e8874a",
 }
 _WD = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 
@@ -27,6 +27,7 @@ _WD = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 _ACTION_LABEL = {
     "earnings": "看财报 / 电话会",
     "macro": "看数据发布",
+    "industry": "看数据发布",
     "fed": "看声明 / 发布会",
     "conference": "看直播 / 主题演讲",
     "policy": "看裁决 / 公告",

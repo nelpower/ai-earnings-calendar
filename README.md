@@ -17,10 +17,22 @@ Live: published to GitHub Pages. Research/heads-up tool only — **not investmen
 | 期权到期 / 四巫日 | ✅ computed | 3rd Friday each month, **shifted to the prior trading day when it's an NYSE holiday** (e.g. Juneteenth Fri 2026-06-19 → Thu 06-18); quad-witching in Mar/Jun/Sep/Dec |
 | 指数重构 Index | ✅ computed | Russell reconstitution, **semi-annual since 2026**: 4th Friday of June + 2nd Friday of December (FTSE Russell notice 2025-11-05) |
 | 发布会 / 大会 Conferences | 🟡 curated | `data/events.yaml` (GTC/WWDC/Computex…, announced months ahead) |
-| IPO | 🟡 scraped | Nasdaq IPO calendar, **keyword-filtered to AI-relevant names** |
+| IPO + **解禁 Lockup** | 🟡 scraped / ✅ computed | Nasdaq IPO calendar, **keyword-filtered to AI-relevant names**; lockup expiries = priced date + 180d, backfilled from the same endpoint's `priced` history (~6 months back, stateless) |
+| 行业数据 Industry | ✅ computed | Recurring monthly releases: **TSMC monthly revenue (~10th)** + Korea full-month exports incl. semiconductors (1st); dates are publication conventions, marked "约" |
 
-5 categories are fully automatic; conferences are hand-curated (no clean API);
+6 categories are fully automatic; conferences are hand-curated (no clean API);
 IPOs are scraped from Nasdaq and filtered (silver-miners/insurers dropped).
+
+## Outcome archive (pattern library)
+
+Every run, events from the previous `events.json` whose date has passed are
+appended to **`outputs/archive.jsonl`** (append-only, committed daily, deduped
+by date+title). Earnings events get best-effort outcomes: actual vs estimated
+EPS (yfinance `earnings_history`) plus closes around the report (prev/on/next)
+with **both** candidate reactions (`reaction_pct_if_amc` = on→next,
+`reaction_pct_if_bmo` = prev→on) — we usually don't know the session, so the
+analysis layer picks later. Over time this becomes an "event → market reaction"
+dataset for pattern work.
 
 ## Universe
 
@@ -48,9 +60,15 @@ by category, and `events.ics` can be subscribed to from Apple/Google Calendar
 
 ## How it works (daily run logic)
 
+0. `archive_expired()` appends yesterday's now-past events to
+   `outputs/archive.jsonl` (with earnings outcomes) before anything overwrites
+   `events.json`; failures never block the run.
 1. `static_events()` loads curated macro/Fed + conferences from YAML.
-2. `deterministic_events()` computes options-expiry / quad-witching / Russell dates.
-3. `ipo_events()` scrapes Nasdaq's IPO calendar and keeps only AI-relevant names.
+2. `deterministic_events()` computes options-expiry / quad-witching / Russell
+   dates; `industry_events()` adds TSMC monthly revenue + Korea exports.
+3. `ipo_events()` scrapes Nasdaq's IPO calendar and keeps only AI-relevant
+   names; `lockup_events()` backfills priced AI IPOs from ~6 months ago and
+   emits IPO+180d lockup expiries.
 4. `earnings_events()` pulls next earnings for all 114 tickers (yfinance), keeps
    the in-window ones, and adds last-quarter actual-vs-estimate.
 5. All events merge into one timeline → `today … +45d` (day 0 included — a US
