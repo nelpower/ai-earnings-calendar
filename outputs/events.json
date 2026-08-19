@@ -1,24 +1,7 @@
 {
-  "generated": "2026-08-19",
-  "today": "2026-08-19",
+  "generated": "2026-08-20",
+  "today": "2026-08-20",
   "events": [
-    {
-      "date": "2026-08-19",
-      "category": "ipo",
-      "title": "Rank One Computing Corp 解禁 (ROC, IPO+180天)",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ROC"
-      ],
-      "watch": "IPO(2026-02-20) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
-      "source_url": "https://www.nasdaq.com/market-activity/ipos",
-      "meta": {
-        "ipo_date": "2026-02-20",
-        "assumed_lockup_days": 180
-      }
-    },
     {
       "date": "2026-08-21",
       "category": "options",
