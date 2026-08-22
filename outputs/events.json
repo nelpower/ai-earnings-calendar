@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-22",
-  "today": "2026-08-22",
+  "generated": "2026-08-23",
+  "today": "2026-08-23",
   "events": [
     {
       "date": "2026-08-25",
@@ -66,8 +66,8 @@
         "ticker": "NVDA",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 2.08915,
-        "revenue_estimate": 92072420560.0,
+        "eps_estimate": 2.08869,
+        "revenue_estimate": 92069370090.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.87,
@@ -886,8 +886,8 @@
         "ticker": "MU",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 31.29821,
-        "revenue_estimate": 50805073160.0,
+        "eps_estimate": 31.28341,
+        "revenue_estimate": 50784289620.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-05-31",
         "last_eps_actual": 25.11,
