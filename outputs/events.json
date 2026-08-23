@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-23",
-  "today": "2026-08-23",
+  "generated": "2026-08-24",
+  "today": "2026-08-24",
   "events": [
     {
       "date": "2026-08-25",
@@ -958,6 +958,54 @@
       "watch": "就业强弱直接影响美联储降息路径",
       "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
       "meta": {}
+    },
+    {
+      "date": "2026-10-08",
+      "category": "earnings",
+      "title": "Aehr Test Systems 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AEHR"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/AEHR",
+      "meta": {
+        "ticker": "AEHR",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.09333,
+        "revenue_estimate": 26600000.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-05-31",
+        "last_eps_actual": 0.11,
+        "last_eps_estimate": -0.0075
+      }
+    },
+    {
+      "date": "2026-10-08",
+      "category": "earnings",
+      "title": "Applied Digital 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "APLD"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/APLD",
+      "meta": {
+        "ticker": "APLD",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.29333,
+        "revenue_estimate": 126400250.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-05-31",
+        "last_eps_actual": 0.04,
+        "last_eps_estimate": -0.19
+      }
     }
   ]
 }
