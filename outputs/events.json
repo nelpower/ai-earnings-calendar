@@ -1,55 +1,7 @@
 {
-  "generated": "2026-08-25",
-  "today": "2026-08-25",
+  "generated": "2026-08-26",
+  "today": "2026-08-26",
   "events": [
-    {
-      "date": "2026-08-25",
-      "category": "earnings",
-      "title": "Semtech 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SMTC"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/SMTC",
-      "meta": {
-        "ticker": "SMTC",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.61402,
-        "revenue_estimate": 328670920.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 0.51,
-        "last_eps_estimate": 0.45335
-      }
-    },
-    {
-      "date": "2026-08-25",
-      "category": "earnings",
-      "title": "Intuit 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "INTU"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/INTU",
-      "meta": {
-        "ticker": "INTU",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 3.58739,
-        "revenue_estimate": 4268872240.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-04-30",
-        "last_eps_actual": 12.8,
-        "last_eps_estimate": 12.56873
-      }
-    },
     {
       "date": "2026-08-26",
       "category": "earnings",
@@ -1006,6 +958,20 @@
         "last_eps_actual": 0.04,
         "last_eps_estimate": -0.19
       }
+    },
+    {
+      "date": "2026-10-10",
+      "category": "industry",
+      "title": "台积电 9月营收 (约10日发布)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TSM"
+      ],
+      "watch": "AI 链最高频需求温度计:看 YoY 动能是否延续、环比方向;月营收只有总量,先进制程/CoWoS 结构要等季度法说会。发布日通常在 10 日前后,精确以台积电 IR 为准",
+      "source_url": "https://pr.tsmc.com/english/monthly-revenue",
+      "meta": {}
     }
   ]
 }
