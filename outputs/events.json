@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-29",
-  "today": "2026-08-29",
+  "generated": "2026-08-30",
+  "today": "2026-08-30",
   "events": [
     {
       "date": "2026-09-01",
@@ -223,7 +223,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.44698,
-        "revenue_estimate": 1481096120.0,
+        "revenue_estimate": 1481086120.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 0.39,
@@ -683,6 +683,42 @@
       ],
       "watch": "AI 链最高频需求温度计:看 YoY 动能是否延续、环比方向;月营收只有总量,先进制程/CoWoS 结构要等季度法说会。发布日通常在 10 日前后,精确以台积电 IR 为准",
       "source_url": "https://pr.tsmc.com/english/monthly-revenue",
+      "meta": {}
+    },
+    {
+      "date": "2026-10-14",
+      "category": "earnings",
+      "title": "ASML 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ASML"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ASML",
+      "meta": {
+        "ticker": "ASML",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 10.58262,
+        "revenue_estimate": 11659883780.0,
+        "revenue_currency": "EUR",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 7.58,
+        "last_eps_estimate": 6.94813
+      }
+    },
+    {
+      "date": "2026-10-14",
+      "category": "macro",
+      "title": "CPI 通胀数据 (9月)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "meta": {}
     }
   ]
