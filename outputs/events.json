@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-30",
-  "today": "2026-08-30",
+  "generated": "2026-08-31",
+  "today": "2026-08-31",
   "events": [
     {
       "date": "2026-09-01",
@@ -18,8 +18,8 @@
         "ticker": "CRDO",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 1.16507,
-        "revenue_estimate": 470378120.0,
+        "eps_estimate": 1.16862,
+        "revenue_estimate": 471711450.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.16,
@@ -720,6 +720,30 @@
       "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升",
       "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
       "meta": {}
+    },
+    {
+      "date": "2026-10-15",
+      "category": "earnings",
+      "title": "TSMC 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TSM"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/TSM",
+      "meta": {
+        "ticker": "TSM",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 4.45834,
+        "revenue_estimate": 1454960072270.0,
+        "revenue_currency": "TWD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 4.31,
+        "last_eps_estimate": 3.88658
+      }
     }
   ]
 }
