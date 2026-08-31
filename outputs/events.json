@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-31",
-  "today": "2026-08-31",
+  "generated": "2026-09-01",
+  "today": "2026-09-01",
   "events": [
     {
       "date": "2026-09-01",
@@ -18,8 +18,8 @@
         "ticker": "CRDO",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 1.16862,
-        "revenue_estimate": 471711450.0,
+        "eps_estimate": 1.16507,
+        "revenue_estimate": 470378120.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-04-30",
         "last_eps_actual": 1.16,
@@ -744,6 +744,18 @@
         "last_eps_actual": 4.31,
         "last_eps_estimate": 3.88658
       }
+    },
+    {
+      "date": "2026-10-16",
+      "category": "options",
+      "title": "月度期权到期日 (OpEx)",
+      "importance": 1,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "月度期权到期,尾盘波动可能放大",
+      "source_url": "",
+      "meta": {}
     }
   ]
 }
