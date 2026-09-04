@@ -1,19 +1,7 @@
 {
-  "generated": "2026-09-04",
-  "today": "2026-09-04",
+  "generated": "2026-09-05",
+  "today": "2026-09-05",
   "events": [
-    {
-      "date": "2026-09-04",
-      "category": "macro",
-      "title": "非农就业报告 (8月)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "9/15-16 FOMC 前最后一份非农",
-      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "meta": {}
-    },
     {
       "date": "2026-09-10",
       "category": "earnings",
@@ -30,8 +18,8 @@
         "ticker": "ORCL",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.74084,
-        "revenue_estimate": 19129328840.0,
+        "eps_estimate": 1.73905,
+        "revenue_estimate": 19129315930.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-05-31",
         "last_eps_actual": 2.11,
@@ -360,6 +348,30 @@
       "watch": "月度期权到期,尾盘波动可能放大",
       "source_url": "",
       "meta": {}
+    },
+    {
+      "date": "2026-10-20",
+      "category": "earnings",
+      "title": "Pegasystems 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PEGA"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PEGA",
+      "meta": {
+        "ticker": "PEGA",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.48526,
+        "revenue_estimate": 426293560.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.35,
+        "last_eps_estimate": 0.43397
+      }
     }
   ]
 }
