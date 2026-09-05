@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-05",
-  "today": "2026-09-05",
+  "generated": "2026-09-06",
+  "today": "2026-09-06",
   "events": [
     {
       "date": "2026-09-10",
@@ -371,6 +371,126 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.35,
         "last_eps_estimate": 0.43397
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "category": "earnings",
+      "title": "Lam Research 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "LRCX"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/LRCX",
+      "meta": {
+        "ticker": "LRCX",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 2.17786,
+        "revenue_estimate": 8133724960.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.82,
+        "last_eps_estimate": 1.68363
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "category": "earnings",
+      "title": "Teradyne 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TER"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/TER",
+      "meta": {
+        "ticker": "TER",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 2.05052,
+        "revenue_estimate": 1262144510.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.47,
+        "last_eps_estimate": 2.0536
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "category": "earnings",
+      "title": "IBM 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "IBM"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/IBM",
+      "meta": {
+        "ticker": "IBM",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 2.88811,
+        "revenue_estimate": 16837324630.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.93,
+        "last_eps_estimate": 2.93306
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "category": "earnings",
+      "title": "Vertiv 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "VRT"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/VRT",
+      "meta": {
+        "ticker": "VRT",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.82173,
+        "revenue_estimate": 3771417040.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.52,
+        "last_eps_estimate": 1.42824
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "category": "earnings",
+      "title": "Tesla 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TSLA"
+      ],
+      "watch": "AI 功能落地、用户与变现",
+      "source_url": "https://finance.yahoo.com/quote/TSLA",
+      "meta": {
+        "ticker": "TSLA",
+        "subsector": "Consumer / platform AI",
+        "date_confirmed": true,
+        "eps_estimate": 0.45154,
+        "revenue_estimate": 27521552050.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.33,
+        "last_eps_estimate": 0.54236
       }
     }
   ]
