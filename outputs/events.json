@@ -218,30 +218,6 @@
     {
       "date": "2026-10-08",
       "category": "earnings",
-      "title": "Aehr Test Systems 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AEHR"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/AEHR",
-      "meta": {
-        "ticker": "AEHR",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.09333,
-        "revenue_estimate": 26600000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-05-31",
-        "last_eps_actual": 0.11,
-        "last_eps_estimate": -0.0075
-      }
-    },
-    {
-      "date": "2026-10-08",
-      "category": "earnings",
       "title": "Applied Digital 财报",
       "importance": 3,
       "end_date": "",
@@ -329,8 +305,8 @@
         "ticker": "TSM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 4.45297,
-        "revenue_estimate": 1454486821800.0,
+        "eps_estimate": 4.4614,
+        "revenue_estimate": 1454323212870.0,
         "revenue_currency": "TWD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 4.31,
