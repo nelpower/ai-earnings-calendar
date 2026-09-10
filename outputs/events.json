@@ -1,69 +1,7 @@
 {
-  "generated": "2026-09-10",
-  "today": "2026-09-10",
+  "generated": "2026-09-11",
+  "today": "2026-09-11",
   "events": [
-    {
-      "date": "2026-09-10",
-      "category": "earnings",
-      "title": "Oracle 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ORCL"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/ORCL",
-      "meta": {
-        "ticker": "ORCL",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 1.73905,
-        "revenue_estimate": 19129103030.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-05-31",
-        "last_eps_actual": 2.11,
-        "last_eps_estimate": 1.96241
-      }
-    },
-    {
-      "date": "2026-09-10",
-      "category": "industry",
-      "title": "台积电 8月营收 (约10日发布)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TSM"
-      ],
-      "watch": "AI 链最高频需求温度计:看 YoY 动能是否延续、环比方向;月营收只有总量,先进制程/CoWoS 结构要等季度法说会。发布日通常在 10 日前后,精确以台积电 IR 为准",
-      "source_url": "https://pr.tsmc.com/english/monthly-revenue",
-      "meta": {}
-    },
-    {
-      "date": "2026-09-10",
-      "category": "earnings",
-      "title": "Adobe 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ADBE"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/ADBE",
-      "meta": {
-        "ticker": "ADBE",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 6.08663,
-        "revenue_estimate": 6700749110.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-05-31",
-        "last_eps_actual": 5.96,
-        "last_eps_estimate": 5.81474
-      }
-    },
     {
       "date": "2026-09-11",
       "category": "macro",
@@ -491,6 +429,78 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.42,
         "last_eps_estimate": 0.21584
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "category": "earnings",
+      "title": "Rambus 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "RMBS"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/RMBS",
+      "meta": {
+        "ticker": "RMBS",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.78857,
+        "revenue_estimate": 213228570.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.77,
+        "last_eps_estimate": 0.715
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "category": "earnings",
+      "title": "Amkor Technology 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMKR"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/AMKR",
+      "meta": {
+        "ticker": "AMKR",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.77663,
+        "revenue_estimate": 2041153040.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.7,
+        "last_eps_estimate": 0.48144
+      }
+    },
+    {
+      "date": "2026-10-26",
+      "category": "earnings",
+      "title": "Cadence Design Systems 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CDNS"
+      ],
+      "watch": "设计活动、AI 芯片设计需求",
+      "source_url": "https://finance.yahoo.com/quote/CDNS",
+      "meta": {
+        "ticker": "CDNS",
+        "subsector": "EDA / chip design",
+        "date_confirmed": true,
+        "eps_estimate": 2.04514,
+        "revenue_estimate": 1611873210.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.11,
+        "last_eps_estimate": 2.05529
       }
     }
   ]
