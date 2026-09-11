@@ -1,19 +1,7 @@
 {
-  "generated": "2026-09-11",
-  "today": "2026-09-11",
+  "generated": "2026-09-12",
+  "today": "2026-09-12",
   "events": [
-    {
-      "date": "2026-09-11",
-      "category": "macro",
-      "title": "CPI 通胀数据 (8月)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "9/15-16 FOMC 前最后一份 CPI",
-      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
-      "meta": {}
-    },
     {
       "date": "2026-09-15",
       "category": "conference",
@@ -244,7 +232,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 4.4614,
-        "revenue_estimate": 1454323212870.0,
+        "revenue_estimate": 1454270435790.0,
         "revenue_currency": "TWD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 4.31,
@@ -423,8 +411,8 @@
         "ticker": "INTC",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.38887,
-        "revenue_estimate": 16419557130.0,
+        "eps_estimate": 0.38802,
+        "revenue_estimate": 16419696619.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.42,
@@ -501,6 +489,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.11,
         "last_eps_estimate": 2.05529
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "category": "earnings",
+      "title": "Seagate 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "STX"
+      ],
+      "watch": "HBM/存储价格与供给、AI 拉动",
+      "source_url": "https://finance.yahoo.com/quote/STX",
+      "meta": {
+        "ticker": "STX",
+        "subsector": "Memory / storage (AI)",
+        "date_confirmed": true,
+        "eps_estimate": 7.34882,
+        "revenue_estimate": 4120498170.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 5.71,
+        "last_eps_estimate": 5.09418
       }
     }
   ]
