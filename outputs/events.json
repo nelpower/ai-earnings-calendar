@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-12",
-  "today": "2026-09-12",
+  "generated": "2026-09-13",
+  "today": "2026-09-13",
   "events": [
     {
       "date": "2026-09-15",
@@ -513,6 +513,275 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 5.71,
         "last_eps_estimate": 5.09418
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "United Microelectronics 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "UMC"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/UMC",
+      "meta": {
+        "ticker": "UMC",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.12274,
+        "revenue_estimate": 75690804700.0,
+        "revenue_currency": "TWD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.52,
+        "last_eps_estimate": 0.15827
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "KLA 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "KLAC"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/KLAC",
+      "meta": {
+        "ticker": "KLAC",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 1.17852,
+        "revenue_estimate": 4040194880.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.05,
+        "last_eps_estimate": 0.99866
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "FormFactor 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "FORM"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/FORM",
+      "meta": {
+        "ticker": "FORM",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.86286,
+        "revenue_estimate": 270409560.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.82,
+        "last_eps_estimate": 0.61
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "Microsoft 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "MSFT"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/MSFT",
+      "meta": {
+        "ticker": "MSFT",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 4.72455,
+        "revenue_estimate": 90670106720.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 4.74,
+        "last_eps_estimate": 4.23939
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "Alphabet (Google) 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GOOGL"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/GOOGL",
+      "meta": {
+        "ticker": "GOOGL",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 3.00752,
+        "revenue_estimate": 127227149560.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 9.11,
+        "last_eps_estimate": 2.89914
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "Meta Platforms 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "META"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/META",
+      "meta": {
+        "ticker": "META",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 6.97333,
+        "revenue_estimate": 63315198780.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 6.18,
+        "last_eps_estimate": 7.22143
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "fed",
+      "title": "FOMC 利率决议",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "14:00",
+      "tickers": [],
+      "watch": "会议 10/27-28;决议声明 14:00 ET、发布会 14:30 ET",
+      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "GE Vernova 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GEV"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/GEV",
+      "meta": {
+        "ticker": "GEV",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 3.97564,
+        "revenue_estimate": 12004084510.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.47,
+        "last_eps_estimate": 3.18468
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "Generac 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GNRC"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/GNRC",
+      "meta": {
+        "ticker": "GNRC",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 2.45118,
+        "revenue_estimate": 1327725320.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.91,
+        "last_eps_estimate": 2.01182
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "ServiceNow 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NOW"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/NOW",
+      "meta": {
+        "ticker": "NOW",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.02553,
+        "revenue_estimate": 4095770420.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.9,
+        "last_eps_estimate": 0.85672
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "Tenable 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TENB"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/TENB",
+      "meta": {
+        "ticker": "TENB",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.50728,
+        "revenue_estimate": 271601310.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.51,
+        "last_eps_estimate": 0.46953
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "ipo",
+      "title": "Quantum Leap Acquisition Corp 解禁 (QLEPU, IPO+180天)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "QLEPU"
+      ],
+      "watch": "IPO(2026-05-01) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
+      "source_url": "https://www.nasdaq.com/market-activity/ipos",
+      "meta": {
+        "ipo_date": "2026-05-01",
+        "assumed_lockup_days": 180
       }
     }
   ]
