@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-14",
-  "today": "2026-09-14",
+  "generated": "2026-09-15",
+  "today": "2026-09-15",
   "events": [
     {
       "date": "2026-09-15",
@@ -987,6 +987,30 @@
       "watch": "美联储最看重的通胀指标,影响降息时点",
       "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
       "meta": {}
+    },
+    {
+      "date": "2026-10-30",
+      "category": "earnings",
+      "title": "nVent Electric 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NVT"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/NVT",
+      "meta": {
+        "ticker": "NVT",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.3899,
+        "revenue_estimate": 1427271850.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.45,
+        "last_eps_estimate": 1.16378
+      }
     }
   ]
 }
