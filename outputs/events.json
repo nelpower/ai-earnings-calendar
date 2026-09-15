@@ -1,21 +1,7 @@
 {
-  "generated": "2026-09-15",
-  "today": "2026-09-15",
+  "generated": "2026-09-16",
+  "today": "2026-09-16",
   "events": [
-    {
-      "date": "2026-09-15",
-      "category": "conference",
-      "title": "Salesforce Dreamforce 2026",
-      "importance": 2,
-      "end_date": "2026-09-17",
-      "time_et": "",
-      "tickers": [
-        "CRM"
-      ],
-      "watch": "Agentforce / 企业 AI agent 进展与变现",
-      "source_url": "https://www.salesforce.com/dreamforce/",
-      "meta": {}
-    },
     {
       "date": "2026-09-16",
       "category": "fed",
@@ -196,7 +182,7 @@
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
         "eps_estimate": 10.58262,
-        "revenue_estimate": 11659883780.0,
+        "revenue_estimate": 11659847070.0,
         "revenue_currency": "EUR",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 7.58,
@@ -232,7 +218,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 4.4614,
-        "revenue_estimate": 1454270435790.0,
+        "revenue_estimate": 1454757744140.0,
         "revenue_currency": "TWD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 4.31,
@@ -604,7 +590,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 4.72455,
-        "revenue_estimate": 90670106720.0,
+        "revenue_estimate": 90659206720.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 4.74,
@@ -1004,7 +990,7 @@
         "ticker": "NVT",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.3899,
+        "eps_estimate": 1.38985,
         "revenue_estimate": 1427271850.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
