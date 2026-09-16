@@ -1,19 +1,7 @@
 {
-  "generated": "2026-09-16",
-  "today": "2026-09-16",
+  "generated": "2026-09-17",
+  "today": "2026-09-17",
   "events": [
-    {
-      "date": "2026-09-16",
-      "category": "fed",
-      "title": "FOMC 利率决议 (含点阵图)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "14:00",
-      "tickers": [],
-      "watch": "会议 9/15-16;决议 + 季度经济预测 (SEP) + 点阵图 + 发布会",
-      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "meta": {}
-    },
     {
       "date": "2026-09-18",
       "category": "options",
@@ -997,6 +985,18 @@
         "last_eps_actual": 1.45,
         "last_eps_estimate": 1.16378
       }
+    },
+    {
+      "date": "2026-11-01",
+      "category": "industry",
+      "title": "韩国 10月全月出口数据 (含半导体,1日发布)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "半导体出口 YoY 是存储/HBM 景气度最快的前瞻之一;看半导体出口金额增速、存储价格传导与对华出口占比",
+      "source_url": "https://english.motie.go.kr/en/pc/pressreleases/bbs/bbsList.do",
+      "meta": {}
     }
   ]
 }
