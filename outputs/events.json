@@ -1,31 +1,7 @@
 {
-  "generated": "2026-09-18",
-  "today": "2026-09-18",
+  "generated": "2026-09-19",
+  "today": "2026-09-19",
   "events": [
-    {
-      "date": "2026-09-18",
-      "category": "options",
-      "title": "期权四巫日 (季度衍生品到期)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [],
-      "watch": "股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异",
-      "source_url": "",
-      "meta": {}
-    },
-    {
-      "date": "2026-09-18",
-      "category": "index",
-      "title": "标普 500 / 中小盘 季度再平衡生效",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [],
-      "watch": "标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大",
-      "source_url": "https://www.spglobal.com/spdji/en/governance/methodology/",
-      "meta": {}
-    },
     {
       "date": "2026-09-23",
       "category": "conference",
@@ -1140,6 +1116,222 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": -0.05,
         "last_eps_estimate": -0.045
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "AMD 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMD"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/AMD",
+      "meta": {
+        "ticker": "AMD",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 1.92579,
+        "revenue_estimate": 12997554620.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.66,
+        "last_eps_estimate": 1.60841
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "Astera Labs 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ALAB"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/ALAB",
+      "meta": {
+        "ticker": "ALAB",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 1.19161,
+        "revenue_estimate": 550636350.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.8,
+        "last_eps_estimate": 0.69195
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "Silicon Labs 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SLAB"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/SLAB",
+      "meta": {
+        "ticker": "SLAB",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.84838,
+        "revenue_estimate": 242096490.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.71,
+        "last_eps_estimate": 0.68867
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "Axcelis Technologies 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ACLS"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ACLS",
+      "meta": {
+        "ticker": "ACLS",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 1.106,
+        "revenue_estimate": 230080760.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.06,
+        "last_eps_estimate": 0.894
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "Ultra Clean Holdings 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "UCTT"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/UCTT",
+      "meta": {
+        "ticker": "UCTT",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.94525,
+        "revenue_estimate": 728065100.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.7,
+        "last_eps_estimate": 0.53076
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "Arista Networks 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ANET"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/ANET",
+      "meta": {
+        "ticker": "ANET",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 1.07656,
+        "revenue_estimate": 3326500420.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.02,
+        "last_eps_estimate": 0.88559
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "Super Micro Computer 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SMCI"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/SMCI",
+      "meta": {
+        "ticker": "SMCI",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.03705,
+        "revenue_estimate": 14971092730.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.7,
+        "last_eps_estimate": 0.95748
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "Eaton 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ETN"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/ETN",
+      "meta": {
+        "ticker": "ETN",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 3.52658,
+        "revenue_estimate": 8446282499.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 3.15,
+        "last_eps_estimate": 3.07642
+      }
+    },
+    {
+      "date": "2026-11-03",
+      "category": "earnings",
+      "title": "Qualys 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "QLYS"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/QLYS",
+      "meta": {
+        "ticker": "QLYS",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.95569,
+        "revenue_estimate": 186608160.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.98,
+        "last_eps_estimate": 1.78483
       }
     }
   ]
