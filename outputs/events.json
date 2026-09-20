@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-20",
-  "today": "2026-09-20",
+  "generated": "2026-09-21",
+  "today": "2026-09-21",
   "events": [
     {
       "date": "2026-09-23",
@@ -1589,6 +1589,342 @@
       "meta": {
         "ipo_date": "2026-05-08",
         "assumed_lockup_days": 180
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Power Integrations 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "POWI"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/POWI",
+      "meta": {
+        "ticker": "POWI",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.415,
+        "revenue_estimate": 125956030.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.37,
+        "last_eps_estimate": 0.31949
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "MACOM 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "MTSI"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/MTSI",
+      "meta": {
+        "ticker": "MTSI",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 1.99829,
+        "revenue_estimate": 420354020.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.4,
+        "last_eps_estimate": 1.34816
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Onto Innovation 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ONTO"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ONTO",
+      "meta": {
+        "ticker": "ONTO",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 2.30657,
+        "revenue_estimate": 392235500.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.93,
+        "last_eps_estimate": 1.69079
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Nova 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NVMI"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/NVMI",
+      "meta": {
+        "ticker": "NVMI",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 2.77479,
+        "revenue_estimate": 282143170.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.51,
+        "last_eps_estimate": 2.41183
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Lumentum 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "LITE"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/LITE",
+      "meta": {
+        "ticker": "LITE",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 4.20833,
+        "revenue_estimate": 1251861620.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 3.23,
+        "last_eps_estimate": 2.96892
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Applied Optoelectronics 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AAOI"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/AAOI",
+      "meta": {
+        "ticker": "AAOI",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 0.14333,
+        "revenue_estimate": 268109400.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.06,
+        "last_eps_estimate": 0.015
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "IREN 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "IREN"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/IREN",
+      "meta": {
+        "ticker": "IREN",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.665,
+        "revenue_estimate": 221832300.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.2544,
+        "last_eps_estimate": -0.455
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Western Digital 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WDC"
+      ],
+      "watch": "HBM/存储价格与供给、AI 拉动",
+      "source_url": "https://finance.yahoo.com/quote/WDC",
+      "meta": {
+        "ticker": "WDC",
+        "subsector": "Memory / storage (AI)",
+        "date_confirmed": true,
+        "eps_estimate": 4.0424,
+        "revenue_estimate": 4133337530.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 3.56,
+        "last_eps_estimate": 3.30022
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Datadog 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "DDOG"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/DDOG",
+      "meta": {
+        "ticker": "DDOG",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.64044,
+        "revenue_estimate": 1144378120.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.65,
+        "last_eps_estimate": 0.58324
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "SoundHound AI 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SOUN"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/SOUN",
+      "meta": {
+        "ticker": "SOUN",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": -0.056,
+        "revenue_estimate": 62258120.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.02,
+        "last_eps_estimate": -0.054
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "JFrog 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "FROG"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/FROG",
+      "meta": {
+        "ticker": "FROG",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.2317,
+        "revenue_estimate": 165418320.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.27,
+        "last_eps_estimate": 0.24029
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Vistra 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "VST"
+      ],
+      "watch": "数据中心电力需求、PPA 长约",
+      "source_url": "https://finance.yahoo.com/quote/VST",
+      "meta": {
+        "ticker": "VST",
+        "subsector": "Power / nuclear (AI data centers)",
+        "date_confirmed": true,
+        "eps_estimate": 2.855,
+        "revenue_estimate": 7584411250.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.76,
+        "last_eps_estimate": 1.65945
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "NRG Energy 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NRG"
+      ],
+      "watch": "数据中心电力需求、PPA 长约",
+      "source_url": "https://finance.yahoo.com/quote/NRG",
+      "meta": {
+        "ticker": "NRG",
+        "subsector": "Power / nuclear (AI data centers)",
+        "date_confirmed": true,
+        "eps_estimate": 2.8678,
+        "revenue_estimate": 9478332390.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.49,
+        "last_eps_estimate": 1.74005
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "NuScale Power 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SMR"
+      ],
+      "watch": "数据中心电力需求、PPA 长约",
+      "source_url": "https://finance.yahoo.com/quote/SMR",
+      "meta": {
+        "ticker": "SMR",
+        "subsector": "Power / nuclear (AI data centers)",
+        "date_confirmed": true,
+        "eps_estimate": -0.1181,
+        "revenue_estimate": 3805000.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.13,
+        "last_eps_estimate": -0.13125
       }
     }
   ]
