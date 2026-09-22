@@ -582,7 +582,7 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 9.11,
-        "last_eps_estimate": 2.89914
+        "last_eps_estimate": 2.91149
       }
     },
     {
@@ -637,7 +637,7 @@
         "ticker": "GEV",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 3.98746,
+        "eps_estimate": 3.95767,
         "revenue_estimate": 12012951180.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1278,8 +1278,8 @@
         "ticker": "ETN",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 3.52658,
-        "revenue_estimate": 8446282499.0,
+        "eps_estimate": 3.52784,
+        "revenue_estimate": 8442122640.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.15,
