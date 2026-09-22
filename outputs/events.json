@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-22",
-  "today": "2026-09-22",
+  "generated": "2026-09-23",
+  "today": "2026-09-23",
   "events": [
     {
       "date": "2026-09-23",
@@ -47,7 +47,7 @@
         "ticker": "MU",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 31.47183,
+        "eps_estimate": 31.50026,
         "revenue_estimate": 51098691500.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-05-31",
@@ -847,7 +847,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 1.4674,
-        "revenue_estimate": 1513518020.0,
+        "revenue_estimate": 1513515640.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.47,
@@ -1824,7 +1824,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": -0.056,
-        "revenue_estimate": 62258120.0,
+        "revenue_estimate": 62152140.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": -0.02,
