@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-24",
-  "today": "2026-09-24",
+  "generated": "2026-09-25",
+  "today": "2026-09-25",
   "events": [
     {
       "date": "2026-09-29",
@@ -1924,6 +1924,54 @@
       "watch": "就业强弱直接影响美联储降息路径",
       "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
       "meta": {}
+    },
+    {
+      "date": "2026-11-09",
+      "category": "earnings",
+      "title": "TeraWulf 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WULF"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/WULF",
+      "meta": {
+        "ticker": "WULF",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.375,
+        "revenue_estimate": 64210490.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.3337,
+        "last_eps_estimate": -0.27
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "category": "earnings",
+      "title": "Constellation Energy 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CEG"
+      ],
+      "watch": "数据中心电力需求、PPA 长约",
+      "source_url": "https://finance.yahoo.com/quote/CEG",
+      "meta": {
+        "ticker": "CEG",
+        "subsector": "Power / nuclear (AI data centers)",
+        "date_confirmed": true,
+        "eps_estimate": 3.75279,
+        "revenue_estimate": 9350469670.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.55,
+        "last_eps_estimate": 2.28235
+      }
     }
   ]
 }
