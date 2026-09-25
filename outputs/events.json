@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-25",
-  "today": "2026-09-25",
+  "generated": "2026-09-26",
+  "today": "2026-09-26",
   "events": [
     {
       "date": "2026-09-29",
@@ -33,8 +33,8 @@
         "ticker": "MU",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 31.55891,
-        "revenue_estimate": 51199717270.0,
+        "eps_estimate": 31.59407,
+        "revenue_estimate": 51244100130.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-05-31",
         "last_eps_actual": 25.11,
@@ -299,8 +299,8 @@
         "ticker": "VRT",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.82782,
-        "revenue_estimate": 3771417040.0,
+        "eps_estimate": 1.82666,
+        "revenue_estimate": 3770659780.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.52,
@@ -323,8 +323,8 @@
         "ticker": "TSLA",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 0.4556,
-        "revenue_estimate": 27523887010.0,
+        "eps_estimate": 0.45008,
+        "revenue_estimate": 27488684330.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.33,
@@ -588,7 +588,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 6.73846,
-        "revenue_estimate": 63317075380.0,
+        "revenue_estimate": 63318607290.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 6.18,
@@ -784,8 +784,8 @@
         "ticker": "AMZN",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.94092,
-        "revenue_estimate": 202129749700.0,
+        "eps_estimate": 1.93606,
+        "revenue_estimate": 202056188580.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 5.75,
@@ -916,8 +916,8 @@
         "ticker": "NVT",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.39382,
-        "revenue_estimate": 1431376710.0,
+        "eps_estimate": 1.39156,
+        "revenue_estimate": 1428951590.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.45,
@@ -1264,8 +1264,8 @@
         "ticker": "ETN",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 3.52803,
-        "revenue_estimate": 8452741309.0,
+        "eps_estimate": 3.5289,
+        "revenue_estimate": 8462107000.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.15,
@@ -1312,8 +1312,8 @@
         "ticker": "ARM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.47351,
-        "revenue_estimate": 1375778890.0,
+        "eps_estimate": 0.47338,
+        "revenue_estimate": 1375935220.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.45,
@@ -1786,7 +1786,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.64044,
-        "revenue_estimate": 1144378120.0,
+        "revenue_estimate": 1145619380.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.65,
@@ -1971,6 +1971,121 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.55,
         "last_eps_estimate": 2.28235
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "category": "earnings",
+      "title": "GlobalFoundries 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GFS"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/GFS",
+      "meta": {
+        "ticker": "GFS",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.51083,
+        "revenue_estimate": 1888310940.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.46,
+        "last_eps_estimate": 0.43181
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "category": "earnings",
+      "title": "Nebius Group 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NBIS"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/NBIS",
+      "meta": {
+        "ticker": "NBIS",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.7075,
+        "revenue_estimate": 905376930.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.68,
+        "last_eps_estimate": -0.86333
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "category": "industry",
+      "title": "台积电 10月营收 (约10日发布)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TSM"
+      ],
+      "watch": "AI 链最高频需求温度计:看 YoY 动能是否延续、环比方向;月营收只有总量,先进制程/CoWoS 结构要等季度法说会。发布日通常在 10 日前后,精确以台积电 IR 为准",
+      "source_url": "https://pr.tsmc.com/english/monthly-revenue",
+      "meta": {}
+    },
+    {
+      "date": "2026-11-10",
+      "category": "macro",
+      "title": "CPI 通胀数据 (10月)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-11-10",
+      "category": "earnings",
+      "title": "Oklo 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "OKLO"
+      ],
+      "watch": "数据中心电力需求、PPA 长约",
+      "source_url": "https://finance.yahoo.com/quote/OKLO",
+      "meta": {
+        "ticker": "OKLO",
+        "subsector": "Power / nuclear (AI data centers)",
+        "date_confirmed": true,
+        "eps_estimate": -0.2462,
+        "revenue_estimate": 778880.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.28,
+        "last_eps_estimate": -0.16039
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "category": "ipo",
+      "title": "Blackstone Digital Infrastructure Trust Inc. 解禁 (BXDC, IPO+180天)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "BXDC"
+      ],
+      "watch": "IPO(2026-05-14) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
+      "source_url": "https://www.nasdaq.com/market-activity/ipos",
+      "meta": {
+        "ipo_date": "2026-05-14",
+        "assumed_lockup_days": 180
       }
     }
   ]
