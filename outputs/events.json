@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-26",
-  "today": "2026-09-26",
+  "generated": "2026-09-27",
+  "today": "2026-09-27",
   "events": [
     {
       "date": "2026-09-29",
@@ -94,7 +94,7 @@
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
         "eps_estimate": -0.30229,
-        "revenue_estimate": 128980200.0,
+        "revenue_estimate": 124566830.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-05-31",
         "last_eps_actual": 0.04,
@@ -323,8 +323,8 @@
         "ticker": "TSLA",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 0.45008,
-        "revenue_estimate": 27488684330.0,
+        "eps_estimate": 0.44848,
+        "revenue_estimate": 27449536180.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.33,
@@ -419,8 +419,8 @@
         "ticker": "CDNS",
         "subsector": "EDA / chip design",
         "date_confirmed": true,
-        "eps_estimate": 2.04539,
-        "revenue_estimate": 1612037770.0,
+        "eps_estimate": 2.04569,
+        "revenue_estimate": 1612178760.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.11,
@@ -1312,8 +1312,8 @@
         "ticker": "ARM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.47338,
-        "revenue_estimate": 1375935220.0,
+        "eps_estimate": 0.47351,
+        "revenue_estimate": 1375778890.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.45,
@@ -1641,7 +1641,7 @@
         "ticker": "ONTO",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 2.30657,
+        "eps_estimate": 2.30422,
         "revenue_estimate": 392235500.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1942,7 +1942,7 @@
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
         "eps_estimate": -0.375,
-        "revenue_estimate": 64210490.0,
+        "revenue_estimate": 64309740.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": -0.3337,
@@ -2085,6 +2085,47 @@
       "source_url": "https://www.nasdaq.com/market-activity/ipos",
       "meta": {
         "ipo_date": "2026-05-14",
+        "assumed_lockup_days": 180
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "category": "earnings",
+      "title": "CoreWeave 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRWV"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/CRWV",
+      "meta": {
+        "ticker": "CRWV",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -1.19113,
+        "revenue_estimate": 3540824940.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -1.14,
+        "last_eps_estimate": -1.46997
+      }
+    },
+    {
+      "date": "2026-11-11",
+      "category": "ipo",
+      "title": "DUKE Robotics Corp. 解禁 (DUKR, IPO+180天)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "DUKR"
+      ],
+      "watch": "IPO(2026-05-15) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
+      "source_url": "https://www.nasdaq.com/market-activity/ipos",
+      "meta": {
+        "ipo_date": "2026-05-15",
         "assumed_lockup_days": 180
       }
     }
