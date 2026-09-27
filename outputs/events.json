@@ -1,6 +1,6 @@
 {
-  "generated": "2026-09-27",
-  "today": "2026-09-27",
+  "generated": "2026-09-28",
+  "today": "2026-09-28",
   "events": [
     {
       "date": "2026-09-29",
@@ -856,12 +856,12 @@
         "ticker": "TEAM",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 1.4242,
-        "revenue_estimate": 1713052060.0,
+        "eps_estimate": 1.43606,
+        "revenue_estimate": 1714107160.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.87,
-        "last_eps_estimate": 1.50174
+        "last_eps_estimate": 1.5018
       }
     },
     {
@@ -2127,6 +2127,54 @@
       "meta": {
         "ipo_date": "2026-05-15",
         "assumed_lockup_days": 180
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "category": "earnings",
+      "title": "Applied Materials 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMAT"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/AMAT",
+      "meta": {
+        "ticker": "AMAT",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 4.062,
+        "revenue_estimate": 10310152080.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 3.5,
+        "last_eps_estimate": 3.3944
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "category": "earnings",
+      "title": "Cisco Systems 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CSCO"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/CSCO",
+      "meta": {
+        "ticker": "CSCO",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 1.32184,
+        "revenue_estimate": 18116967230.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 1.22,
+        "last_eps_estimate": 1.16883
       }
     }
   ]
