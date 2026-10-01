@@ -1,19 +1,7 @@
 {
-  "generated": "2026-10-01",
-  "today": "2026-10-01",
+  "generated": "2026-10-02",
+  "today": "2026-10-02",
   "events": [
-    {
-      "date": "2026-10-01",
-      "category": "industry",
-      "title": "韩国 9月全月出口数据 (含半导体,1日发布)",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [],
-      "watch": "半导体出口 YoY 是存储/HBM 景气度最快的前瞻之一;看半导体出口金额增速、存储价格传导与对华出口占比",
-      "source_url": "https://english.motie.go.kr/en/pc/pressreleases/bbs/bbsList.do",
-      "meta": {}
-    },
     {
       "date": "2026-10-02",
       "category": "macro",
@@ -248,8 +236,8 @@
         "ticker": "VRT",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.82848,
-        "revenue_estimate": 3771561270.0,
+        "eps_estimate": 1.82844,
+        "revenue_estimate": 3773725110.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.52,
@@ -572,7 +560,7 @@
         "ticker": "GEV",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 3.96664,
+        "eps_estimate": 3.96581,
         "revenue_estimate": 12010216970.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -865,8 +853,8 @@
         "ticker": "NVT",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.39204,
-        "revenue_estimate": 1429600230.0,
+        "eps_estimate": 1.3909,
+        "revenue_estimate": 1430051430.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.45,
@@ -1213,8 +1201,8 @@
         "ticker": "ETN",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 3.53021,
-        "revenue_estimate": 8467192800.0,
+        "eps_estimate": 3.53162,
+        "revenue_estimate": 8476604799.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.15,
@@ -2053,8 +2041,8 @@
         "ticker": "CRWV",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -1.18902,
-        "revenue_estimate": 3537777800.0,
+        "eps_estimate": -1.18971,
+        "revenue_estimate": 3537763520.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": -1.14,
@@ -2124,6 +2112,30 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.22,
         "last_eps_estimate": 1.16883
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "category": "earnings",
+      "title": "Camtek 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CAMT"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/CAMT",
+      "meta": {
+        "ticker": "CAMT",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.98056,
+        "revenue_estimate": 159039770.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.78,
+        "last_eps_estimate": 0.75873
       }
     }
   ]
