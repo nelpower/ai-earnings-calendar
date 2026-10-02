@@ -708,6 +708,30 @@
     {
       "date": "2026-10-29",
       "category": "earnings",
+      "title": "Entegris 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ENTG"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ENTG",
+      "meta": {
+        "ticker": "ENTG",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 1.02096,
+        "revenue_estimate": 923565400.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.93,
+        "last_eps_estimate": 0.8215
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "category": "earnings",
       "title": "Amazon 财报",
       "importance": 3,
       "end_date": "",
@@ -1327,30 +1351,6 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.34,
         "last_eps_estimate": 1.95425
-      }
-    },
-    {
-      "date": "2026-11-04",
-      "category": "earnings",
-      "title": "Entegris 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ENTG"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ENTG",
-      "meta": {
-        "ticker": "ENTG",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 1.02096,
-        "revenue_estimate": 923565400.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.93,
-        "last_eps_estimate": 0.8215
       }
     },
     {
