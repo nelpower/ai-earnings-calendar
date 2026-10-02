@@ -1,19 +1,7 @@
 {
-  "generated": "2026-10-02",
-  "today": "2026-10-02",
+  "generated": "2026-10-03",
+  "today": "2026-10-03",
   "events": [
-    {
-      "date": "2026-10-02",
-      "category": "macro",
-      "title": "非农就业报告 (9月)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "就业强弱直接影响美联储降息路径",
-      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "meta": {}
-    },
     {
       "date": "2026-10-07",
       "category": "earnings",
@@ -140,8 +128,8 @@
         "ticker": "PEGA",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.4901,
-        "revenue_estimate": 424418000.0,
+        "eps_estimate": 0.4871,
+        "revenue_estimate": 422562450.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.35,
@@ -619,6 +607,30 @@
     {
       "date": "2026-10-28",
       "category": "earnings",
+      "title": "Fortinet 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "FTNT"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/FTNT",
+      "meta": {
+        "ticker": "FTNT",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.85724,
+        "revenue_estimate": 2062568310.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.9,
+        "last_eps_estimate": 0.74669
+      }
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
       "title": "Tenable 财报",
       "importance": 2,
       "end_date": "",
@@ -745,7 +757,7 @@
         "ticker": "AMZN",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.97667,
+        "eps_estimate": 1.98071,
         "revenue_estimate": 201980771440.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1226,7 +1238,7 @@
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
         "eps_estimate": 3.53162,
-        "revenue_estimate": 8476604799.0,
+        "revenue_estimate": 8480485450.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.15,
@@ -1428,30 +1440,6 @@
     {
       "date": "2026-11-04",
       "category": "earnings",
-      "title": "Fortinet 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "FTNT"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/FTNT",
-      "meta": {
-        "ticker": "FTNT",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.85724,
-        "revenue_estimate": 2062568310.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.9,
-        "last_eps_estimate": 0.74669
-      }
-    },
-    {
-      "date": "2026-11-04",
-      "category": "earnings",
       "title": "AppLovin 财报",
       "importance": 2,
       "end_date": "",
@@ -1602,8 +1590,8 @@
         "ticker": "ONTO",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 2.30422,
-        "revenue_estimate": 392235500.0,
+        "eps_estimate": 2.30202,
+        "revenue_estimate": 392041370.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.93,
@@ -1746,8 +1734,8 @@
         "ticker": "DDOG",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.64044,
-        "revenue_estimate": 1144378120.0,
+        "eps_estimate": 0.64068,
+        "revenue_estimate": 1144394060.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.65,
@@ -2136,6 +2124,54 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.78,
         "last_eps_estimate": 0.75873
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "category": "earnings",
+      "title": "NVIDIA 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NVDA"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/NVDA",
+      "meta": {
+        "ticker": "NVDA",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 2.47332,
+        "revenue_estimate": 108995424980.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 2.22,
+        "last_eps_estimate": 2.09113
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "category": "earnings",
+      "title": "Powell Industries 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "POWL"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/POWL",
+      "meta": {
+        "ticker": "POWL",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.56959,
+        "revenue_estimate": 331434800.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.42,
+        "last_eps_estimate": 1.46968
       }
     }
   ]
