@@ -248,8 +248,8 @@
         "ticker": "TSLA",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 0.44001,
-        "revenue_estimate": 27570865740.0,
+        "eps_estimate": 0.44126,
+        "revenue_estimate": 27631188090.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.33,
@@ -419,9 +419,9 @@
         "eps_estimate": 1.17852,
         "revenue_estimate": 4040194880.0,
         "revenue_currency": "USD",
-        "last_quarter": "",
-        "last_eps_actual": null,
-        "last_eps_estimate": null
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.05,
+        "last_eps_estimate": 0.99866
       }
     },
     {
