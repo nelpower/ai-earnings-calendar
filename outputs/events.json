@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-03",
-  "today": "2026-10-03",
+  "generated": "2026-10-04",
+  "today": "2026-10-04",
   "events": [
     {
       "date": "2026-10-07",
@@ -248,8 +248,8 @@
         "ticker": "TSLA",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 0.43895,
-        "revenue_estimate": 27547358050.0,
+        "eps_estimate": 0.44001,
+        "revenue_estimate": 27570865740.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.33,
@@ -419,9 +419,9 @@
         "eps_estimate": 1.17852,
         "revenue_estimate": 4040194880.0,
         "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.05,
-        "last_eps_estimate": 0.99866
+        "last_quarter": "",
+        "last_eps_actual": null,
+        "last_eps_estimate": null
       }
     },
     {
@@ -1165,7 +1165,7 @@
         "ticker": "UCTT",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 0.94525,
+        "eps_estimate": 0.94314,
         "revenue_estimate": 728065100.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -2172,6 +2172,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.42,
         "last_eps_estimate": 1.46968
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "category": "earnings",
+      "title": "Kulicke & Soffa 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "KLIC"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/KLIC",
+      "meta": {
+        "ticker": "KLIC",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 1.43,
+        "revenue_estimate": 376800000.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.2,
+        "last_eps_estimate": 1.00667
       }
     }
   ]
