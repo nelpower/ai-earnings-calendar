@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-04",
-  "today": "2026-10-04",
+  "generated": "2026-10-05",
+  "today": "2026-10-05",
   "events": [
     {
       "date": "2026-10-07",
@@ -1238,7 +1238,7 @@
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
         "eps_estimate": 3.53162,
-        "revenue_estimate": 8480485450.0,
+        "revenue_estimate": 8479485450.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.15,
@@ -2196,6 +2196,78 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.2,
         "last_eps_estimate": 1.00667
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "category": "earnings",
+      "title": "Palo Alto Networks 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PANW"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PANW",
+      "meta": {
+        "ticker": "PANW",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.9715,
+        "revenue_estimate": 3307503520.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 1.02,
+        "last_eps_estimate": 0.97745
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "category": "earnings",
+      "title": "Elastic 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ESTC"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/ESTC",
+      "meta": {
+        "ticker": "ESTC",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.80925,
+        "revenue_estimate": 486668760.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.7,
+        "last_eps_estimate": 0.58406
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "category": "earnings",
+      "title": "Intuit 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "INTU"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/INTU",
+      "meta": {
+        "ticker": "INTU",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 2.63936,
+        "revenue_estimate": 4306921550.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 4.03,
+        "last_eps_estimate": 3.58739
       }
     }
   ]
