@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-05",
-  "today": "2026-10-05",
+  "generated": "2026-10-06",
+  "today": "2026-10-06",
   "events": [
     {
       "date": "2026-10-07",
@@ -224,8 +224,8 @@
         "ticker": "VRT",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.82844,
-        "revenue_estimate": 3773725110.0,
+        "eps_estimate": 1.8293,
+        "revenue_estimate": 3766236570.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.52,
@@ -248,8 +248,8 @@
         "ticker": "TSLA",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 0.44126,
-        "revenue_estimate": 27631188090.0,
+        "eps_estimate": 0.43814,
+        "revenue_estimate": 27783726550.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.33,
@@ -350,6 +350,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.11,
         "last_eps_estimate": 2.05529
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "category": "earnings",
+      "title": "Ultra Clean Holdings 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "UCTT"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/UCTT",
+      "meta": {
+        "ticker": "UCTT",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.94314,
+        "revenue_estimate": 728065100.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.7,
+        "last_eps_estimate": 0.53076
       }
     },
     {
@@ -685,8 +709,8 @@
         "ticker": "MPWR",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 7.70078,
-        "revenue_estimate": 1140616750.0,
+        "eps_estimate": 7.71364,
+        "revenue_estimate": 1152834460.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 6.5,
@@ -816,30 +840,6 @@
     {
       "date": "2026-10-29",
       "category": "earnings",
-      "title": "Atlassian 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TEAM"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/TEAM",
-      "meta": {
-        "ticker": "TEAM",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 1.4242,
-        "revenue_estimate": 1713759650.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.87,
-        "last_eps_estimate": 1.5018
-      }
-    },
-    {
-      "date": "2026-10-29",
-      "category": "earnings",
       "title": "Apple 财报",
       "importance": 2,
       "end_date": "",
@@ -889,8 +889,8 @@
         "ticker": "NVT",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.3909,
-        "revenue_estimate": 1430051430.0,
+        "eps_estimate": 1.39085,
+        "revenue_estimate": 1430085720.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.45,
@@ -1152,30 +1152,6 @@
     {
       "date": "2026-11-03",
       "category": "earnings",
-      "title": "Ultra Clean Holdings 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "UCTT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/UCTT",
-      "meta": {
-        "ticker": "UCTT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.94314,
-        "revenue_estimate": 728065100.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.7,
-        "last_eps_estimate": 0.53076
-      }
-    },
-    {
-      "date": "2026-11-03",
-      "category": "earnings",
       "title": "Arista Networks 财报",
       "importance": 3,
       "end_date": "",
@@ -1238,7 +1214,7 @@
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
         "eps_estimate": 3.53162,
-        "revenue_estimate": 8479485450.0,
+        "revenue_estimate": 8478879419.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.15,
@@ -1285,8 +1261,8 @@
         "ticker": "ARM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.47351,
-        "revenue_estimate": 1375778890.0,
+        "eps_estimate": 0.47338,
+        "revenue_estimate": 1375935220.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.45,
@@ -1310,7 +1286,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 2.15685,
-        "revenue_estimate": 10138683770.0,
+        "revenue_estimate": 10138218290.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.21,
@@ -1334,7 +1310,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 0.51083,
-        "revenue_estimate": 1888310940.0,
+        "revenue_estimate": 1888293670.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.46,
@@ -1769,6 +1745,30 @@
     {
       "date": "2026-11-05",
       "category": "earnings",
+      "title": "Atlassian 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TEAM"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/TEAM",
+      "meta": {
+        "ticker": "TEAM",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.4242,
+        "revenue_estimate": 1713759650.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.87,
+        "last_eps_estimate": 1.5018
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
       "title": "JFrog 财报",
       "importance": 2,
       "end_date": "",
@@ -2070,8 +2070,8 @@
         "ticker": "AMAT",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 4.06032,
-        "revenue_estimate": 10307645750.0,
+        "eps_estimate": 4.05592,
+        "revenue_estimate": 10299491080.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 3.5,
@@ -2142,8 +2142,8 @@
         "ticker": "NVDA",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 2.47332,
-        "revenue_estimate": 108995424980.0,
+        "eps_estimate": 2.47325,
+        "revenue_estimate": 108976837760.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 2.22,
@@ -2269,6 +2269,18 @@
         "last_eps_actual": 4.03,
         "last_eps_estimate": 3.58739
       }
+    },
+    {
+      "date": "2026-11-20",
+      "category": "options",
+      "title": "月度期权到期日 (OpEx)",
+      "importance": 1,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "月度期权到期,尾盘波动可能放大",
+      "source_url": "",
+      "meta": {}
     }
   ]
 }
