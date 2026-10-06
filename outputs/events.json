@@ -257,30 +257,6 @@
       }
     },
     {
-      "date": "2026-10-22",
-      "category": "earnings",
-      "title": "Intel 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "INTC"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/INTC",
-      "meta": {
-        "ticker": "INTC",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.39091,
-        "revenue_estimate": 16434269030.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.42,
-        "last_eps_estimate": 0.21584
-      }
-    },
-    {
       "date": "2026-10-26",
       "category": "earnings",
       "title": "Rambus 财报",
@@ -691,6 +667,30 @@
       "meta": {
         "ipo_date": "2026-05-01",
         "assumed_lockup_days": 180
+      }
+    },
+    {
+      "date": "2026-10-29",
+      "category": "earnings",
+      "title": "Intel 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "INTC"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/INTC",
+      "meta": {
+        "ticker": "INTC",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.39091,
+        "revenue_estimate": 16434269030.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.42,
+        "last_eps_estimate": 0.21584
       }
     },
     {
