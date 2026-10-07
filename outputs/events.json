@@ -1,31 +1,7 @@
 {
-  "generated": "2026-10-07",
-  "today": "2026-10-07",
+  "generated": "2026-10-08",
+  "today": "2026-10-08",
   "events": [
-    {
-      "date": "2026-10-07",
-      "category": "earnings",
-      "title": "Applied Digital 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "APLD"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/APLD",
-      "meta": {
-        "ticker": "APLD",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -0.30229,
-        "revenue_estimate": 124566830.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-05-31",
-        "last_eps_actual": 0.04,
-        "last_eps_estimate": -0.19
-      }
-    },
     {
       "date": "2026-10-10",
       "category": "industry",
@@ -1712,34 +1688,10 @@
         "date_confirmed": true,
         "eps_estimate": 0.64068,
         "revenue_estimate": 1144394060.0,
-        "revenue_currency": "USD",
+        "revenue_currency": "",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.65,
         "last_eps_estimate": 0.58324
-      }
-    },
-    {
-      "date": "2026-11-05",
-      "category": "earnings",
-      "title": "SoundHound AI 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SOUN"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/SOUN",
-      "meta": {
-        "ticker": "SOUN",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": -0.056,
-        "revenue_estimate": 65933120.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": -0.02,
-        "last_eps_estimate": -0.054
       }
     },
     {
