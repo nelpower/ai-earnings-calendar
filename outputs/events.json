@@ -839,30 +839,6 @@
     },
     {
       "date": "2026-10-29",
-      "category": "earnings",
-      "title": "Apple 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AAPL"
-      ],
-      "watch": "AI 功能落地、用户与变现",
-      "source_url": "https://finance.yahoo.com/quote/AAPL",
-      "meta": {
-        "ticker": "AAPL",
-        "subsector": "Consumer / platform AI",
-        "date_confirmed": true,
-        "eps_estimate": 1.98236,
-        "revenue_estimate": 113624521680.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 2.02,
-        "last_eps_estimate": 1.89243
-      }
-    },
-    {
-      "date": "2026-10-29",
       "category": "macro",
       "title": "PCE 物价指数 (9月)",
       "importance": 2,
@@ -1051,6 +1027,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": -0.05,
         "last_eps_estimate": -0.045
+      }
+    },
+    {
+      "date": "2026-11-02",
+      "category": "earnings",
+      "title": "Apple 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AAPL"
+      ],
+      "watch": "AI 功能落地、用户与变现",
+      "source_url": "https://finance.yahoo.com/quote/AAPL",
+      "meta": {
+        "ticker": "AAPL",
+        "subsector": "Consumer / platform AI",
+        "date_confirmed": true,
+        "eps_estimate": 1.98236,
+        "revenue_estimate": 113624521680.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.02,
+        "last_eps_estimate": 1.89243
       }
     },
     {
