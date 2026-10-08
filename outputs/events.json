@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-08",
-  "today": "2026-10-08",
+  "generated": "2026-10-09",
+  "today": "2026-10-09",
   "events": [
     {
       "date": "2026-10-10",
@@ -32,8 +32,8 @@
         "ticker": "ASML",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 10.64854,
-        "revenue_estimate": 11685730960.0,
+        "eps_estimate": 10.6598,
+        "revenue_estimate": 11683369410.0,
         "revenue_currency": "EUR",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 7.58,
@@ -176,8 +176,8 @@
         "ticker": "IBM",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 2.87065,
-        "revenue_estimate": 16837324630.0,
+        "eps_estimate": 2.86433,
+        "revenue_estimate": 16842602400.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.93,
@@ -230,6 +230,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.33,
         "last_eps_estimate": 0.54236
+      }
+    },
+    {
+      "date": "2026-10-22",
+      "category": "earnings",
+      "title": "Western Digital 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WDC"
+      ],
+      "watch": "HBM/存储价格与供给、AI 拉动",
+      "source_url": "https://finance.yahoo.com/quote/WDC",
+      "meta": {
+        "ticker": "WDC",
+        "subsector": "Memory / storage (AI)",
+        "date_confirmed": true,
+        "eps_estimate": 4.0424,
+        "revenue_estimate": 4133348060.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 3.56,
+        "last_eps_estimate": 3.30022
       }
     },
     {
@@ -465,7 +489,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 3.05895,
-        "revenue_estimate": 127299607260.0,
+        "revenue_estimate": 127303453410.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 9.11,
@@ -489,7 +513,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 6.73583,
-        "revenue_estimate": 63329245590.0,
+        "revenue_estimate": 63347373250.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 6.18,
@@ -733,8 +757,8 @@
         "ticker": "ENTG",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 1.02096,
-        "revenue_estimate": 923565400.0,
+        "eps_estimate": 1.02088,
+        "revenue_estimate": 923832180.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.93,
@@ -758,7 +782,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 1.97667,
-        "revenue_estimate": 202027031620.0,
+        "revenue_estimate": 202022776300.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 5.75,
@@ -1381,8 +1405,8 @@
         "ticker": "DT",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.48988,
-        "revenue_estimate": 567907750.0,
+        "eps_estimate": 0.4908,
+        "revenue_estimate": 568008020.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.48,
@@ -1644,30 +1668,6 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": -0.2544,
         "last_eps_estimate": -0.455
-      }
-    },
-    {
-      "date": "2026-11-05",
-      "category": "earnings",
-      "title": "Western Digital 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "WDC"
-      ],
-      "watch": "HBM/存储价格与供给、AI 拉动",
-      "source_url": "https://finance.yahoo.com/quote/WDC",
-      "meta": {
-        "ticker": "WDC",
-        "subsector": "Memory / storage (AI)",
-        "date_confirmed": true,
-        "eps_estimate": 4.0424,
-        "revenue_estimate": 4133348060.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 3.56,
-        "last_eps_estimate": 3.30022
       }
     },
     {
@@ -2005,7 +2005,7 @@
         "ticker": "CRWV",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -1.18971,
+        "eps_estimate": -1.19247,
         "revenue_estimate": 3537763520.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -2257,6 +2257,30 @@
       "watch": "月度期权到期,尾盘波动可能放大",
       "source_url": "",
       "meta": {}
+    },
+    {
+      "date": "2026-11-23",
+      "category": "earnings",
+      "title": "Semtech 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SMTC"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/SMTC",
+      "meta": {
+        "ticker": "SMTC",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 1.05666,
+        "revenue_estimate": 410616640.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.71,
+        "last_eps_estimate": 0.61402
+      }
     }
   ]
 }
