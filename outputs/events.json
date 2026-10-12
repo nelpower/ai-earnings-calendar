@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-12",
-  "today": "2026-10-12",
+  "generated": "2026-10-13",
+  "today": "2026-10-13",
   "events": [
     {
       "date": "2026-10-14",
@@ -54,8 +54,8 @@
         "ticker": "TSM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 4.46407,
-        "revenue_estimate": 1457602436260.0,
+        "eps_estimate": 4.52449,
+        "revenue_estimate": 1459139238150.0,
         "revenue_currency": "TWD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 4.31,
@@ -149,6 +149,30 @@
     {
       "date": "2026-10-21",
       "category": "earnings",
+      "title": "Meta Platforms 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "META"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/META",
+      "meta": {
+        "ticker": "META",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 6.73583,
+        "revenue_estimate": 63352671120.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 6.18,
+        "last_eps_estimate": 7.22143
+      }
+    },
+    {
+      "date": "2026-10-21",
+      "category": "earnings",
       "title": "IBM 财报",
       "importance": 3,
       "end_date": "",
@@ -211,7 +235,7 @@
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
         "eps_estimate": 0.44794,
-        "revenue_estimate": 28044361180.0,
+        "revenue_estimate": 28087162610.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.33,
@@ -508,30 +532,6 @@
     },
     {
       "date": "2026-10-28",
-      "category": "earnings",
-      "title": "Meta Platforms 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "META"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/META",
-      "meta": {
-        "ticker": "META",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 6.73583,
-        "revenue_estimate": 63352671120.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 6.18,
-        "last_eps_estimate": 7.22143
-      }
-    },
-    {
-      "date": "2026-10-28",
       "category": "fed",
       "title": "FOMC 利率决议",
       "importance": 3,
@@ -607,7 +607,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 1.02553,
-        "revenue_estimate": 4095770420.0,
+        "revenue_estimate": 4095763750.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.9,
@@ -654,7 +654,7 @@
         "ticker": "TENB",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.50728,
+        "eps_estimate": 0.50778,
         "revenue_estimate": 271601310.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -791,7 +791,7 @@
         "ticker": "AMZN",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.97667,
+        "eps_estimate": 1.97938,
         "revenue_estimate": 202089495540.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1802,6 +1802,30 @@
     },
     {
       "date": "2026-11-06",
+      "category": "earnings",
+      "title": "TeraWulf 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WULF"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/WULF",
+      "meta": {
+        "ticker": "WULF",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.375,
+        "revenue_estimate": 64309740.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.3337,
+        "last_eps_estimate": -0.27
+      }
+    },
+    {
+      "date": "2026-11-06",
       "category": "macro",
       "title": "非农就业报告 (10月)",
       "importance": 3,
@@ -1834,30 +1858,6 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.76,
         "last_eps_estimate": 1.65945
-      }
-    },
-    {
-      "date": "2026-11-09",
-      "category": "earnings",
-      "title": "TeraWulf 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "WULF"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/WULF",
-      "meta": {
-        "ticker": "WULF",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -0.375,
-        "revenue_estimate": 64309740.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": -0.3337,
-        "last_eps_estimate": -0.27
       }
     },
     {
@@ -2224,7 +2224,7 @@
         "ticker": "INTU",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 2.63936,
+        "eps_estimate": 2.64013,
         "revenue_estimate": 4306921550.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
@@ -2303,6 +2303,30 @@
       "watch": "美联储最看重的通胀指标,影响降息时点",
       "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
       "meta": {}
+    },
+    {
+      "date": "2026-11-27",
+      "category": "earnings",
+      "title": "Dell Technologies 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "DELL"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/DELL",
+      "meta": {
+        "ticker": "DELL",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 6.55748,
+        "revenue_estimate": 49189581750.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 7.04,
+        "last_eps_estimate": 4.91833
+      }
     }
   ]
 }
