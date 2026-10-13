@@ -802,30 +802,6 @@
     {
       "date": "2026-10-29",
       "category": "earnings",
-      "title": "Cloudflare 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NET"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/NET",
-      "meta": {
-        "ticker": "NET",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.34308,
-        "revenue_estimate": 738089270.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.29,
-        "last_eps_estimate": 0.26976
-      }
-    },
-    {
-      "date": "2026-10-29",
-      "category": "earnings",
       "title": "Twilio 财报",
       "importance": 2,
       "end_date": "",
@@ -1654,6 +1630,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": -0.2544,
         "last_eps_estimate": -0.455
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Cloudflare 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NET"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/NET",
+      "meta": {
+        "ticker": "NET",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.34308,
+        "revenue_estimate": 738089270.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.29,
+        "last_eps_estimate": 0.26976
       }
     },
     {
