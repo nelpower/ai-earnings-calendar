@@ -1,43 +1,7 @@
 {
-  "generated": "2026-10-14",
-  "today": "2026-10-14",
+  "generated": "2026-10-15",
+  "today": "2026-10-15",
   "events": [
-    {
-      "date": "2026-10-14",
-      "category": "earnings",
-      "title": "ASML 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ASML"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ASML",
-      "meta": {
-        "ticker": "ASML",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 10.75815,
-        "revenue_estimate": 11716143870.0,
-        "revenue_currency": "EUR",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 7.58,
-        "last_eps_estimate": 6.94813
-      }
-    },
-    {
-      "date": "2026-10-14",
-      "category": "macro",
-      "title": "CPI 通胀数据 (9月)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "通胀超预期 → 成长股承压;降温 → 风险偏好回升",
-      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
-      "meta": {}
-    },
     {
       "date": "2026-10-15",
       "category": "earnings",
@@ -90,7 +54,7 @@
         "ticker": "PEGA",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.4831,
+        "eps_estimate": 0.4851,
         "revenue_estimate": 421812450.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -125,30 +89,6 @@
     {
       "date": "2026-10-21",
       "category": "earnings",
-      "title": "Teradyne 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TER"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/TER",
-      "meta": {
-        "ticker": "TER",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 2.05052,
-        "revenue_estimate": 1262144510.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 2.47,
-        "last_eps_estimate": 2.0536
-      }
-    },
-    {
-      "date": "2026-10-21",
-      "category": "earnings",
       "title": "Meta Platforms 财报",
       "importance": 3,
       "end_date": "",
@@ -163,7 +103,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 6.73583,
-        "revenue_estimate": 63356766870.0,
+        "revenue_estimate": 63342120060.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 6.18,
@@ -197,30 +137,6 @@
     {
       "date": "2026-10-21",
       "category": "earnings",
-      "title": "Vertiv 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "VRT"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/VRT",
-      "meta": {
-        "ticker": "VRT",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 1.82923,
-        "revenue_estimate": 3765961320.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.52,
-        "last_eps_estimate": 1.42824
-      }
-    },
-    {
-      "date": "2026-10-21",
-      "category": "earnings",
       "title": "Tesla 财报",
       "importance": 2,
       "end_date": "",
@@ -234,8 +150,8 @@
         "ticker": "TSLA",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 0.44952,
-        "revenue_estimate": 28087162610.0,
+        "eps_estimate": 0.45494,
+        "revenue_estimate": 28111085380.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.33,
@@ -341,6 +257,30 @@
     {
       "date": "2026-10-27",
       "category": "earnings",
+      "title": "Teradyne 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TER"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/TER",
+      "meta": {
+        "ticker": "TER",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 2.05052,
+        "revenue_estimate": 1262144510.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 2.47,
+        "last_eps_estimate": 2.0536
+      }
+    },
+    {
+      "date": "2026-10-27",
+      "category": "earnings",
       "title": "Ultra Clean Holdings 财报",
       "importance": 3,
       "end_date": "",
@@ -378,7 +318,7 @@
         "ticker": "STX",
         "subsector": "Memory / storage (AI)",
         "date_confirmed": true,
-        "eps_estimate": 7.37795,
+        "eps_estimate": 7.38205,
         "revenue_estimate": 4130099420.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -498,8 +438,8 @@
         "ticker": "MSFT",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 4.71805,
-        "revenue_estimate": 90698093080.0,
+        "eps_estimate": 4.71854,
+        "revenue_estimate": 90700021710.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 4.74,
@@ -522,8 +462,8 @@
         "ticker": "GOOGL",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 3.03688,
-        "revenue_estimate": 127500474580.0,
+        "eps_estimate": 3.00805,
+        "revenue_estimate": 127605928130.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 9.11,
@@ -541,6 +481,30 @@
       "watch": "会议 10/27-28;决议声明 14:00 ET、发布会 14:30 ET",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "meta": {}
+    },
+    {
+      "date": "2026-10-28",
+      "category": "earnings",
+      "title": "Vertiv 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "VRT"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/VRT",
+      "meta": {
+        "ticker": "VRT",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.82923,
+        "revenue_estimate": 3765961320.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.52,
+        "last_eps_estimate": 1.42824
+      }
     },
     {
       "date": "2026-10-28",
@@ -606,8 +570,8 @@
         "ticker": "NOW",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 1.0241,
-        "revenue_estimate": 4094242720.0,
+        "eps_estimate": 1.02284,
+        "revenue_estimate": 4094374960.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.9,
@@ -792,7 +756,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 1.97667,
-        "revenue_estimate": 202107203880.0,
+        "revenue_estimate": 202083118080.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 5.75,
@@ -1127,8 +1091,8 @@
         "ticker": "ANET",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 1.07842,
-        "revenue_estimate": 3332911910.0,
+        "eps_estimate": 1.07881,
+        "revenue_estimate": 3334085820.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.02,
@@ -1175,8 +1139,8 @@
         "ticker": "ETN",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 3.53629,
-        "revenue_estimate": 8501206790.0,
+        "eps_estimate": 3.53754,
+        "revenue_estimate": 8503644880.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.15,
@@ -1505,7 +1469,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 1.99829,
-        "revenue_estimate": 420354020.0,
+        "revenue_estimate": 420154020.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.4,
@@ -1744,8 +1708,8 @@
         "ticker": "FROG",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.2317,
-        "revenue_estimate": 165418320.0,
+        "eps_estimate": 0.23178,
+        "revenue_estimate": 165844520.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.27,
@@ -1858,6 +1822,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.76,
         "last_eps_estimate": 1.65945
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "category": "earnings",
+      "title": "Camtek 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CAMT"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/CAMT",
+      "meta": {
+        "ticker": "CAMT",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.98056,
+        "revenue_estimate": 159039770.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.78,
+        "last_eps_estimate": 0.75873
       }
     },
     {
@@ -2033,7 +2021,7 @@
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
         "eps_estimate": 4.05576,
-        "revenue_estimate": 10299491080.0,
+        "revenue_estimate": 10299478580.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 3.5,
@@ -2057,35 +2045,11 @@
         "subsector": "Networking / optical",
         "date_confirmed": true,
         "eps_estimate": 1.32432,
-        "revenue_estimate": 18119360080.0,
+        "revenue_estimate": 18115769170.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.22,
         "last_eps_estimate": 1.16883
-      }
-    },
-    {
-      "date": "2026-11-16",
-      "category": "earnings",
-      "title": "Camtek 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CAMT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/CAMT",
-      "meta": {
-        "ticker": "CAMT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.98056,
-        "revenue_estimate": 159039770.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.78,
-        "last_eps_estimate": 0.75873
       }
     },
     {
