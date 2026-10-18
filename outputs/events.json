@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-18",
-  "today": "2026-10-18",
+  "generated": "2026-10-19",
+  "today": "2026-10-19",
   "events": [
     {
       "date": "2026-10-20",
@@ -114,7 +114,7 @@
         "ticker": "TSLA",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 0.45223,
+        "eps_estimate": 0.45054,
         "revenue_estimate": 28111085380.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -138,8 +138,8 @@
         "ticker": "WDC",
         "subsector": "Memory / storage (AI)",
         "date_confirmed": true,
-        "eps_estimate": 4.07706,
-        "revenue_estimate": 4138076370.0,
+        "eps_estimate": 4.07856,
+        "revenue_estimate": 4138234270.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.56,
@@ -282,8 +282,8 @@
         "ticker": "STX",
         "subsector": "Memory / storage (AI)",
         "date_confirmed": true,
-        "eps_estimate": 7.38205,
-        "revenue_estimate": 4130099420.0,
+        "eps_estimate": 7.38416,
+        "revenue_estimate": 4130625730.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 5.71,
@@ -2561,6 +2561,54 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.15,
         "last_eps_estimate": 0.14766
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "category": "earnings",
+      "title": "Samsara 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "IOT"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/IOT",
+      "meta": {
+        "ticker": "IOT",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.18847,
+        "revenue_estimate": 515205290.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.2,
+        "last_eps_estimate": 0.15704
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "category": "earnings",
+      "title": "Guidewire 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GWRE"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/GWRE",
+      "meta": {
+        "ticker": "GWRE",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.7248,
+        "revenue_estimate": 376307180.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.99,
+        "last_eps_estimate": 0.93849
       }
     }
   ]
