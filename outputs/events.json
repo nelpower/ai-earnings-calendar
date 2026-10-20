@@ -1467,30 +1467,6 @@
     {
       "date": "2026-11-05",
       "category": "earnings",
-      "title": "Onto Innovation 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ONTO"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ONTO",
-      "meta": {
-        "ticker": "ONTO",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 2.30202,
-        "revenue_estimate": 392041370.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.93,
-        "last_eps_estimate": 1.69079
-      }
-    },
-    {
-      "date": "2026-11-05",
-      "category": "earnings",
       "title": "Nova 财报",
       "importance": 3,
       "end_date": "",
@@ -1786,6 +1762,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.76,
         "last_eps_estimate": 1.65945
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "category": "earnings",
+      "title": "Onto Innovation 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ONTO"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ONTO",
+      "meta": {
+        "ticker": "ONTO",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 2.30202,
+        "revenue_estimate": 392041370.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.93,
+        "last_eps_estimate": 1.69079
       }
     },
     {
