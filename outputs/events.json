@@ -1,103 +1,7 @@
 {
-  "generated": "2026-10-21",
-  "today": "2026-10-21",
+  "generated": "2026-10-22",
+  "today": "2026-10-22",
   "events": [
-    {
-      "date": "2026-10-21",
-      "category": "earnings",
-      "title": "Lam Research 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "LRCX"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/LRCX",
-      "meta": {
-        "ticker": "LRCX",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 2.17953,
-        "revenue_estimate": 8142433050.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.82,
-        "last_eps_estimate": 1.68363
-      }
-    },
-    {
-      "date": "2026-10-21",
-      "category": "earnings",
-      "title": "Meta Platforms 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "META"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/META",
-      "meta": {
-        "ticker": "META",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 6.80167,
-        "revenue_estimate": 63405681590.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 6.18,
-        "last_eps_estimate": 7.22143
-      }
-    },
-    {
-      "date": "2026-10-21",
-      "category": "earnings",
-      "title": "IBM 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "IBM"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/IBM",
-      "meta": {
-        "ticker": "IBM",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 2.87224,
-        "revenue_estimate": 16842959380.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 2.93,
-        "last_eps_estimate": 2.93306
-      }
-    },
-    {
-      "date": "2026-10-21",
-      "category": "earnings",
-      "title": "Tesla 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TSLA"
-      ],
-      "watch": "AI 功能落地、用户与变现",
-      "source_url": "https://finance.yahoo.com/quote/TSLA",
-      "meta": {
-        "ticker": "TSLA",
-        "subsector": "Consumer / platform AI",
-        "date_confirmed": true,
-        "eps_estimate": 0.45134,
-        "revenue_estimate": 28253140390.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.33,
-        "last_eps_estimate": 0.54236
-      }
-    },
     {
       "date": "2026-10-22",
       "category": "earnings",
@@ -624,7 +528,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 7.74983,
-        "revenue_estimate": 1156603690.0,
+        "revenue_estimate": 1156634460.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 6.5,
@@ -755,8 +659,8 @@
         "ticker": "NVT",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.39447,
-        "revenue_estimate": 1433019560.0,
+        "eps_estimate": 1.39622,
+        "revenue_estimate": 1434955840.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.45,
@@ -994,30 +898,6 @@
     {
       "date": "2026-11-03",
       "category": "earnings",
-      "title": "Axcelis Technologies 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ACLS"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ACLS",
-      "meta": {
-        "ticker": "ACLS",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 1.106,
-        "revenue_estimate": 230080760.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.06,
-        "last_eps_estimate": 0.894
-      }
-    },
-    {
-      "date": "2026-11-03",
-      "category": "earnings",
       "title": "Arista Networks 财报",
       "importance": 3,
       "end_date": "",
@@ -1055,8 +935,8 @@
         "ticker": "SMCI",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 1.03705,
-        "revenue_estimate": 14941898910.0,
+        "eps_estimate": 1.03693,
+        "revenue_estimate": 15010652590.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.7,
@@ -1223,8 +1103,8 @@
         "ticker": "QCOM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 2.15531,
-        "revenue_estimate": 10139890290.0,
+        "eps_estimate": 2.15608,
+        "revenue_estimate": 10141930290.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.21,
@@ -1271,8 +1151,8 @@
         "ticker": "SITM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 3.53708,
-        "revenue_estimate": 287695000.0,
+        "eps_estimate": 3.55982,
+        "revenue_estimate": 288925500.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.34,
@@ -1301,6 +1181,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.37,
         "last_eps_estimate": 0.31949
+      }
+    },
+    {
+      "date": "2026-11-04",
+      "category": "earnings",
+      "title": "Camtek 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CAMT"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/CAMT",
+      "meta": {
+        "ticker": "CAMT",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 0.9895,
+        "revenue_estimate": 160573900.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.78,
+        "last_eps_estimate": 0.75873
       }
     },
     {
@@ -1438,6 +1342,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.4,
         "last_eps_estimate": 1.34816
+      }
+    },
+    {
+      "date": "2026-11-05",
+      "category": "earnings",
+      "title": "Axcelis Technologies 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ACLS"
+      ],
+      "watch": "设备订单、WFE 资本开支、对中国出口",
+      "source_url": "https://finance.yahoo.com/quote/ACLS",
+      "meta": {
+        "ticker": "ACLS",
+        "subsector": "Semiconductor equipment",
+        "date_confirmed": true,
+        "eps_estimate": 1.106,
+        "revenue_estimate": 230080760.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.06,
+        "last_eps_estimate": 0.894
       }
     },
     {
@@ -1767,30 +1695,6 @@
     {
       "date": "2026-11-09",
       "category": "earnings",
-      "title": "Camtek 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CAMT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/CAMT",
-      "meta": {
-        "ticker": "CAMT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.9895,
-        "revenue_estimate": 160573900.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.78,
-        "last_eps_estimate": 0.75873
-      }
-    },
-    {
-      "date": "2026-11-09",
-      "category": "earnings",
       "title": "Constellation Energy 财报",
       "importance": 2,
       "end_date": "",
@@ -1804,8 +1708,8 @@
         "ticker": "CEG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.72986,
-        "revenue_estimate": 9286343670.0,
+        "eps_estimate": 3.6844,
+        "revenue_estimate": 9290057950.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.55,
@@ -1961,7 +1865,7 @@
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
         "eps_estimate": 4.05576,
-        "revenue_estimate": 10296755910.0,
+        "revenue_estimate": 10299491080.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 3.5,
