@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-25",
-  "today": "2026-10-25",
+  "generated": "2026-10-26",
+  "today": "2026-10-26",
   "events": [
     {
       "date": "2026-10-26",
@@ -91,7 +91,7 @@
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
         "eps_estimate": 2.05052,
-        "revenue_estimate": 1262144510.0,
+        "revenue_estimate": 1267677840.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.47,
@@ -791,8 +791,8 @@
         "ticker": "AAPL",
         "subsector": "Consumer / platform AI",
         "date_confirmed": true,
-        "eps_estimate": 1.98187,
-        "revenue_estimate": 113357085200.0,
+        "eps_estimate": 1.98335,
+        "revenue_estimate": 113381085200.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.02,
@@ -2239,7 +2239,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.31146,
-        "revenue_estimate": 1528559430.0,
+        "revenue_estimate": 1528559730.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.31,
@@ -2538,6 +2538,32 @@
         "last_eps_actual": 6.13,
         "last_eps_estimate": 6.08663
       }
+    },
+    {
+      "date": "2026-12-10",
+      "category": "industry",
+      "title": "台积电 11月营收 (约10日发布)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "TSM"
+      ],
+      "watch": "AI 链最高频需求温度计:看 YoY 动能是否延续、环比方向;月营收只有总量,先进制程/CoWoS 结构要等季度法说会。发布日通常在 10 日前后,精确以台积电 IR 为准",
+      "source_url": "https://pr.tsmc.com/english/monthly-revenue",
+      "meta": {}
+    },
+    {
+      "date": "2026-12-10",
+      "category": "macro",
+      "title": "CPI 通胀数据 (11月)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "次日起进入 FOMC 静默期后的决议周;年内最后一份重磅通胀数据",
+      "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "meta": {}
     }
   ]
 }
