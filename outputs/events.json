@@ -1,79 +1,7 @@
 {
-  "generated": "2026-10-26",
-  "today": "2026-10-26",
+  "generated": "2026-10-27",
+  "today": "2026-10-27",
   "events": [
-    {
-      "date": "2026-10-26",
-      "category": "earnings",
-      "title": "Rambus 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "RMBS"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/RMBS",
-      "meta": {
-        "ticker": "RMBS",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.78833,
-        "revenue_estimate": 213000000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.77,
-        "last_eps_estimate": 0.715
-      }
-    },
-    {
-      "date": "2026-10-26",
-      "category": "earnings",
-      "title": "Amkor Technology 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMKR"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/AMKR",
-      "meta": {
-        "ticker": "AMKR",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.78441,
-        "revenue_estimate": 2039297480.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.7,
-        "last_eps_estimate": 0.48144
-      }
-    },
-    {
-      "date": "2026-10-26",
-      "category": "earnings",
-      "title": "Cadence Design Systems 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CDNS"
-      ],
-      "watch": "设计活动、AI 芯片设计需求",
-      "source_url": "https://finance.yahoo.com/quote/CDNS",
-      "meta": {
-        "ticker": "CDNS",
-        "subsector": "EDA / chip design",
-        "date_confirmed": true,
-        "eps_estimate": 2.05319,
-        "revenue_estimate": 1615109250.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 2.11,
-        "last_eps_estimate": 2.05529
-      }
-    },
     {
       "date": "2026-10-27",
       "category": "earnings",
@@ -90,8 +18,8 @@
         "ticker": "TER",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 2.05052,
-        "revenue_estimate": 1267677840.0,
+        "eps_estimate": 2.05985,
+        "revenue_estimate": 1270344510.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.47,
@@ -138,8 +66,8 @@
         "ticker": "STX",
         "subsector": "Memory / storage (AI)",
         "date_confirmed": true,
-        "eps_estimate": 7.40312,
-        "revenue_estimate": 4140190630.0,
+        "eps_estimate": 7.43062,
+        "revenue_estimate": 4150716950.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 5.71,
@@ -258,8 +186,8 @@
         "ticker": "MSFT",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 4.71992,
-        "revenue_estimate": 90751435050.0,
+        "eps_estimate": 4.72072,
+        "revenue_estimate": 90735945570.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 4.74,
@@ -366,8 +294,8 @@
         "ticker": "GNRC",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
-        "eps_estimate": 2.42945,
-        "revenue_estimate": 1324613570.0,
+        "eps_estimate": 2.42828,
+        "revenue_estimate": 1324480240.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.91,
@@ -575,12 +503,12 @@
         "ticker": "AMZN",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.98231,
-        "revenue_estimate": 202202781700.0,
+        "eps_estimate": 1.98917,
+        "revenue_estimate": 202242791190.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 5.75,
-        "last_eps_estimate": 1.82604
+        "last_eps_estimate": 1.82461
       }
     },
     {
@@ -970,30 +898,6 @@
     {
       "date": "2026-11-03",
       "category": "earnings",
-      "title": "Qualys 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "QLYS"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/QLYS",
-      "meta": {
-        "ticker": "QLYS",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 1.95569,
-        "revenue_estimate": 186607060.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.98,
-        "last_eps_estimate": 1.78483
-      }
-    },
-    {
-      "date": "2026-11-03",
-      "category": "earnings",
       "title": "DigitalOcean 财报",
       "importance": 2,
       "end_date": "",
@@ -1031,7 +935,7 @@
         "ticker": "TLN",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 7.29766,
+        "eps_estimate": 8.37022,
         "revenue_estimate": 1352859010.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1199,8 +1103,8 @@
         "ticker": "COHR",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 1.96531,
-        "revenue_estimate": 2303966910.0,
+        "eps_estimate": 1.96554,
+        "revenue_estimate": 2304024310.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.74,
@@ -1223,8 +1127,8 @@
         "ticker": "DDOG",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.64068,
-        "revenue_estimate": 1145539360.0,
+        "eps_estimate": 0.64069,
+        "revenue_estimate": 1145682140.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.65,
@@ -1384,8 +1288,8 @@
         "ticker": "LITE",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 4.2174,
-        "revenue_estimate": 1253366360.0,
+        "eps_estimate": 4.21708,
+        "revenue_estimate": 1253198040.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.23,
@@ -1552,7 +1456,7 @@
         "ticker": "NRG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.05041,
+        "eps_estimate": 3.04498,
         "revenue_estimate": 9353915960.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1637,7 +1541,7 @@
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
         "eps_estimate": 3.01438,
-        "revenue_estimate": 6901848200.0,
+        "revenue_estimate": 6916114870.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.76,
@@ -1695,6 +1599,30 @@
     {
       "date": "2026-11-09",
       "category": "earnings",
+      "title": "Qualys 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "QLYS"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/QLYS",
+      "meta": {
+        "ticker": "QLYS",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.95569,
+        "revenue_estimate": 186607060.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.98,
+        "last_eps_estimate": 1.78483
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "category": "earnings",
       "title": "Constellation Energy 财报",
       "importance": 2,
       "end_date": "",
@@ -1708,7 +1636,7 @@
         "ticker": "CEG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.74167,
+        "eps_estimate": 3.79365,
         "revenue_estimate": 9313800810.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -2214,8 +2142,8 @@
         "ticker": "NTAP",
         "subsector": "Memory / storage (AI)",
         "date_confirmed": true,
-        "eps_estimate": 2.60017,
-        "revenue_estimate": 2101927290.0,
+        "eps_estimate": 2.60174,
+        "revenue_estimate": 2102537450.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 2.58,
@@ -2563,6 +2491,18 @@
       "tickers": [],
       "watch": "次日起进入 FOMC 静默期后的决议周;年内最后一份重磅通胀数据",
       "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
+      "meta": {}
+    },
+    {
+      "date": "2026-12-11",
+      "category": "index",
+      "title": "Russell 指数重构生效 (12月,半年度)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "收盘后生效,大批被动资金当日尾盘强制调仓,小盘股异动多为对账而非基本面;2026 起改为每年 6 月+12 月两次",
+      "source_url": "https://www.lseg.com/en/ftse-russell/russell-reconstitution",
       "meta": {}
     }
   ]
