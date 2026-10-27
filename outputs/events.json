@@ -1443,30 +1443,6 @@
     {
       "date": "2026-11-05",
       "category": "earnings",
-      "title": "NRG Energy 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NRG"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/NRG",
-      "meta": {
-        "ticker": "NRG",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": 3.04498,
-        "revenue_estimate": 9353915960.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.49,
-        "last_eps_estimate": 1.74005
-      }
-    },
-    {
-      "date": "2026-11-05",
-      "category": "earnings",
       "title": "NuScale Power 财报",
       "importance": 2,
       "end_date": "",
@@ -1642,6 +1618,30 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.55,
         "last_eps_estimate": 2.28235
+      }
+    },
+    {
+      "date": "2026-11-09",
+      "category": "earnings",
+      "title": "NRG Energy 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NRG"
+      ],
+      "watch": "数据中心电力需求、PPA 长约",
+      "source_url": "https://finance.yahoo.com/quote/NRG",
+      "meta": {
+        "ticker": "NRG",
+        "subsector": "Power / nuclear (AI data centers)",
+        "date_confirmed": true,
+        "eps_estimate": 3.04498,
+        "revenue_estimate": 9353915960.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.49,
+        "last_eps_estimate": 1.74005
       }
     },
     {
