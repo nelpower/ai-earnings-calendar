@@ -1551,6 +1551,30 @@
     {
       "date": "2026-11-10",
       "category": "earnings",
+      "title": "CoreWeave 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRWV"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/CRWV",
+      "meta": {
+        "ticker": "CRWV",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -1.20917,
+        "revenue_estimate": 3540875520.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -1.14,
+        "last_eps_estimate": -1.46997
+      }
+    },
+    {
+      "date": "2026-11-10",
+      "category": "earnings",
       "title": "Nebius Group 财报",
       "importance": 3,
       "end_date": "",
@@ -1613,30 +1637,6 @@
       "meta": {
         "ipo_date": "2026-05-14",
         "assumed_lockup_days": 180
-      }
-    },
-    {
-      "date": "2026-11-11",
-      "category": "earnings",
-      "title": "CoreWeave 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CRWV"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/CRWV",
-      "meta": {
-        "ticker": "CRWV",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -1.20917,
-        "revenue_estimate": 3540875520.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": -1.14,
-        "last_eps_estimate": -1.46997
       }
     },
     {
