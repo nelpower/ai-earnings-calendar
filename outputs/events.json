@@ -1,300 +1,7 @@
 {
-  "generated": "2026-10-28",
-  "today": "2026-10-28",
+  "generated": "2026-10-29",
+  "today": "2026-10-29",
   "events": [
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "United Microelectronics 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "UMC"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/UMC",
-      "meta": {
-        "ticker": "UMC",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.12274,
-        "revenue_estimate": 75317697410.0,
-        "revenue_currency": "TWD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.52,
-        "last_eps_estimate": 0.15827
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "KLA 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "KLAC"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/KLAC",
-      "meta": {
-        "ticker": "KLAC",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 1.17822,
-        "revenue_estimate": 4038185350.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.05,
-        "last_eps_estimate": 0.99866
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "FormFactor 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "FORM"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/FORM",
-      "meta": {
-        "ticker": "FORM",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.86286,
-        "revenue_estimate": 270520670.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.82,
-        "last_eps_estimate": 0.61
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "Microsoft 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "MSFT"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/MSFT",
-      "meta": {
-        "ticker": "MSFT",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 4.72072,
-        "revenue_estimate": 90736182420.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 4.74,
-        "last_eps_estimate": 4.23939
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "Alphabet (Google) 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GOOGL"
-      ],
-      "watch": "云增速、AI capex 资本开支、AI 变现",
-      "source_url": "https://finance.yahoo.com/quote/GOOGL",
-      "meta": {
-        "ticker": "GOOGL",
-        "subsector": "Hyperscale / cloud",
-        "date_confirmed": true,
-        "eps_estimate": 2.96591,
-        "revenue_estimate": 127832702820.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 9.11,
-        "last_eps_estimate": 2.89914
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "fed",
-      "title": "FOMC 利率决议",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "14:00",
-      "tickers": [],
-      "watch": "会议 10/27-28;决议声明 14:00 ET、发布会 14:30 ET",
-      "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "meta": {}
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "Vertiv 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "VRT"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/VRT",
-      "meta": {
-        "ticker": "VRT",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 1.82366,
-        "revenue_estimate": 3762379600.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.52,
-        "last_eps_estimate": 1.42824
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "GE Vernova 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GEV"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/GEV",
-      "meta": {
-        "ticker": "GEV",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 4.00427,
-        "revenue_estimate": 12004512780.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 2.47,
-        "last_eps_estimate": 3.18468
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "Generac 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "GNRC"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/GNRC",
-      "meta": {
-        "ticker": "GNRC",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 2.42828,
-        "revenue_estimate": 1324480240.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 2.91,
-        "last_eps_estimate": 2.01182
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "ServiceNow 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NOW"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/NOW",
-      "meta": {
-        "ticker": "NOW",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 1.0231,
-        "revenue_estimate": 4094810350.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.9,
-        "last_eps_estimate": 0.85672
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "Fortinet 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "FTNT"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/FTNT",
-      "meta": {
-        "ticker": "FTNT",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.85848,
-        "revenue_estimate": 2063836640.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.9,
-        "last_eps_estimate": 0.74669
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "earnings",
-      "title": "Tenable 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "TENB"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/TENB",
-      "meta": {
-        "ticker": "TENB",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.50778,
-        "revenue_estimate": 271599560.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.51,
-        "last_eps_estimate": 0.46953
-      }
-    },
-    {
-      "date": "2026-10-28",
-      "category": "ipo",
-      "title": "Quantum Leap Acquisition Corp 解禁 (QLEPU, IPO+180天)",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "QLEPU"
-      ],
-      "watch": "IPO(2026-05-01) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
-      "source_url": "https://www.nasdaq.com/market-activity/ipos",
-      "meta": {
-        "ipo_date": "2026-05-01",
-        "assumed_lockup_days": 180
-      }
-    },
     {
       "date": "2026-10-29",
       "category": "earnings",
@@ -408,7 +115,7 @@
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
         "eps_estimate": 1.98917,
-        "revenue_estimate": 202242791190.0,
+        "revenue_estimate": 202244141010.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 5.75,
@@ -839,8 +546,8 @@
         "ticker": "TLN",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 8.17355,
-        "revenue_estimate": 1330369720.0,
+        "eps_estimate": 7.05533,
+        "revenue_estimate": 1296655440.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.3745,
@@ -1384,8 +1091,8 @@
         "ticker": "WULF",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -0.36333,
-        "revenue_estimate": 63797760.0,
+        "eps_estimate": -0.375,
+        "revenue_estimate": 63344840.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": -0.3337,
@@ -1421,7 +1128,7 @@
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
         "eps_estimate": 3.01438,
-        "revenue_estimate": 6726853620.0,
+        "revenue_estimate": 6388425050.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.76,
@@ -1541,7 +1248,7 @@
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
         "eps_estimate": 3.04498,
-        "revenue_estimate": 9353915960.0,
+        "revenue_estimate": 9267415960.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.49,
