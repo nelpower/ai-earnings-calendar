@@ -1,31 +1,7 @@
 {
-  "generated": "2026-10-30",
-  "today": "2026-10-30",
+  "generated": "2026-10-31",
+  "today": "2026-10-31",
   "events": [
-    {
-      "date": "2026-10-30",
-      "category": "earnings",
-      "title": "nVent Electric 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NVT"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/NVT",
-      "meta": {
-        "ticker": "NVT",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 1.39521,
-        "revenue_estimate": 1434052560.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.45,
-        "last_eps_estimate": 1.1645
-      }
-    },
     {
       "date": "2026-11-01",
       "category": "industry",
@@ -150,8 +126,8 @@
         "ticker": "PLTR",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.40722,
-        "revenue_estimate": 2180834970.0,
+        "eps_estimate": 0.40705,
+        "revenue_estimate": 2180441570.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.41,
@@ -414,8 +390,8 @@
         "ticker": "ARM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.47534,
-        "revenue_estimate": 1377533970.0,
+        "eps_estimate": 0.47583,
+        "revenue_estimate": 1378136240.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.45,
@@ -743,8 +719,8 @@
         "ticker": "LITE",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 4.21708,
-        "revenue_estimate": 1253134780.0,
+        "eps_estimate": 4.22299,
+        "revenue_estimate": 1254430890.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 3.23,
@@ -971,7 +947,7 @@
         "ticker": "VST",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.08707,
+        "eps_estimate": 3.0753,
         "revenue_estimate": 5977906080.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1067,8 +1043,8 @@
         "ticker": "CEG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.83772,
-        "revenue_estimate": 9332978850.0,
+        "eps_estimate": 3.87566,
+        "revenue_estimate": 9349229100.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 2.55,
@@ -1121,30 +1097,6 @@
         "last_quarter": "2026-06-30",
         "last_eps_actual": -1.14,
         "last_eps_estimate": -1.46997
-      }
-    },
-    {
-      "date": "2026-11-10",
-      "category": "earnings",
-      "title": "Nebius Group 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NBIS"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/NBIS",
-      "meta": {
-        "ticker": "NBIS",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -0.605,
-        "revenue_estimate": 905738460.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": -0.68,
-        "last_eps_estimate": -0.86333
       }
     },
     {
@@ -1253,6 +1205,30 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.22,
         "last_eps_estimate": 1.16883
+      }
+    },
+    {
+      "date": "2026-11-12",
+      "category": "earnings",
+      "title": "Nebius Group 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NBIS"
+      ],
+      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
+      "source_url": "https://finance.yahoo.com/quote/NBIS",
+      "meta": {
+        "ticker": "NBIS",
+        "subsector": "AI cloud / GPU",
+        "date_confirmed": true,
+        "eps_estimate": -0.605,
+        "revenue_estimate": 905738460.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.68,
+        "last_eps_estimate": -0.86333
       }
     },
     {
@@ -1976,8 +1952,8 @@
         "ticker": "ORCL",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.89182,
-        "revenue_estimate": 21326804220.0,
+        "eps_estimate": 1.89091,
+        "revenue_estimate": 21325007560.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-08-31",
         "last_eps_actual": 1.92,
