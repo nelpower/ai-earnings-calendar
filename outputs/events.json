@@ -1,6 +1,6 @@
 {
-  "generated": "2026-10-31",
-  "today": "2026-10-31",
+  "generated": "2026-11-01",
+  "today": "2026-11-01",
   "events": [
     {
       "date": "2026-11-01",
@@ -175,7 +175,7 @@
         "subsector": "AI semiconductors",
         "date_confirmed": true,
         "eps_estimate": 1.93659,
-        "revenue_estimate": 13083021310.0,
+        "revenue_estimate": 13084823940.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.66,
