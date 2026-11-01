@@ -1679,6 +1679,30 @@
     },
     {
       "date": "2026-12-01",
+      "category": "earnings",
+      "title": "Workday 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WDAY"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/WDAY",
+      "meta": {
+        "ticker": "WDAY",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 2.74495,
+        "revenue_estimate": 2691535090.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 2.75,
+        "last_eps_estimate": 2.61224
+      }
+    },
+    {
+      "date": "2026-12-01",
       "category": "industry",
       "title": "韩国 11月全月出口数据 (含半导体,1日发布)",
       "importance": 2,
@@ -1781,6 +1805,78 @@
     {
       "date": "2026-12-03",
       "category": "earnings",
+      "title": "Hewlett Packard Enterprise 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "HPE"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/HPE",
+      "meta": {
+        "ticker": "HPE",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.27513,
+        "revenue_estimate": 14371574890.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 1.11,
+        "last_eps_estimate": 0.93739
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "category": "earnings",
+      "title": "SentinelOne 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "S"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/S",
+      "meta": {
+        "ticker": "S",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.09135,
+        "revenue_estimate": 310192610.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.08,
+        "last_eps_estimate": 0.07183
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "category": "earnings",
+      "title": "Rubrik 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "RBRK"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/RBRK",
+      "meta": {
+        "ticker": "RBRK",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.0819,
+        "revenue_estimate": 430191250.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.2,
+        "last_eps_estimate": 0.03925
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "category": "earnings",
       "title": "Samsara 财报",
       "importance": 2,
       "end_date": "",
@@ -1877,6 +1973,54 @@
     {
       "date": "2026-12-09",
       "category": "earnings",
+      "title": "Synopsys 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SNPS"
+      ],
+      "watch": "设计活动、AI 芯片设计需求",
+      "source_url": "https://finance.yahoo.com/quote/SNPS",
+      "meta": {
+        "ticker": "SNPS",
+        "subsector": "EDA / chip design",
+        "date_confirmed": true,
+        "eps_estimate": 4.13323,
+        "revenue_estimate": 2562189820.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 3.91,
+        "last_eps_estimate": 3.67334
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "category": "earnings",
+      "title": "C3.ai 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AI"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/AI",
+      "meta": {
+        "ticker": "AI",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": -0.21255,
+        "revenue_estimate": 53170050.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": -0.2,
+        "last_eps_estimate": -0.26031
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "category": "earnings",
       "title": "Adobe 财报",
       "importance": 2,
       "end_date": "",
@@ -1896,6 +2040,30 @@
         "last_quarter": "2026-08-31",
         "last_eps_actual": 6.13,
         "last_eps_estimate": 6.08663
+      }
+    },
+    {
+      "date": "2026-12-10",
+      "category": "earnings",
+      "title": "Ciena 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CIEN"
+      ],
+      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
+      "source_url": "https://finance.yahoo.com/quote/CIEN",
+      "meta": {
+        "ticker": "CIEN",
+        "subsector": "Networking / optical",
+        "date_confirmed": true,
+        "eps_estimate": 2.07665,
+        "revenue_estimate": 1759664870.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 2.11,
+        "last_eps_estimate": 1.72756
       }
     },
     {
