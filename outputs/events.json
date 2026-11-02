@@ -1,151 +1,7 @@
 {
-  "generated": "2026-11-02",
-  "today": "2026-11-02",
+  "generated": "2026-11-03",
+  "today": "2026-11-03",
   "events": [
-    {
-      "date": "2026-11-02",
-      "category": "earnings",
-      "title": "Lattice Semiconductor 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "LSCC"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/LSCC",
-      "meta": {
-        "ticker": "LSCC",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.55379,
-        "revenue_estimate": 255908290.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.53,
-        "last_eps_estimate": 0.44516
-      }
-    },
-    {
-      "date": "2026-11-02",
-      "category": "earnings",
-      "title": "Aehr Test Systems 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AEHR"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/AEHR",
-      "meta": {
-        "ticker": "AEHR",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.12667,
-        "revenue_estimate": 27533000.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-05-31",
-        "last_eps_actual": 0.11,
-        "last_eps_estimate": -0.0075
-      }
-    },
-    {
-      "date": "2026-11-02",
-      "category": "earnings",
-      "title": "Ichor 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "ICHR"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/ICHR",
-      "meta": {
-        "ticker": "ICHR",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 0.45375,
-        "revenue_estimate": 330100250.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.34,
-        "last_eps_estimate": 0.30714
-      }
-    },
-    {
-      "date": "2026-11-02",
-      "category": "earnings",
-      "title": "Fabrinet 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "FN"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/FN",
-      "meta": {
-        "ticker": "FN",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 4.18843,
-        "revenue_estimate": 1404759140.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 4.1,
-        "last_eps_estimate": 3.81462
-      }
-    },
-    {
-      "date": "2026-11-02",
-      "category": "earnings",
-      "title": "Palantir 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "PLTR"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/PLTR",
-      "meta": {
-        "ticker": "PLTR",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.40705,
-        "revenue_estimate": 2180441570.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.41,
-        "last_eps_estimate": 0.34596
-      }
-    },
-    {
-      "date": "2026-11-02",
-      "category": "earnings",
-      "title": "Apple 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AAPL"
-      ],
-      "watch": "AI 功能落地、用户与变现",
-      "source_url": "https://finance.yahoo.com/quote/AAPL",
-      "meta": {
-        "ticker": "AAPL",
-        "subsector": "Consumer / platform AI",
-        "date_confirmed": true,
-        "eps_estimate": 1.98463,
-        "revenue_estimate": 113265972500.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 2.02,
-        "last_eps_estimate": 1.89243
-      }
-    },
     {
       "date": "2026-11-03",
       "category": "earnings",
@@ -162,7 +18,7 @@
         "ticker": "AMD",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 1.93863,
+        "eps_estimate": 1.93991,
         "revenue_estimate": 13092087100.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -234,7 +90,7 @@
         "ticker": "ANET",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 1.07881,
+        "eps_estimate": 1.07891,
         "revenue_estimate": 3334085820.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -402,7 +258,7 @@
         "ticker": "QCOM",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 2.16073,
+        "eps_estimate": 2.16031,
         "revenue_estimate": 10145914290.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -426,8 +282,8 @@
         "ticker": "GFS",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 0.51078,
-        "revenue_estimate": 1888182560.0,
+        "eps_estimate": 0.51203,
+        "revenue_estimate": 1889293670.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.46,
@@ -499,7 +355,7 @@
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
         "eps_estimate": 0.9895,
-        "revenue_estimate": 160573900.0,
+        "revenue_estimate": 160636400.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.78,
@@ -522,7 +378,7 @@
         "ticker": "COHR",
         "subsector": "Networking / optical",
         "date_confirmed": true,
-        "eps_estimate": 1.96608,
+        "eps_estimate": 1.9718,
         "revenue_estimate": 2304472920.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -546,8 +402,8 @@
         "ticker": "DDOG",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.64068,
-        "revenue_estimate": 1145540090.0,
+        "eps_estimate": 0.64093,
+        "revenue_estimate": 1147154240.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 0.65,
@@ -694,30 +550,6 @@
     {
       "date": "2026-11-05",
       "category": "earnings",
-      "title": "Lumentum 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "LITE"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/LITE",
-      "meta": {
-        "ticker": "LITE",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 4.22299,
-        "revenue_estimate": 1254430890.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 3.23,
-        "last_eps_estimate": 2.96892
-      }
-    },
-    {
-      "date": "2026-11-05",
-      "category": "earnings",
       "title": "Applied Optoelectronics 财报",
       "importance": 3,
       "end_date": "",
@@ -828,7 +660,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 1.42578,
-        "revenue_estimate": 1713975380.0,
+        "revenue_estimate": 1713831400.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.87,
@@ -900,7 +732,7 @@
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
         "eps_estimate": -0.375,
-        "revenue_estimate": 63344840.0,
+        "revenue_estimate": 64065730.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": -0.3337,
@@ -1031,7 +863,7 @@
         "ticker": "CEG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.87566,
+        "eps_estimate": 3.87662,
         "revenue_estimate": 9349229100.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1055,7 +887,7 @@
         "ticker": "NRG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.10692,
+        "eps_estimate": 3.0285,
         "revenue_estimate": 9292646250.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -1163,7 +995,7 @@
         "ticker": "AMAT",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 4.05576,
+        "eps_estimate": 4.05577,
         "revenue_estimate": 10299491080.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
@@ -1400,6 +1232,30 @@
       }
     },
     {
+      "date": "2026-11-23",
+      "category": "earnings",
+      "title": "Hewlett Packard Enterprise 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "HPE"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/HPE",
+      "meta": {
+        "ticker": "HPE",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.27513,
+        "revenue_estimate": 14371574890.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 1.11,
+        "last_eps_estimate": 0.93739
+      }
+    },
+    {
       "date": "2026-11-24",
       "category": "earnings",
       "title": "Dell Technologies 财报",
@@ -1445,6 +1301,30 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.19,
         "last_eps_estimate": 1.08997
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "category": "earnings",
+      "title": "Workday 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "WDAY"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/WDAY",
+      "meta": {
+        "ticker": "WDAY",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 2.74495,
+        "revenue_estimate": 2691535090.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 2.75,
+        "last_eps_estimate": 2.61224
       }
     },
     {
@@ -1513,8 +1393,8 @@
         "ticker": "MRVL",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 1.10094,
-        "revenue_estimate": 3151995970.0,
+        "eps_estimate": 1.101,
+        "revenue_estimate": 3155914360.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.94,
@@ -1585,7 +1465,7 @@
         "ticker": "CRWD",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.31146,
+        "eps_estimate": 0.31145,
         "revenue_estimate": 1528559730.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
@@ -1663,30 +1543,6 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.05,
         "last_eps_estimate": 0.96395
-      }
-    },
-    {
-      "date": "2026-12-01",
-      "category": "earnings",
-      "title": "Workday 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "WDAY"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/WDAY",
-      "meta": {
-        "ticker": "WDAY",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 2.74495,
-        "revenue_estimate": 2691535090.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 2.75,
-        "last_eps_estimate": 2.61224
       }
     },
     {
@@ -1788,30 +1644,6 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.15,
         "last_eps_estimate": 0.14766
-      }
-    },
-    {
-      "date": "2026-12-03",
-      "category": "earnings",
-      "title": "Hewlett Packard Enterprise 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "HPE"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/HPE",
-      "meta": {
-        "ticker": "HPE",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 1.27513,
-        "revenue_estimate": 14371574890.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 1.11,
-        "last_eps_estimate": 0.93739
       }
     },
     {
@@ -2108,13 +1940,37 @@
         "ticker": "ORCL",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
-        "eps_estimate": 1.89091,
+        "eps_estimate": 1.88906,
         "revenue_estimate": 21325007560.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-08-31",
         "last_eps_actual": 1.92,
         "last_eps_estimate": 1.73834
       }
+    },
+    {
+      "date": "2026-12-18",
+      "category": "options",
+      "title": "期权四巫日 (季度衍生品到期)",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异",
+      "source_url": "",
+      "meta": {}
+    },
+    {
+      "date": "2026-12-18",
+      "category": "index",
+      "title": "标普 500 / 中小盘 季度再平衡生效",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [],
+      "watch": "标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大",
+      "source_url": "https://www.spglobal.com/spdji/en/governance/methodology/",
+      "meta": {}
     }
   ]
 }
