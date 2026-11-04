@@ -836,6 +836,30 @@
       }
     },
     {
+      "date": "2026-11-16",
+      "category": "earnings",
+      "title": "Powell Industries 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "POWL"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/POWL",
+      "meta": {
+        "ticker": "POWL",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 1.56959,
+        "revenue_estimate": 331394800.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 1.42,
+        "last_eps_estimate": 1.46968
+      }
+    },
+    {
       "date": "2026-11-17",
       "category": "earnings",
       "title": "NVIDIA 财报",
@@ -857,30 +881,6 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 2.22,
         "last_eps_estimate": 2.09113
-      }
-    },
-    {
-      "date": "2026-11-17",
-      "category": "earnings",
-      "title": "Powell Industries 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "POWL"
-      ],
-      "watch": "AI 服务器订单与收入、电力/散热需求",
-      "source_url": "https://finance.yahoo.com/quote/POWL",
-      "meta": {
-        "ticker": "POWL",
-        "subsector": "Servers / power / cooling",
-        "date_confirmed": true,
-        "eps_estimate": 1.56959,
-        "revenue_estimate": 331394800.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 1.42,
-        "last_eps_estimate": 1.46968
       }
     },
     {
