@@ -569,6 +569,30 @@
     {
       "date": "2026-11-24",
       "category": "earnings",
+      "title": "Ambarella 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMBA"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/AMBA",
+      "meta": {
+        "ticker": "AMBA",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 0.31449,
+        "revenue_estimate": 119795800.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.18,
+        "last_eps_estimate": 0.17088
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "category": "earnings",
       "title": "Dell Technologies 财报",
       "importance": 2,
       "end_date": "",
@@ -686,30 +710,6 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.94,
         "last_eps_estimate": 0.93077
-      }
-    },
-    {
-      "date": "2026-12-01",
-      "category": "earnings",
-      "title": "Ambarella 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMBA"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/AMBA",
-      "meta": {
-        "ticker": "AMBA",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 0.31449,
-        "revenue_estimate": 119795800.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 0.18,
-        "last_eps_estimate": 0.17088
       }
     },
     {
