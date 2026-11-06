@@ -222,7 +222,7 @@
         "ticker": "CRWV",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -1.20917,
+        "eps_estimate": -1.20902,
         "revenue_estimate": 3540786350.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -912,30 +912,6 @@
     {
       "date": "2026-12-02",
       "category": "earnings",
-      "title": "UiPath 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "PATH"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/PATH",
-      "meta": {
-        "ticker": "PATH",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.19161,
-        "revenue_estimate": 443019490.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 0.15,
-        "last_eps_estimate": 0.14766
-      }
-    },
-    {
-      "date": "2026-12-02",
-      "category": "earnings",
       "title": "Zscaler 财报",
       "importance": 2,
       "end_date": "",
@@ -979,6 +955,30 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.08,
         "last_eps_estimate": 0.07183
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "category": "earnings",
+      "title": "UiPath 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "PATH"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/PATH",
+      "meta": {
+        "ticker": "PATH",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.19161,
+        "revenue_estimate": 443019490.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.15,
+        "last_eps_estimate": 0.14766
       }
     },
     {
@@ -1066,6 +1066,30 @@
       "meta": {}
     },
     {
+      "date": "2026-12-08",
+      "category": "earnings",
+      "title": "Synopsys 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SNPS"
+      ],
+      "watch": "设计活动、AI 芯片设计需求",
+      "source_url": "https://finance.yahoo.com/quote/SNPS",
+      "meta": {
+        "ticker": "SNPS",
+        "subsector": "EDA / chip design",
+        "date_confirmed": true,
+        "eps_estimate": 4.13323,
+        "revenue_estimate": 2562189820.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 3.91,
+        "last_eps_estimate": 3.67334
+      }
+    },
+    {
       "date": "2026-12-09",
       "category": "earnings",
       "title": "Broadcom 财报",
@@ -1100,30 +1124,6 @@
       "watch": "会议 12/8-9;决议 + 季度经济预测 (SEP) + 点阵图 + 发布会",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "meta": {}
-    },
-    {
-      "date": "2026-12-09",
-      "category": "earnings",
-      "title": "Synopsys 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "SNPS"
-      ],
-      "watch": "设计活动、AI 芯片设计需求",
-      "source_url": "https://finance.yahoo.com/quote/SNPS",
-      "meta": {
-        "ticker": "SNPS",
-        "subsector": "EDA / chip design",
-        "date_confirmed": true,
-        "eps_estimate": 4.13323,
-        "revenue_estimate": 2562189820.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 3.91,
-        "last_eps_estimate": 3.67334
-      }
     },
     {
       "date": "2026-12-09",
