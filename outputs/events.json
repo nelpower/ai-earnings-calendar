@@ -1,91 +1,7 @@
 {
-  "generated": "2026-11-06",
-  "today": "2026-11-06",
+  "generated": "2026-11-07",
+  "today": "2026-11-07",
   "events": [
-    {
-      "date": "2026-11-06",
-      "category": "earnings",
-      "title": "TeraWulf 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "WULF"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/WULF",
-      "meta": {
-        "ticker": "WULF",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -0.375,
-        "revenue_estimate": 64065730.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": -0.3337,
-        "last_eps_estimate": -0.27
-      }
-    },
-    {
-      "date": "2026-11-06",
-      "category": "macro",
-      "title": "非农就业报告 (10月)",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "08:30",
-      "tickers": [],
-      "watch": "就业强弱直接影响美联储降息路径",
-      "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "meta": {}
-    },
-    {
-      "date": "2026-11-06",
-      "category": "earnings",
-      "title": "Vistra 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "VST"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/VST",
-      "meta": {
-        "ticker": "VST",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": 3.0753,
-        "revenue_estimate": 5977906080.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": 0.76,
-        "last_eps_estimate": 1.65945
-      }
-    },
-    {
-      "date": "2026-11-06",
-      "category": "earnings",
-      "title": "Oklo 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "OKLO"
-      ],
-      "watch": "数据中心电力需求、PPA 长约",
-      "source_url": "https://finance.yahoo.com/quote/OKLO",
-      "meta": {
-        "ticker": "OKLO",
-        "subsector": "Power / nuclear (AI data centers)",
-        "date_confirmed": true,
-        "eps_estimate": -0.26408,
-        "revenue_estimate": 1106670.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": -0.28,
-        "last_eps_estimate": -0.16039
-      }
-    },
     {
       "date": "2026-11-09",
       "category": "earnings",
@@ -151,7 +67,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 1.95569,
-        "revenue_estimate": 186607060.0,
+        "revenue_estimate": 186606480.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.98,
@@ -222,7 +138,7 @@
         "ticker": "CRWV",
         "subsector": "AI cloud / GPU",
         "date_confirmed": true,
-        "eps_estimate": -1.20902,
+        "eps_estimate": -1.2082,
         "revenue_estimate": 3540786350.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
