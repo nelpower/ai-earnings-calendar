@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-07",
-  "today": "2026-11-07",
+  "generated": "2026-11-08",
+  "today": "2026-11-08",
   "events": [
     {
       "date": "2026-11-09",
@@ -90,7 +90,7 @@
         "ticker": "CEG",
         "subsector": "Power / nuclear (AI data centers)",
         "date_confirmed": true,
-        "eps_estimate": 3.87662,
+        "eps_estimate": 3.88995,
         "revenue_estimate": 9349229100.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
@@ -475,7 +475,7 @@
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
         "eps_estimate": 1.27724,
-        "revenue_estimate": 14371574890.0,
+        "revenue_estimate": 14406617280.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.11,
@@ -961,7 +961,7 @@
         "ticker": "GWRE",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.7228,
+        "eps_estimate": 0.71947,
         "revenue_estimate": 376307180.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
@@ -1197,6 +1197,42 @@
       "tickers": [],
       "watch": "标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大",
       "source_url": "https://www.spglobal.com/spdji/en/governance/methodology/",
+      "meta": {}
+    },
+    {
+      "date": "2026-12-23",
+      "category": "earnings",
+      "title": "Micron Technology 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "MU"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/MU",
+      "meta": {
+        "ticker": "MU",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 38.29128,
+        "revenue_estimate": 61832643300.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-08-31",
+        "last_eps_actual": 33.42,
+        "last_eps_estimate": 31.81801
+      }
+    },
+    {
+      "date": "2026-12-23",
+      "category": "macro",
+      "title": "PCE 物价指数 (11月)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "08:30",
+      "tickers": [],
+      "watch": "美联储最看重的通胀指标,影响降息时点",
+      "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
       "meta": {}
     }
   ]
