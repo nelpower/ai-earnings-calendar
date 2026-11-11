@@ -1,24 +1,7 @@
 {
-  "generated": "2026-11-11",
-  "today": "2026-11-11",
+  "generated": "2026-11-12",
+  "today": "2026-11-12",
   "events": [
-    {
-      "date": "2026-11-11",
-      "category": "ipo",
-      "title": "DUKE Robotics Corp. 解禁 (DUKR, IPO+180天)",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "DUKR"
-      ],
-      "watch": "IPO(2026-05-15) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
-      "source_url": "https://www.nasdaq.com/market-activity/ipos",
-      "meta": {
-        "ipo_date": "2026-05-15",
-        "assumed_lockup_days": 180
-      }
-    },
     {
       "date": "2026-11-12",
       "category": "earnings",
@@ -35,8 +18,8 @@
         "ticker": "AMAT",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
-        "eps_estimate": 4.05577,
-        "revenue_estimate": 10299491080.0,
+        "eps_estimate": 4.0544,
+        "revenue_estimate": 10297511440.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 3.5,
@@ -381,30 +364,6 @@
     },
     {
       "date": "2026-11-30",
-      "category": "earnings",
-      "title": "Credo Technology 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CRDO"
-      ],
-      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/CRDO",
-      "meta": {
-        "ticker": "CRDO",
-        "subsector": "AI semiconductors",
-        "date_confirmed": true,
-        "eps_estimate": 1.2835,
-        "revenue_estimate": 531946580.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 1.2,
-        "last_eps_estimate": 1.16862
-      }
-    },
-    {
-      "date": "2026-11-30",
       "category": "conference",
       "title": "AWS re:Invent 2026 (Las Vegas)",
       "importance": 2,
@@ -416,6 +375,30 @@
       "watch": "AWS AI 服务、自研芯片 Trainium/Inferentia、云增速",
       "source_url": "https://aws.amazon.com/events/reinvent/",
       "meta": {}
+    },
+    {
+      "date": "2026-11-30",
+      "category": "earnings",
+      "title": "Rubrik 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "RBRK"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/RBRK",
+      "meta": {
+        "ticker": "RBRK",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.0819,
+        "revenue_estimate": 430191250.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.2,
+        "last_eps_estimate": 0.03925
+      }
     },
     {
       "date": "2026-12-01",
@@ -439,6 +422,30 @@
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.94,
         "last_eps_estimate": 0.93077
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "category": "earnings",
+      "title": "Credo Technology 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "CRDO"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/CRDO",
+      "meta": {
+        "ticker": "CRDO",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 1.2835,
+        "revenue_estimate": 531946580.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 1.2,
+        "last_eps_estimate": 1.16862
       }
     },
     {
@@ -713,30 +720,6 @@
     {
       "date": "2026-12-03",
       "category": "earnings",
-      "title": "Rubrik 财报",
-      "importance": 2,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "RBRK"
-      ],
-      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
-      "source_url": "https://finance.yahoo.com/quote/RBRK",
-      "meta": {
-        "ticker": "RBRK",
-        "subsector": "AI software / security / data",
-        "date_confirmed": true,
-        "eps_estimate": 0.0819,
-        "revenue_estimate": 430191250.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 0.2,
-        "last_eps_estimate": 0.03925
-      }
-    },
-    {
-      "date": "2026-12-03",
-      "category": "earnings",
       "title": "Samsara 财报",
       "importance": 2,
       "end_date": "",
@@ -774,8 +757,8 @@
         "ticker": "GWRE",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.71947,
-        "revenue_estimate": 376307180.0,
+        "eps_estimate": 0.722,
+        "revenue_estimate": 376242050.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.99,
