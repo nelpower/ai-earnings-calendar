@@ -1,79 +1,7 @@
 {
-  "generated": "2026-11-12",
-  "today": "2026-11-12",
+  "generated": "2026-11-13",
+  "today": "2026-11-13",
   "events": [
-    {
-      "date": "2026-11-12",
-      "category": "earnings",
-      "title": "Applied Materials 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "AMAT"
-      ],
-      "watch": "设备订单、WFE 资本开支、对中国出口",
-      "source_url": "https://finance.yahoo.com/quote/AMAT",
-      "meta": {
-        "ticker": "AMAT",
-        "subsector": "Semiconductor equipment",
-        "date_confirmed": true,
-        "eps_estimate": 4.0544,
-        "revenue_estimate": 10297511440.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 3.5,
-        "last_eps_estimate": 3.3944
-      }
-    },
-    {
-      "date": "2026-11-12",
-      "category": "earnings",
-      "title": "Cisco Systems 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "CSCO"
-      ],
-      "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
-      "source_url": "https://finance.yahoo.com/quote/CSCO",
-      "meta": {
-        "ticker": "CSCO",
-        "subsector": "Networking / optical",
-        "date_confirmed": true,
-        "eps_estimate": 1.32523,
-        "revenue_estimate": 18130450990.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-07-31",
-        "last_eps_actual": 1.22,
-        "last_eps_estimate": 1.16883
-      }
-    },
-    {
-      "date": "2026-11-12",
-      "category": "earnings",
-      "title": "Nebius Group 财报",
-      "importance": 3,
-      "end_date": "",
-      "time_et": "",
-      "tickers": [
-        "NBIS"
-      ],
-      "watch": "GPU 算力供给、客户集中度、合同与积压订单",
-      "source_url": "https://finance.yahoo.com/quote/NBIS",
-      "meta": {
-        "ticker": "NBIS",
-        "subsector": "AI cloud / GPU",
-        "date_confirmed": true,
-        "eps_estimate": -0.6284,
-        "revenue_estimate": 907172380.0,
-        "revenue_currency": "USD",
-        "last_quarter": "2026-06-30",
-        "last_eps_actual": -0.68,
-        "last_eps_estimate": -0.86333
-      }
-    },
     {
       "date": "2026-11-16",
       "category": "earnings",
@@ -114,8 +42,8 @@
         "ticker": "NVDA",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
-        "eps_estimate": 2.47461,
-        "revenue_estimate": 109006829530.0,
+        "eps_estimate": 2.47507,
+        "revenue_estimate": 109043188870.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 2.22,
@@ -186,8 +114,8 @@
         "ticker": "ESTC",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 0.80925,
-        "revenue_estimate": 486668760.0,
+        "eps_estimate": 0.80954,
+        "revenue_estimate": 486751230.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.7,
@@ -512,7 +440,7 @@
         "ticker": "MDB",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 1.60805,
+        "eps_estimate": 1.60757,
         "revenue_estimate": 761773220.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
