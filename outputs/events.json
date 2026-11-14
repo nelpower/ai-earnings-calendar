@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-14",
-  "today": "2026-11-14",
+  "generated": "2026-11-15",
+  "today": "2026-11-15",
   "events": [
     {
       "date": "2026-11-16",
@@ -138,8 +138,8 @@
         "ticker": "INTU",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
-        "eps_estimate": 2.64052,
-        "revenue_estimate": 4307060680.0,
+        "eps_estimate": 2.63975,
+        "revenue_estimate": 4305869380.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 4.03,
@@ -247,7 +247,7 @@
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
         "eps_estimate": 6.55358,
-        "revenue_estimate": 49169931760.0,
+        "revenue_estimate": 49169949940.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 7.04,
