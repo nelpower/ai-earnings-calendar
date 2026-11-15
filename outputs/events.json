@@ -1,6 +1,6 @@
 {
-  "generated": "2026-11-15",
-  "today": "2026-11-15",
+  "generated": "2026-11-16",
+  "today": "2026-11-16",
   "events": [
     {
       "date": "2026-11-16",
@@ -91,7 +91,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.97062,
-        "revenue_estimate": 3307502950.0,
+        "revenue_estimate": 3307491840.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.02,
@@ -115,7 +115,7 @@
         "subsector": "AI software / security / data",
         "date_confirmed": true,
         "eps_estimate": 0.80952,
-        "revenue_estimate": 486786700.0,
+        "revenue_estimate": 486767230.0,
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.7,
