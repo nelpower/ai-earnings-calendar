@@ -1,0 +1,210 @@
+# AI issuer/entity watchlist for official announcement discovery.
+# Listed tickers are current earnings identifiers; proposed_ticker is NOT fetchable.
+# Brands/subsidiaries can remain unlisted entities even when their parent is public.
+# Presence in SEC company_tickers.json is identification evidence, not IPO completion.
+# verified_on is a manual review date, never an automatically renewed freshness claim.
+
+issuers:
+- id: nvidia
+  name: "NVIDIA"
+  aliases: ["NVIDIA Corporation","Nvidia","Jensen Huang","黄仁勋","英伟达"]
+  tickers: ["NVDA"]
+  listed: true
+  priority: 3
+  official_urls: ["https://nvidianews.nvidia.com/","https://investor.nvidia.com/home/default.aspx"]
+  cik: "0001045810"
+  source_url: "https://investor.nvidia.com/home/default.aspx"
+  verified_on: "2026-11-16"
+- id: amd
+  name: "AMD"
+  aliases: ["Advanced Micro Devices","Advanced Micro Devices, Inc.","Lisa Su","苏姿丰"]
+  tickers: ["AMD"]
+  listed: true
+  priority: 3
+  official_urls: ["https://ir.amd.com/"]
+  cik: "0000002488"
+  source_url: "https://ir.amd.com/"
+  verified_on: "2026-11-16"
+- id: broadcom
+  name: "Broadcom"
+  aliases: ["Broadcom Inc.","博通"]
+  tickers: ["AVGO"]
+  listed: true
+  priority: 3
+  official_urls: ["https://investors.broadcom.com/"]
+  cik: "0001730168"
+  source_url: "https://investors.broadcom.com/"
+  verified_on: "2026-11-16"
+- id: microsoft
+  name: "Microsoft"
+  aliases: ["Microsoft Corporation","Azure","微软"]
+  tickers: ["MSFT"]
+  listed: true
+  priority: 3
+  official_urls: ["https://www.microsoft.com/en-us/investor/default"]
+  cik: "0000789019"
+  source_url: "https://www.microsoft.com/en-us/investor/default"
+  verified_on: "2026-11-16"
+- id: amazon
+  name: "Amazon"
+  aliases: ["Amazon.com","Amazon.com, Inc.","Amazon Web Services","AWS","亚马逊"]
+  tickers: ["AMZN"]
+  listed: true
+  priority: 3
+  official_urls: ["https://ir.aboutamazon.com/overview/default.aspx"]
+  cik: "0001018724"
+  source_url: "https://ir.aboutamazon.com/overview/default.aspx"
+  verified_on: "2026-11-16"
+- id: alphabet
+  name: "Alphabet (Google)"
+  aliases: ["Alphabet Inc.","Google","Google Cloud","Google DeepMind","谷歌"]
+  tickers: ["GOOGL"]
+  listed: true
+  priority: 3
+  official_urls: ["https://abc.xyz/investor/"]
+  cik: "0001652044"
+  source_url: "https://abc.xyz/investor/"
+  verified_on: "2026-11-16"
+- id: meta
+  name: "Meta Platforms"
+  aliases: ["Meta Platforms, Inc.","Meta AI","Llama","Facebook","脸书"]
+  tickers: ["META"]
+  listed: true
+  priority: 3
+  official_urls: ["https://investor.atmeta.com/home/default.aspx"]
+  cik: "0001326801"
+  source_url: "https://investor.atmeta.com/home/default.aspx"
+  verified_on: "2026-11-16"
+- id: oracle
+  name: "Oracle"
+  aliases: ["Oracle Corporation","Oracle Cloud","甲骨文"]
+  tickers: ["ORCL"]
+  listed: true
+  priority: 3
+  official_urls: ["https://investor.oracle.com/home/default.aspx"]
+  cik: "0001341439"
+  source_url: "https://investor.oracle.com/home/default.aspx"
+  verified_on: "2026-11-16"
+- id: tsmc
+  name: "TSMC"
+  aliases: ["Taiwan Semiconductor Manufacturing","Taiwan Semiconductor Manufacturing Company Limited","台积电"]
+  tickers: ["TSM"]
+  listed: true
+  priority: 3
+  official_urls: ["https://investor.tsmc.com/english"]
+  cik: "0001046179"
+  source_url: "https://investor.tsmc.com/english"
+  verified_on: "2026-11-16"
+- id: coreweave
+  name: "CoreWeave"
+  aliases: ["CoreWeave, Inc.","CoreWeave Inc."]
+  tickers: ["CRWV"]
+  listed: true
+  priority: 3
+  official_urls: ["https://investors.coreweave.com/overview/default.aspx"]
+  cik: "0001769628"
+  source_url: "https://investors.coreweave.com/overview/default.aspx"
+  verified_on: "2026-11-16"
+- id: cerebras
+  name: "Cerebras Systems"
+  aliases: ["Cerebras","Cerebras Systems Inc."]
+  tickers: ["CBRS"]
+  listed: true
+  priority: 3
+  official_urls: ["https://investors.cerebras.ai/"]
+  cik: "0002021728"
+  source_url: "https://investors.cerebras.ai/shareholder-services/investor-faqs"
+  verified_on: "2026-11-16"
+  status_note: "2026-05-14已上市；不能继续按未上市芯片公司处理。"
+- id: spacex
+  name: "SpaceX"
+  aliases: ["Space Exploration Technologies Corp.","Space Exploration Technologies"]
+  tickers: ["SPCX"]
+  listed: true
+  priority: 3
+  official_urls: ["https://ir.spacex.com/"]
+  cik: "0001181412"
+  source_url: "https://ir.spacex.com/updates/releases-details/2026/Space-Exploration-Technologies-Corp--Announces-Closing-of-Initial-Public-Offering-Including-Full-Exercise-of-Underwriters-Option-to-Purchase-Additional-Shares-2026-RgoR-Y1Vwh/default.aspx"
+  verified_on: "2026-11-16"
+  status_note: "2026-06-12已上市；2026-02-02已收购xAI，xAI不单独形成上市财报代码。"
+- id: anthropic
+  name: "Anthropic"
+  aliases: ["Anthropic, PBC","Anthropic PBC","Claude","Claude Code"]
+  tickers: []
+  listed: false
+  priority: 3
+  official_urls: ["https://www.anthropic.com/news","https://ipo.anthropic.com/us/"]
+  source_url: "https://www.anthropic.com/news/s1-sec"
+  verified_on: "2026-11-16"
+  proposed_ticker: "ANT"
+  cik: "0002130357"
+  status_note: "截至核验日仅拟上市：预计美东11/18定价、11/19交易；SEC出现拟议代码不等于已上市。"
+- id: openai
+  name: "OpenAI"
+  aliases: ["OpenAI Group PBC","OpenAI Group","ChatGPT"]
+  tickers: []
+  listed: false
+  priority: 3
+  official_urls: ["https://openai.com/news/"]
+  source_url: "https://openai.com/index/openai-submits-confidential-s-1/"
+  verified_on: "2026-11-16"
+  status_note: "已宣布保密提交S-1，但未确定IPO时间；PBC不等于已公开上市。"
+- id: xai
+  name: "xAI"
+  aliases: ["X.AI","Grok","SpaceXSI"]
+  tickers: []
+  listed: false
+  priority: 3
+  official_urls: ["https://x.ai/news"]
+  source_url: "https://x.ai/news/xai-joins-spacex"
+  verified_on: "2026-11-16"
+  parent_id: "spacex"
+  parent_tickers: ["SPCX"]
+  status_note: "已被SpaceX收购，不是独立上市发行人；Grok业务仍作为独立品牌监控。"
+- id: databricks
+  name: "Databricks"
+  aliases: ["Databricks, Inc.","Databricks Inc.","MosaicML"]
+  tickers: []
+  listed: false
+  priority: 3
+  official_urls: ["https://www.databricks.com/company/newsroom/press-releases"]
+  source_url: "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-strategic-round-funding-188-billion-valuation"
+  verified_on: "2026-11-16"
+- id: mistral
+  name: "Mistral AI"
+  aliases: ["Mistral","Mistral AI SAS","Le Chat"]
+  tickers: []
+  listed: false
+  priority: 2
+  official_urls: ["https://mistral.ai/news/"]
+  source_url: "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/"
+  verified_on: "2026-11-16"
+- id: cohere
+  name: "Cohere"
+  aliases: ["Cohere Inc.","Cohere, Inc."]
+  tickers: []
+  listed: false
+  priority: 2
+  official_urls: ["https://cohere.com/newsroom"]
+  source_url: "https://cohere.com/blog/august-2025-funding-round"
+  verified_on: "2026-11-16"
+- id: together-ai
+  name: "Together AI"
+  aliases: ["Together Computer, Inc.","Together Computer"]
+  tickers: []
+  listed: false
+  priority: 2
+  official_urls: ["https://www.together.ai/blog"]
+  source_url: "https://www.together.ai/blog/announcing-our-series-c"
+  verified_on: "2026-11-16"
+- id: groq
+  name: "Groq"
+  aliases: ["Groq, Inc.","GroqCloud"]
+  tickers: []
+  listed: false
+  priority: 2
+  official_urls: ["https://groq.com/newsroom"]
+  source_url: "https://groq.com/newsroom/groq-becomes-an-nvidia-cloud-partner"
+  verified_on: "2026-11-16"
+  status_note: "与NVIDIA为非排他技术许可关系；官方说明公司继续独立运营。"
+

@@ -1,7 +1,9 @@
 # Core
 PyYAML>=6.0
-yfinance>=0.2        # earnings dates + consensus estimates (no API key)
+yfinance==1.8.0      # verified exception propagation; bump only with regression checks
 tzdata               # zoneinfo data for US/Eastern "today" (Windows/CI)
+requests>=2.31       # official-source discovery and Nasdaq adapters
 
 # Dev / tests
 pytest>=7.0
+

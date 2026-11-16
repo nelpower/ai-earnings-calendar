@@ -9,10 +9,18 @@ from __future__ import annotations
 
 import calendar
 import datetime as dt
+import re
+import unicodedata
 
 from src import config
 from src.events_model import Event
 from src.fetch_earnings import enrich_last_quarter_all, fetch_all
+from src.source_health import record_status, verification_date
+
+
+def _source_meta(source: str, partition: str) -> dict:
+    return {"source": source, "source_partition": partition,
+            "last_verified": verification_date()}
 
 # --------------------------------------------------------------------------- #
 # 1) Static curated events (macro / Fed / conferences / IPOs)
@@ -36,6 +44,13 @@ def static_events() -> list[Event]:
             e["date"] = _iso(e["date"])
             if e.get("end_date"):
                 e["end_date"] = _iso(e["end_date"])
+            meta = dict(e.get("meta") or {})
+            if "verified_on" not in meta and data.get("verified_on"):
+                meta["verified_on"] = _iso(data["verified_on"])
+            elif meta.get("verified_on"):
+                meta["verified_on"] = _iso(meta["verified_on"])
+            if meta:
+                e["meta"] = meta
             out.append(Event.from_dict(e))
     return out
 
@@ -175,10 +190,12 @@ _WATCH_BY_SUBSECTOR = {
     "AI cloud / GPU": "GPU 算力供给、客户集中度、合同与积压订单",
     "Power / nuclear (AI data centers)": "数据中心电力需求、PPA 长约",
     "Consumer / platform AI": "AI 功能落地、用户与变现",
+    "Robotics / autonomy": "机器人/自动驾驶商业落地、订单与量产进展",
+    "Data centers / colocation": "数据中心容量、出租率、AI 算力托管与电力约束",
 }
 _HIGH_SUBSECTORS = {
     "AI semiconductors", "Networking / optical", "Semiconductor equipment",
-    "AI cloud / GPU", "Hyperscale / cloud",
+    "AI cloud / GPU", "Hyperscale / cloud", "Data centers / colocation",
 }
 
 
@@ -190,6 +207,12 @@ def earnings_events(today: dt.date, horizon_days: int, throttle: float = 0.0) ->
         e for e in items
         if 0 <= (dt.date.fromisoformat(e.earnings_date) - today).days <= horizon_days
     ]
+    accepted_tickers = {e.ticker for e in in_window}
+    for item in items:
+        accepted = int(item.ticker in accepted_tickers)
+        record_status("earnings", item.ticker, "ok", fetched=1, accepted=accepted,
+                      rejected=1 - accepted,
+                      detail="" if accepted else "Scheduled date outside display window")
     enrich_last_quarter_all(in_window, throttle=throttle)
     events: list[Event] = []
     for e in in_window:
@@ -202,6 +225,7 @@ def earnings_events(today: dt.date, horizon_days: int, throttle: float = 0.0) ->
             watch=_WATCH_BY_SUBSECTOR.get(e.subsector, "财报与下季指引"),
             source_url=f"https://finance.yahoo.com/quote/{e.ticker}",
             meta={
+                **_source_meta("earnings", e.ticker),
                 "ticker": e.ticker, "subsector": e.subsector,
                 "date_confirmed": e.date_confirmed,
                 "eps_estimate": e.eps_estimate, "revenue_estimate": e.revenue_estimate,
@@ -228,12 +252,33 @@ _AI_IPO_KW = [
 _AI_IPO_NAMES = {"anthropic", "openai", "xai"}
 
 
+def _normalise_issuer(text: str) -> str:
+    return " ".join(re.findall(r"[^\W_]+", unicodedata.normalize("NFKC", text).casefold()))
+
+
+def _issuer_names() -> set[str]:
+    names = set(_AI_IPO_NAMES)
+    data = config.load_yaml(config.DATA_DIR / "issuer_watchlist.yaml")
+    issuers = data.get("issuers", []) if isinstance(data, dict) else []
+    if not isinstance(issuers, list):
+        return names
+    for issuer in issuers:
+        if not isinstance(issuer, dict):
+            continue
+        if isinstance(issuer.get("name"), str):
+            names.add(issuer["name"])
+        aliases = issuer.get("aliases", [])
+        if isinstance(aliases, list):
+            names.update(alias for alias in aliases if isinstance(alias, str) and alias.strip())
+    return names
+
+
 def _is_ai_ipo(text: str) -> bool:
     """Keyword filter so the (unfiltered) IPO feed only surfaces AI-relevant names.
     Imperfect by design — favours precision; curate notable misses in events.yaml."""
-    import re
     text = text.casefold()
-    if _AI_IPO_NAMES.intersection(re.findall(r"\b\w+\b", text)):
+    padded = f" {_normalise_issuer(text)} "
+    if any(f" {_normalise_issuer(name)} " in padded for name in _issuer_names() if name.strip()):
         return True
     if re.search(r"\bai\b", text) or "a.i." in text:
         return True
@@ -247,39 +292,75 @@ _NASDAQ_HEADERS = {
 }
 
 
-def ipo_events(today: dt.date, horizon_days: int) -> list[Event]:
+def _nasdaq_rows(partition: str, source: str, include_upcoming: bool) -> list[dict] | None:
+    """Only explicit row lists establish a valid response, including an empty one.
+
+    ``None`` means this partition failed; the pipeline can retain its previous
+    records. JSON null, missing tables, and bad row types must never clear it.
+    """
+    url = f"https://api.nasdaq.com/api/ipo/calendar?date={partition}"
     try:
         import requests
-    except ImportError:
-        return []
+        resp = requests.get(url, headers=_NASDAQ_HEADERS, timeout=20)
+        resp.raise_for_status()
+    except Exception as exc:  # noqa: BLE001
+        record_status(source, partition, "failed", detail=str(exc))
+        print(f"[{source}] {partition}: fetch failed ({exc})")
+        return None
+    try:
+        payload = resp.json()
+        if not isinstance(payload, dict) or not isinstance(payload.get("data"), dict):
+            raise ValueError("Nasdaq response must contain a data object")
+        data = payload["data"]
+        sections = [key for key in ("priced", "upcoming") if key in data]
+        if not include_upcoming:
+            sections = ["priced"] if "priced" in data else []
+        if not sections:
+            raise ValueError("Nasdaq response has no requested IPO tables")
+        rows: list[dict] = []
+        for key in sections:
+            table = data[key]
+            if key == "upcoming":
+                table = table.get("upcomingTable") if isinstance(table, dict) else None
+            if not isinstance(table, dict) or not isinstance(table.get("rows"), list):
+                raise ValueError(f"Nasdaq {key}.rows must be an explicit list")
+            for row in table["rows"]:
+                if not isinstance(row, dict):
+                    raise ValueError(f"Nasdaq {key} row must be an object")
+                for field in ("companyName", "proposedTickerSymbol", "symbol",
+                              "pricedDate", "expectedPriceDate"):
+                    value = row.get(field)
+                    if value is not None and not isinstance(value, str):
+                        raise ValueError(f"Nasdaq row {field} must be text")
+                rows.append(row)
+        return rows
+    except Exception as exc:  # noqa: BLE001
+        record_status(source, partition, "invalid_schema", detail=str(exc))
+        print(f"[{source}] {partition}: invalid response ({exc})")
+        return None
+
+
+def ipo_events(today: dt.date, horizon_days: int) -> list[Event]:
     end = today + dt.timedelta(days=horizon_days)
-    headers = _NASDAQ_HEADERS
     out: list[Event] = []
     seen: set[str] = set()
     for y, m in _months_between(today, end):
-        url = f"https://api.nasdaq.com/api/ipo/calendar?date={y}-{m:02d}"
-        try:
-            resp = requests.get(url, headers=headers, timeout=20)
-            resp.raise_for_status()
-            data = resp.json().get("data", {}) or {}
-        except Exception as exc:  # noqa: BLE001
-            print(f"[ipo] {y}-{m:02d}: fetch failed ({exc})")
+        partition = f"{y}-{m:02d}"
+        rows = _nasdaq_rows(partition, "nasdaq_ipo", include_upcoming=True)
+        if rows is None:
             continue
-        # Prefer a priced record when the same offering appears in both lists.
-        rows = list((data.get("priced", {}) or {}).get("rows") or [])
-        rows += (((data.get("upcoming", {}) or {}).get("upcomingTable", {}) or {})
-                 .get("rows") or [])
+        before = len(out)
         for r in rows:
             sym = (r.get("proposedTickerSymbol") or r.get("symbol") or "").strip()
             name = (r.get("companyName") or "").strip()
             priced_date = (r.get("pricedDate") or "").strip()
             raw_date = priced_date or (r.get("expectedPriceDate") or "").strip()
             d = _parse_us_date(raw_date)
-            if not d or not (today <= d <= end):
+            if not d or d.strftime("%Y-%m") != partition or not (today <= d <= end):
                 continue
             if not _is_ai_ipo(f"{name} {sym}"):
                 continue  # skip non-AI IPOs (silver miners, insurers, etc.)
-            key = f"{sym}-{d}"
+            key = f"{sym or name}-{d}"
             if key in seen:
                 continue
             seen.add(key)
@@ -290,8 +371,12 @@ def ipo_events(today: dt.date, horizon_days: int) -> list[Event]:
                 tickers=[sym] if sym else [],
                 watch="新股定价;关注发行价与估值，上市交易安排以公司公告为准",
                 source_url="https://www.nasdaq.com/market-activity/ipos",
-                meta={"event_type": "pricing", "date_confirmed": bool(priced_date)},
+                meta={**_source_meta("nasdaq_ipo", partition),
+                      "event_type": "pricing", "date_confirmed": bool(priced_date)},
             ))
+        accepted = len(out) - before
+        record_status("nasdaq_ipo", partition, "ok" if rows else "empty",
+                      fetched=len(rows), accepted=accepted, rejected=len(rows) - accepted)
     print(f"[ipo] {len(out)} IPO(s) in window")
     return out
 
@@ -352,10 +437,6 @@ LOCKUP_DAYS = 180   # 常规锁定期;个别公司 90/120 天,精确以招股书
 
 
 def lockup_events(today: dt.date, horizon_days: int) -> list[Event]:
-    try:
-        import requests
-    except ImportError:
-        return []
     end = today + dt.timedelta(days=horizon_days)
     # lockup ∈ [today, end]  ⇔  priced ∈ [today-180, end-180]
     p_start = today - dt.timedelta(days=LOCKUP_DAYS)
@@ -363,20 +444,16 @@ def lockup_events(today: dt.date, horizon_days: int) -> list[Event]:
     out: list[Event] = []
     seen: set[str] = set()
     for y, m in _months_between(p_start, p_end):
-        url = f"https://api.nasdaq.com/api/ipo/calendar?date={y}-{m:02d}"
-        try:
-            resp = requests.get(url, headers=_NASDAQ_HEADERS, timeout=20)
-            resp.raise_for_status()
-            data = resp.json().get("data", {}) or {}
-        except Exception as exc:  # noqa: BLE001
-            print(f"[lockup] {y}-{m:02d}: fetch failed ({exc})")
+        partition = f"{y}-{m:02d}"
+        rows = _nasdaq_rows(partition, "nasdaq_lockup", include_upcoming=False)
+        if rows is None:
             continue
-        rows = (data.get("priced", {}) or {}).get("rows") or []
+        before = len(out)
         for r in rows:
             sym = (r.get("proposedTickerSymbol") or r.get("symbol") or "").strip()
             name = (r.get("companyName") or "").strip()
             d = _parse_us_date((r.get("pricedDate") or "").strip())
-            if not d or not (p_start <= d <= p_end):
+            if not d or d.strftime("%Y-%m") != partition or not (p_start <= d <= p_end):
                 continue
             if not _is_ai_ipo(f"{name} {sym}"):
                 continue
@@ -395,8 +472,12 @@ def lockup_events(today: dt.date, horizon_days: int) -> list[Event]:
                 watch=f"IPO({d.isoformat()}) 常规锁定期届满,内部人/早期投资者可开始减持;"
                       "留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
                 source_url="https://www.nasdaq.com/market-activity/ipos",
-                meta={"ipo_date": d.isoformat(), "assumed_lockup_days": LOCKUP_DAYS},
+                meta={**_source_meta("nasdaq_lockup", partition), "event_type": "lockup",
+                      "ipo_date": d.isoformat(), "assumed_lockup_days": LOCKUP_DAYS},
             ))
+        accepted = len(out) - before
+        record_status("nasdaq_lockup", partition, "ok" if rows else "empty",
+                      fetched=len(rows), accepted=accepted, rejected=len(rows) - accepted)
     print(f"[lockup] {len(out)} lockup expiry(ies) in window")
     return out
 

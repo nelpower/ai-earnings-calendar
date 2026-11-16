@@ -115,3 +115,30 @@ def test_ics_stable_across_same_day_runs():
                title="PCE", watch="w")
     assert build_ics_text([ev], TODAY) == build_ics_text([ev], TODAY)
 
+
+def test_health_panel_distinguishes_failed_sources_and_unverified_news():
+    health = {"company_count": 182, "issuer_count": 20, "official_source_count": 14,
+              "sources": [{"source": "earnings", "partition": "AMD", "status": "failed", "last_success": "2026-11-15"}],
+              "stale_events": 1}
+    candidates = [{"title": "Future announcement", "url": "https://example.com/news",
+                   "published_date": "2026-11-16", "review_status": "needs_review"}]
+    html = build_html([], [], today=TODAY, health=health, candidates=candidates)
+    assert "182 家上市公司" in html and "来源分区暂不可用" in html
+    assert "公告发布日期不代表活动日期" in html and "Future announcement" in html
+    assert 'href="source_status.json"' in html and 'href="candidates.json"' in html
+
+
+def test_stale_event_does_not_appear_freshly_verified():
+    ev = Event(date="2026-11-18", category="earnings", title="AMD 财报", tickers=["AMD"],
+               meta={"source_stale": True, "last_verified": "2026-11-15"})
+    html = build_html([ev], [], today=TODAY)
+    assert "来源暂不可用 · 沿用 2026-11-15 记录" in html
+
+
+def test_health_panel_displays_coverage_drop_and_seed_horizon_warnings():
+    html = build_html([], [], today=TODAY, health={"warnings": [
+        {"kind": "coverage_drop", "category": "earnings", "before": 30, "after": 0},
+        {"kind": "macro_seed_expiring", "last_date": "2026-12-23"}]})
+    assert "财报日程由 30 条降至 0 条" in html
+    assert "宏观人工日程仅覆盖至 2026-12-23" in html
+

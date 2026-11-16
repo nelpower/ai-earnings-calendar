@@ -74,6 +74,9 @@ footer{margin-top:30px;color:var(--muted);font-size:12px;border-top:1px solid va
 .empty{color:var(--muted);padding:8px 0;}
 .lg[data-cat]{cursor:pointer;background:transparent;user-select:none;}
 .lg.dim{opacity:.3;} .hide{display:none;}
+.health{margin:16px 0;padding:10px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:13px;}
+.health p{margin:5px 0;color:#c9cfd8;}.health summary{cursor:pointer;font-weight:600;padding:7px 0;}
+.health ul{padding-left:20px;}.health li{margin:7px 0;overflow-wrap:anywhere;}.health .warning{color:#e9c98f;}
 """
 
 _FILTER_JS = """
@@ -171,6 +174,14 @@ def _card(e: Event, today: dt.date) -> str:
     when_html = f'<span class="when">{_esc(when)}</span>' if when else ""
     tbd = (f'<span class="tbd">{_esc(e.meta.get("date_label") or "日期待确认")}</span>'
            if e.meta.get("date_confirmed") is False else "")
+    if e.meta.get("date_source_stale"):
+        tbd += f'<span class="tbd">官方日期待复核 · 沿用 {_esc(e.meta.get("date_last_verified") or e.meta.get("last_verified") or "上次")} 记录</span>'
+    elif e.meta.get("source_stale"):
+        tbd += f'<span class="tbd">来源暂不可用 · 沿用 {_esc(e.meta.get("last_verified") or "上次")} 记录</span>'
+    if e.meta.get("estimates_stale"):
+        tbd += f'<span class="tbd">预期数据沿用 {_esc(e.meta.get("estimates_last_verified") or "上次")} 记录</span>'
+    if e.meta.get("status") == "cancelled":
+        tbd = '<span class="tbd">已取消</span>'
     extra = _earnings_extra(e.meta) if e.category == "earnings" else ""
     label = _ACTION_LABEL.get(e.category, "查看")
     action = (f'<div class="row" style="margin-top:8px">'
@@ -234,8 +245,78 @@ def _schedule_updates(events: list[Event], today: dt.date) -> str:
     return '<section aria-label="重要日程更新"><h2>重要日程更新</h2>' + "".join(notices) + '</section>'
 
 
+def _safe_source_link(url: str, label: str) -> str:
+    if not str(url).startswith(("https://", "http://")):
+        return _esc(label)
+    return f'<a href="{_esc(url)}" target="_blank" rel="noopener">{_esc(label)}</a>'
+
+
+def _health_panel(health: dict | None, candidates: list[dict] | None) -> str:
+    if not health:
+        return ""
+    pending = [c for c in (candidates or []) if c.get("review_status") == "needs_review"]
+    failed = [r for r in health.get("sources", []) if r.get("status") in {"failed", "invalid_schema"}]
+    parts = ['<section class="health" aria-label="采集与核验状态">']
+    parts.append(f'<b>覆盖 {int(health.get("company_count", 0))} 家上市公司</b>'
+                 f' · {int(health.get("issuer_count", 0))} 个重点发行人/品牌'
+                 f' · {int(health.get("official_source_count", 0))} 个官方发现源')
+    if failed:
+        parts.append(f'<p class="warning">{len(failed)} 个来源分区暂不可用；'
+                     f'{int(health.get("stale_events", 0))} 条日程含沿用数据，已标注上次核验日期。</p>')
+    due = health.get("manual_review_due", [])
+    conflicts = health.get("date_conflicts", [])
+    for warning in health.get("warnings", []):
+        if warning.get("kind") == "coverage_drop":
+            parts.append(f'<p class="warning">{_esc(CATEGORIES.get(warning.get("category"), warning.get("category")))}日程由 '
+                         f'{int(warning.get("before", 0))} 条降至 {int(warning.get("after", 0))} 条，请核查来源。</p>')
+        elif warning.get("kind") == "macro_seed_expiring":
+            parts.append(f'<p class="warning">宏观人工日程仅覆盖至 {_esc(warning.get("last_date"))}，后续月份待补充核验。</p>')
+    if due or conflicts:
+        parts.append(f'<p class="warning">人工日程待复核 {len(due)} 项 · 来源日期分歧 {len(conflicts)} 项。</p>')
+    parts.append(f'<details><summary>查看来源状态与待核验线索（{len(pending)}）</summary>')
+    names = {"earnings": "财报", "nasdaq_ipo": "IPO 定价", "nasdaq_lockup": "解禁", "official_discovery": "官方公告"}
+    groups = Counter((r.get("source"), r.get("status")) for r in health.get("sources", []))
+    for source in sorted({r.get("source", "") for r in health.get("sources", [])}):
+        ok = groups[(source, "ok")] + groups[(source, "empty")]
+        bad = groups[(source, "failed")] + groups[(source, "invalid_schema")]
+        parts.append(f'<p>{_esc(names.get(source, source))}：成功读取 {ok} 个分区，异常 {bad} 个。</p>')
+    if failed:
+        parts.append('<ul>')
+        for r in failed[:20]:
+            parts.append(f'<li>{_esc(names.get(r.get("source"), r.get("source")))} / '
+                         f'{_esc(r.get("partition"))}：暂不可用；上次成功 '
+                         f'{_esc(r.get("last_success") or "暂无成功记录")}。</li>')
+        parts.append('</ul>')
+    if conflicts:
+        parts.append('<p>来源日期存在分歧：</p><ul>')
+        for c in conflicts[:10]:
+            resolution = "采用官方活动日历" if c.get("resolution") == "official_calendar" else "待复核"
+            parts.append(f'<li>{_safe_source_link(c.get("source_url", ""), c.get("title", ""))}：'
+                         f'{_esc(c.get("current_date"))} / {_esc(c.get("other_date"))} · {resolution}</li>')
+        parts.append('</ul>')
+    if due:
+        parts.append('<p>人工维护记录需要重新核验：</p><ul>')
+        for item in due[:10]:
+            parts.append(f'<li>{_safe_source_link(item.get("source_url", ""), item.get("title", ""))}'
+                         f' · {_esc(item.get("date"))} · 上次核验 '
+                         f'{_esc(item.get("last_verified") or "未记录")}</li>')
+        parts.append('</ul>')
+    if pending:
+        parts.append('<p>以下是官方公告线索，尚未加入确定日程；公告发布日期不代表活动日期。</p><ul>')
+        for item in pending[:20]:
+            parts.append(f'<li>{_safe_source_link(item.get("url", ""), item.get("title", ""))}'
+                         f' · 公告日期 {_esc(item.get("published_date") or "未标明")}</li>')
+        parts.append('</ul>')
+    else:
+        parts.append('<p>本次未发现新的待核验线索；来源状态不代表已覆盖全部市场事件。</p>')
+    parts.append('<p><a href="source_status.json">完整来源与复核报告</a> · '
+                 '<a href="candidates.json">全部待核验线索</a></p></details></section>')
+    return "\n".join(parts)
+
+
 def build_html(this_week: list[Event], upcoming: list[Event],
-               today: dt.date | None = None) -> str:
+               today: dt.date | None = None, health: dict | None = None,
+               candidates: list[dict] | None = None) -> str:
     today = today or today_local()
     total = len(this_week) + len(upcoming)
     cats = Counter(e.category for e in this_week + upcoming)
@@ -262,6 +343,7 @@ def build_html(this_week: list[Event], upcoming: list[Event],
     A('<div class="upd">事件日期按来源当地日历；美股及美国事件为美东日期。预计日程与请求日期会单独标注。</div>')
 
     A(_schedule_updates(this_week + upcoming, today))
+    A(_health_panel(health, candidates))
 
     A("<h2>本周大事（未来 7 天）</h2>")
     A(_timeline(this_week, today))
@@ -278,10 +360,11 @@ def build_html(this_week: list[Event], upcoming: list[Event],
 
 
 def build_site(this_week: list[Event], upcoming: list[Event],
-               site_dir: Path = SITE_DIR, today: dt.date | None = None) -> Path:
+               site_dir: Path = SITE_DIR, today: dt.date | None = None,
+               health: dict | None = None, candidates: list[dict] | None = None) -> Path:
     site_dir = Path(site_dir)
     site_dir.mkdir(parents=True, exist_ok=True)
-    (site_dir / "index.html").write_text(build_html(this_week, upcoming, today),
+    (site_dir / "index.html").write_text(build_html(this_week, upcoming, today, health, candidates),
                                          encoding="utf-8")
     payload = {"updated": (today or today_local()).isoformat(),
                "this_week": [e.to_dict() for e in this_week],

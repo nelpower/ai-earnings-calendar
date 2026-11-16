@@ -49,7 +49,7 @@ def _et_to_utc(date_iso: str, hhmm: str) -> dt.datetime | None:
 
 
 def _vevent(e: Event, dtstamp: str) -> list[str]:
-    uid = (f"{e.date}-{e.category}-"
+    uid = e.meta.get("ics_uid") or (f"{e.date}-{e.category}-"
            f"{hashlib.md5(e.title.encode('utf-8')).hexdigest()[:10]}"
            "@ai-earnings-calendar")
     summary = f"【{CATEGORIES.get(e.category, e.category)}】{e.title}"
@@ -63,9 +63,20 @@ def _vevent(e: Event, dtstamp: str) -> list[str]:
         desc_bits.append("相关: " + " ".join(e.tickers))
     if e.source_url:
         desc_bits.append(e.source_url)
+    if e.meta.get("date_source_stale") or e.meta.get("source_stale"):
+        checked = e.meta.get("date_last_verified") or e.meta.get("last_verified") or "未知"
+        desc_bits.append(f"日程来源暂不可用，沿用 {checked} 核验记录。")
+    if e.meta.get("estimates_stale"):
+        desc_bits.append(f'预期数据沿用 {e.meta.get("estimates_last_verified") or "上次"} 记录。')
 
     lines = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{dtstamp}"]
-    if tentative:
+    if e.meta.get("event_id"):
+        lines.append(f'SEQUENCE:{int(e.meta.get("revision", 0))}')
+        modified = str(e.meta.get("modified_on") or e.date).replace("-", "")
+        lines.append(f'LAST-MODIFIED:{modified}T000000Z')
+    if e.meta.get("status") == "cancelled":
+        lines.append("STATUS:CANCELLED")
+    elif tentative:
         lines.append("STATUS:TENTATIVE")
     start_utc = _et_to_utc(e.date, e.time_et) if e.time_et else None
     if start_utc:
