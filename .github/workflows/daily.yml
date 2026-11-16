@@ -5,6 +5,13 @@ name: daily-update
 # run can't leave the site stale. Times below are just after Beijing 00:20 /
 # 04:20 / 08:20 (UTC 16:20 / 20:20 / 00:20), off the top of the hour.
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'src/**'
+      - 'requirements.txt'
+      - '.github/workflows/daily.yml'
   schedule:
     - cron: "20 16 * * *"
     - cron: "20 20 * * *"
@@ -35,6 +42,9 @@ jobs:
       - name: Install dependencies
         run: python -m pip install -r requirements.txt
 
+      - name: Run offline regression checks
+        run: python -m pytest -q
+
       - name: Build earnings calendar + site
         run: python -m src.pipeline --throttle 0.25 --site-dir site
 
@@ -56,3 +66,4 @@ jobs:
           path: site
       - id: deployment
         uses: actions/deploy-pages@v5
+
