@@ -12,6 +12,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+from dataclasses import replace
 from pathlib import Path
 
 from src import config
@@ -47,6 +48,29 @@ def _last_good_earnings(outputs_dir: Path) -> list[Event]:
         return []
 
 
+def _merge_ipo_events(curated: list[Event], scraped: list[Event]) -> list[Event]:
+    """Backstop each IPO phase, upgrading an estimate when actual pricing arrives.
+
+    Match issuer + phase even when the estimated date changes. Pricing and
+    listing remain distinct; lockups are supplied separately.
+    """
+    merged = list(curated)
+    for event in scraped:
+        phase = event.meta.get("event_type")
+        symbols = {str(t).upper() for t in event.tickers}
+        matches = [e for e in merged if phase and e.category == "ipo"
+                   and e.meta.get("event_type") == phase
+                   and symbols.intersection(str(t).upper() for t in e.tickers)]
+        if not matches:
+            merged.append(event)
+        elif (event.meta.get("date_confirmed") is True
+              and not any(e.meta.get("date_confirmed") is True for e in matches)):
+            merged = [e for e in merged if e not in matches]
+            merged.append(replace(event, importance=max(
+                event.importance, *(e.importance for e in matches))))
+    return merged
+
+
 def run(
     outputs_dir: Path = config.OUTPUTS_DIR,
     site_dir: Path | None = None,
@@ -71,7 +95,7 @@ def run(
     events += deterministic_events(today, end)
     events += industry_events(today, end)
     if use_ipo:
-        events += ipo_events(today, horizon_days)
+        events = _merge_ipo_events(events, ipo_events(today, horizon_days))
         events += lockup_events(today, horizon_days)
 
     earn = earnings_events(today, horizon_days, throttle=throttle)
@@ -128,3 +152,4 @@ def main(argv: list[str] | None = None) -> None:
 
 if __name__ == "__main__":
     main()
+

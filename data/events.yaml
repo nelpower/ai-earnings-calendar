@@ -3,7 +3,8 @@
 # low-volume, so manual curation is reliable. Add a line when you hear of one.
 #
 # DO NOT add rumored dates without a source (e.g. an unconfirmed SpaceX IPO):
-# the Nasdaq IPO scraper handles real, filed IPOs automatically.
+# the Nasdaq IPO scraper is best-effort; backstop notable filed IPOs here.
+# Officially proposed dates may be included with meta.date_confirmed: false.
 #
 # Fields: date [end_date] time_et category title importance tickers watch source_url
 
@@ -99,7 +100,7 @@ events:
     source_url: "https://aws.amazon.com/events/reinvent/"
 
   # --- 政策/监管 (category: policy) ---
-  # 只在有"确定日期"时添加(如法院裁决日、关税/出口管制生效日、听证日)。
+  # 确定日期或有官方来源的请求日期；后者必须标注 date_confirmed: false。
   # 不要凭传闻填日期。示例模板(取消注释并填真实日期):
   # - date: 2026-XX-XX
   #   category: policy
@@ -108,4 +109,49 @@ events:
   #   tickers: [GOOGL]
   #   watch: "是否拆分广告业务;对 GOOGL 及广告科技股影响"
   #   source_url: "https://www.justice.gov/atr"
+
+  # Verified 2026-11-16. The Nov 18 invitation was superseded on Nov 12.
+  # Dec 1 is the requested date, not a confirmed appointment.
+  - date: 2026-12-01
+    category: policy
+    title: "黄仁勋国会闭门访谈（拟议）"
+    importance: 3
+    tickers: [NVDA]
+    watch: "众议院三个委员会请求 12/1 闭门访谈，关注安全与芯片出口管制。11/18 为原拟日期，11/12 新函已更新；具体安排仍待确认，勿按本周确定听证处理。"
+    source_url: "https://foreignaffairs.house.gov/sites/evo-subsites/republicans-foreignaffairs.house.gov/files/evo-media-document/11.12.26-chairmen-letter-to-mr-jensen-huang.pdf"
+    meta:
+      date_confirmed: false
+      date_label: "请求日期，待确认"
+      event_type: briefing
+      proposed_date: "2026-12-01"
+      original_proposed_date: "2026-11-18"
+      verified_on: "2026-11-16"
+
+  # Official FAQ uses EST. Pricing and the first trading day are distinct.
+  - date: 2026-11-18
+    category: ipo
+    title: "Anthropic IPO 预计定价（ANT）"
+    importance: 3
+    tickers: [ANT]
+    watch: "官方预计美东 11/18 确定最终发行价，仍待监管许可；关注发行价、募资规模及 AI 模型公司的估值参照。定价日不等于上市交易日。"
+    source_url: "https://ipo.anthropic.com/us/"
+    meta:
+      date_confirmed: false
+      date_label: "预计日程"
+      event_type: pricing
+      verified_on: "2026-11-16"
+
+  - date: 2026-11-19
+    category: ipo
+    title: "Anthropic 预计 Nasdaq 上市（ANT）"
+    importance: 3
+    tickers: [ANT]
+    watch: "官方预计美东 11/19 开始交易，仍待监管许可；北京时间为 11/19 晚间进入该交易日，首笔成交时间未公布。关注首日定价及对 AI 板块估值的影响。"
+    source_url: "https://ipo.anthropic.com/us/"
+    meta:
+      date_confirmed: false
+      date_label: "预计日程"
+      event_type: listing
+      verified_on: "2026-11-16"
+
 

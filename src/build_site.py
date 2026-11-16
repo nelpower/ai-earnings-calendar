@@ -12,7 +12,7 @@ from src.events_model import CATEGORIES, IMPORTANCE_ZH, Event
 
 DISCLAIMER = (
     "数据来源:财报与预期来自 Yahoo Finance(yfinance);宏观/美联储日期来自 BLS/BEA/美联储官方"
-    "发布日历;期权到期/指数重构为日历推算;发布会/IPO 为人工整理或 Nasdaq 抓取。日期可能变动或为预估,"
+    "发布日历;期权到期/指数重构为日历推算;发布会/政策监管/IPO 为人工整理或 Nasdaq 抓取。日期可能变动或为预估,"
     "财报/IPO 精确日期与盘前盘后请以公司 IR 或来源链接为准。本页仅供研究参考,不构成投资建议。"
 )
 
@@ -169,8 +169,8 @@ def _card(e: Event, today: dt.date) -> str:
     ticker_row = f'<div class="row" style="margin-top:6px">{tickers}</div>' if tickers else ""
     when = _when_label(e)
     when_html = f'<span class="when">{_esc(when)}</span>' if when else ""
-    tbd = ('<span class="tbd">日期待确认</span>'
-           if e.category == "earnings" and e.meta.get("date_confirmed") is False else "")
+    tbd = (f'<span class="tbd">{_esc(e.meta.get("date_label") or "日期待确认")}</span>'
+           if e.meta.get("date_confirmed") is False else "")
     extra = _earnings_extra(e.meta) if e.category == "earnings" else ""
     label = _ACTION_LABEL.get(e.category, "查看")
     action = (f'<div class="row" style="margin-top:8px">'
@@ -235,6 +235,8 @@ def build_html(this_week: list[Event], upcoming: list[Event],
         f'{CATEGORIES[c]} {cats.get(c,0)}</span>' for c in CATEGORIES if cats.get(c)
     ) + "</div>")
 
+    A('<div class="upd">事件日期按来源当地日历；美股及美国事件为美东日期。预计日程与请求日期会单独标注。</div>')
+
     A("<h2>本周大事（未来 7 天）</h2>")
     A(_timeline(this_week, today))
 
@@ -261,3 +263,4 @@ def build_site(this_week: list[Event], upcoming: list[Event],
     (site_dir / "events.json").write_text(
         json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
     return site_dir / "index.html"
+

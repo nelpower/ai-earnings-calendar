@@ -53,6 +53,9 @@ def _vevent(e: Event, dtstamp: str) -> list[str]:
            f"{hashlib.md5(e.title.encode('utf-8')).hexdigest()[:10]}"
            "@ai-earnings-calendar")
     summary = f"【{CATEGORIES.get(e.category, e.category)}】{e.title}"
+    tentative = e.meta.get("date_confirmed") is False
+    if tentative:
+        summary = f"【{e.meta.get('date_label') or '日期待确认'}】{summary}"
     desc_bits = []
     if e.watch:
         desc_bits.append(f"看点: {e.watch}")
@@ -62,6 +65,8 @@ def _vevent(e: Event, dtstamp: str) -> list[str]:
         desc_bits.append(e.source_url)
 
     lines = ["BEGIN:VEVENT", f"UID:{uid}", f"DTSTAMP:{dtstamp}"]
+    if tentative:
+        lines.append("STATUS:TENTATIVE")
     start_utc = _et_to_utc(e.date, e.time_et) if e.time_et else None
     if start_utc:
         end_utc = start_utc + dt.timedelta(hours=1)
@@ -108,3 +113,4 @@ def build_ics(events: list[Event], site_dir: Path, today: dt.date) -> Path:
     path = site_dir / "events.ics"
     path.write_text(build_ics_text(events, today), encoding="utf-8", newline="")
     return path
+
