@@ -5,6 +5,47 @@
     {
       "date": "2026-11-16",
       "category": "earnings",
+      "title": "Baidu 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "BIDU"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/BIDU",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "BIDU",
+        "last_verified": "2026-11-16",
+        "ticker": "BIDU",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 6.16243,
+        "revenue_estimate": 30629578930.0,
+        "revenue_currency": "CNY",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 7.22,
+        "last_eps_estimate": 9.83686,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/BIDU",
+        "date_source_partition": "BIDU",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "BIDU",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "e85eacd9d139f90a3fe53bce",
+        "identity_generated": true,
+        "ics_uid": "e85eacd9d139f90a3fe53bce@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-16",
+      "category": "earnings",
       "title": "Powell Industries 财报",
       "importance": 2,
       "end_date": "",
@@ -15,6 +56,9 @@
       "watch": "AI 服务器订单与收入、电力/散热需求",
       "source_url": "https://finance.yahoo.com/quote/POWL",
       "meta": {
+        "source": "earnings",
+        "source_partition": "POWL",
+        "last_verified": "2026-11-16",
         "ticker": "POWL",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
@@ -23,7 +67,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.42,
-        "last_eps_estimate": 1.46968
+        "last_eps_estimate": 1.46968,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/POWL",
+        "date_source_partition": "POWL",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "POWL",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "9e153af9997d6623d36e1793",
+        "identity_generated": true,
+        "ics_uid": "2026-11-16-earnings-ec3cb38fb6@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -37,8 +95,11 @@
         "NVDA"
       ],
       "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
-      "source_url": "https://finance.yahoo.com/quote/NVDA",
+      "source_url": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
       "meta": {
+        "source": "official_discovery",
+        "source_partition": "nvidia_events",
+        "last_verified": "2026-11-16",
         "ticker": "NVDA",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
@@ -47,7 +108,67 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 2.22,
-        "last_eps_estimate": 2.09113
+        "last_eps_estimate": 2.09113,
+        "date_source_type": "official_discovery",
+        "date_source": "https://investor.nvidia.com/events-and-presentations/events-and-presentations/event-details/2026/NVIDIA-3rd-Quarter-FY27-Financial-Results/default.aspx",
+        "date_source_partition": "nvidia_events",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "NVDA",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "official-f95f73a6bf404a853dc8",
+        "status": "confirmed",
+        "matched_issuers": [
+          "nvidia"
+        ],
+        "source_stale": false,
+        "identity_generated": false,
+        "ics_uid": "2026-11-17-earnings-894abfe422@ai-earnings-calendar",
+        "revision": 1,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-17",
+      "category": "earnings",
+      "title": "JD.com 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "JD"
+      ],
+      "watch": "AI 功能落地、用户与变现",
+      "source_url": "https://finance.yahoo.com/quote/JD",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "JD",
+        "last_verified": "2026-11-16",
+        "ticker": "JD",
+        "subsector": "Consumer / platform AI",
+        "date_confirmed": true,
+        "eps_estimate": 5.8799,
+        "revenue_estimate": 309801336060.0,
+        "revenue_currency": "CNY",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 6.29,
+        "last_eps_estimate": 5.61488,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/JD",
+        "date_source_partition": "JD",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "JD",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "1f3adb9448e1bbf155802668",
+        "identity_generated": true,
+        "ics_uid": "1f3adb9448e1bbf155802668@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -63,6 +184,9 @@
       "watch": "设备订单、WFE 资本开支、对中国出口",
       "source_url": "https://finance.yahoo.com/quote/KLIC",
       "meta": {
+        "source": "earnings",
+        "source_partition": "KLIC",
+        "last_verified": "2026-11-16",
         "ticker": "KLIC",
         "subsector": "Semiconductor equipment",
         "date_confirmed": true,
@@ -71,7 +195,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-06-30",
         "last_eps_actual": 1.2,
-        "last_eps_estimate": 1.00667
+        "last_eps_estimate": 1.00667,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/KLIC",
+        "date_source_partition": "KLIC",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "KLIC",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "ad83f412f5e76ef1b64e2ad7",
+        "identity_generated": true,
+        "ics_uid": "2026-11-18-earnings-16e05b5f8d@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -90,7 +228,12 @@
         "date_confirmed": false,
         "date_label": "预计日程",
         "event_type": "pricing",
-        "verified_on": "2026-11-16"
+        "verified_on": "2026-11-16",
+        "event_id": "8baf8158ad5a1ac3bb7667e1",
+        "identity_generated": true,
+        "ics_uid": "2026-11-18-ipo-19a5e572c2@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -106,6 +249,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/PANW",
       "meta": {
+        "source": "earnings",
+        "source_partition": "PANW",
+        "last_verified": "2026-11-16",
         "ticker": "PANW",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -114,7 +260,103 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.02,
-        "last_eps_estimate": 0.97745
+        "last_eps_estimate": 0.97745,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/PANW",
+        "date_source_partition": "PANW",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "PANW",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "3557e8dc3176a1d76932f72f",
+        "identity_generated": true,
+        "ics_uid": "2026-11-18-earnings-bb8edff2f8@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-18",
+      "category": "earnings",
+      "title": "Everpure (formerly Pure Storage) 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "P"
+      ],
+      "watch": "HBM/存储价格与供给、AI 拉动",
+      "source_url": "https://finance.yahoo.com/quote/P",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "P",
+        "last_verified": "2026-11-16",
+        "ticker": "P",
+        "subsector": "Memory / storage (AI)",
+        "date_confirmed": true,
+        "eps_estimate": 0.77218,
+        "revenue_estimate": 1331753020.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.7,
+        "last_eps_estimate": 0.57865,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/P",
+        "date_source_partition": "P",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "P",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "5c21dcf086a05534fcae1e74",
+        "identity_generated": true,
+        "ics_uid": "5c21dcf086a05534fcae1e74@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-19",
+      "category": "earnings",
+      "title": "Alibaba Group 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "BABA"
+      ],
+      "watch": "云增速、AI capex 资本开支、AI 变现",
+      "source_url": "https://finance.yahoo.com/quote/BABA",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "BABA",
+        "last_verified": "2026-11-16",
+        "ticker": "BABA",
+        "subsector": "Hyperscale / cloud",
+        "date_confirmed": true,
+        "eps_estimate": 11.02539,
+        "revenue_estimate": 269849229899.0,
+        "revenue_currency": "CNY",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 8.52,
+        "last_eps_estimate": 10.82038,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/BABA",
+        "date_source_partition": "BABA",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "BABA",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "85ae0541263d0efe7ff9ec96",
+        "identity_generated": true,
+        "ics_uid": "85ae0541263d0efe7ff9ec96@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -133,7 +375,12 @@
         "date_confirmed": false,
         "date_label": "预计日程",
         "event_type": "listing",
-        "verified_on": "2026-11-16"
+        "verified_on": "2026-11-16",
+        "event_id": "082a34d470ff689f8c5338fa",
+        "identity_generated": true,
+        "ics_uid": "2026-11-19-ipo-f7ff78c213@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -149,6 +396,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/ESTC",
       "meta": {
+        "source": "earnings",
+        "source_partition": "ESTC",
+        "last_verified": "2026-11-16",
         "ticker": "ESTC",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -157,7 +407,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.7,
-        "last_eps_estimate": 0.58406
+        "last_eps_estimate": 0.58406,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/ESTC",
+        "date_source_partition": "ESTC",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "ESTC",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "5c84cb92d20d43e9edede056",
+        "identity_generated": true,
+        "ics_uid": "2026-11-19-earnings-a3b34a5b6a@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -173,6 +437,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/INTU",
       "meta": {
+        "source": "earnings",
+        "source_partition": "INTU",
+        "last_verified": "2026-11-16",
         "ticker": "INTU",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -181,7 +448,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 4.03,
-        "last_eps_estimate": 3.58739
+        "last_eps_estimate": 3.58739,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/INTU",
+        "date_source_partition": "INTU",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "INTU",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "587bc0b6769be57a7cad603e",
+        "identity_generated": true,
+        "ics_uid": "2026-11-19-earnings-c41ac81442@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -194,7 +475,13 @@
       "tickers": [],
       "watch": "月度期权到期,尾盘波动可能放大",
       "source_url": "",
-      "meta": {}
+      "meta": {
+        "event_id": "cb8257a10614f66fc09ae3d3",
+        "identity_generated": true,
+        "ics_uid": "2026-11-20-options-cee053d8c6@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-11-23",
@@ -209,6 +496,9 @@
       "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
       "source_url": "https://finance.yahoo.com/quote/SMTC",
       "meta": {
+        "source": "earnings",
+        "source_partition": "SMTC",
+        "last_verified": "2026-11-16",
         "ticker": "SMTC",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
@@ -217,7 +507,62 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.71,
-        "last_eps_estimate": 0.61402
+        "last_eps_estimate": 0.61402,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/SMTC",
+        "date_source_partition": "SMTC",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "SMTC",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "c3967e522c02be7ce8139e34",
+        "identity_generated": true,
+        "ics_uid": "2026-11-23-earnings-a3a8638a2c@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "category": "earnings",
+      "title": "VNET Group 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "VNET"
+      ],
+      "watch": "数据中心容量、出租率、AI 算力托管与电力约束",
+      "source_url": "https://finance.yahoo.com/quote/VNET",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "VNET",
+        "last_verified": "2026-11-16",
+        "ticker": "VNET",
+        "subsector": "Data centers / colocation",
+        "date_confirmed": true,
+        "eps_estimate": -0.22198,
+        "revenue_estimate": 2954706590.0,
+        "revenue_currency": "CNY",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": -0.4921,
+        "last_eps_estimate": -0.3764,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/VNET",
+        "date_source_partition": "VNET",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "VNET",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "1708f6c46591186d12c280cb",
+        "identity_generated": true,
+        "ics_uid": "1708f6c46591186d12c280cb@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -233,6 +578,9 @@
       "watch": "AI 服务器订单与收入、电力/散热需求",
       "source_url": "https://finance.yahoo.com/quote/HPE",
       "meta": {
+        "source": "earnings",
+        "source_partition": "HPE",
+        "last_verified": "2026-11-16",
         "ticker": "HPE",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
@@ -241,7 +589,62 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.11,
-        "last_eps_estimate": 0.93739
+        "last_eps_estimate": 0.93739,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/HPE",
+        "date_source_partition": "HPE",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "HPE",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "ca54c2e3800ddecd0ff33a47",
+        "identity_generated": true,
+        "ics_uid": "2026-11-23-earnings-15c7ce394f@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-23",
+      "category": "earnings",
+      "title": "Symbotic 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SYM"
+      ],
+      "watch": "机器人/自动驾驶商业落地、订单与量产进展",
+      "source_url": "https://finance.yahoo.com/quote/SYM",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "SYM",
+        "last_verified": "2026-11-16",
+        "ticker": "SYM",
+        "subsector": "Robotics / autonomy",
+        "date_confirmed": true,
+        "eps_estimate": 0.15691,
+        "revenue_estimate": 774375970.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 0.4064,
+        "last_eps_estimate": 0.12675,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/SYM",
+        "date_source_partition": "SYM",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "SYM",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "516d44f833bce84efd2e8058",
+        "identity_generated": true,
+        "ics_uid": "516d44f833bce84efd2e8058@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -257,6 +660,9 @@
       "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
       "source_url": "https://finance.yahoo.com/quote/AMBA",
       "meta": {
+        "source": "earnings",
+        "source_partition": "AMBA",
+        "last_verified": "2026-11-16",
         "ticker": "AMBA",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
@@ -265,7 +671,62 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.18,
-        "last_eps_estimate": 0.17088
+        "last_eps_estimate": 0.17088,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/AMBA",
+        "date_source_partition": "AMBA",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "AMBA",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "1dec230efcc5b4579c1af367",
+        "identity_generated": true,
+        "ics_uid": "2026-11-24-earnings-2977844e8c@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "category": "earnings",
+      "title": "Analog Devices 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ADI"
+      ],
+      "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
+      "source_url": "https://finance.yahoo.com/quote/ADI",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "ADI",
+        "last_verified": "2026-11-16",
+        "ticker": "ADI",
+        "subsector": "AI semiconductors",
+        "date_confirmed": true,
+        "eps_estimate": 3.88311,
+        "revenue_estimate": 4319542480.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 3.45,
+        "last_eps_estimate": 3.33909,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/ADI",
+        "date_source_partition": "ADI",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "ADI",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "5f181d20ba458ae5f263c24c",
+        "identity_generated": true,
+        "ics_uid": "5f181d20ba458ae5f263c24c@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -281,6 +742,9 @@
       "watch": "AI 服务器订单与收入、电力/散热需求",
       "source_url": "https://finance.yahoo.com/quote/DELL",
       "meta": {
+        "source": "earnings",
+        "source_partition": "DELL",
+        "last_verified": "2026-11-16",
         "ticker": "DELL",
         "subsector": "Servers / power / cooling",
         "date_confirmed": true,
@@ -289,7 +753,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 7.04,
-        "last_eps_estimate": 4.91833
+        "last_eps_estimate": 4.91833,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/DELL",
+        "date_source_partition": "DELL",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "DELL",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "ca80c89b8bd9708f713e1120",
+        "identity_generated": true,
+        "ics_uid": "2026-11-24-earnings-9f533eb3b1@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -305,6 +783,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/WDAY",
       "meta": {
+        "source": "earnings",
+        "source_partition": "WDAY",
+        "last_verified": "2026-11-16",
         "ticker": "WDAY",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -313,7 +794,144 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 2.75,
-        "last_eps_estimate": 2.61224
+        "last_eps_estimate": 2.61224,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/WDAY",
+        "date_source_partition": "WDAY",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "WDAY",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "c876c09c237f4f60f1cec9e4",
+        "identity_generated": true,
+        "ics_uid": "2026-11-24-earnings-26a861e9c5@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "category": "earnings",
+      "title": "Nutanix 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "NTNX"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/NTNX",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "NTNX",
+        "last_verified": "2026-11-16",
+        "ticker": "NTNX",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.60442,
+        "revenue_estimate": 762384590.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.6,
+        "last_eps_estimate": 0.48535,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/NTNX",
+        "date_source_partition": "NTNX",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "NTNX",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "a2aef9a173fb30c40a442351",
+        "identity_generated": true,
+        "ics_uid": "a2aef9a173fb30c40a442351@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-24",
+      "category": "earnings",
+      "title": "Autodesk 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ADSK"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/ADSK",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "ADSK",
+        "last_verified": "2026-11-16",
+        "ticker": "ADSK",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 3.06793,
+        "revenue_estimate": 2132410570.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 3.3,
+        "last_eps_estimate": 3.12384,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/ADSK",
+        "date_source_partition": "ADSK",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "ADSK",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "66d2700ee3ad76b17a2a83c8",
+        "identity_generated": true,
+        "ics_uid": "66d2700ee3ad76b17a2a83c8@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-11-25",
+      "category": "earnings",
+      "title": "GDS Holdings 财报",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "GDS"
+      ],
+      "watch": "数据中心容量、出租率、AI 算力托管与电力约束",
+      "source_url": "https://finance.yahoo.com/quote/GDS",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "GDS",
+        "last_verified": "2026-11-16",
+        "ticker": "GDS",
+        "subsector": "Data centers / colocation",
+        "date_confirmed": true,
+        "eps_estimate": -1.28,
+        "revenue_estimate": 3178719680.0,
+        "revenue_currency": "CNY",
+        "last_quarter": "2026-06-30",
+        "last_eps_actual": 3.53,
+        "last_eps_estimate": -0.336,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/GDS",
+        "date_source_partition": "GDS",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "GDS",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "20a1d1b63c3ed89a8c4566ec",
+        "identity_generated": true,
+        "ics_uid": "20a1d1b63c3ed89a8c4566ec@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -326,7 +944,15 @@
       "tickers": [],
       "watch": "美联储最看重的通胀指标,影响降息时点",
       "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
-      "meta": {}
+      "meta": {
+        "verified_on": "2026-11-16",
+        "verification_url": "https://www.bea.gov/news/schedule",
+        "event_id": "a1d608327d2346259c02bcb4",
+        "identity_generated": true,
+        "ics_uid": "2026-11-25-macro-60b42e1ab4@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-11-30",
@@ -340,7 +966,14 @@
       ],
       "watch": "AWS AI 服务、自研芯片 Trainium/Inferentia、云增速",
       "source_url": "https://aws.amazon.com/events/reinvent/",
-      "meta": {}
+      "meta": {
+        "verified_on": "2026-11-16",
+        "event_id": "c6610828da0758411d179ed4",
+        "identity_generated": true,
+        "ics_uid": "2026-11-30-conference-7f6e0b3059@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-11-30",
@@ -355,6 +988,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/RBRK",
       "meta": {
+        "source": "earnings",
+        "source_partition": "RBRK",
+        "last_verified": "2026-11-16",
         "ticker": "RBRK",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -363,7 +999,49 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.2,
-        "last_eps_estimate": 0.03925
+        "last_eps_estimate": 0.03925,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/RBRK",
+        "date_source_partition": "RBRK",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "RBRK",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "6a9644e2873fd01e5f0c03d1",
+        "identity_generated": true,
+        "ics_uid": "2026-11-30-earnings-af507e7378@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "category": "conference",
+      "title": "UBS Global Technology and AI Conference",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMD"
+      ],
+      "watch": "官方活动日程；关注议程、披露与后续安排，临近活动请复核来源。",
+      "source_url": "https://ir.amd.com/ical?id=9249",
+      "meta": {
+        "event_id": "official-6b010e95dc25aadd87aa",
+        "source": "official_discovery",
+        "source_partition": "amd_events",
+        "date_confirmed": true,
+        "last_verified": "2026-11-16",
+        "status": "confirmed",
+        "matched_issuers": [
+          "amd"
+        ],
+        "identity_generated": false,
+        "ics_uid": "official-6b010e95dc25aadd87aa@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -379,6 +1057,9 @@
       "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
       "source_url": "https://finance.yahoo.com/quote/MRVL",
       "meta": {
+        "source": "earnings",
+        "source_partition": "MRVL",
+        "last_verified": "2026-11-16",
         "ticker": "MRVL",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
@@ -387,7 +1068,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.94,
-        "last_eps_estimate": 0.93077
+        "last_eps_estimate": 0.93077,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/MRVL",
+        "date_source_partition": "MRVL",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "MRVL",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "a0e8ddf92b0ed79a6efc062f",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-earnings-f6695b7435@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -403,6 +1098,9 @@
       "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
       "source_url": "https://finance.yahoo.com/quote/CRDO",
       "meta": {
+        "source": "earnings",
+        "source_partition": "CRDO",
+        "last_verified": "2026-11-16",
         "ticker": "CRDO",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
@@ -411,7 +1109,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.2,
-        "last_eps_estimate": 1.16862
+        "last_eps_estimate": 1.16862,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/CRDO",
+        "date_source_partition": "CRDO",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "CRDO",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "345a609202f888c55d2adb8e",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-earnings-2f340ac587@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -433,7 +1145,12 @@
         "display_title": "黄仁勋（Jensen Huang）国会闭门访谈（拟议）",
         "proposed_date": "2026-12-01",
         "original_proposed_date": "2026-11-18",
-        "verified_on": "2026-11-16"
+        "verified_on": "2026-11-16",
+        "event_id": "155cf1200c87369d7b3cfd34",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-policy-7be1dcd701@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -449,6 +1166,9 @@
       "watch": "HBM/存储价格与供给、AI 拉动",
       "source_url": "https://finance.yahoo.com/quote/NTAP",
       "meta": {
+        "source": "earnings",
+        "source_partition": "NTAP",
+        "last_verified": "2026-11-16",
         "ticker": "NTAP",
         "subsector": "Memory / storage (AI)",
         "date_confirmed": true,
@@ -457,7 +1177,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 2.58,
-        "last_eps_estimate": 2.12278
+        "last_eps_estimate": 2.12278,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/NTAP",
+        "date_source_partition": "NTAP",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "NTAP",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "69255be7ad3a229f75817da5",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-earnings-eb042d4bb8@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -473,6 +1207,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/CRWD",
       "meta": {
+        "source": "earnings",
+        "source_partition": "CRWD",
+        "last_verified": "2026-11-16",
         "ticker": "CRWD",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -481,7 +1218,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.31,
-        "last_eps_estimate": 0.29141
+        "last_eps_estimate": 0.29141,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/CRWD",
+        "date_source_partition": "CRWD",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "CRWD",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "d0434a37112ca6eda68994c2",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-earnings-c5e9d1bf04@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -497,6 +1248,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/MDB",
       "meta": {
+        "source": "earnings",
+        "source_partition": "MDB",
+        "last_verified": "2026-11-16",
         "ticker": "MDB",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -505,7 +1259,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.9,
-        "last_eps_estimate": 1.60897
+        "last_eps_estimate": 1.60897,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/MDB",
+        "date_source_partition": "MDB",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "MDB",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "614dca2d5b2034c9f182ccae",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-earnings-1e947c601d@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -521,6 +1289,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/GTLB",
       "meta": {
+        "source": "earnings",
+        "source_partition": "GTLB",
+        "last_verified": "2026-11-16",
         "ticker": "GTLB",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -529,7 +1300,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.24,
-        "last_eps_estimate": 0.17964
+        "last_eps_estimate": 0.17964,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/GTLB",
+        "date_source_partition": "GTLB",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "GTLB",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "46572e0310017dd8f2c488a4",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-earnings-6b86a8be96@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -545,6 +1330,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/OKTA",
       "meta": {
+        "source": "earnings",
+        "source_partition": "OKTA",
+        "last_verified": "2026-11-16",
         "ticker": "OKTA",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -553,7 +1341,103 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.05,
-        "last_eps_estimate": 0.96395
+        "last_eps_estimate": 0.96395,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/OKTA",
+        "date_source_partition": "OKTA",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "OKTA",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "f814229ee44efc6ddbe43275",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-earnings-efc8b76b41@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "category": "earnings",
+      "title": "Box 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "BOX"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/BOX",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "BOX",
+        "last_verified": "2026-11-16",
+        "ticker": "BOX",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.39064,
+        "revenue_estimate": 329034960.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.4,
+        "last_eps_estimate": 0.39811,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/BOX",
+        "date_source_partition": "BOX",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "BOX",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "266e4db7f7dca2877bc37051",
+        "identity_generated": true,
+        "ics_uid": "266e4db7f7dca2877bc37051@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-12-01",
+      "category": "earnings",
+      "title": "Asana 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "ASAN"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/ASAN",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "ASAN",
+        "last_verified": "2026-11-16",
+        "ticker": "ASAN",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.08044,
+        "revenue_estimate": 218117600.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.1,
+        "last_eps_estimate": 0.08748,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/ASAN",
+        "date_source_partition": "ASAN",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "ASAN",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "b3766f4d44dbf0163e7847ba",
+        "identity_generated": true,
+        "ics_uid": "b3766f4d44dbf0163e7847ba@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -566,7 +1450,13 @@
       "tickers": [],
       "watch": "半导体出口 YoY 是存储/HBM 景气度最快的前瞻之一;看半导体出口金额增速、存储价格传导与对华出口占比",
       "source_url": "https://english.motie.go.kr/en/pc/pressreleases/bbs/bbsList.do",
-      "meta": {}
+      "meta": {
+        "event_id": "6a5aabf283f4c7140c62f946",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-industry-ec93bf1b55@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-12-01",
@@ -581,8 +1471,17 @@
       "watch": "IPO(2026-06-04) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
       "source_url": "https://www.nasdaq.com/market-activity/ipos",
       "meta": {
+        "source": "nasdaq_lockup",
+        "source_partition": "2026-06",
+        "last_verified": "2026-11-16",
+        "event_type": "lockup",
         "ipo_date": "2026-06-04",
-        "assumed_lockup_days": 180
+        "assumed_lockup_days": 180,
+        "event_id": "0a679c59f968940691207b03",
+        "identity_generated": true,
+        "ics_uid": "2026-12-01-ipo-1ba13cd620@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -598,6 +1497,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/CRM",
       "meta": {
+        "source": "earnings",
+        "source_partition": "CRM",
+        "last_verified": "2026-11-16",
         "ticker": "CRM",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -606,7 +1508,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 5.9,
-        "last_eps_estimate": 3.27116
+        "last_eps_estimate": 3.27116,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/CRM",
+        "date_source_partition": "CRM",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "CRM",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "ee1cee571c7fa2b3d3de67dc",
+        "identity_generated": true,
+        "ics_uid": "2026-12-02-earnings-00a94b0867@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -622,6 +1538,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/SNOW",
       "meta": {
+        "source": "earnings",
+        "source_partition": "SNOW",
+        "last_verified": "2026-11-16",
         "ticker": "SNOW",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -630,7 +1549,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.62,
-        "last_eps_estimate": 0.44698
+        "last_eps_estimate": 0.44698,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/SNOW",
+        "date_source_partition": "SNOW",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "SNOW",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "1bdcf909b33e02836c7fe252",
+        "identity_generated": true,
+        "ics_uid": "2026-12-02-earnings-3fa42c2809@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -646,6 +1579,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/ZS",
       "meta": {
+        "source": "earnings",
+        "source_partition": "ZS",
+        "last_verified": "2026-11-16",
         "ticker": "ZS",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -654,7 +1590,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 1.19,
-        "last_eps_estimate": 1.08997
+        "last_eps_estimate": 1.08997,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/ZS",
+        "date_source_partition": "ZS",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "ZS",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "7efc0c1bd0b25e80fc7351a6",
+        "identity_generated": true,
+        "ics_uid": "2026-12-02-earnings-953db60e49@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -670,6 +1620,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/S",
       "meta": {
+        "source": "earnings",
+        "source_partition": "S",
+        "last_verified": "2026-11-16",
         "ticker": "S",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -678,7 +1631,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.08,
-        "last_eps_estimate": 0.07183
+        "last_eps_estimate": 0.07183,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/S",
+        "date_source_partition": "S",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "S",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "362a8ec902bca1b89802a50e",
+        "identity_generated": true,
+        "ics_uid": "2026-12-03-earnings-b3d5fc1520@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -694,6 +1661,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/PATH",
       "meta": {
+        "source": "earnings",
+        "source_partition": "PATH",
+        "last_verified": "2026-11-16",
         "ticker": "PATH",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -702,7 +1672,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.15,
-        "last_eps_estimate": 0.14766
+        "last_eps_estimate": 0.14766,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/PATH",
+        "date_source_partition": "PATH",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "PATH",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "9da32284deee412cf4f25d43",
+        "identity_generated": true,
+        "ics_uid": "2026-12-03-earnings-933135101f@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -718,6 +1702,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/IOT",
       "meta": {
+        "source": "earnings",
+        "source_partition": "IOT",
+        "last_verified": "2026-11-16",
         "ticker": "IOT",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -726,7 +1713,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.2,
-        "last_eps_estimate": 0.15704
+        "last_eps_estimate": 0.15704,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/IOT",
+        "date_source_partition": "IOT",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "IOT",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "b579ac66b0503d213ae49608",
+        "identity_generated": true,
+        "ics_uid": "2026-12-03-earnings-b097acb822@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -742,6 +1743,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/GWRE",
       "meta": {
+        "source": "earnings",
+        "source_partition": "GWRE",
+        "last_verified": "2026-11-16",
         "ticker": "GWRE",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -750,7 +1754,62 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 0.99,
-        "last_eps_estimate": 0.93849
+        "last_eps_estimate": 0.93849,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/GWRE",
+        "date_source_partition": "GWRE",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "GWRE",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "77cc2daa1dfe0a74c9c1743b",
+        "identity_generated": true,
+        "ics_uid": "2026-12-03-earnings-a4069c4976@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-12-03",
+      "category": "earnings",
+      "title": "Docusign 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "DOCU"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/DOCU",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "DOCU",
+        "last_verified": "2026-11-16",
+        "ticker": "DOCU",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 1.1789,
+        "revenue_estimate": 888827390.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 1.16,
+        "last_eps_estimate": 1.08564,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/DOCU",
+        "date_source_partition": "DOCU",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "DOCU",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "1f02cfb507bda7be633d97b9",
+        "identity_generated": true,
+        "ics_uid": "1f02cfb507bda7be633d97b9@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -763,7 +1822,15 @@
       "tickers": [],
       "watch": "12/8-9 FOMC 前最后一份非农",
       "source_url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-      "meta": {}
+      "meta": {
+        "verified_on": "2026-11-16",
+        "verification_url": "https://www.bls.gov/schedule/2026/12_sched.htm",
+        "event_id": "25c94e3c8604b8b124ce81b1",
+        "identity_generated": true,
+        "ics_uid": "2026-12-04-macro-824413f316@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-12-08",
@@ -778,6 +1845,9 @@
       "watch": "设计活动、AI 芯片设计需求",
       "source_url": "https://finance.yahoo.com/quote/SNPS",
       "meta": {
+        "source": "earnings",
+        "source_partition": "SNPS",
+        "last_verified": "2026-11-16",
         "ticker": "SNPS",
         "subsector": "EDA / chip design",
         "date_confirmed": true,
@@ -786,7 +1856,90 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 3.91,
-        "last_eps_estimate": 3.67334
+        "last_eps_estimate": 3.67334,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/SNPS",
+        "date_source_partition": "SNPS",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "SNPS",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "58a735d59919adeea91b2dcf",
+        "identity_generated": true,
+        "ics_uid": "2026-12-08-earnings-a888c12ae5@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-12-08",
+      "category": "earnings",
+      "title": "Braze 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "BRZE"
+      ],
+      "watch": "AI 软件 ARR、净留存、平台扩张、估值",
+      "source_url": "https://finance.yahoo.com/quote/BRZE",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "BRZE",
+        "last_verified": "2026-11-16",
+        "ticker": "BRZE",
+        "subsector": "AI software / security / data",
+        "date_confirmed": true,
+        "eps_estimate": 0.14004,
+        "revenue_estimate": 229878490.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-07-31",
+        "last_eps_actual": 0.19,
+        "last_eps_estimate": 0.15548,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/BRZE",
+        "date_source_partition": "BRZE",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "BRZE",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "83f45dac62e8178938843188",
+        "identity_generated": true,
+        "ics_uid": "83f45dac62e8178938843188@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "category": "conference",
+      "title": "Barclays 24th Annual Global Technology Conference",
+      "importance": 3,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "AMD"
+      ],
+      "watch": "官方活动日程；关注议程、披露与后续安排，临近活动请复核来源。",
+      "source_url": "https://ir.amd.com/ical?id=9250",
+      "meta": {
+        "event_id": "official-520d2f6d3b14be145d62",
+        "source": "official_discovery",
+        "source_partition": "amd_events",
+        "date_confirmed": true,
+        "last_verified": "2026-11-16",
+        "status": "confirmed",
+        "matched_issuers": [
+          "amd"
+        ],
+        "identity_generated": false,
+        "ics_uid": "official-520d2f6d3b14be145d62@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -802,6 +1955,9 @@
       "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
       "source_url": "https://finance.yahoo.com/quote/AVGO",
       "meta": {
+        "source": "earnings",
+        "source_partition": "AVGO",
+        "last_verified": "2026-11-16",
         "ticker": "AVGO",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
@@ -810,7 +1966,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 3.32,
-        "last_eps_estimate": 3.238
+        "last_eps_estimate": 3.238,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/AVGO",
+        "date_source_partition": "AVGO",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "AVGO",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "093993487ae22d893d613652",
+        "identity_generated": true,
+        "ics_uid": "2026-12-09-earnings-5572cf1baf@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -823,7 +1993,15 @@
       "tickers": [],
       "watch": "会议 12/8-9;决议 + 季度经济预测 (SEP) + 点阵图 + 发布会",
       "source_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
-      "meta": {}
+      "meta": {
+        "verified_on": "2026-11-16",
+        "verification_url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+        "event_id": "354db0629be82fde7b51e27b",
+        "identity_generated": true,
+        "ics_uid": "2026-12-09-fed-887ff13e6d@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-12-09",
@@ -838,6 +2016,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/AI",
       "meta": {
+        "source": "earnings",
+        "source_partition": "AI",
+        "last_verified": "2026-11-16",
         "ticker": "AI",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -846,7 +2027,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": -0.2,
-        "last_eps_estimate": -0.26031
+        "last_eps_estimate": -0.26031,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/AI",
+        "date_source_partition": "AI",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "AI",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "15463078aba5cf03451b87a2",
+        "identity_generated": true,
+        "ics_uid": "2026-12-09-earnings-36c04a042f@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -862,6 +2057,9 @@
       "watch": "AI 软件 ARR、净留存、平台扩张、估值",
       "source_url": "https://finance.yahoo.com/quote/ADBE",
       "meta": {
+        "source": "earnings",
+        "source_partition": "ADBE",
+        "last_verified": "2026-11-16",
         "ticker": "ADBE",
         "subsector": "AI software / security / data",
         "date_confirmed": true,
@@ -870,7 +2068,47 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-08-31",
         "last_eps_actual": 6.13,
-        "last_eps_estimate": 6.08663
+        "last_eps_estimate": 6.08663,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/ADBE",
+        "date_source_partition": "ADBE",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "ADBE",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "0025d7694908eadc66605107",
+        "identity_generated": true,
+        "ics_uid": "2026-12-09-earnings-915e36b121@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-12-09",
+      "category": "ipo",
+      "title": "SPACE EXPLORATION TECHNOLOGIES CORP 解禁 (SPCX, IPO+180天)",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "SPCX"
+      ],
+      "watch": "IPO(2026-06-12) 常规锁定期届满,内部人/早期投资者可开始减持;留意供给冲击、大宗折价与股价压力。180 天为常规假设,精确日以招股书为准",
+      "source_url": "https://www.nasdaq.com/market-activity/ipos",
+      "meta": {
+        "source": "nasdaq_lockup",
+        "source_partition": "2026-06",
+        "last_verified": "2026-11-16",
+        "event_type": "lockup",
+        "ipo_date": "2026-06-12",
+        "assumed_lockup_days": 180,
+        "event_id": "f9bd42c85f3891d825a6592c",
+        "identity_generated": true,
+        "ics_uid": "f9bd42c85f3891d825a6592c@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -886,6 +2124,9 @@
       "watch": "光通信/CPO、AI-era 带宽需求、网络设备订单",
       "source_url": "https://finance.yahoo.com/quote/CIEN",
       "meta": {
+        "source": "earnings",
+        "source_partition": "CIEN",
+        "last_verified": "2026-11-16",
         "ticker": "CIEN",
         "subsector": "Networking / optical",
         "date_confirmed": true,
@@ -894,7 +2135,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-07-31",
         "last_eps_actual": 2.11,
-        "last_eps_estimate": 1.72756
+        "last_eps_estimate": 1.72756,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/CIEN",
+        "date_source_partition": "CIEN",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "CIEN",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "e50b402fb4bd415c85c9a631",
+        "identity_generated": true,
+        "ics_uid": "2026-12-10-earnings-20405d2bb0@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -909,7 +2164,13 @@
       ],
       "watch": "AI 链最高频需求温度计:看 YoY 动能是否延续、环比方向;月营收只有总量,先进制程/CoWoS 结构要等季度法说会。发布日通常在 10 日前后,精确以台积电 IR 为准",
       "source_url": "https://pr.tsmc.com/english/monthly-revenue",
-      "meta": {}
+      "meta": {
+        "event_id": "bf3d6bd7c1e598e4c57c8749",
+        "identity_generated": true,
+        "ics_uid": "2026-12-10-industry-bd6cdfb63f@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-12-10",
@@ -919,9 +2180,17 @@
       "end_date": "",
       "time_et": "08:30",
       "tickers": [],
-      "watch": "次日起进入 FOMC 静默期后的决议周;年内最后一份重磅通胀数据",
+      "watch": "12/9 FOMC 决议后的通胀数据；关注核心通胀与后续政策路径",
       "source_url": "https://www.bls.gov/news.release/cpi.nr0.htm",
-      "meta": {}
+      "meta": {
+        "verified_on": "2026-11-16",
+        "verification_url": "https://www.bls.gov/schedule/2026/12_sched.htm",
+        "event_id": "a33b86808cb62f99a25983fe",
+        "identity_generated": true,
+        "ics_uid": "2026-12-10-macro-539b18825c@ai-earnings-calendar",
+        "revision": 1,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-12-11",
@@ -933,7 +2202,13 @@
       "tickers": [],
       "watch": "收盘后生效,大批被动资金当日尾盘强制调仓,小盘股异动多为对账而非基本面;2026 起改为每年 6 月+12 月两次",
       "source_url": "https://www.lseg.com/en/ftse-russell/russell-reconstitution",
-      "meta": {}
+      "meta": {
+        "event_id": "633ec32f54b9ecc3e091254c",
+        "identity_generated": true,
+        "ics_uid": "2026-12-11-index-4692bca36c@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-12-14",
@@ -948,6 +2223,9 @@
       "watch": "云增速、AI capex 资本开支、AI 变现",
       "source_url": "https://finance.yahoo.com/quote/ORCL",
       "meta": {
+        "source": "earnings",
+        "source_partition": "ORCL",
+        "last_verified": "2026-11-16",
         "ticker": "ORCL",
         "subsector": "Hyperscale / cloud",
         "date_confirmed": true,
@@ -956,7 +2234,62 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-08-31",
         "last_eps_actual": 1.92,
-        "last_eps_estimate": 1.73834
+        "last_eps_estimate": 1.73834,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/ORCL",
+        "date_source_partition": "ORCL",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "ORCL",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "bbbd3e8a2e7fd628d6596062",
+        "identity_generated": true,
+        "ics_uid": "2026-12-14-earnings-b28b4ba07f@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
+    },
+    {
+      "date": "2026-12-16",
+      "category": "earnings",
+      "title": "Jabil 财报",
+      "importance": 2,
+      "end_date": "",
+      "time_et": "",
+      "tickers": [
+        "JBL"
+      ],
+      "watch": "AI 服务器订单与收入、电力/散热需求",
+      "source_url": "https://finance.yahoo.com/quote/JBL",
+      "meta": {
+        "source": "earnings",
+        "source_partition": "JBL",
+        "last_verified": "2026-11-16",
+        "ticker": "JBL",
+        "subsector": "Servers / power / cooling",
+        "date_confirmed": true,
+        "eps_estimate": 4.05397,
+        "revenue_estimate": 11013646260.0,
+        "revenue_currency": "USD",
+        "last_quarter": "2026-08-31",
+        "last_eps_actual": 4.4,
+        "last_eps_estimate": 4.07545,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/JBL",
+        "date_source_partition": "JBL",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "JBL",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "23926140d9d71fbf0e1c00aa",
+        "identity_generated": true,
+        "ics_uid": "23926140d9d71fbf0e1c00aa@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -969,7 +2302,13 @@
       "tickers": [],
       "watch": "股指期货/期权/个股期权同日到期结算,成交量巨大、尾盘波动诡异",
       "source_url": "",
-      "meta": {}
+      "meta": {
+        "event_id": "3c87a236a15de6d66a76cac5",
+        "identity_generated": true,
+        "ics_uid": "2026-12-18-options-62f7812091@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-12-18",
@@ -981,7 +2320,13 @@
       "tickers": [],
       "watch": "标普指数季度调整当日生效;新纳入个股被动买入需求,尾盘成交放大",
       "source_url": "https://www.spglobal.com/spdji/en/governance/methodology/",
-      "meta": {}
+      "meta": {
+        "event_id": "4204ee9ed1858414f809ffa7",
+        "identity_generated": true,
+        "ics_uid": "2026-12-18-index-f9a96f88d6@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     },
     {
       "date": "2026-12-23",
@@ -996,6 +2341,9 @@
       "watch": "AI 芯片收入、数据中心需求、custom ASIC、下季指引",
       "source_url": "https://finance.yahoo.com/quote/MU",
       "meta": {
+        "source": "earnings",
+        "source_partition": "MU",
+        "last_verified": "2026-11-16",
         "ticker": "MU",
         "subsector": "AI semiconductors",
         "date_confirmed": true,
@@ -1004,7 +2352,21 @@
         "revenue_currency": "USD",
         "last_quarter": "2026-08-31",
         "last_eps_actual": 33.42,
-        "last_eps_estimate": 31.81801
+        "last_eps_estimate": 31.81801,
+        "date_source_type": "earnings",
+        "date_source": "https://finance.yahoo.com/quote/MU",
+        "date_source_partition": "MU",
+        "date_last_verified": "2026-11-16",
+        "date_source_stale": false,
+        "estimates_source_type": "earnings",
+        "estimates_source_partition": "MU",
+        "estimates_last_verified": "2026-11-16",
+        "estimates_stale": false,
+        "event_id": "8e91ae8a50a0a827da4af55f",
+        "identity_generated": true,
+        "ics_uid": "2026-12-23-earnings-09744af722@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
       }
     },
     {
@@ -1017,7 +2379,15 @@
       "tickers": [],
       "watch": "美联储最看重的通胀指标,影响降息时点",
       "source_url": "https://www.bea.gov/data/personal-consumption-expenditures-price-index",
-      "meta": {}
+      "meta": {
+        "verified_on": "2026-11-16",
+        "verification_url": "https://www.bea.gov/news/schedule",
+        "event_id": "fe13fa1656fd751588f1740d",
+        "identity_generated": true,
+        "ics_uid": "2026-12-23-macro-987aa7bf14@ai-earnings-calendar",
+        "revision": 0,
+        "modified_on": "2026-11-16"
+      }
     }
   ]
 }
