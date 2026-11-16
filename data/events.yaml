@@ -123,6 +123,7 @@ events:
       date_confirmed: false
       date_label: "请求日期，待确认"
       event_type: briefing
+      display_title: "黄仁勋（Jensen Huang）国会闭门访谈（拟议）"
       proposed_date: "2026-12-01"
       original_proposed_date: "2026-11-18"
       verified_on: "2026-11-16"

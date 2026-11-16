@@ -182,7 +182,7 @@ def _card(e: Event, today: dt.date) -> str:
     <span class="catb" style="background:{color}">{_esc(cat_zh)}</span>
     <span class="imp imp{e.importance}">重要度 {IMPORTANCE_ZH.get(e.importance,'中')}</span>
     {tbd}
-    <span class="title">{_esc(e.title)}</span>
+    <span class="title">{_esc(e.meta.get('display_title') or e.title)}</span>
     {when_html}
   </div>
   {ticker_row}
@@ -201,13 +201,37 @@ def _timeline(events: list[Event], today: dt.date) -> str:
     out = []
     for day in sorted(by_day):
         d = dt.date.fromisoformat(day)
-        out.append('<div class="daygrp">')
+        out.append(f'<div class="daygrp" id="day-{day}">')
         out.append(f'<div class="dayhdr">{d:%Y-%m-%d} {_WD[d.weekday()]} · '
                    f'<span class="rel">{_rel(d, today)}</span></div>')
         for e in sorted(by_day[day], key=lambda x: -x.importance):
             out.append(_card(e, today))
         out.append("</div>")
     return "\n".join(out)
+
+
+def _schedule_updates(events: list[Event], today: dt.date) -> str:
+    """Surface moved dates relevant to this week without adding calendar events."""
+    notices = []
+    for e in events:
+        try:
+            original = dt.date.fromisoformat(e.meta.get("original_proposed_date", ""))
+        except (TypeError, ValueError):
+            continue
+        if not 0 <= (original - today).days <= 7 or original.isoformat() == e.date:
+            continue
+        latest = "最新请求日期" if e.meta.get("date_confirmed") is False else "最新日期"
+        status = "，尚未确认" if e.meta.get("date_confirmed") is False else ""
+        title = e.meta.get("display_title") or e.title
+        notices.append(
+            f'<div class="daygrp"><div class="card" data-cat="{_esc(e.category)}">'
+            f'<div class="title">{_esc(title)}</div>'
+            f'<div class="watch">原拟 {original:%m/%d}；{latest} '
+            f'{_esc(e.date[5:].replace("-", "/"))}{status}。</div>'
+            f'<a href="#day-{_esc(e.date)}">查看最新日程与官方来源</a></div></div>')
+    if not notices:
+        return ""
+    return '<section aria-label="重要日程更新"><h2>重要日程更新</h2>' + "".join(notices) + '</section>'
 
 
 def build_html(this_week: list[Event], upcoming: list[Event],
@@ -236,6 +260,8 @@ def build_html(this_week: list[Event], upcoming: list[Event],
     ) + "</div>")
 
     A('<div class="upd">事件日期按来源当地日历；美股及美国事件为美东日期。预计日程与请求日期会单独标注。</div>')
+
+    A(_schedule_updates(this_week + upcoming, today))
 
     A("<h2>本周大事（未来 7 天）</h2>")
     A(_timeline(this_week, today))

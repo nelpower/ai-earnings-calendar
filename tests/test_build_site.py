@@ -79,6 +79,22 @@ def test_header_and_filter_js():
     assert 'href="events.ics"' in html
 
 
+def test_moved_request_is_visible_before_this_week_without_changing_ics_identity():
+    ev = Event(date="2026-12-01", category="policy", title="黄仁勋国会闭门访谈（拟议）",
+               meta={"date_confirmed": False, "original_proposed_date": "2026-11-18",
+                     "display_title": "黄仁勋（Jensen Huang）国会闭门访谈（拟议）"})
+    today = dt.date(2026, 11, 16)
+    html = build_html([], [ev], today=today)
+    assert html.index("重要日程更新") < html.index("本周大事")
+    assert "原拟 11/18；最新请求日期 12/01，尚未确认" in html
+    assert 'href="#day-2026-12-01"' in html and 'id="day-2026-12-01"' in html
+    assert "Jensen Huang" in html
+    canonical = Event(date=ev.date, category=ev.category, title=ev.title,
+                      meta={"date_confirmed": False, "original_proposed_date": "2026-11-18"})
+    assert build_ics_text([ev], today) == build_ics_text([canonical], today)
+    assert "重要日程更新" not in build_html([], [ev], today=dt.date(2026, 11, 19))
+
+
 def test_ics_timed_event_converts_et_to_utc():
     ev = Event(date="2026-06-25", time_et="08:30", category="macro",
                title="PCE 物价指数 (5月)", importance=2, watch="w")
