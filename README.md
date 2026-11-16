@@ -94,6 +94,16 @@ by category, and `events.ics` can be subscribed to from Apple/Google Calendar
   (verified 2026-06-12); 非农 dates beyond July follow the BLS scheduling rule.
 - **IPO keyword filter** favours precision; it can miss an oddly-named AI IPO
   (curate it in `events.yaml`) or, rarely, admit a borderline one.
+- Named model companies (Anthropic, OpenAI, xAI) also match as complete words.
+  Backstop major filed IPOs in `events.yaml` using `meta.event_type: pricing`
+  or `listing`; a curated entry takes precedence over a scraped estimate for
+  the same ticker and phase; actual pricing replaces the estimate, retaining
+  its importance level. Nasdaq price dates are pricing events, not
+  guaranteed first-trading dates.
+- Official expected/requested dates use `meta.date_confirmed: false` and an
+  optional `meta.date_label`. The website shows the label and the ICS feed
+  marks these events `TENTATIVE`. Dates follow the source's local calendar
+  (US events use Eastern dates); no hour is invented when none was announced.
 - Consensus figures are point-in-time and revise.
 
 ## Layout
@@ -106,3 +116,4 @@ ai-earnings-calendar/
   tests/  outputs/(events.json)  site/(generated)
   .github/workflows/daily.yml
 ```
+

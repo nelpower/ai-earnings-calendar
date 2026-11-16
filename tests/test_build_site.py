@@ -56,6 +56,21 @@ def test_tiny_estimate_base_suppresses_percentage():
     assert "超预期" in html and "2108" not in html
 
 
+def test_tentative_policy_and_ipo_have_visible_status_and_calendar_status():
+    events = [
+        Event(date="2026-12-01", category="policy", title="闭门访谈（拟议）",
+              meta={"date_confirmed": False, "date_label": "请求日期，待确认"}),
+        Event(date="2026-11-19", category="ipo", title="预计上市",
+              meta={"date_confirmed": False, "date_label": "预计日程"}),
+    ]
+    html = build_html(events, [], today=TODAY)
+    assert '<span class="tbd">请求日期，待确认</span>' in html
+    assert '<span class="tbd">预计日程</span>' in html
+    ics = build_ics_text(events, TODAY).replace("\r\n ", "")
+    assert ics.count("STATUS:TENTATIVE") == 2
+    assert "【请求日期，待确认】" in ics and "【预计日程】" in ics
+
+
 def test_header_and_filter_js():
     ev = Event(date="2026-06-18", category="options", title="t", watch="w")
     html = build_html([ev], [], today=TODAY)
@@ -83,3 +98,4 @@ def test_ics_stable_across_same_day_runs():
     ev = Event(date="2026-06-25", time_et="08:30", category="macro",
                title="PCE", watch="w")
     assert build_ics_text([ev], TODAY) == build_ics_text([ev], TODAY)
+

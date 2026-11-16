@@ -59,6 +59,72 @@ def test_ai_ipo_keyword_filter():
     assert not _is_ai_ipo("Safepoint Holdings, Inc.")  # insurer
 
 
+def test_ai_ipo_recognizes_model_developers_without_industry_keywords():
+    from src.providers import _is_ai_ipo
+    for name in ("Anthropic, PBC ANT", "ANTHROPIC PBC", "OpenAI Group PBC",
+                 "xAI Corp."):
+        assert _is_ai_ipo(name), name
+    for name in ("NotAnthropic Holdings", "OpenAir Aviation", "Xaim Insurance",
+                 "ANT Holdings"):
+        assert not _is_ai_ipo(name), name
+
+
+def test_ipo_events_preserves_anthropic_and_labels_pricing_dates(monkeypatch):
+    import requests
+    from src.providers import ipo_events
+
+    class FakeResp:
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return {"data": {
+                "upcoming": {"upcomingTable": {"rows": [
+                    {"proposedTickerSymbol": "ANT", "companyName": "Anthropic, PBC",
+                     "expectedPriceDate": "11/18/2026"},
+                    {"proposedTickerSymbol": "SLVR", "companyName": "Silver Mines Ltd.",
+                     "expectedPriceDate": "11/18/2026"},
+                ]}},
+                "priced": {"rows": [
+                    {"proposedTickerSymbol": "OAI", "companyName": "OpenAI Group PBC",
+                     "pricedDate": "11/17/2026", "expectedPriceDate": "11/16/2026"},
+                ]},
+            }}
+
+    monkeypatch.setattr(requests, "get", lambda *a, **k: FakeResp())
+    evs = ipo_events(dt.date(2026, 11, 16), 7)
+    by_symbol = {e.tickers[0]: e for e in evs}
+    assert set(by_symbol) == {"ANT", "OAI"}
+    expected = by_symbol["ANT"]
+    assert expected.date == "2026-11-18" and "预计定价" in expected.title
+    assert expected.meta == {"event_type": "pricing", "date_confirmed": False}
+    priced = by_symbol["OAI"]
+    assert priced.date == "2026-11-17" and "预计" not in priced.title
+    assert priced.meta == {"event_type": "pricing", "date_confirmed": True}
+
+
+def test_ipo_events_prefers_priced_record_over_same_day_estimate(monkeypatch):
+    import requests
+    from src.providers import ipo_events
+
+    class FakeResp:
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            row = {"proposedTickerSymbol": "ANT", "companyName": "Anthropic, PBC"}
+            return {"data": {
+                "upcoming": {"upcomingTable": {"rows": [
+                    {**row, "expectedPriceDate": "11/18/2026"},
+                ]}},
+                "priced": {"rows": [{**row, "pricedDate": "11/18/2026"}]},
+            }}
+
+    monkeypatch.setattr(requests, "get", lambda *a, **k: FakeResp())
+    evs = ipo_events(dt.date(2026, 11, 16), 7)
+    assert len(evs) == 1 and evs[0].meta["date_confirmed"] is True
+
+
 def test_static_events_load_macro_and_conferences():
     evs = static_events()
     assert any(e.category == "fed" for e in evs)             # FOMC
@@ -154,3 +220,4 @@ def test_lockup_events_from_priced_history(monkeypatch):
     assert e.date == (today + dt.timedelta(days=10)).isoformat()
     assert e.meta["assumed_lockup_days"] == 180
     assert e.importance == 2
+

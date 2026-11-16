@@ -223,13 +223,18 @@ _AI_IPO_KW = [
     "comput", "machine learning", "intelligence", "fabless", "lidar", "photonic",
     "infrastructure",
 ]
+# Model developers whose legal names need not contain an AI industry keyword.
+# Match whole tokens so e.g. OpenAir is not mistaken for OpenAI.
+_AI_IPO_NAMES = {"anthropic", "openai", "xai"}
 
 
 def _is_ai_ipo(text: str) -> bool:
     """Keyword filter so the (unfiltered) IPO feed only surfaces AI-relevant names.
     Imperfect by design — favours precision; curate notable misses in events.yaml."""
     import re
-    text = text.lower()
+    text = text.casefold()
+    if _AI_IPO_NAMES.intersection(re.findall(r"\b\w+\b", text)):
+        return True
     if re.search(r"\bai\b", text) or "a.i." in text:
         return True
     return any(k in text for k in _AI_IPO_KW)
@@ -260,12 +265,15 @@ def ipo_events(today: dt.date, horizon_days: int) -> list[Event]:
         except Exception as exc:  # noqa: BLE001
             print(f"[ipo] {y}-{m:02d}: fetch failed ({exc})")
             continue
-        rows = ((data.get("upcoming", {}) or {}).get("upcomingTable", {}) or {}).get("rows") or []
-        rows += (data.get("priced", {}) or {}).get("rows") or []
+        # Prefer a priced record when the same offering appears in both lists.
+        rows = list((data.get("priced", {}) or {}).get("rows") or [])
+        rows += (((data.get("upcoming", {}) or {}).get("upcomingTable", {}) or {})
+                 .get("rows") or [])
         for r in rows:
             sym = (r.get("proposedTickerSymbol") or r.get("symbol") or "").strip()
             name = (r.get("companyName") or "").strip()
-            raw_date = (r.get("expectedPriceDate") or r.get("pricedDate") or "").strip()
+            priced_date = (r.get("pricedDate") or "").strip()
+            raw_date = priced_date or (r.get("expectedPriceDate") or "").strip()
             d = _parse_us_date(raw_date)
             if not d or not (today <= d <= end):
                 continue
@@ -275,12 +283,14 @@ def ipo_events(today: dt.date, horizon_days: int) -> list[Event]:
             if key in seen:
                 continue
             seen.add(key)
-            label = f"{name} IPO" + (f" ({sym})" if sym else "")
+            phase = "定价" if priced_date else "预计定价"
+            label = f"{name} IPO {phase}" + (f" ({sym})" if sym else "")
             out.append(Event(
                 date=d.isoformat(), category="ipo", title=label, importance=1,
                 tickers=[sym] if sym else [],
-                watch="新股定价/上市;留意是否 AI 相关及炒作风险",
+                watch="新股定价;关注发行价与估值，上市交易安排以公司公告为准",
                 source_url="https://www.nasdaq.com/market-activity/ipos",
+                meta={"event_type": "pricing", "date_confirmed": bool(priced_date)},
             ))
     print(f"[ipo] {len(out)} IPO(s) in window")
     return out
@@ -389,3 +399,4 @@ def lockup_events(today: dt.date, horizon_days: int) -> list[Event]:
             ))
     print(f"[lockup] {len(out)} lockup expiry(ies) in window")
     return out
+
