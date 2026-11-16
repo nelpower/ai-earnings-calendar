@@ -130,15 +130,23 @@ def archive_expired(today: dt.date,
     for i, e in enumerate(todo):
         outcome = None
         ticker = (e.get("meta") or {}).get("ticker")
-        if fetch_outcomes and e.get("category") == "earnings" and ticker:
-            outcome = _earnings_outcome(ticker, dt.date.fromisoformat(e["date"]))
+        meta = e.get("meta") or {}
+        occurrence = ("cancelled" if meta.get("status") == "cancelled" else
+                      "date_passed_unverified" if meta.get("date_confirmed") is False else
+                      "scheduled_date_passed")
+        if fetch_outcomes and e.get("category") == "earnings" and ticker and occurrence != "cancelled":
+            try:
+                outcome = _earnings_outcome(ticker, dt.date.fromisoformat(e["date"]))
+            except Exception as exc:  # one failed outcome cannot erase the rest of the archive
+                print(f"[archive] {ticker}: outcome unavailable ({type(exc).__name__})")
             if throttle and i < len(todo) - 1:
                 time.sleep(throttle)
         lines.append(json.dumps(
-            {"archived_at": today.isoformat(), "event": e, "outcome": outcome},
+            {"archived_at": today.isoformat(), "event": e, "occurrence_status": occurrence, "outcome": outcome},
             ensure_ascii=False))
     if lines:
         with arch_path.open("a", encoding="utf-8") as fh:
             fh.write("\n".join(lines) + "\n")
     print(f"[archive] {len(lines)} event(s) archived -> {arch_path.name}")
     return len(lines)
+

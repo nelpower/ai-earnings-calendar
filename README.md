@@ -1,119 +1,130 @@
 # AI Market-Event Calendar
 
-A daily, auto-updating web timeline of **market-moving events for the AI complex**
-— not just earnings, but macro data, Fed/FOMC, conferences/keynotes, options
-expiry, index rebalances, and AI-relevant IPOs — each with an importance level
-and a "看点 (what to watch)" note.
+A daily AI market-event timeline with sourced dates, visible collection health,
+and a separate queue for official announcements that still need review.
 
-Live: published to GitHub Pages. Research/heads-up tool only — **not investment advice**.
+Live: https://nelpower.github.io/ai-earnings-calendar/
 
-## Event categories & where the data comes from
+## Coverage
 
-| Category | Auto? | Source |
-|---|---|---|
-| 财报 Earnings | ✅ | yfinance `.calendar` (date + consensus EPS/revenue) + `earnings_history` (last-qtr actual vs est) + `info.financialCurrency` (revenue currency, e.g. TSM=TWD) |
-| 宏观 Macro (CPI/非农/PCE) | ✅ curated | Official BLS/BEA release schedules (`data/macro_events.yaml`, seeded through Dec 2026) |
-| 美联储 Fed / FOMC + Jackson Hole | ✅ curated | federalreserve.gov FOMC calendar (date = decision day) + kansascityfed.org |
-| 期权到期 / 四巫日 | ✅ computed | 3rd Friday each month, **shifted to the prior trading day when it's an NYSE holiday** (e.g. Juneteenth Fri 2026-06-19 → Thu 06-18); quad-witching in Mar/Jun/Sep/Dec |
-| 指数重构 Index | ✅ computed | Russell reconstitution, **semi-annual since 2026**: 4th Friday of June + 2nd Friday of December (FTSE Russell notice 2025-11-05) |
-| 发布会 / 大会 Conferences | 🟡 curated | `data/events.yaml` (GTC/WWDC/Computex…, announced months ahead) |
-| IPO + **解禁 Lockup** | 🟡 scraped / ✅ computed | Nasdaq IPO calendar, **keyword-filtered to AI-relevant names**; lockup expiries = priced date + 180d, backfilled from the same endpoint's `priced` history (~6 months back, stateless) |
-| 行业数据 Industry | ✅ computed | Recurring monthly releases: **TSMC monthly revenue (~10th)** + Korea full-month exports incl. semiconductors (1st); dates are publication conventions, marked "约" |
+- **183 listed companies** in `data/ai_companies.yaml` (114 existing + 69 added).
+  New entries carry current ticker/CIK evidence, a primary business source, a
+  verification date and relevance note. Coverage includes chips, equipment,
+  materials, optical networking, memory, servers, power/cooling, cloud,
+  enterprise software, edge AI, robotics/autonomy and data-center colocation.
+- **20 issuer/brand identities** in `data/issuer_watchlist.yaml`, with aliases,
+  official URLs and listing status. Private or subsidiary brands can be
+  watched without pretending they have a tradable earnings ticker. A proposed
+  ticker or an SEC identifier does not establish that trading has begun.
+- **17 official discovery sources** in `data/discovery_sources.yaml`: House
+  committee announcements, Senate Banking schedules/news, NVIDIA/AMD investor
+  events and news, Anthropic/OpenAI news, official macro schedules, and SEC
+  submissions for NVIDIA, AMD and Anthropic.
+- Yahoo Finance supplies next earnings dates, consensus figures and the last
+  quarter's actual/estimated EPS. Nasdaq supplies AI-relevant IPO **pricing**
+  dates and assumed IPO+180-day lockups. Curated sources backstop major IPOs,
+  macro releases and conferences. Options and index dates are computed.
 
-6 categories are fully automatic; conferences are hand-curated (no clean API);
-IPOs are scraped from Nasdaq and filtered (silver-miners/insurers dropped).
+The Yahoo dependency is pinned to **yfinance 1.8.0**. Its default can turn an
+HTTP error into an empty calendar; the adapter temporarily enables exception
+propagation and restores the library configuration afterward. Upgrade it only
+with the failure-path tests.
 
-## Outcome archive (pattern library)
+## What becomes a calendar event
 
-Every run, events from the previous `events.json` whose date has passed are
-appended to **`outputs/archive.jsonl`** (append-only, committed daily, deduped
-by date+title). Earnings events get best-effort outcomes: actual vs estimated
-EPS (yfinance `earnings_history`) plus closes around the report (prev/on/next)
-with **both** candidate reactions (`reaction_pct_if_amc` = on→next,
-`reaction_pct_if_bmo` = prev→on) — we usually don't know the session, so the
-analysis layer picks later. Over time this becomes an "event → market reaction"
-dataset for pattern work.
+A news/RSS publication date is **never** an activity date. Ordinary official
+announcements and SEC filing dates go to `candidates.json` with
+`review_status: needs_review`. SEC registration/filing is not IPO completion.
 
-## Universe
+Only explicit full dates from verified official calendar adapters or
+structured Event data can enter automatically. The pipeline prefers an
+official company earnings date over Yahoo while preserving available consensus
+figures. Pricing and first trading day are separate IPO phases.
 
-`data/ai_companies.yaml` — 114 AI-business tickers (SEC-verified) used by the
-earnings provider. `data/macro_events.yaml` + `data/events.yaml` carry the
-curated macro/Fed/conference events. Edit any of them freely.
+Manually sourced dates stay in `data/events.yaml` and
+`data/macro_events.yaml`. Expected/requested dates require
+`meta.date_confirmed: false`, plus optional `meta.date_label`.
+Use `meta.verified_on` for a real primary-source review date; loading a YAML
+file never refreshes it. The macro file retains its original June review date
+and separately records the November recheck of the currently upcoming releases.
 
-## Install & run
+The homepage shows:
+- A notice when a date originally proposed for this week has moved.
+- Collection failures, cached records, date conflicts and overdue reviews.
+- A collapsible official-announcement review queue with source links.
 
-```bash
-cd ai-earnings-calendar
+This is a discovery and verification workflow, not a completeness guarantee.
+Some official sites return HTTP 403 to automated requests; those are visible
+failures, never successful empty results.
+
+## Recovery and updates
+
+Each source reports `ok / empty / failed / invalid_schema`, partitioned by
+ticker for earnings and source month for Nasdaq. Health reports include raw,
+accepted and rejected counts, last success, and consecutive failures.
+
+- **Explicit failures** retain only that partition's known future records.
+  Cached events show their original last-verification date.
+- **Successful empty responses** clear that partition; withdrawn records are
+  not indefinitely copied back from yesterday's feed.
+- A partial failure cannot erase all other tickers or months.
+- Coverage drops exclude events that expired normally and appear as warnings.
+- Different official/estimated dates are visible conflicts, not silent
+  overwrites. Actual IPO pricing replaces a corresponding estimate.
+- Stable event identities, preserved subscription UIDs and increasing ICS
+  SEQUENCE values let date corrections update an existing subscribed event.
+  Explicit cancellations use STATUS:CANCELLED. Archive records separately label
+  unverified passed dates and cancellations; a passed scheduled date alone
+  does not establish that the event actually occurred.
+
+The review queue preserves first-seen dates and review decisions across runs.
+A changed dedicated schedule becomes pending again. To review a candidate,
+check its primary source, add/update a sourced event where warranted, and mark
+its entry in `outputs/candidates.json` reviewed with a note. A reviewed lead
+does not automatically become a dated event.
+
+## Run and inspect
+
+```sh
 python -m pip install -r requirements.txt
-python -m src.pipeline                 # fetch everything + build site/
-python -m src.pipeline --no-ipo        # skip the Nasdaq IPO scrape
-python -m src.pipeline --throttle 0.3  # gentler on Yahoo
-python -m pytest                       # tests (network mocked)
+python -m pytest -q
+python -m src.pipeline --throttle 0.25
+python -m src.pipeline --no-ipo --no-discovery
+python -m src.quality
 ```
 
-Open `site/index.html`. Outputs: `outputs/events.json` (committed) + `site/`
-(`index.html` + `events.json` + `events.ics`).
+Generated artifacts:
 
-The site is a single self-contained HTML page (no CDN): the legend chips filter
-by category, and `events.ics` can be subscribed to from Apple/Google Calendar
-(`https://nelpower.github.io/ai-earnings-calendar/events.ics`).
+| Path | Purpose |
+| --- | --- |
+| `outputs/events.json` | Committed event state and stable identities |
+| `outputs/source_status.json` | Collection health, coverage, conflicts and review deadlines |
+| `outputs/candidates.json` | Persistent official-announcement review queue |
+| `outputs/archive.jsonl` | Append-only past-date/outcome archive |
+| `site/index.html` | Standalone homepage |
+| `site/events.json` | Current this-week/upcoming event data |
+| `site/events.ics` | Subscribe from Apple/Google Calendar |
+| `site/source_status.json`, `site/candidates.json` | Public diagnostic and review exports |
 
-## How it works (daily run logic)
+US events use Eastern calendar dates. The data day/header uses Beijing time.
+No IPO first-trade hour is invented. Non-USD revenue uses its reporting
+currency; foreign EPS is shown without an asserted currency when ambiguous.
 
-0. `archive_expired()` appends yesterday's now-past events to
-   `outputs/archive.jsonl` (with earnings outcomes) before anything overwrites
-   `events.json`; failures never block the run.
-1. `static_events()` loads curated macro/Fed + conferences from YAML.
-2. `deterministic_events()` computes options-expiry / quad-witching / Russell
-   dates; `industry_events()` adds TSMC monthly revenue + Korea exports.
-3. `ipo_events()` scrapes Nasdaq's IPO calendar and keeps only AI-relevant
-   names; `lockup_events()` backfills priced AI IPOs from ~6 months ago and
-   emits IPO+180d lockup expiries.
-4. `earnings_events()` pulls next earnings for all 114 tickers (yfinance), keeps
-   the in-window ones, and adds last-quarter actual-vs-estimate.
-5. All events merge into one timeline → `today … +45d` (day 0 included — a US
-   after-hours report is still upcoming on its own date), split into **本周
-   (≤7d)** and **未来 8–45 天**, color-coded by category with importance + 看点.
-6. Write `outputs/events.json`, build the site (+ `events.ics`), deploy to Pages.
-7. If the earnings fetch returns nothing (Yahoo blocked the runner), the last
-   committed earnings are reused so that section never disappears. Macro/Fed/
-   conference/options/index events are network-free and always present.
+## CI and publishing
 
-`.github/workflows/daily.yml` runs daily (11:00 UTC = 19:00 北京) and deploys.
+`.github/workflows/tests.yml` runs offline tests and a live-source candidate
+build on pull requests and `codex/**` pushes, then uploads the candidate site.
 
-## Limitations
+`.github/workflows/daily.yml` runs at 16:20 / 20:20 / 00:20 UTC (Beijing
+00:20 / 04:20 / 08:20), on relevant main-branch source changes, and manually.
+It runs tests, builds, writes source warnings and a GitHub run summary, commits
+the output state and deploys GitHub Pages. Output-only commits do not
+recursively trigger source-change deployments.
 
-- **yfinance / Yahoo** is unofficial; earnings dates can lag official IR by ±1
-  day and have no BMO/AMC time. Estimated (range) dates show a "日期待确认"
-  badge. The card's Yahoo link lets you verify.
-- **EPS currency for foreign reporters is ambiguous** on Yahoo (TSM EPS is
-  USD-per-ADR but ASML EPS is EUR), so non-USD reporters show a bare EPS
-  number; revenue always shows its reporting currency.
-- **Macro/conference dates are curated** — re-check the official schedules yearly
-  (the files note the source URLs). FOMC/CPI/非农/PCE seeded through Dec 2026
-  (verified 2026-06-12); 非农 dates beyond July follow the BLS scheduling rule.
-- **IPO keyword filter** favours precision; it can miss an oddly-named AI IPO
-  (curate it in `events.yaml`) or, rarely, admit a borderline one.
-- Named model companies (Anthropic, OpenAI, xAI) also match as complete words.
-  Backstop major filed IPOs in `events.yaml` using `meta.event_type: pricing`
-  or `listing`; a curated entry takes precedence over a scraped estimate for
-  the same ticker and phase; actual pricing replaces the estimate, retaining
-  its importance level. Nasdaq price dates are pricing events, not
-  guaranteed first-trading dates.
-- Official expected/requested dates use `meta.date_confirmed: false` and an
-  optional `meta.date_label`. The website shows the label and the ICS feed
-  marks these events `TENTATIVE`. Dates follow the source's local calendar
-  (US events use Eastern dates); no hour is invented when none was announced.
-- Consensus figures are point-in-time and revise.
+Macro schedule snapshots produce review signals; their HTML is not blindly
+converted into dates. The remaining seeded macro horizon and unreviewed
+announcements stay visible in the report. Assumed 180-day IPO lockups are
+estimates and must be checked against prospectus terms.
 
-## Layout
-
-```
-ai-earnings-calendar/
-  data/  ai_companies.yaml  macro_events.yaml  events.yaml
-  src/   config.py  events_model.py  fetch_earnings.py  providers.py
-         pipeline.py  build_site.py
-  tests/  outputs/(events.json)  site/(generated)
-  .github/workflows/daily.yml
-```
+Research/heads-up tool only; not investment advice.
 

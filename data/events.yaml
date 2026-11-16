@@ -98,6 +98,8 @@ events:
     tickers: [AMZN]
     watch: "AWS AI 服务、自研芯片 Trainium/Inferentia、云增速"
     source_url: "https://aws.amazon.com/events/reinvent/"
+    meta:
+      verified_on: "2026-11-16"
 
   # --- 政策/监管 (category: policy) ---
   # 确定日期或有官方来源的请求日期；后者必须标注 date_confirmed: false。

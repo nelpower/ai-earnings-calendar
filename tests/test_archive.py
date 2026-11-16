@@ -58,12 +58,10 @@ def test_outcome_failure_never_blocks(tmp_path, monkeypatch):
     def boom(ticker, d):
         raise RuntimeError("yahoo down")
     monkeypatch.setattr(archive, "_earnings_outcome", boom)
-    # a crash inside outcome enrichment propagates? No — archive_expired calls it
-    # directly, so guard at call site is the pipeline's try/except. Here we only
-    # assert the stub path with fetch_outcomes=False stays clean.
     n = archive.archive_expired(dt.date(2026, 8, 19), outputs_dir=tmp_path,
-                                fetch_outcomes=False)
+                                fetch_outcomes=True)
     assert n == 2
     lines = [json.loads(x) for x in
              (tmp_path / "archive.jsonl").read_text(encoding="utf-8").splitlines()]
     assert all(r["outcome"] is None for r in lines)
+

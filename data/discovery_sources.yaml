@@ -1,0 +1,140 @@
+# Official discovery only. Publication dates in news/RSS never become event dates.
+# HTML/RSS structures verified 2026-11-16. Failures are reported, not empty success.
+# Foreign Affairs' advertised /rss.xml is stale, so use the press-release listing.
+sources:
+  - id: house_foreign_affairs
+    url: https://foreignaffairs.house.gov/news/press-releases
+    kind: html
+    category: policy
+    priority: 3
+    link_prefixes: [/news/press-releases/]
+    allowed_domains: [foreignaffairs.house.gov]
+  - id: house_china_select
+    url: https://chinaselectcommittee.house.gov/media/press-releases
+    kind: html
+    category: policy
+    priority: 3
+    link_prefixes: [/media/press-releases/, /media/reports/]
+    allowed_domains: [chinaselectcommittee.house.gov]
+  - id: senate_banking_hearings
+    url: https://www.banking.senate.gov/hearings
+    kind: banking_calendar
+    category: policy
+    priority: 3
+    allowed_domains: [www.banking.senate.gov]
+  - id: senate_banking_news
+    url: https://www.banking.senate.gov/newsroom
+    kind: html
+    category: policy
+    priority: 3
+    link_prefixes: [/newsroom/majority/, /newsroom/minority/]
+    allowed_domains: [www.banking.senate.gov]
+  - id: nvidia_events
+    url: https://investor.nvidia.com/rss/Event.aspx?LanguageId=1
+    kind: q4_event_rss
+    category: conference
+    priority: 3
+    issuer_ids: [nvidia]
+    allowed_domains: [investor.nvidia.com]
+  - id: nvidia_news
+    url: https://nvidianews.nvidia.com/releases.xml
+    kind: rss
+    category: conference
+    priority: 3
+    issuer_ids: [nvidia]
+    allowed_domains: [nvidianews.nvidia.com, blogs.nvidia.com, investor.nvidia.com]
+  - id: amd_events
+    url: https://ir.amd.com/news-events/ir-calendar
+    kind: amd_calendar
+    category: conference
+    priority: 3
+    issuer_ids: [amd]
+    allowed_domains: [ir.amd.com]
+  - id: amd_news
+    url: https://ir.amd.com/news-events/press-releases/rss
+    kind: rss
+    category: conference
+    priority: 2
+    issuer_ids: [amd]
+    allowed_domains: [ir.amd.com]
+  - id: anthropic_news
+    url: https://www.anthropic.com/news
+    kind: html
+    category: conference
+    priority: 3
+    issuer_ids: [anthropic]
+    link_prefixes: [/news/]
+    excluded_paths: [/news/announcements, /news/research, /news/policy, /news/company,
+                     /news/product, /news/features, /news/economics, /news/science, /news/agents]
+    allowed_domains: [www.anthropic.com]
+  - id: anthropic_ipo
+    url: https://ipo.anthropic.com/us/
+    kind: schedule_snapshot
+    category: ipo
+    priority: 3
+    issuer_ids: [anthropic]
+    # This is a dedicated timetable, but its FAQ omits the year. Verify it as
+    # a candidate instead of inferring the year from today's date/copyright.
+    title: Anthropic IPO 官方时间表复核
+    expected_terms: [IPO, publicly trading]
+    allowed_domains: [ipo.anthropic.com]
+  - id: openai_news
+    url: https://openai.com/news/rss.xml
+    kind: rss
+    category: conference
+    priority: 3
+    issuer_ids: [openai]
+    allowed_domains: [openai.com, www.openai.com]
+  - id: bls_schedule
+    url: https://www.bls.gov/schedule/{year}/home.htm
+    kind: schedule_snapshot
+    category: macro
+    priority: 3
+    title: BLS 官方经济数据日程复核
+    expected_terms: [Consumer Price Index, Employment Situation]
+    allowed_domains: [www.bls.gov]
+  - id: bea_schedule
+    url: https://www.bea.gov/news/schedule
+    kind: schedule_snapshot
+    category: macro
+    priority: 3
+    title: BEA 官方经济数据日程复核
+    expected_terms: [Release Schedule, Personal Income and Outlays]
+    allowed_domains: [www.bea.gov]
+  - id: fed_fomc_schedule
+    url: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
+    kind: schedule_snapshot
+    category: fed
+    priority: 3
+    title: 美联储 FOMC 官方会议日程复核
+    expected_terms: [FOMC, Meeting]
+    allowed_domains: [www.federalreserve.gov]
+  # CIKs are verified in issuer_watchlist.yaml. SEC filingDate is a disclosure
+  # date, never an IPO/earnings/hearing date. These adapters emit review leads.
+  - id: sec_nvidia
+    url: https://data.sec.gov/submissions/CIK0001045810.json
+    kind: sec_submissions
+    category: policy
+    priority: 3
+    issuer_ids: [nvidia]
+    cik: "0001045810"
+    allowed_domains: [data.sec.gov, www.sec.gov]
+    user_agent: AI-Market-Calendar/1.0 (https://github.com/nelpower/ai-earnings-calendar)
+  - id: sec_amd
+    url: https://data.sec.gov/submissions/CIK0000002488.json
+    kind: sec_submissions
+    category: policy
+    priority: 3
+    issuer_ids: [amd]
+    cik: "0000002488"
+    allowed_domains: [data.sec.gov, www.sec.gov]
+    user_agent: AI-Market-Calendar/1.0 (https://github.com/nelpower/ai-earnings-calendar)
+  - id: sec_anthropic
+    url: https://data.sec.gov/submissions/CIK0002130357.json
+    kind: sec_submissions
+    category: ipo
+    priority: 3
+    issuer_ids: [anthropic]
+    cik: "0002130357"
+    allowed_domains: [data.sec.gov, www.sec.gov]
+    user_agent: AI-Market-Calendar/1.0 (https://github.com/nelpower/ai-earnings-calendar)
