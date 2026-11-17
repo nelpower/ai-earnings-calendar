@@ -46,8 +46,8 @@
       "last_seen": "2026-11-17",
       "matched_issuers": [],
       "review_status": "needs_review",
-      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。",
-      "content_hash": "8a388a9ac4e92256d417"
+      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。 官方日程内容自上次观察已变更。",
+      "content_hash": "aa1271e8d4abf61dffae"
     },
     {
       "id": "official-fc3a56c14a550ef5b6bc",
@@ -379,6 +379,22 @@
       "priority": 3,
       "published_date": "2026-11-12",
       "first_seen": "2026-11-16",
+      "last_seen": "2026-11-17",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-b82b64ef90f76e66fb00",
+      "title": "How Revolut raises ambition without lowering the bar",
+      "url": "https://openai.com/business/customer-stories/revolut",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
       "last_seen": "2026-11-17",
       "matched_issuers": [
         "openai"
@@ -1227,6 +1243,22 @@
       "last_seen": "2026-11-17",
       "matched_issuers": [
         "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-0e7f690aa4ff229bd2e8",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-17",
+      "matched_issuers": [
+        "openai"
       ],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
