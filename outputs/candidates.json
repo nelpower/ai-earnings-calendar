@@ -31,7 +31,7 @@
         "meta"
       ],
       "review_status": "needs_review",
-      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。 官方日程内容自上次观察已变更。",
+      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。",
       "content_hash": "fa1ff2968526a1ceb6e1"
     },
     {
@@ -46,7 +46,7 @@
       "last_seen": "2026-11-19",
       "matched_issuers": [],
       "review_status": "needs_review",
-      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。 官方日程内容自上次观察已变更。",
+      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。",
       "content_hash": "72b120ffa00fbce1958b"
     },
     {
@@ -157,6 +157,22 @@
       "last_seen": "2026-11-19",
       "matched_issuers": [
         "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-e308a84a77ae00d83193",
+      "title": "Anthropic prices initial public offering",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "matched_issuers": [
+        "anthropic"
       ],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
@@ -962,6 +978,22 @@
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
     {
+      "id": "official-58da586369f33999eb92",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
       "id": "official-550f4d88633d42452645",
       "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
       "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
@@ -973,6 +1005,22 @@
       "last_seen": "2026-11-19",
       "matched_issuers": [
         "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-53d809d7420a3923e8ba",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-19",
+      "matched_issuers": [
+        "openai"
       ],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
