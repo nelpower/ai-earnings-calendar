@@ -210,6 +210,22 @@
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
     {
+      "id": "official-da30645137037f0052cd",
+      "title": "Get started with Daybreak Blue",
+      "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
       "id": "official-d91fd06de7b8771ee8ad",
       "title": "Science at the Frontier: How scientists use ChatGPT",
       "url": "https://openai.com/index/science-at-the-frontier",
@@ -529,6 +545,22 @@
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
     {
+      "id": "official-a890a236270cc5e31862",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
       "id": "official-a1de396d3910fa2e0f79",
       "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
       "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
@@ -733,6 +765,22 @@
       "last_seen": "2026-11-20",
       "matched_issuers": [
         "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-82fe289fe466dcc1d4f7",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-20",
+      "matched_issuers": [
+        "openai"
       ],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
@@ -1224,6 +1272,22 @@
       "priority": 3,
       "published_date": "2026-11-18",
       "first_seen": "2026-11-19",
+      "last_seen": "2026-11-20",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-17b7a2b39f098895a220",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
       "last_seen": "2026-11-20",
       "matched_issuers": [
         "openai"
