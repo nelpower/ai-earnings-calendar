@@ -1,22 +1,6 @@
 {
-  "checked_on": "2026-11-20",
+  "checked_on": "2026-11-21",
   "candidates": [
-    {
-      "id": "official-ff7833693fa2a06713dc",
-      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
-      "url": "https://openai.com/index/lvmh-media-division-partnership",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
     {
       "id": "official-fe3255ea546db4b012c0",
       "title": "美联储 FOMC 官方会议日程复核",
@@ -26,7 +10,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "meta"
       ],
@@ -43,11 +27,27 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [],
       "review_status": "needs_review",
-      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。",
-      "content_hash": "b368708f793ab7e1ca0e"
+      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。 官方日程内容自上次观察已变更。",
+      "content_hash": "a26a57a4257f5c69172f"
+    },
+    {
+      "id": "official-fd109fdc361c3cd3d582",
+      "title": "Anthropic announces closing of initial public offering, including full exercise of underwriters’ option to purchase additional shares, and closing of concurrent private placement",
+      "url": "https://www.anthropic.com/news/ipo-close",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
     {
       "id": "official-fc3a56c14a550ef5b6bc",
@@ -58,7 +58,7 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -74,7 +74,7 @@
       "priority": 3,
       "published_date": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -90,7 +90,7 @@
       "priority": 3,
       "published_date": "2026-11-18",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -106,7 +106,7 @@
       "priority": 3,
       "published_date": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -122,7 +122,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic"
       ],
@@ -138,7 +138,7 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -154,7 +154,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic"
       ],
@@ -170,7 +170,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic"
       ],
@@ -186,7 +186,7 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -202,7 +202,7 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "openai"
       ],
@@ -218,7 +218,7 @@
       "priority": 3,
       "published_date": "2026-11-19",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "openai"
       ],
@@ -234,7 +234,7 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "openai"
       ],
@@ -250,7 +250,7 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -266,7 +266,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic"
       ],
@@ -282,7 +282,7 @@
       "priority": 3,
       "published_date": "2026-11-17",
       "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -298,7 +298,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic"
       ],
@@ -314,9 +314,25 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-c1a2af93db54bfcf7c21",
+      "title": "Can AI help scientists identify promising drug candidates?",
+      "url": "https://openai.com/index/introducing-medchembench",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-20",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
       ],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
@@ -330,7 +346,7 @@
       "priority": 3,
       "published_date": "2026-11-19",
       "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -346,7 +362,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic"
       ],
@@ -362,10 +378,24 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-c03990b614e810a0fd4d",
+      "title": "Joint Investigation Report: China is Trying to Get U.S. Companies Addicted to Chinese AI Models",
+      "url": "https://chinaselectcommittee.house.gov/media/reports/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
+      "source_id": "house_china_select",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-20",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
@@ -378,7 +408,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic"
       ],
@@ -394,7 +424,7 @@
       "priority": 3,
       "published_date": null,
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "anthropic",
         "openai"
@@ -411,7 +441,7 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "openai"
       ],
@@ -427,7 +457,7 @@
       "priority": 3,
       "published_date": "2026-11-16",
       "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "nvidia"
       ],
@@ -443,7 +473,7 @@
       "priority": 3,
       "published_date": "2026-11-18",
       "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [
         "microsoft"
       ],
@@ -459,7 +489,7 @@
       "priority": 3,
       "published_date": "2026-11-13",
       "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
       "matched_issuers": [],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
@@ -473,6 +503,975 @@
       "priority": 3,
       "published_date": "2026-11-17",
       "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-ad9fa4a00eb8b7fb5800",
+      "title": "NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-ad577cc4d385593cb7c0",
+      "title": "Preparing for the 2026 US midterms",
+      "url": "https://www.anthropic.com/news/2026-us-midterms",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-a9ef6dbadc6b0013c70d",
+      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-a890a236270cc5e31862",
+      "title": "Deploying Daybreak Red",
+      "url": "https://openai.com/business/learn/deploying-daybreak-red",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-a1de396d3910fa2e0f79",
+      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
+      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-a0595c813318ccae8c08",
+      "title": "Investing in the public benefit",
+      "url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-9a064d95901e645ea065",
+      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/s1-sec",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-99be0c0a7e074380d1a5",
+      "title": "Managing frontier AI risk: From training to deployment",
+      "url": "https://openai.com/index/managing-frontier-ai-risk",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-970d377277e32883700d",
+      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
+      "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-9342dbf934e428aa00c1",
+      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-9332b18c5744f2a0ae4c",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-8f6af8c44a4a1bfb5de3",
+      "title": "Introducing GPT-6.2 Astra and Sol",
+      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-8e0c9f29fb0ee01091c4",
+      "title": "Chairmen Mast, Moolenaar, and Crawford Request Jensen Huang Brief Congress on Link to Chinese Intelligence Asset",
+      "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset",
+      "source_id": "house_foreign_affairs",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-05",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-84757a8b6e04ab0dc5be",
+      "title": "Anthropic launches roadshow for proposed initial public offering",
+      "url": "https://www.anthropic.com/news/roadshow-launch",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-82fe289fe466dcc1d4f7",
+      "title": "Explore the Codex Security Plugin",
+      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-81dfe8e1cbe9ed1ed4ed",
+      "title": "Chairmen Mast, Moolenaar, and Crawford Send Second Request to Jensen Huang and NVIDIA to Brief Congress on the Chinese Intelligence Asset",
+      "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset",
+      "source_id": "house_foreign_affairs",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-12",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-81bcb470e238c85caf4c",
+      "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
+      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-8145fefb47ff1ca9fa55",
+      "title": "Hebbia sees improvements in financial research with GPT-6 Astra",
+      "url": "https://openai.com/business/customer-stories/hebbia",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-20",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-7bcba0498907086c83b2",
+      "title": "Chairman Mast Sends Letter to Commerce Department on Megaspeed",
+      "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-mast-sends-letter-to-commerce-department-on-megaspeed",
+      "source_id": "house_foreign_affairs",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-7ad44f990f0c53ef2e2a",
+      "title": "Combatting adversarial distillation",
+      "url": "https://openai.com/index/combatting-adversarial-distillation",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-20",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-7890886c01383a50e638",
+      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
+      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-6c062b861d6d205bc313",
+      "title": "Building on our commitment to American scientific discovery",
+      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-6950f6169e819866442d",
+      "title": "Open call for guest investigators in the life sciences",
+      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-68ddb817fe4001c0fc7b",
+      "title": "Advancing chip design with OpenAI models",
+      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-67952d9a918d2536a7bf",
+      "title": "Inside the Codex sandbox",
+      "url": "https://openai.com/index/inside-the-codex-sandbox",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-62c29840a6d653ff3399",
+      "title": "Joint Investigation Report: China is Trying to Get U.S. Companies Addicted to Chinese AI Models",
+      "url": "https://chinaselectcommittee.house.gov/media/press-releases/joint-investigation-report-china-is-trying-to-get-us-companies-addicted-to-chinese-ai-models",
+      "source_id": "house_china_select",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-20",
+      "first_seen": "2026-11-21",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-58da586369f33999eb92",
+      "title": "Research acceleration: The jagged frontier",
+      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-550f4d88633d42452645",
+      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-53d809d7420a3923e8ba",
+      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+      "url": "https://openai.com/business/customer-stories/sumitomo-life",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-4e66a7e453a3193bb5cb",
+      "title": "2026 Usage Policy update",
+      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-4c9c656647cd3a23c71c",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-49e988fe944963bc5d35",
+      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
+      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-3b3be741a87f5e2153e6",
+      "title": "Introducing OpenAI for Chile",
+      "url": "https://openai.com/index/introducing-openai-for-chile",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-39b8679ee25b0ede64fc",
+      "title": "Chairman Brian Mast Exercises Legislative Authority to Publicly Release AI Chip License Information for China",
+      "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
+      "source_id": "house_foreign_affairs",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd",
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-36bc207225e9e41f8c82",
+      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
+      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "microsoft",
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-3047d7657748ea760feb",
+      "title": "Introducing ChatGPT for Sales",
+      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-2d7a5d6b20fff3cd431e",
+      "title": "Broadening access to AI for scientists",
+      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-2bd8707fdab8226a9f67",
+      "title": "Expanding the Cyber Verification Program",
+      "url": "https://www.anthropic.com/news/cyber-verification-program",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-252684366be4bd9dc11d",
+      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-241a0eb7150b75c2c4dd",
+      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+      "url": "https://www.anthropic.com/news/singapore-office-opening",
+      "source_id": "anthropic_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": null,
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "anthropic"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-227dd1dea30fd4777f16",
+      "title": "Chairman Mast Statement on Outbound Investment Restrictions",
+      "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-mast-statement-on-outbound-investment-restrictions",
+      "source_id": "house_foreign_affairs",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-10-23",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-21ad60205707f534a5c9",
+      "title": "Moolenaar: Accountability Does Not End With Resignation. ﻿NVIDIA Must Have Thorough, Independent Investigation",
+      "url": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-accountability-does-not-end-with-resignation-nvidia-must-have-thorough-independent-investigation",
+      "source_id": "house_china_select",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-14",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-1d9f84a1774659ade8b8",
+      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
+      "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-184d931227f2504de1a3",
+      "title": "The Silent Consensus",
+      "url": "https://openai.com/index/the-silent-consensus",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-18",
+      "first_seen": "2026-11-19",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-17b7a2b39f098895a220",
+      "title": "See PR scans in action",
+      "url": "https://openai.com/business/learn/pr-scans-demo",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-19",
+      "first_seen": "2026-11-20",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-166d6124867c787b073a",
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-18",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-0f13e34240505e908ad0",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "source_id": "nvidia_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "nvidia"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-0e7f690aa4ff229bd2e8",
+      "title": "Strengthening NATO and allied cyber defenses with AI",
+      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-17",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "openai"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-072fd3c8b409eeab7e73",
+      "title": "Commerce Rule Closes Loophole China Was Exploiting to Access America's Most Advanced Semiconductors",
+      "url": "https://chinaselectcommittee.house.gov/media/press-releases/commerce-rule-closes-loophole-china-was-exploiting-to-access-america-s-most-advanced-semiconductors",
+      "source_id": "house_china_select",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-05a45e173fc09b3dc580",
+      "title": "Rigging The Game: How China Undermined Western Manufacturing and Helped Hollow Out American Industry",
+      "url": "https://chinaselectcommittee.house.gov/media/reports/rigging-the-game-how-china-undermined-western-manufacturing-and-helped-hollow-out-american-industry",
+      "source_id": "house_china_select",
+      "category": "policy",
+      "priority": 3,
+      "published_date": "2026-11-13",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-fcb9e77270940ced63a1",
+      "title": "AMD to Report Fiscal Third Quarter 2026 Financial Results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-10-06",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-df5bb517e16f336f845e",
+      "title": "AMD Completes Acquisition of World Labs",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-a763319f57e7309eed5e",
+      "title": "AMD and Meta Advance Strategic Partnership to Power Meta’s Superintelligence Infrastructure",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-10-27",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd",
+        "meta"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-7d988c0051d271f6e7dc",
+      "title": "AMD EPYC Expands Its Leadership at the Foundation of AI",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-11-09",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-7c3de3980dc2627b1620",
+      "title": "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-08-31",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-50e36827f339577a87ad",
+      "title": "AMD Reports Third Quarter 2026 Financial Results",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-11-03",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-2c177b9d21085eb9c728",
+      "title": "AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-11-10",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-242544bd95e06fcb6952",
+      "title": "AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge, Becoming First AI Factory for DOE’s Genesis Mission",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-0453a8f863b62b77bfcb",
+      "title": "AMD to Acquire World Labs to Advance the Future of AI Compute",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-09-28",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-013238a25b04ff0a4da6",
+      "title": "Introducing AMD Helion, Agentic AI Compute at Rack Scale",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
+      "source_id": "amd_news",
+      "category": "conference",
+      "priority": 2,
+      "published_date": "2026-10-12",
+      "first_seen": "2026-11-16",
+      "last_seen": "2026-11-21",
+      "matched_issuers": [
+        "amd"
+      ],
+      "review_status": "needs_review",
+      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
+    },
+    {
+      "id": "official-ff7833693fa2a06713dc",
+      "title": "LVMH’s Media Division announces strategic partnership with OpenAI",
+      "url": "https://openai.com/index/lvmh-media-division-partnership",
+      "source_id": "openai_news",
+      "category": "conference",
+      "priority": 3,
+      "published_date": "2026-11-16",
+      "first_seen": "2026-11-17",
       "last_seen": "2026-11-20",
       "matched_issuers": [
         "openai"
@@ -497,86 +1496,6 @@
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
     {
-      "id": "official-ad9fa4a00eb8b7fb5800",
-      "title": "NVIDIA Board of Directors Establishes National Security and Export Control Oversight Committee",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-of-directors-establishes-national-security-and-export-control-oversight-committee",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-17",
-      "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-ad577cc4d385593cb7c0",
-      "title": "Preparing for the 2026 US midterms",
-      "url": "https://www.anthropic.com/news/2026-us-midterms",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-a9ef6dbadc6b0013c70d",
-      "title": "NVIDIA RTX Spark Compact Desktops Out Now",
-      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-18",
-      "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-a890a236270cc5e31862",
-      "title": "Deploying Daybreak Red",
-      "url": "https://openai.com/business/learn/deploying-daybreak-red",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-19",
-      "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-a1de396d3910fa2e0f79",
-      "title": "Le Groupe Figaro and OpenAI partner to bring Le Figaro journalism to ChatGPT",
-      "url": "https://openai.com/index/le-groupe-figaro-and-openai-announce-partnership",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-18",
-      "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
       "id": "official-a16cf66c04abcd1df662",
       "title": "Anthropic IPO 官方时间表复核",
       "url": "https://ipo.anthropic.com/us/",
@@ -592,22 +1511,6 @@
       "review_status": "needs_review",
       "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。",
       "content_hash": "f3fbe2c3ebd20c4bdac6"
-    },
-    {
-      "id": "official-a0595c813318ccae8c08",
-      "title": "Investing in the public benefit",
-      "url": "https://www.anthropic.com/news/public-benefit-fund",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
     {
       "id": "official-9fe6d2ae73e55f52b807",
@@ -642,276 +1545,6 @@
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
     {
-      "id": "official-9a064d95901e645ea065",
-      "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
-      "url": "https://www.anthropic.com/news/s1-sec",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-99be0c0a7e074380d1a5",
-      "title": "Managing frontier AI risk: From training to deployment",
-      "url": "https://openai.com/index/managing-frontier-ai-risk",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-18",
-      "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-970d377277e32883700d",
-      "title": "NVIDIA CUDA-X Libraries Give Agents the Tools to Accelerate Scientific Discovery",
-      "url": "https://blogs.nvidia.com/blog/cuda-x-libraries-agents-accelerate-scientific-discovery/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-9342dbf934e428aa00c1",
-      "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
-      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-19",
-      "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-9332b18c5744f2a0ae4c",
-      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
-      "url": "https://blogs.nvidia.com/blog/rubin-hpc/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-8f6af8c44a4a1bfb5de3",
-      "title": "Introducing GPT-6.2 Astra and Sol",
-      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-17",
-      "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-8e0c9f29fb0ee01091c4",
-      "title": "Chairmen Mast, Moolenaar, and Crawford Request Jensen Huang Brief Congress on Link to Chinese Intelligence Asset",
-      "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-request-jensen-huang-brief-congress-on-link-to-chinese-intelligence-asset",
-      "source_id": "house_foreign_affairs",
-      "category": "policy",
-      "priority": 3,
-      "published_date": "2026-11-05",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-84757a8b6e04ab0dc5be",
-      "title": "Anthropic launches roadshow for proposed initial public offering",
-      "url": "https://www.anthropic.com/news/roadshow-launch",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-82fe289fe466dcc1d4f7",
-      "title": "Explore the Codex Security Plugin",
-      "url": "https://openai.com/business/learn/codex-security-plugin-demo",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-19",
-      "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-81dfe8e1cbe9ed1ed4ed",
-      "title": "Chairmen Mast, Moolenaar, and Crawford Send Second Request to Jensen Huang and NVIDIA to Brief Congress on the Chinese Intelligence Asset",
-      "url": "https://foreignaffairs.house.gov/news/press-releases/chairmen-mast-moolenaar-and-crawford-send-second-request-to-jensen-huang-and-nvidia-to-brief-congress-on-the-chinese-intelligence-asset",
-      "source_id": "house_foreign_affairs",
-      "category": "policy",
-      "priority": 3,
-      "published_date": "2026-11-12",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-81bcb470e238c85caf4c",
-      "title": "Season’s Streamings and Savings: Black Friday Deals Come to GeForce NOW",
-      "url": "https://blogs.nvidia.com/blog/geforce-now-thursday-black-friday-2026/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-19",
-      "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-7bcba0498907086c83b2",
-      "title": "Chairman Mast Sends Letter to Commerce Department on Megaspeed",
-      "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-mast-sends-letter-to-commerce-department-on-megaspeed",
-      "source_id": "house_foreign_affairs",
-      "category": "policy",
-      "priority": 3,
-      "published_date": "2026-11-17",
-      "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-7890886c01383a50e638",
-      "title": "AI Day Seoul Brings Together Korea’s Industry Leaders, Startups and Developer Communities",
-      "url": "https://blogs.nvidia.com/blog/ai-day-seoul-wrapup/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-6c062b861d6d205bc313",
-      "title": "Building on our commitment to American scientific discovery",
-      "url": "https://www.anthropic.com/news/genesis-mission-commitment",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-6950f6169e819866442d",
-      "title": "Open call for guest investigators in the life sciences",
-      "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-68ddb817fe4001c0fc7b",
-      "title": "Advancing chip design with OpenAI models",
-      "url": "https://openai.com/index/advancing-chip-design-with-our-models",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-18",
-      "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-67952d9a918d2536a7bf",
-      "title": "Inside the Codex sandbox",
-      "url": "https://openai.com/index/inside-the-codex-sandbox",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-18",
-      "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
       "id": "official-60f3c7381bc61eae5e3d",
       "title": "The King’s Trust and OpenAI launch £1m partnership",
       "url": "https://openai.com/index/the-kings-trust-and-openai",
@@ -923,102 +1556,6 @@
       "last_seen": "2026-11-20",
       "matched_issuers": [
         "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-58da586369f33999eb92",
-      "title": "Research acceleration: The jagged frontier",
-      "url": "https://openai.com/index/research-acceleration-jagged-frontier",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-18",
-      "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-550f4d88633d42452645",
-      "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
-      "url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-53d809d7420a3923e8ba",
-      "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
-      "url": "https://openai.com/business/customer-stories/sumitomo-life",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-18",
-      "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-4e66a7e453a3193bb5cb",
-      "title": "2026 Usage Policy update",
-      "url": "https://www.anthropic.com/news/2026-usage-policy-update",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-4c9c656647cd3a23c71c",
-      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
-      "url": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-49e988fe944963bc5d35",
-      "title": "Ian Buck Kicks Off NVIDIA’s Week at SC26 as Science Enters the Age of Agents",
-      "url": "https://blogs.nvidia.com/blog/ian-buck-sc26/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-17",
-      "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
       ],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
@@ -1040,72 +1577,6 @@
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
     {
-      "id": "official-3b3be741a87f5e2153e6",
-      "title": "Introducing OpenAI for Chile",
-      "url": "https://openai.com/index/introducing-openai-for-chile",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-17",
-      "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-39b8679ee25b0ede64fc",
-      "title": "Chairman Brian Mast Exercises Legislative Authority to Publicly Release AI Chip License Information for China",
-      "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-brian-mast-exercises-legislative-authority-to-publicly-release-ai-chip-license-information-for-china",
-      "source_id": "house_foreign_affairs",
-      "category": "policy",
-      "priority": 3,
-      "published_date": "2026-11-19",
-      "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd",
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-36bc207225e9e41f8c82",
-      "title": "NVIDIA and Microsoft Expand Accelerated Computing From Azure to Windows PCs",
-      "url": "https://blogs.nvidia.com/blog/microsoft-ignite-accelerated-computing-azure-windows-pcs/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-19",
-      "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "microsoft",
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-3047d7657748ea760feb",
-      "title": "Introducing ChatGPT for Sales",
-      "url": "https://openai.com/index/introducing-chatgpt-for-sales",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-17",
-      "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
       "id": "official-2e8f421d2ee2a3dfd36b",
       "title": "A step toward defining the Standard Model on a lattice",
       "url": "https://openai.com/index/step-toward-defining-the-standard-model",
@@ -1118,84 +1589,6 @@
       "matched_issuers": [
         "openai"
       ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-2d7a5d6b20fff3cd431e",
-      "title": "Broadening access to AI for scientists",
-      "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-2bd8707fdab8226a9f67",
-      "title": "Expanding the Cyber Verification Program",
-      "url": "https://www.anthropic.com/news/cyber-verification-program",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-252684366be4bd9dc11d",
-      "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
-      "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-241a0eb7150b75c2c4dd",
-      "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
-      "url": "https://www.anthropic.com/news/singapore-office-opening",
-      "source_id": "anthropic_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": null,
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "anthropic"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-227dd1dea30fd4777f16",
-      "title": "Chairman Mast Statement on Outbound Investment Restrictions",
-      "url": "https://foreignaffairs.house.gov/news/press-releases/chairman-mast-statement-on-outbound-investment-restrictions",
-      "source_id": "house_foreign_affairs",
-      "category": "policy",
-      "priority": 3,
-      "published_date": "2026-10-23",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
     },
@@ -1227,307 +1620,6 @@
       "last_seen": "2026-11-20",
       "matched_issuers": [
         "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-21ad60205707f534a5c9",
-      "title": "Moolenaar: Accountability Does Not End With Resignation. ﻿NVIDIA Must Have Thorough, Independent Investigation",
-      "url": "https://chinaselectcommittee.house.gov/media/press-releases/moolenaar-accountability-does-not-end-with-resignation-nvidia-must-have-thorough-independent-investigation",
-      "source_id": "house_china_select",
-      "category": "policy",
-      "priority": 3,
-      "published_date": "2026-11-14",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-1d9f84a1774659ade8b8",
-      "title": "CUDA at 20: How the Platform Transformed Scientific Computing",
-      "url": "https://blogs.nvidia.com/blog/20-years-cuda/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-184d931227f2504de1a3",
-      "title": "The Silent Consensus",
-      "url": "https://openai.com/index/the-silent-consensus",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-18",
-      "first_seen": "2026-11-19",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-17b7a2b39f098895a220",
-      "title": "See PR scans in action",
-      "url": "https://openai.com/business/learn/pr-scans-demo",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-19",
-      "first_seen": "2026-11-20",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-166d6124867c787b073a",
-      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-17",
-      "first_seen": "2026-11-18",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-0f13e34240505e908ad0",
-      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
-      "url": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
-      "source_id": "nvidia_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "nvidia"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-0e7f690aa4ff229bd2e8",
-      "title": "Strengthening NATO and allied cyber defenses with AI",
-      "url": "https://openai.com/index/strengthening-nato-allied-cyber-defences-ai",
-      "source_id": "openai_news",
-      "category": "conference",
-      "priority": 3,
-      "published_date": "2026-11-17",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "openai"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-072fd3c8b409eeab7e73",
-      "title": "Commerce Rule Closes Loophole China Was Exploiting to Access America's Most Advanced Semiconductors",
-      "url": "https://chinaselectcommittee.house.gov/media/press-releases/commerce-rule-closes-loophole-china-was-exploiting-to-access-america-s-most-advanced-semiconductors",
-      "source_id": "house_china_select",
-      "category": "policy",
-      "priority": 3,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-05a45e173fc09b3dc580",
-      "title": "Rigging The Game: How China Undermined Western Manufacturing and Helped Hollow Out American Industry",
-      "url": "https://chinaselectcommittee.house.gov/media/reports/rigging-the-game-how-china-undermined-western-manufacturing-and-helped-hollow-out-american-industry",
-      "source_id": "house_china_select",
-      "category": "policy",
-      "priority": 3,
-      "published_date": "2026-11-13",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-fcb9e77270940ced63a1",
-      "title": "AMD to Report Fiscal Third Quarter 2026 Financial Results",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1300/amd-to-report-fiscal-third-quarter-2026-financial-results",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-10-06",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-df5bb517e16f336f845e",
-      "title": "AMD Completes Acquisition of World Labs",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-a763319f57e7309eed5e",
-      "title": "AMD and Meta Advance Strategic Partnership to Power Meta’s Superintelligence Infrastructure",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-10-27",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd",
-        "meta"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-7d988c0051d271f6e7dc",
-      "title": "AMD EPYC Expands Its Leadership at the Foundation of AI",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1304/amd-epyc-expands-its-leadership-at-the-foundation-of-ai",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-11-09",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-7c3de3980dc2627b1620",
-      "title": "AMD, Cisco and HUMAIN Expand Saudi Arabia’s AI Infrastructure as AMD Instinct Systems Go Live",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1298/amd-cisco-and-humain-expand-saudi-arabias-ai-infrastructure-as-amd-instinct-systems-go-live",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-08-31",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-50e36827f339577a87ad",
-      "title": "AMD Reports Third Quarter 2026 Financial Results",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-11-03",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-2c177b9d21085eb9c728",
-      "title": "AMD Showcases 6th Gen AMD EPYC Processors to Lead Next Era of AI and Enterprise Computing",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1305/amd-showcases-6th-gen-amd-epyc-processors-to-lead-next-era-of-ai-and-enterprise-computing",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-11-10",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-242544bd95e06fcb6952",
-      "title": "AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge, Becoming First AI Factory for DOE’s Genesis Mission",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1307/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge-becoming-first-ai-factory-for-does-genesis-mission",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-11-16",
-      "first_seen": "2026-11-17",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-0453a8f863b62b77bfcb",
-      "title": "AMD to Acquire World Labs to Advance the Future of AI Compute",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1299/amd-to-acquire-world-labs-to-advance-the-future-of-ai-compute",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-09-28",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
-      ],
-      "review_status": "needs_review",
-      "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
-    },
-    {
-      "id": "official-013238a25b04ff0a4da6",
-      "title": "Introducing AMD Helion, Agentic AI Compute at Rack Scale",
-      "url": "https://ir.amd.com/news-events/press-releases/detail/1301/introducing-amd-helion-agentic-ai-compute-at-rack-scale",
-      "source_id": "amd_news",
-      "category": "conference",
-      "priority": 2,
-      "published_date": "2026-10-12",
-      "first_seen": "2026-11-16",
-      "last_seen": "2026-11-20",
-      "matched_issuers": [
-        "amd"
       ],
       "review_status": "needs_review",
       "reason": "官方公告线索；发布日期不是活动日期，待核验具体日程。"
