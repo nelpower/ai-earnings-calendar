@@ -30,8 +30,8 @@
       "last_seen": "2026-11-23",
       "matched_issuers": [],
       "review_status": "needs_review",
-      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。",
-      "content_hash": "a26a57a4257f5c69172f"
+      "reason": "官方专门日程复核：核对已录日期、年份、改期与新增条目；不将网页更新时间当活动日期。 官方日程内容自上次观察已变更。",
+      "content_hash": "37a149a98b8d7a97b86f"
     },
     {
       "id": "official-fd109fdc361c3cd3d582",
