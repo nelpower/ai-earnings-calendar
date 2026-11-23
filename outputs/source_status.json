@@ -2237,7 +2237,7 @@
       "detail": "Nasdaq priced.rows must be an explicit list",
       "checked_on": "2026-11-23",
       "last_success": "",
-      "consecutive_failures": 20
+      "consecutive_failures": 21
     },
     {
       "source": "nasdaq_ipo",
@@ -2249,7 +2249,7 @@
       "detail": "Nasdaq priced.rows must be an explicit list",
       "checked_on": "2026-11-23",
       "last_success": "",
-      "consecutive_failures": 19
+      "consecutive_failures": 20
     },
     {
       "source": "nasdaq_lockup",
@@ -2321,7 +2321,7 @@
       "detail": "ValueError: redirect outside configured official domains",
       "checked_on": "2026-11-23",
       "last_success": "2026-11-20",
-      "consecutive_failures": 7
+      "consecutive_failures": 8
     },
     {
       "source": "official_discovery",
@@ -2357,7 +2357,7 @@
       "detail": "HTTPError: 403 Client Error: Forbidden for url: https://www.bls.gov/schedule/2026/home.htm",
       "checked_on": "2026-11-23",
       "last_success": "",
-      "consecutive_failures": 20
+      "consecutive_failures": 21
     },
     {
       "source": "official_discovery",
@@ -2441,7 +2441,7 @@
       "detail": "HTTPError: 403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0000002488.json",
       "checked_on": "2026-11-23",
       "last_success": "",
-      "consecutive_failures": 20
+      "consecutive_failures": 21
     },
     {
       "source": "official_discovery",
@@ -2453,7 +2453,7 @@
       "detail": "HTTPError: 403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0002130357.json",
       "checked_on": "2026-11-23",
       "last_success": "",
-      "consecutive_failures": 20
+      "consecutive_failures": 21
     },
     {
       "source": "official_discovery",
@@ -2465,7 +2465,7 @@
       "detail": "HTTPError: 403 Client Error: Forbidden for url: https://data.sec.gov/submissions/CIK0001045810.json",
       "checked_on": "2026-11-23",
       "last_success": "",
-      "consecutive_failures": 20
+      "consecutive_failures": 21
     },
     {
       "source": "official_discovery",
